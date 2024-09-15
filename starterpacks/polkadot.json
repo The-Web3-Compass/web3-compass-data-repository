@@ -1,0 +1,52 @@
+{
+  "id": "polkadot",
+  "name": "Polkadot",
+  "description": "A scalable, multi-chain network for connecting and securing diverse blockchains.",
+  "resources": [
+    {
+      "level": "Beginner",
+      "items": [
+        {
+          "title": "Polkadot Lightpaper",
+          "url": "https://polkadot.network/blog/polkadot-lightpaper/",
+          "description": "An introduction to Polkadot's key concepts and technology."
+        },
+        {
+          "title": "Polkadot Wiki",
+          "url": "https://wiki.polkadot.network/",
+          "description": "Community-maintained knowledge base for Polkadot."
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "items": [
+        {
+          "title": "Substrate Documentation",
+          "url": "https://substrate.dev/",
+          "description": "Documentation for Substrate, the blockchain framework used by Polkadot."
+        },
+        {
+          "title": "Polkadot-JS API Documentation",
+          "url": "https://polkadot.js.org/docs/",
+          "description": "API documentation for interacting with Polkadot using JavaScript."
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "items": [
+        {
+          "title": "Polkadot Research Papers",
+          "url": "https://research.web3.foundation/polkadot/",
+          "description": "Collection of research papers related to Polkadot's technology."
+        },
+        {
+          "title": "Polkadot Runtime Documentation",
+          "url": "https://docs.substrate.io/v3/runtime/",
+          "description": "Technical documentation on Polkadot's runtime environment."
+        }
+      ]
+    }
+  ]
+}

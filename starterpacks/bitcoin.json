@@ -1,0 +1,52 @@
+{
+  "id": "bitcoin",
+  "name": "Bitcoin",
+  "description": "The original and most widely used cryptocurrency, a decentralized digital currency without a central bank or single administrator.",
+  "resources": [
+    {
+      "level": "Beginner",
+      "items": [
+        {
+          "title": "Bitcoin Whitepaper",
+          "url": "https://bitcoin.org/bitcoin.pdf",
+          "description": "The original Bitcoin whitepaper by Satoshi Nakamoto."
+        },
+        {
+          "title": "Bitcoin.org",
+          "url": "https://bitcoin.org/",
+          "description": "Official Bitcoin website with introductory information."
+        }
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "items": [
+        {
+          "title": "Mastering Bitcoin by Andreas M. Antonopoulos",
+          "url": "https://github.com/bitcoinbook/bitcoinbook",
+          "description": "A comprehensive book on Bitcoin's technology and operation."
+        },
+        {
+          "title": "Bitcoin Optech Newsletter",
+          "url": "https://bitcoinops.org/en/newsletters/",
+          "description": "Technical newsletter covering Bitcoin development and protocol upgrades."
+        }
+      ]
+    },
+    {
+      "level": "Advanced",
+      "items": [
+        {
+          "title": "Bitcoin Core Documentation",
+          "url": "https://bitcoincore.org/en/doc/",
+          "description": "Technical documentation for the Bitcoin Core software."
+        },
+        {
+          "title": "Bitcoin Developer Mailing List",
+          "url": "https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev",
+          "description": "Follow discussions among Bitcoin core developers."
+        }
+      ]
+    }
+  ]
+}

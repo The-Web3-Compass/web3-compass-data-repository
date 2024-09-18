@@ -15,6 +15,21 @@
           "title": "Ethereum.org Learn",
           "url": "https://ethereum.org/en/learn/",
           "description": "Official Ethereum learning resources for beginners."
+        },
+        {
+          "title": "What is Ethereum?",
+          "url": "https://ethereum.org/en/what-is-ethereum/",
+          "description": "A concise introduction to Ethereum and its key features."
+        },
+        {
+          "title": "Ethereum for Beginners",
+          "url": "https://www.coindesk.com/learn/ethereum-explained/",
+          "description": "A beginner-friendly guide to understanding Ethereum."
+        },
+        {
+          "title": "Ethereum Wallets",
+          "url": "https://ethereum.org/en/wallets/",
+          "description": "Learn about different types of Ethereum wallets and how to choose one."
         }
       ]
     },
@@ -30,6 +45,21 @@
           "title": "CryptoZombies",
           "url": "https://cryptozombies.io/",
           "description": "Learn to code Ethereum DApps by building simple games."
+        },
+        {
+          "title": "Remix IDE",
+          "url": "https://remix.ethereum.org/",
+          "description": "An online IDE for developing, testing, and deploying Solidity smart contracts."
+        },
+        {
+          "title": "Etherscan",
+          "url": "https://etherscan.io/",
+          "description": "Explore Ethereum transactions, blocks, and smart contracts."
+        },
+        {
+          "title": "Ethereum Stack Exchange",
+          "url": "https://ethereum.stackexchange.com/",
+          "description": "A community-driven platform for asking and answering Ethereum-related questions."
         }
       ]
     },
@@ -45,6 +75,21 @@
           "title": "Ethereum Improvement Proposals (EIPs)",
           "url": "https://eips.ethereum.org/",
           "description": "The official repository for Ethereum improvement proposals."
+        },
+        {
+          "title": "Ethereum Foundation Blog",
+          "url": "https://blog.ethereum.org/",
+          "description": "Stay updated on Ethereum developments and research."
+        },
+        {
+          "title": "EthHub",
+          "url": "https://docs.ethhub.io/",
+          "description": "A comprehensive resource for Ethereum knowledge."
+        },
+        {
+          "title": "Ethereum Research",
+          "url": "https://ethresear.ch/",
+          "description": "Follow in-depth discussions and research on Ethereum's future."
         }
       ]
     }

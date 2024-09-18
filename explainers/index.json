@@ -1,4 +1,11 @@
 [
+    {
+    "id": "the-blockchain-class",
+    "title": "The Blockchain Class",
+    "summary": "A beginner's guide to understanding how blockchain work",
+    "author": "Sethu Raman",
+    "profile": "https://x.com/Sethu_Raman_O"
+  },
   {
     "id": "making-contracts-smart",
     "title": "Making Contracts Smart",
@@ -6,13 +13,7 @@
     "author": "Sethu Raman",
     "profile": "https://x.com/Sethu_Raman_O"
   },
-  {
-    "id": "the-blockchain-class",
-    "title": "The Blockchain Class",
-    "summary": "A beginner's guide to understanding how contracts work",
-    "author": "Sethu Raman",
-    "profile": "https://x.com/Sethu_Raman_O"
-  },
+
   {
     "id": "the-internet-version-control",
     "title": "The Internet Version Control",

@@ -1,15 +1,22 @@
 [
   {
-    "id": "blockchain",
-    "title": "Introduction to Blockchain",
-    "summary": "A beginner's guide to understanding blockchain technology",
+    "id": "making-contracts-smart",
+    "title": "Making Contracts Smart",
+    "summary": "A simple explanation of how smart contracts works",
     "author": "Sethu Raman",
     "profile": "https://x.com/Sethu_Raman_O"
   },
   {
-    "id": "smart contract",
-    "title": "Smart Contracts Explained",
-    "summary": "Dive deep into the world of smart contracts",
+    "id": "the-blockchain-class",
+    "title": "The Blockchain Class",
+    "summary": "A beginner's guide to understanding how contracts work",
+    "author": "Sethu Raman",
+    "profile": "https://x.com/Sethu_Raman_O"
+  },
+  {
+    "id": "the-internet-version-control",
+    "title": "The Internet Version Control",
+    "summary": "A simple walkthrough of all the versions of the internet",
     "author": "Sethu Raman",
     "profile": "https://x.com/Sethu_Raman_O"
   }

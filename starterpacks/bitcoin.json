@@ -15,6 +15,21 @@
           "title": "Bitcoin.org",
           "url": "https://bitcoin.org/",
           "description": "Official Bitcoin website with introductory information."
+        },
+        {
+          "title": "What is Bitcoin?",
+          "url": "https://www.investopedia.com/tech/what-is-bitcoin/",
+          "description": "An introductory article explaining Bitcoin's basics."
+        },
+        {
+          "title": "Bitcoin for Beginners",
+          "url": "https://www.coindesk.com/learn/bitcoin-explained/",
+          "description": "A beginner-friendly guide to understanding Bitcoin."
+        },
+        {
+          "title": "Bitcoin Wallets",
+          "url": "https://bitcoin.org/en/choose-your-wallet",
+          "description": "Learn about different types of Bitcoin wallets and how to choose one."
         }
       ]
     },
@@ -30,6 +45,21 @@
           "title": "Bitcoin Optech Newsletter",
           "url": "https://bitcoinops.org/en/newsletters/",
           "description": "Technical newsletter covering Bitcoin development and protocol upgrades."
+        },
+        {
+          "title": "Bitcoin Q&A",
+          "url": "https://bitcoin.stackexchange.com/",
+          "description": "A community-driven platform for asking and answering Bitcoin-related questions."
+        },
+        {
+          "title": "Bitcoin Mempool",
+          "url": "https://mempool.space/",
+          "description": "Visualize the Bitcoin mempool and transaction fees."
+        },
+        {
+          "title": "Bitcoin Wiki",
+          "url": "https://en.bitcoin.it/wiki/Main_Page",
+          "description": "A collaborative resource for Bitcoin knowledge."
         }
       ]
     },
@@ -45,6 +75,21 @@
           "title": "Bitcoin Developer Mailing List",
           "url": "https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev",
           "description": "Follow discussions among Bitcoin core developers."
+        },
+        {
+          "title": "Bitcoin Improvement Proposals (BIPs)",
+          "url": "https://github.com/bitcoin/bips",
+          "description": "Explore proposed changes and improvements to the Bitcoin protocol."
+        },
+        {
+          "title": "Libbitcoin Developer Library",
+          "url": "https://libbitcoin.org/",
+          "description": "A C++ library for interacting with the Bitcoin network."
+        },
+        {
+          "title": "Bitcoin Mining",
+          "url": "https://www.investopedia.com/tech/how-does-bitcoin-mining-work/",
+          "description": "Learn about the process of Bitcoin mining and its role in the network."
         }
       ]
     }

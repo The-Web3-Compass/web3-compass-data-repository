@@ -15,6 +15,21 @@
           "title": "Polkadot Wiki",
           "url": "https://wiki.polkadot.network/",
           "description": "Community-maintained knowledge base for Polkadot."
+        },
+        {
+          "title": "What is Polkadot?",
+          "url": "https://polkadot.network/what-is-polkadot/",
+          "description": "Official explanation of Polkadot and its goals."
+        },
+        {
+          "title": "Polkadot for Beginners",
+          "url": "https://www.coindesk.com/learn/what-is-polkadot-dot/",
+          "description": "A beginner-friendly guide to understanding Polkadot."
+        },
+        {
+          "title": "Polkadot Ecosystem",
+          "url": "https://polkadot.network/ecosystem/",
+          "description": "Explore projects and parachains built on Polkadot."
         }
       ]
     },
@@ -30,6 +45,21 @@
           "title": "Polkadot-JS API Documentation",
           "url": "https://polkadot.js.org/docs/",
           "description": "API documentation for interacting with Polkadot using JavaScript."
+        },
+        {
+          "title": "Polkadot Builders Program",
+          "url": "https://builders.parity.io/",
+          "description": "Resources and support for developers building on Polkadot."
+        },
+        {
+          "title": "Polkadot Staking",
+          "url": "https://polkadot.network/staking/",
+          "description": "Learn about staking and participating in Polkadot's consensus."
+        },
+        {
+          "title": "Polkadot Governance",
+          "url": "https://polkadot.network/governance/",
+          "description": "Understand Polkadot's on-chain governance system."
         }
       ]
     },
@@ -45,6 +75,21 @@
           "title": "Polkadot Runtime Documentation",
           "url": "https://docs.substrate.io/v3/runtime/",
           "description": "Technical documentation on Polkadot's runtime environment."
+        },
+        {
+          "title": "Polkadot GitHub",
+          "url": "https://github.com/paritytech/polkadot",
+          "description": "Explore the Polkadot codebase and contribute to its development."
+        },
+        {
+          "title": "Polkadot Forum",
+          "url": "https://forum.polkadot.network/",
+          "description": "Engage in technical discussions with the Polkadot community."
+        },
+        {
+          "title": "Web3 Foundation Grants Program",
+          "url": "https://web3.foundation/grants/",
+          "description": "Information on funding opportunities for Polkadot-related projects."
         }
       ]
     }

@@ -32,7 +32,7 @@ The `index.json` file in this folder serves as a directory of all communities.
 
 This folder contains subfolders for each explainer topic. Each subfolder includes:
 
-- `index.html`: The main content of the explainer in HTML format
+- `content.html`: The main content of the explainer in HTML format
 
 - Any additional assets (images, scripts, etc.) used in the explainer
 
@@ -44,16 +44,15 @@ The structure looks like this:
 
   /blockchain-basics
 
-    index.html
+    content.html
+    
+    /img
 
-    blockchain-diagram.png
+       blockchain-diagram.png
 
   /smart-contracts
 
-    index.html
-
-    contract-example.js
-
+    content.html
   ...
 
 ```

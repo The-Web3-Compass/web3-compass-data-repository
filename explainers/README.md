@@ -31,7 +31,7 @@ If you'd like to add a new explainer:
 
 1.  **Fork the Repository**: Start by forking this repository to your GitHub account.
 2.  **Create a New Subfolder**: In the `explainers` folder, create a new subfolder with a descriptive name in kebab-case (e.g., `nft-fundamentals`).
-3.  **Create the HTML File**: Inside the new subfolder, create an `index.html` file with your explainer content.
+3.  **Create the HTML File**: Inside the new subfolder, create an `content.html` file with your explainer content.
 4.  **Add Images (if applicable)**: If you're using images, create an `img/` directory within the subfolder and place your images there. You can also reference images directly using URLs in your HTML.
 5.  **Update the Index**: Add an entry for your new explainer to the main `explainers/index.json` file, ensuring it's included in the table of contents.
 
@@ -42,7 +42,7 @@ If you'd like to add a new explainer:
 To update or improve an existing explainer:
 
 1.  **Find the Relevant Subfolder**: Locate the subfolder containing the explainer you want to update in the `explainers` folder.
-2.  **Update the HTML File**: Make the necessary changes to the `index.html` file, ensuring the content is accurate, up-to-date, and well-structured.
+2.  **Update the HTML File**: Make the necessary changes to the `content.html` file, ensuring the content is accurate, up-to-date, and well-structured.
 3.  **Update Images (if applicable)**: If you are adding, removing, or updating images, make the corresponding changes in the `img/` directory or update the image URLs in your HTML.
 4.  **Describe Your Changes**: Provide a clear description of the changes you've made in your pull request, including why the changes were necessary.
 
@@ -62,7 +62,7 @@ To ensure consistency and readability:
 
 ### Sample Template
 
-Here's a sample template you can adapt for your explainer's `index.html` file:
+Here's a sample template you can adapt for your explainer's `content.html` file:
 
 ```html
 <h2>Explainer Title</h2>

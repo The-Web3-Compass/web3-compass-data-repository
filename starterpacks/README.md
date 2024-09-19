@@ -64,6 +64,7 @@ Each JSON file follows this structure:
     }
   ]
 }
+```
 
 Contributing a New Starter Pack
 -------------------------------

@@ -1,4 +1,4 @@
-**Contribution Guide: Communities**
+# Contribution Guide: Communities
 
 Welcome to the Communities section of the Web3 Compass repository! This folder houses information about various Web3 communities, serving as a valuable resource for those looking to connect and engage within the ecosystem. We appreciate your interest in contributing to this knowledge base. Please follow this guide to ensure your contributions align with our standards.
 

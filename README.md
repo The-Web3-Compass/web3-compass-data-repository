@@ -1,4 +1,4 @@
-# web3-compass-data-repository
+# Web3 Compass Data Directory
 
 Welcome to the data repository for Web3 Compass, the biggest web3 community directory and resource hub for developers transitioning into the web3 ecosystem.
 

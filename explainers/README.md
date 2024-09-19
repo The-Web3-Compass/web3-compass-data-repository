@@ -1,4 +1,4 @@
-**Contribution Guide: Explainers**
+# Contribution Guide: Explainers
 
 Welcome to the Explainers section of the Web3 Compass repository! This folder houses educational content on various Web3 topics, presented in an easily digestible format. We appreciate your interest in contributing to this knowledge base. Please follow this guide to ensure your contributions align with our standards and maintain the quality of our educational resources.
 

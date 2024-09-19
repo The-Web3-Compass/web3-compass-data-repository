@@ -18,24 +18,16 @@ Folder Structure
 
 The `starterpacks` folder contains JSON files for various blockchain protocols, each named after the respective protocol (e.g., `ethereum.json`, `polkadot.json`). Each file contains a structured list of resources categorized by experience level: **Beginner**, **Intermediate**, and **Advanced**.
 
-Copy code
-
-`starterpacks/
-  ├── arbitrum.json
-  ├── bitcoin.json
-  ├── ethereum.json
-  ├── polkadot.json
-  └── README.md`
 
 ### JSON Structure
 
 Each JSON file follows this structure:
 
-json
+### JSON Structure
+Each JSON file follows this structure:
 
-Copy code
-
-`{
+```json
+{
   "id": "protocol-name",
   "name": "Protocol Name",
   "description": "A brief description of the protocol.",
@@ -71,7 +63,7 @@ Copy code
       ]
     }
   ]
-}`
+}
 
 Contributing a New Starter Pack
 -------------------------------

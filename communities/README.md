@@ -92,5 +92,3 @@ To maintain consistency:
 We are committed to maintaining a positive and inclusive environment for our contributors. Please review our Code of Conduct before contributing to ensure your behavior aligns with our community guidelines.
 
 * * * * *
-
-Please let me know if you have any other questions. Happy contributing!

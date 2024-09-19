@@ -39,21 +39,13 @@ This folder contains subfolders for each explainer topic. Each subfolder include
 The structure looks like this:
 
 ```
-
 /explainers
-
   /blockchain-basics
-
     content.html
-    
     /img
-
        blockchain-diagram.png
-
   /smart-contracts
-
     content.html
-  ...
 
 ```
 

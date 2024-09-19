@@ -1,4 +1,4 @@
-# Contribution Guide: Explainers
+**Contribution Guide: Explainers**
 
 Welcome to the Explainers section of the Web3 Compass repository! This folder houses educational content on various Web3 topics, presented in an easily digestible format. We appreciate your interest in contributing to this knowledge base. Please follow this guide to ensure your contributions align with our standards and maintain the quality of our educational resources.
 
@@ -10,8 +10,9 @@ Welcome to the Explainers section of the Web3 Compass repository! This folder ho
 2.  [Contributing a New Explainer](#contributing-a-new-explainer)
 3.  [Updating an Existing Explainer](#updating-an-existing-explainer)
 4.  [Formatting Guidelines](#formatting-guidelines)
-5.  [Pull Request Process](#pull-request-process)
-6.  [Code of Conduct](#code-of-conduct)
+5.  [Sample Template](#sample-template)
+6.  [Pull Request Process](#pull-request-process)
+7.  [Code of Conduct](#code-of-conduct)
 
 * * * * *
 
@@ -59,6 +60,36 @@ To ensure consistency and readability:
 
 * * * * *
 
+### Sample Template
+
+Here's a sample template you can adapt for your explainer's `index.html` file:
+
+```html
+<h2>Explainer Title</h2>
+
+<p>A concise introduction to the topic.</p>
+
+<h3>Section Heading 1</h3>
+
+<p>Explain a key concept or idea.</p>
+
+<img src="img/relevant-image.jpg" alt="Descriptive alt text">
+
+<h3>Section Heading 2</h3>
+
+<p>Elaborate on another aspect of the topic.</p>
+
+<ul>
+    <li>Key point 1</li>
+    <li>Key point 2</li>
+</ul>
+
+<p>Additional resources or links for further learning.</p>`
+```
+
+
+* * * * *
+
 ### Pull Request Process
 
 1.  **Create a Pull Request**: Once you've made your changes, create a pull request (PR) from your fork to this repository's main branch.
@@ -73,5 +104,3 @@ To ensure consistency and readability:
 We are committed to maintaining a positive and inclusive environment for our contributors. Please review our Code of Conduct before contributing to ensure your behavior aligns with our community guidelines.
 
 * * * * *
-
-Let me know if you have any other questions. Happy contributing!

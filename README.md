@@ -10,7 +10,7 @@ Web3 Compass aims to be a comprehensive guide for web2 developers looking to exp
 
 This repository contains the following data folders:
 
-### `/communities`
+### `communities`
 
 This folder contains JSON files for individual web3 communities. Each file represents a single community and includes details such as:
 
@@ -28,7 +28,7 @@ This folder contains JSON files for individual web3 communities. Each file repre
 
 The `index.json` file in this folder serves as a directory of all communities.
 
-### `/explainers`
+### `explainers`
 
 This folder contains subfolders for each explainer topic. Each subfolder includes:
 
@@ -51,7 +51,7 @@ The structure looks like this:
 
 The `index.json` file in the main `/explainers` folder serves as a table of contents for all explainer topics.
 
-### `/starterpacks`
+### `starterpacks`
 
 This folder contains JSON files for starter packs tailored to different blockchain protocols. Each file represents a starter pack and includes:
 

@@ -28,7 +28,7 @@
         },
         {
           "title": "Ethereum for Beginners",
-          "url": "https://www.investopedia.com/tech/what-ethereum/", 
+          "url": "https://www.investopedia.com/tech/what-ethereum/",
           "description": "A beginner-friendly guide to understanding Ethereum on Investopedia"
         }
       ]
@@ -80,11 +80,6 @@
           "title": "Ethereum Foundation Blog",
           "url": "https://blog.ethereum.org/",
           "description": "Stay updated on Ethereum developments and research."
-        },
-        {
-          "title": "EthHub",
-          "url": "https://docs.ethhub.io/",
-          "description": "A comprehensive resource for Ethereum knowledge."
         },
         {
           "title": "Ethereum Research",

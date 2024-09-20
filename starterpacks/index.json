@@ -1,7 +1,1 @@
-[
-  "bitcoin.json",
-  "ethereum.json",
-  "polkadot.json",
-  "polygon.json",
-  "arbitrum.json"
-]
+["bitcoin.json", "ethereum.json", "arbitrum.json"]

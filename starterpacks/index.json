@@ -1,8 +1,6 @@
 [
   "bitcoin.json",
-
   "ethereum.json",
-
   "polkadot.json",
   "polygon.json",
   "arbitrum.json"

@@ -22,14 +22,14 @@
           "description": "A concise introduction to Ethereum and its key features."
         },
         {
-          "title": "Ethereum for Beginners",
-          "url": "https://www.coindesk.com/learn/ethereum-explained/",
-          "description": "A beginner-friendly guide to understanding Ethereum."
-        },
-        {
           "title": "Ethereum Wallets",
           "url": "https://ethereum.org/en/wallets/",
           "description": "Learn about different types of Ethereum wallets and how to choose one."
+        },
+        {
+          "title": "Ethereum for Beginners",
+          "url": "https://www.investopedia.com/tech/what-ethereum/", 
+          "description": "A beginner-friendly guide to understanding Ethereum on Investopedia"
         }
       ]
     },

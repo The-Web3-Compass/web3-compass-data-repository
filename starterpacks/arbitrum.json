@@ -12,14 +12,14 @@
           "description": "Official Arbitrum developer documentation."
         },
         {
-          "title": "Arbitrum Bridge",
-          "url": "https://bridge.arbitrum.io/",
-          "description": "Transfer assets between Ethereum and Arbitrum."
-        },
-        {
           "title": "What is Arbitrum?",
           "url": "https://academy.binance.com/en/articles/what-is-arbitrum",
           "description": "An introductory article on Arbitrum, explaining its key features and benefits."
+        },
+        {
+          "title": "Arbitrum Bridge",
+          "url": "https://docs.arbitrum.io/arbitrum-bridge/quickstart",
+          "description": "Transfer assets between Ethereum and Arbitrum."
         },
         {
           "title": "Arbitrum One Portal",
@@ -47,11 +47,6 @@
           "description": "Explore Arbitrum transactions and blocks."
         },
         {
-          "title": "Building on Arbitrum",
-          "url": "https://developer.offchainlabs.com/docs/building_on_arbitrum",
-          "description": "A guide on building and deploying dApps on Arbitrum."
-        },
-        {
           "title": "Arbitrum Glossary",
           "url": "https://developer.offchainlabs.com/docs/glossary",
           "description": "Understand key Arbitrum terminology."
@@ -68,7 +63,7 @@
       "items": [
         {
           "title": "Arbitrum Nitro Whitepaper",
-          "url": "https://developer.offchainlabs.com/docs/inside_arbitrum_nitro",
+          "url": "https://github.com/OffchainLabs/nitro/blob/master/docs/Nitro-whitepaper.pdf",
           "description": "Technical details on Arbitrum Nitro's improvements."
         },
         {
@@ -86,11 +81,6 @@
           "url": "https://github.com/OffchainLabs",
           "description": "Explore the Arbitrum codebase and contribute to its development."
         },
-        {
-          "title": "Arbitrum Grants Program",
-          "url": "https://offchainlabs.com/ecosystem/grants",
-          "description": "Information on funding opportunities for Arbitrum projects."
-        }
       ]
     }
   ]

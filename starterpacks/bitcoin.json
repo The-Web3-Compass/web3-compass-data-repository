@@ -1,7 +1,7 @@
 {
   "id": "bitcoin",
   "name": "Bitcoin",
-  "description": "The original and most widely used cryptocurrency, a decentralized digital currency without a central bank or single administrator.",
+  "description": "A decentralized digital currency, without a central bank or single administrator.",
   "resources": [
     {
       "level": "Beginner",
@@ -14,17 +14,17 @@
         {
           "title": "Bitcoin.org",
           "url": "https://bitcoin.org/",
-          "description": "Official Bitcoin website with introductory information."
+          "description": "Official Bitcoin website with introductory information and resources."
         },
         {
           "title": "What is Bitcoin?",
           "url": "https://www.investopedia.com/tech/what-is-bitcoin/",
-          "description": "An introductory article explaining Bitcoin's basics."
+          "description": "A beginner-friendly explanation of Bitcoin on Investopedia."
         },
         {
           "title": "Bitcoin for Beginners",
-          "url": "https://www.coindesk.com/learn/bitcoin-explained/",
-          "description": "A beginner-friendly guide to understanding Bitcoin."
+          "url": "https://www.coindesk.com/learn/what-is-bitcoin/",
+          "description": "A guide to understanding Bitcoin on Coindesk."
         },
         {
           "title": "Bitcoin Wallets",
@@ -37,29 +37,29 @@
       "level": "Intermediate",
       "items": [
         {
-          "title": "Mastering Bitcoin by Andreas M. Antonopoulos",
+          "title": "Mastering Bitcoin",
           "url": "https://github.com/bitcoinbook/bitcoinbook",
-          "description": "A comprehensive book on Bitcoin's technology and operation."
+          "description": "A comprehensive book on Bitcoin by Andreas M. Antonopoulos."
         },
         {
           "title": "Bitcoin Optech Newsletter",
           "url": "https://bitcoinops.org/en/newsletters/",
-          "description": "Technical newsletter covering Bitcoin development and protocol upgrades."
+          "description": "Stay updated on Bitcoin technical developments and improvements."
         },
         {
-          "title": "Bitcoin Q&A",
+          "title": "Bitcoin Core Documentation",
+          "url": "https://bitcoincore.org/en/doc/",
+          "description": "Official documentation for the Bitcoin Core software."
+        },
+        {
+          "title": "Bitcoin Stack Exchange",
           "url": "https://bitcoin.stackexchange.com/",
           "description": "A community-driven platform for asking and answering Bitcoin-related questions."
         },
         {
-          "title": "Bitcoin Mempool",
+          "title": "Mempool.space",
           "url": "https://mempool.space/",
           "description": "Visualize the Bitcoin mempool and transaction fees."
-        },
-        {
-          "title": "Bitcoin Wiki",
-          "url": "https://en.bitcoin.it/wiki/Main_Page",
-          "description": "A collaborative resource for Bitcoin knowledge."
         }
       ]
     },
@@ -67,29 +67,29 @@
       "level": "Advanced",
       "items": [
         {
-          "title": "Bitcoin Core Documentation",
-          "url": "https://bitcoincore.org/en/doc/",
-          "description": "Technical documentation for the Bitcoin Core software."
-        },
-        {
-          "title": "Bitcoin Developer Mailing List",
-          "url": "https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev",
-          "description": "Follow discussions among Bitcoin core developers."
+          "title": "Bitcoin Wiki",
+          "url": "https://en.bitcoin.it/wiki/Main_Page",
+          "description": "A comprehensive community-maintained Bitcoin knowledge base."
         },
         {
           "title": "Bitcoin Improvement Proposals (BIPs)",
           "url": "https://github.com/bitcoin/bips",
-          "description": "Explore proposed changes and improvements to the Bitcoin protocol."
+          "description": "The official repository for Bitcoin improvement proposals."
         },
         {
-          "title": "Libbitcoin Developer Library",
-          "url": "https://libbitcoin.org/",
-          "description": "A C++ library for interacting with the Bitcoin network."
+          "title": "Lightning Network",
+          "url": "https://lightning.network/",
+          "description": "Learn about the Lightning Network, a layer-2 scaling solution for Bitcoin."
         },
         {
-          "title": "Bitcoin Mining",
-          "url": "https://www.investopedia.com/tech/how-does-bitcoin-mining-work/",
-          "description": "Learn about the process of Bitcoin mining and its role in the network."
+          "title": "Bitcoin Developer Documentation",
+          "url": "https://developer.bitcoin.org/devguide/index.html",
+          "description": "Technical documentation for Bitcoin developers."
+        },
+        {
+          "title": "Bitcoin Talk Forum",
+          "url": "https://bitcointalk.org/",
+          "description": "One of the oldest and largest Bitcoin community forums."
         }
       ]
     }

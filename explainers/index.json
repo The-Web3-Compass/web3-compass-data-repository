@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "the-blockchain-class",
     "title": "The Blockchain Class",
     "summary": "A beginner's guide to understanding how blockchain work",
@@ -18,6 +18,13 @@
     "id": "the-internet-version-control",
     "title": "The Internet Version Control",
     "summary": "A simple walkthrough of all the versions of the internet",
+    "author": "Sethu Raman",
+    "profile": "https://x.com/Sethu_Raman_O"
+  },
+  {
+    "id": "the-tale-of-two-assets",
+    "title": "The Tale Of Two Assets",
+    "summary": "Barter, Banks and Bitcoins. A look into the history of blockchain",
     "author": "Sethu Raman",
     "profile": "https://x.com/Sethu_Raman_O"
   }

@@ -1,157 +1,226 @@
-{
-  "web3_terms": {
-    "beginner": [
-      "Web2",
-      "Web3",
-      "Blockchain",
-      "Decentralization",
-      "Peer-to-Peer (P2P)",
-      "Cryptography",
-      "Cryptocurrency",
-      "Bitcoin",
-      "Satoshi",
-      "Altcoin",
-      "Fiat Currency",
-      "Ledger",
-      "Node",
-      "Token",
-      "Blockchain Explorer",
-      "Wallet",
-      "Private Key",
-      "Public Key",
-      "Seed Phrase",
-      "Address",
-      "Transaction",
-      "Block",
-      "Mining",
-      "Proof of Work (PoW)",
-      "Hash",
-      "Mainnet",
-      "Testnet",
-      "Fork",
-      "Genesis Block",
-      "Gas Fee",
-      "CEX (Centralized Exchange)",
-      "DEX (Decentralized Exchange)",
-      "Market Cap",
-      "Total Supply",
-      "Circulating Supply",
-      "ICO",
-      "Airdrop",
-      "Faucet",
-      "Self-Custody",
-      "HODL",
-      "FOMO",
-      "FUD",
-      "Rug Pull",
-      "Cold Wallet",
-      "Hot Wallet",
-      "Custodial Wallet",
-      "Non-Custodial Wallet",
-      "Smart Contract",
-      "dApp (Decentralized Application)",
-      "NFT"
-    ],
-    "intermediate": [
-      "Consensus Algorithm",
-      "Proof of Stake (PoS)",
-      "Staking",
-      "Validator",
-      "Delegated Proof of Stake (DPoS)",
-      "ERC20",
-      "ERC721",
-      "Stablecoin",
-      "Wrapped Token",
-      "Immutable",
-      "Distributed Ledger Technology (DLT)",
-      "IDO",
-      "IEO",
-      "Hard Fork",
-      "Soft Fork",
-      "Double-Spending",
-      "Merkle Tree",
-      "Merkle Root",
-      "Gas Limit",
-      "Gas Price",
-      "Slippage",
-      "Liquidity",
-      "Liquidity Pool",
-      "AMM (Automated Market Maker)",
-      "Yield Farming",
-      "DeFi (Decentralized Finance)",
-      "Governance Token",
-      "DAO (Decentralized Autonomous Organization)",
-      "Multi-Signature (Multi-Sig)",
-      "Interoperability",
-      "Sharding",
-      "Layer 1",
-      "Layer 2",
-      "Rollup",
-      "Sidechain",
-      "Cross-Chain",
-      "Oracle",
-      "Public Blockchain",
-      "Private Blockchain",
-      "Permissionless",
-      "Permissioned Blockchain",
-      "Scalability",
-      "Bridge",
-      "Security Token",
-      "Utility Token",
-      "Hashrate",
-      "Whale",
-      "Gas Tracker",
-      "Smart Contract Audit",
-      "Flash Loan",
-      "Impermanent Loss",
-      "Rekt"
-    ],
-    "advanced": [
-      "zk-Rollup",
-      "Plasma",
-      "Synthetic Asset",
-      "Privacy Coin",
-      "Monero",
-      "ZCash",
-      "Flashbots",
-      "MEV (Miner Extractable Value)",
-      "IPFS (InterPlanetary File System)",
-      "ENS (Ethereum Name Service)",
-      "Domain Name System (DNS)",
-      "Lightning Network",
-      "Tornado Cash",
-      "Mempool",
-      "Zero-Knowledge Proof",
-      "Transaction Finality",
-      "Gas War",
-      "Burning",
-      "Flash Swap",
-      "Collateral",
-      "Liquidation",
-      "Stable Yield",
-      "Lending Pool",
-      "Borrowing Rate",
-      "Variable Borrowing",
-      "Stable Borrowing",
-      "dYdX",
-      "Uniswap",
-      "Curve",
-      "Balancer",
-      "Compound",
-      "Aave",
-      "SushiSwap",
-      "Yearn Finance",
-      "MakerDAO",
-      "MetaMask",
-      "Trust Wallet",
-      "Ledger",
-      "Trezor",
-      "Brave Browser",
-      "Delegation",
-      "51% Attack",
-      "Mining Pool",
-      "Proof of Authority (PoA)",
-      "Merkle Proof"
-    ]
+[
+  {
+    "term": "Blockchain",
+    "definition": "A decentralized, distributed ledger that records transactions across multiple computers to ensure data integrity and security."
+  },
+  {
+    "term": "Decentralization",
+    "definition": "The process of transferring control and decision-making from a centralized authority to a distributed network."
+  },
+  {
+    "term": "Peer-to-Peer (P2P)",
+    "definition": "A decentralized network where participants communicate and transact directly with each other without intermediaries."
+  },
+  {
+    "term": "Cryptography",
+    "definition": "The practice of securing data and communications through encryption methods."
+  },
+  {
+    "term": "Node",
+    "definition": "A computer that connects to a blockchain network and stores a copy of the entire ledger."
+  },
+  {
+    "term": "Consensus Mechanism",
+    "definition": "A process used by blockchain networks to agree on the validity of transactions and maintain the integrity of the ledger."
+  },
+  {
+    "term": "Public Key",
+    "definition": "A cryptographic key that is shared openly and used to receive encrypted messages or assets."
+  },
+  {
+    "term": "Private Key",
+    "definition": "A cryptographic key kept secret and used to authorize transactions and access a blockchain wallet."
+  },
+  {
+    "term": "Wallet",
+    "definition": "A software or hardware tool used to store, send, and receive cryptocurrency."
+  },
+  {
+    "term": "Transaction",
+    "definition": "A transfer of assets or data on a blockchain, which is validated and recorded by the network."
+  },
+  {
+    "term": "Mining",
+    "definition": "The process of validating transactions on a Proof of Work (PoW) blockchain and adding them to the ledger."
+  },
+  {
+    "term": "Proof of Work (PoW)",
+    "definition": "A consensus mechanism where miners solve complex puzzles to validate transactions and create new blocks."
+  },
+  {
+    "term": "Proof of Stake (PoS)",
+    "definition": "A consensus mechanism where validators are chosen based on the amount of cryptocurrency they hold and stake in the network."
+  },
+  {
+    "term": "Validator",
+    "definition": "A participant in a Proof of Stake blockchain who validates transactions and earns rewards."
+  },
+  {
+    "term": "Gas Fees",
+    "definition": "The fees paid to validators or miners for processing transactions on a blockchain network."
+  },
+  {
+    "term": "Smart Contract",
+    "definition": "Self-executing contracts with the terms of the agreement directly written into code that runs on a blockchain."
+  },
+  {
+    "term": "Ethereum",
+    "definition": "A decentralized platform that enables the creation of smart contracts and decentralized applications (dApps)."
+  },
+  {
+    "term": "Token",
+    "definition": "A digital asset created on a blockchain that represents value or ownership in a project or system."
+  },
+  {
+    "term": "ERC-20",
+    "definition": "A technical standard used for creating fungible tokens on the Ethereum blockchain."
+  },
+  {
+    "term": "Non-Fungible Token (NFT)",
+    "definition": "A unique digital asset representing ownership of a specific item, such as artwork, music, or collectibles."
+  },
+  {
+    "term": "Decentralized Application (dApp)",
+    "definition": "An application that runs on a decentralized network, such as Ethereum, without reliance on a central server."
+  },
+  {
+    "term": "Initial Coin Offering (ICO)",
+    "definition": "A fundraising method where new cryptocurrency projects sell tokens to early investors."
+  },
+  {
+    "term": "Decentralized Finance (DeFi)",
+    "definition": "Financial services provided on the blockchain without intermediaries, such as lending, borrowing, and trading."
+  },
+  {
+    "term": "Liquidity",
+    "definition": "The ease with which an asset can be converted into cash or another asset without significantly affecting its price."
+  },
+  {
+    "term": "Staking",
+    "definition": "The process of locking up cryptocurrency to participate in securing a blockchain network and earning rewards."
+  },
+  {
+    "term": "Decentralized Autonomous Organization (DAO)",
+    "definition": "A blockchain-based organization governed by smart contracts and community voting, with no central authority."
+  },
+  {
+    "term": "Stablecoin",
+    "definition": "A type of cryptocurrency that is pegged to a stable asset, like a fiat currency, to minimize volatility."
+  },
+  {
+    "term": "Interoperability",
+    "definition": "The ability for different blockchain networks and systems to communicate and work together."
+  },
+  {
+    "term": "Oracles",
+    "definition": "External data sources that provide real-world information to smart contracts on a blockchain."
+  },
+  {
+    "term": "Bridge",
+    "definition": "A protocol that allows assets or data to be transferred between two different blockchain networks."
+  },
+  {
+    "term": "Layer 1",
+    "definition": "The base blockchain network, responsible for the core operations and security of the system (e.g., Bitcoin, Ethereum)."
+  },
+  {
+    "term": "Layer 2",
+    "definition": "A scaling solution built on top of a Layer 1 blockchain to improve transaction throughput and reduce fees (e.g., Optimism, zkRollups)."
+  },
+  {
+    "term": "zkRollup",
+    "definition": "A Layer 2 solution that bundles multiple transactions into a single batch, which is verified with zero-knowledge proofs."
+  },
+  {
+    "term": "Governance Token",
+    "definition": "A token that grants holders voting rights in a project's decision-making process, often used in DAOs."
+  },
+  {
+    "term": "Fork",
+    "definition": "A change in a blockchain protocol that results in the creation of a new chain, either as a soft fork (backward-compatible) or a hard fork (non-backward-compatible)."
+  },
+  {
+    "term": "Multisig",
+    "definition": "Short for 'multi-signature,' it refers to requiring multiple private keys to authorize a transaction, enhancing security."
+  },
+  {
+    "term": "Cold Wallet",
+    "definition": "An offline wallet, typically a hardware device, that provides enhanced security for storing cryptocurrency."
+  },
+  {
+    "term": "Hot Wallet",
+    "definition": "An online wallet that is connected to the internet, making it easier to use but more vulnerable to attacks."
+  },
+  {
+    "term": "Gas Limit",
+    "definition": "The maximum amount of gas a user is willing to pay for a transaction on the Ethereum network."
+  },
+  {
+    "term": "Hashing",
+    "definition": "A process that converts input data into a fixed-length string of characters, often used for data integrity verification."
+  },
+  {
+    "term": "51% Attack",
+    "definition": "An attack where a single entity gains control of more than 50% of the network's mining power, allowing them to alter transactions."
+  },
+  {
+    "term": "Atomic Swap",
+    "definition": "A technology that enables two parties to exchange cryptocurrencies directly, without the need for a centralized exchange."
+  },
+  {
+    "term": "Metaverse",
+    "definition": "A virtual space where users interact with digital environments and assets, often leveraging blockchain for ownership and transactions."
+  },
+  {
+    "term": "Web3",
+    "definition": "The next evolution of the internet, focused on decentralized networks, blockchain technology, and user control over data."
+  },
+  {
+    "term": "DAO Treasury",
+    "definition": "A community-managed fund within a DAO, where decisions on spending are made through voting by token holders."
+  },
+  {
+    "term": "Play-to-Earn (P2E)",
+    "definition": "A gaming model that allows players to earn cryptocurrency or NFTs through gameplay."
+  },
+  {
+    "term": "Rug Pull",
+    "definition": "A type of scam where a project's creators withdraw liquidity or funds from the system, leaving investors with worthless tokens."
+  },
+  {
+    "term": "Yield Farming",
+    "definition": "A DeFi practice where users earn rewards by providing liquidity to decentralized finance protocols."
+  },
+  {
+    "term": "Liquidity Pool",
+    "definition": "A pool of tokens locked in a smart contract that facilitates trading on decentralized exchanges by providing liquidity."
+  },
+  {
+    "term": "Decentralized Exchange (DEX)",
+    "definition": "A peer-to-peer marketplace where users can trade cryptocurrencies without the need for intermediaries."
+  },
+  {
+    "term": "Cross-Chain",
+    "definition": "The ability to transfer data, tokens, or assets between different blockchain networks."
+  },
+  {
+    "term": "Initial DEX Offering (IDO)",
+    "definition": "A fundraising method where tokens are sold through a decentralized exchange."
+  },
+  {
+    "term": "Satoshi",
+    "definition": "The smallest unit of Bitcoin, equal to 0.00000001 BTC."
+  },
+  {
+    "term": "Proof of History (PoH)",
+    "definition": "A consensus mechanism used by Solana that timestamps transactions to increase efficiency."
+  },
+  {
+    "term": "Flash Loan",
+    "definition": "A type of uncollateralized loan in DeFi that is borrowed and repaid within a single transaction."
+  },
+  {
+    "term": "Rekt",
+    "definition": "Slang for 'wrecked,' referring to a large financial loss in crypto trading or investment."
   }
-}
+]

@@ -3,7 +3,7 @@
     "id": "course1",
     "name": "Intro to Blockchain",
     "description": "Learn the basics of blockchain technology and its applications.",
-    "thumbnail": "/images/intro-blockchain.png",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/intro-to-blockchain/images/blockchain.png",
     "hashtags": ["#Blockchain", "#Beginner", "#Technology"]
   },
   {

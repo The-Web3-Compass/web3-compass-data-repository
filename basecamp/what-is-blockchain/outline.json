@@ -1,0 +1,102 @@
+{
+  "Trust": [
+    {
+      "topic": "Trust in Traditional Systems",
+      "location": "/Trust/trust_in_systems.md"
+    },
+    {
+      "topic": "Tech-Based Trust",
+      "location": "/Trust/tech_based_trust.md"
+    }
+  ],
+  "Blockchain": [
+    {
+      "topic": "What is Blockchain?",
+      "location": "/Blockchain/what_is_blockchain.md"
+    },
+    {
+      "topic": "Centralized vs. Decentralized",
+      "location": "/Blockchain/centralized_vs_decentralized.md"
+    }
+  ],
+  "Block": [
+    {
+      "topic": "Block Components",
+      "location": "/Block/block_components.md"
+    },
+    {
+      "topic": "Chain Formation",
+      "location": "/Block/chain_formation.md"
+    },
+    {
+      "topic": "Data Integrity",
+      "location": "/Block/data_integrity.md"
+    }
+  ],
+  "Nodes": [
+    {
+      "topic": "What are Nodes?",
+      "location": "/Nodes/what_are_nodes.md"
+    },
+    {
+      "topic": "Types of Nodes",
+      "location": "/Nodes/types_of_nodes.md"
+    },
+    {
+      "topic": "Data Copy",
+      "location": "/Nodes/data_copy.md"
+    },
+    {
+      "topic": "Decentralization Role",
+      "location": "/Nodes/decentralization_role.md"
+    }
+  ],
+  "Consensus": [
+    {
+      "topic": "What is Consensus?",
+      "location": "/Consensus/what_is_consensus.md"
+    },
+    {
+      "topic": "Why It’s Needed",
+      "location": "/Consensus/why_needed.md"
+    }
+  ],
+  "Transactions": [
+    {
+      "topic": "What are Transactions?",
+      "location": "/Transactions/what_are_transactions.md"
+    },
+    {
+      "topic": "Creation & Broadcast",
+      "location": "/Transactions/creation_broadcast.md"
+    },
+    {
+      "topic": "Validation",
+      "location": "/Transactions/validation.md"
+    }
+  ],
+  "Security": [
+    {
+      "topic": "Cryptography",
+      "location": "/Security/cryptography.md"
+    },
+    {
+      "topic": "Immutability",
+      "location": "/Security/immutability.md"
+    },
+    {
+      "topic": "Decentralization Benefits",
+      "location": "/Security/decentralization_benefits.md"
+    }
+  ],
+  "UseCases": [
+    {
+      "topic": "Real-World Solutions",
+      "location": "/UseCases/real_world_solutions.md"
+    },
+    {
+      "topic": "Examples",
+      "location": "/UseCases/examples.md"
+    }
+  ]
+}

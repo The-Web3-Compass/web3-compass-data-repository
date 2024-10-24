@@ -1,23 +1,10 @@
 [
   {
-    "id": "course1",
-    "name": "Intro to Blockchain",
+    "id": "BC#1",
+    "name": "What is Blockchain?",
+    "location": "/what-is-blockchain",
     "description": "Learn the basics of blockchain technology and its applications.",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/intro-to-blockchain/images/blockchain.png",
     "hashtags": ["#Blockchain", "#Beginner", "#Technology"]
-  },
-  {
-    "id": "course2",
-    "name": "Smart Contract Development",
-    "description": "Understand how to write smart contracts using Solidity.",
-    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/Smart-contract-development/smart-contract.png",
-    "hashtags": ["#Solidity", "#SmartContracts", "#Ethereum"]
-  },
-  {
-    "id": "course3",
-    "name": "DeFi 101",
-    "description": "Explore decentralized finance and its core concepts.",
-    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/intro-to-defi/defi.png",
-    "hashtags": ["#DeFi", "#Finance", "#Web3"]
   }
 ]

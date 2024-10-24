@@ -10,7 +10,7 @@
     "id": "course2",
     "name": "Smart Contract Development",
     "description": "Understand how to write smart contracts using Solidity.",
-    "thumbnail": "/images/smart-contracts.png",
+    "thumbnail": "https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/basecamp/Smart-contract-development/smart-contract.png",
     "hashtags": ["#Solidity", "#SmartContracts", "#Ethereum"]
   },
   {

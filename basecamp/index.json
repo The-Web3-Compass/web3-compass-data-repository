@@ -17,7 +17,7 @@
     "id": "course3",
     "name": "DeFi 101",
     "description": "Explore decentralized finance and its core concepts.",
-    "thumbnail": "/images/defi-101.png",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/intro-to-defi/defi.png",
     "hashtags": ["#DeFi", "#Finance", "#Web3"]
   }
 ]

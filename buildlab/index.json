@@ -3,7 +3,7 @@
     "id": "course4",
     "name": "Building Your First Contract",
     "description": "A beginner-friendly course on creating a basic CRUD smart contract using Solidity and Remix.",
-    "thumbnail": "/images/build-contract.png",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-first-contract/images/build-contract.png",
     "level": "Beginner",
     "duration": "2 hours",
     "tags": ["#Solidity", "#Remix", "#SmartContract"],

@@ -1,29 +1,12 @@
 [
   {
-    "id": "course1",
-    "name": "Building Your First DApp",
-    "description": "A hands-on guide to building a simple decentralized application using Solidity and React.",
-    "thumbnail": "/images/build-dapp.png",
+    "id": "course4",
+    "name": "Building Your First Contract",
+    "description": "A beginner-friendly course on creating a basic CRUD smart contract using Solidity and Remix.",
+    "thumbnail": "/images/build-contract.png",
     "level": "Beginner",
-    "duration": "4 hours",
-    "tags": ["#Solidity", "#React", "#DApp"]
-  },
-  {
-    "id": "course2",
-    "name": "Deploying Smart Contracts on Testnet",
-    "description": "Learn to deploy your smart contracts on a public testnet using Hardhat.",
-    "thumbnail": "/images/deploy-smart-contracts.png",
-    "level": "Intermediate",
-    "duration": "3 hours",
-    "tags": ["#Hardhat", "#Ethereum", "#Testnet"]
-  },
-  {
-    "id": "course3",
-    "name": "Building with IPFS",
-    "description": "Integrate IPFS into your projects to create decentralized storage solutions.",
-    "thumbnail": "/images/ipfs-integration.png",
-    "level": "Advanced",
-    "duration": "5 hours",
-    "tags": ["#IPFS", "#Decentralized", "#Web3"]
+    "duration": "2 hours",
+    "tags": ["#Solidity", "#Remix", "#SmartContract"],
+    "location": "/build-your-first-contract"
   }
 ]

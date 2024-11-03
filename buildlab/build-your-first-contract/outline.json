@@ -1,0 +1,121 @@
+{
+  "Introduction to Smart Contracts and Prerequisites": {
+    "Setting Up Remix": {
+      "location": "Introduction to Smart Contracts and Prerequisites/setting_up_remix.md",
+      "resources": [
+        "https://remix-ide.readthedocs.io/en/latest/",
+        "https://ethereum.org/en/developers/tutorials/solidity-and-remix/"
+      ]
+    },
+    "What is a Smart Contract?": {
+      "location": "Introduction to Smart Contracts and Prerequisites/what_is_smart_contract.md",
+      "resources": [
+        "https://ethereum.org/en/smart-contracts/",
+        "https://www.investopedia.com/terms/s/smart-contracts.asp"
+      ]
+    }
+  },
+  "Solidity Basics – Laying the Foundation": {
+    "First Steps in Solidity": {
+      "location": "Solidity Basics – Laying the Foundation/first_steps_in_solidity.md",
+      "resources": [
+        "https://docs.soliditylang.org/en/latest/introduction-to-smart-contracts.html",
+        "https://soliditylang.org/"
+      ]
+    },
+    "Understanding Variables and Types": {
+      "location": "Solidity Basics – Laying the Foundation/variables_and_types.md",
+      "resources": [
+        "https://docs.soliditylang.org/en/latest/types.html",
+        "https://www.geeksforgeeks.org/data-types-in-solidity/"
+      ]
+    }
+  },
+  "CRUD Basics – Creating Our First CRUD Contract": {
+    "Structuring Data with Structs": {
+      "location": "CRUD Basics – Creating Our First CRUD Contract/structuring_data_with_structs.md",
+      "resources": [
+        "https://docs.soliditylang.org/en/latest/types.html#structs",
+        "https://solidity-by-example.org/structs/"
+      ]
+    },
+    "Storing Data in Arrays and Mappings": {
+      "location": "CRUD Basics – Creating Our First CRUD Contract/storing_data.md",
+      "resources": [
+        "https://docs.soliditylang.org/en/latest/types.html#arrays",
+        "https://solidity-by-example.org/mapping/"
+      ]
+    },
+    "Create Operation": {
+      "location": "CRUD Basics – Creating Our First CRUD Contract/create_operation.md",
+      "resources": [
+        "https://solidity-by-example.org/first-app/",
+        "https://ethereum.stackexchange.com/questions/4079/how-to-write-create-and-update-functions-in-solidity"
+      ]
+    }
+  },
+  "Reading Data from the Contract": {
+    "Read Operation": {
+      "location": "Reading Data from the Contract/read_operation.md",
+      "resources": [
+        "https://solidity-by-example.org/structs/",
+        "https://medium.com/coinmonks/read-data-from-solidity-smart-contracts-and-web3-js-ea2fa4d9b6e"
+      ]
+    },
+    "Data Visibility": {
+      "location": "Reading Data from the Contract/data_visibility.md",
+      "resources": [
+        "https://docs.soliditylang.org/en/latest/contracts.html#visibility-and-getters",
+        "https://ethereum.stackexchange.com/questions/19380/what-is-the-difference-between-public-external-and-internal-in-solidity"
+      ]
+    }
+  },
+  "Updating Data – Making Changes in the Contract": {
+    "Update Operation": {
+      "location": "Updating Data – Making Changes in the Contract/update_operation.md",
+      "resources": [
+        "https://solidity-by-example.org/structs/",
+        "https://www.tutorialspoint.com/solidity/solidity_functions.htm"
+      ]
+    },
+    "Error Handling Basics": {
+      "location": "Updating Data – Making Changes in the Contract/error_handling.md",
+      "resources": [
+        "https://solidity-by-example.org/error/",
+        "https://docs.soliditylang.org/en/latest/control-structures.html#error-handling-assert-require-revert-and-exceptions"
+      ]
+    }
+  },
+  "Deleting Data – Removing Records from the Contract": {
+    "Delete Operation": {
+      "location": "Deleting Data – Removing Records from the Contract/delete_operation.md",
+      "resources": [
+        "https://solidity-by-example.org/delete/",
+        "https://ethereum.stackexchange.com/questions/1528/how-to-delete-an-element-from-a-mapping-in-solidity"
+      ]
+    },
+    "Challenges with Data Deletion": {
+      "location": "Deleting Data – Removing Records from the Contract/challenges_with_deletion.md",
+      "resources": [
+        "https://ethereum.stackexchange.com/questions/1528/how-to-delete-an-element-from-a-mapping-in-solidity",
+        "https://blog.openzeppelin.com/why-arent-sparse-arrays-feasible-on-ethereum-bec4d9a0e84c/"
+      ]
+    }
+  },
+  "Testing and Interacting with the Contract": {
+    "Interacting with the Contract in Remix": {
+      "location": "Testing and Interacting with the Contract/interacting_in_remix.md",
+      "resources": [
+        "https://remix-ide.readthedocs.io/en/latest/run.html",
+        "https://ethereum.org/en/developers/tutorials/solidity-and-remix/"
+      ]
+    },
+    "Testing Workflow": {
+      "location": "Testing and Interacting with the Contract/testing_workflow.md",
+      "resources": [
+        "https://solidity-by-example.org/testing/",
+        "https://docs.soliditylang.org/en/latest/unit-testing.html"
+      ]
+    }
+  }
+}

@@ -7,6 +7,6 @@
     "level": "Beginner",
     "duration": "2 hours",
     "tags": ["#Solidity", "#Remix", "#SmartContract"],
-    "location": "/build-your-first-contract"
+    "location": "build-your-first-contract"
   }
 ]

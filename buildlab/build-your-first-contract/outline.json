@@ -35,6 +35,12 @@
       ]
     }
   ],
+  "Quiz: Solidity Basics": [
+    {
+      "topic": "Solidity Basics Quiz",
+      "location": "SolidityBasicsQuiz/quiz.json"
+    }
+  ],
   "CRUD Basics – Creating Our First CRUD Contract": [
     {
       "topic": "Structuring Data with Structs",

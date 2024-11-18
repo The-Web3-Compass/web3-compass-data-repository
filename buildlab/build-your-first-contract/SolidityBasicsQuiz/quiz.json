@@ -1,0 +1,35 @@
+{
+  "section": "Quiz: Solidity Basics",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "Which keyword is used to declare a state variable in Solidity?",
+      "options": ["state", "storage", "var", "public"],
+      "answerHash": "e96b5d0cc77c9b9390c8cbab1a5b0b97be04c11c073481a7b7dcdf9d5c54f27e"
+    },
+    {
+      "type": "true_false",
+      "question": "In Solidity, a 'string' data type is used to store numeric values.",
+      "options": ["True", "False"],
+      "answerHash": "fd2a218048da3b249c489d39dcd3444dd3c7e67c92631d3c1f902283b9b2c764"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The visibility keyword '______' allows a function to be accessed only within the contract.",
+      "options": ["public", "private", "internal", "external"],
+      "answerHash": "d3704f9c8a8c6b3657b1c8b8f35e8b803c5f29f9b6a1f73c4cb9e64e887bb6a9"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which of the following is a valid data type in Solidity?",
+      "options": ["int", "boolean", "text", "decimal"],
+      "answerHash": "c8a1e7e2db0ec8d5c40872d7e3ea34f36fd2f62326a9b3e3c3e9b5b4f4e7a4e6"
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "A '______' is a user-defined type in Solidity that groups variables together.",
+      "options": ["mapping", "struct", "array", "contract"],
+      "answerHash": "27b39b4a1d2329a76cfbc2585f5f1a947af93f6b236b5672a8d3cf2e25f22d45"
+    }
+  ]
+}

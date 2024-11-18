@@ -11,7 +11,7 @@
       "type": "true_false",
       "question": "In Solidity, a 'string' data type is used to store numeric values.",
       "options": ["True", "False"],
-      "answerHash": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+      "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
     },
     {
       "type": "fill_in_the_blank",

@@ -70,7 +70,7 @@
   "Quiz: Solidity Basics - 2": [
     {
       "topic": "Solidity Basics Quiz - 2",
-      "location": "SolidityBasicsQuiz/quiz.json"
+      "location": "SolidityBasicsQuiz-2/quiz.json"
     }
   ],
   "Reading Data from the Contract": [

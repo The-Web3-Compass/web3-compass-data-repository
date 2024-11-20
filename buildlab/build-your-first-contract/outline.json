@@ -144,5 +144,11 @@
         "https://docs.soliditylang.org/en/latest/unit-testing.html"
       ]
     }
+  ],
+  "Code Flow Challenge": [
+    {
+      "topic": "CRUD Course Flow Challenge",
+      "location": "Code-Flow-Challenge/challenge.json"
+    }
   ]
 }

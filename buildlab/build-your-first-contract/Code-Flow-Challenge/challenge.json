@@ -1,0 +1,17 @@
+{
+  "points": [
+    "Deploy the smart contract to a local or test blockchain and test its functions.",
+    "Declare state variables to store data, such as an array for records.",
+    "Set up the Remix IDE for Solidity development and familiarize yourself with the interface.",
+    "Compile the smart contract in Remix to ensure there are no syntax or logical errors.",
+    "Write an 'update' function to modify a specific record based on its index.",
+    "Understand what a smart contract is and its purpose in a blockchain environment.",
+    "Add appropriate access modifiers, like 'public' or 'private', to functions for security.",
+    "Write a 'create' function to add a new record to the state variable.",
+    "Interact with the deployed contract using the Remix interface and verify functionality.",
+    "Create a new Solidity file and define a contract with a meaningful name.",
+    "Implement a 'read' function to fetch records from the state variable.",
+    "Implement a 'delete' function to remove a record by its index from the state variable."
+  ],
+  "hash": "0f96c2bc6f6835f9ec619c36f6f5b624f6c45b2e9a8a3564c4233a839e7a37e5"
+}

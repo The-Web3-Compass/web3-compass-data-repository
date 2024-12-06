@@ -1,7 +1,7 @@
 ### **The Origin Story**
 To understand why blockchain came to be, we need to revisit the late 2000s—a time when the global financial system decided to perform the economic equivalent of setting itself on fire. Banks were running wild, governments were looking the other way, and in 2008, it all came crashing down.
 
-![2008.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/89ad6b15-e9b4-44b6-bba9-6fb79d5c8a71/2008.gif)
+![2008.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/story/2008.gif)
 
 And out of all that mess came a new idea. A system designed to fix the problems caused by banks and governments—a system that didn’t rely on trust in big institutions. That my friends, is what we now know as Blockchain
 
@@ -41,7 +41,7 @@ Bitcoin wasn’t just another form of digital money. It was something completely
 - **Secure**: Blockchain technology made it nearly impossible to cheat or tamper with.
 - **Transparent**: Anyone could see the transactions happening on the network.
 
-![satoshi.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/85dc4115-bb2c-486b-99da-6386334ca0a9/satoshi.gif)
+![satoshi.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/story/satoshi.gif)
 
 Bitcoin introduced a new way to think about money. For the first time, people had an alternative to traditional financial systems. A system where power was distributed and trust wasn’t placed in institutions but built into the technology itself.
 

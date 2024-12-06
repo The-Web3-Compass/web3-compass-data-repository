@@ -12,7 +12,7 @@ Let’s break down what verification means in blockchain and why it’s crucial.
 
 Think back to school days when you worked on group projects. Imagine there’s a final report that your group has to submit, but before it’s submitted, everyone in the group checks the content to ensure there are no errors or typos. If even one person finds an issue, the group fixes it before finalizing the report.
 
-![group.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/b1e85e34-6ece-4684-bafc-b9d3cad6c74a/group.gif)
+![group.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/verification/group.gif)
 
  In this case:
 
@@ -34,7 +34,7 @@ When you make a transaction on a blockchain—say, sending Bitcoin to a friend�
 - When you initiate a transaction, it’s like raising your hand in the classroom and announcing, “I’m sending 1 Bitcoin to Alice!”
 - This announcement is broadcast to all the participants (nodes) in the network, and everyone hears about it.
     
-    ![broadcast.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/682e80fb-6d22-4080-88ff-f29233bb37fd/broadcast.gif)
+    ![broadcast.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/verification/broadcast.gif)
     
 
 ### 2. **Validation by Nodes**
@@ -45,14 +45,14 @@ When you make a transaction on a blockchain—say, sending Bitcoin to a friend�
     - **Are the transaction details valid?** This includes checking if the Bitcoin being sent hasn’t already been spent elsewhere (no double-dipping!).
 - If the transaction passes these checks, the nodes give it a thumbs up and mark it as valid.
 
-![verify.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/f6c5e8c1-9837-4e26-bb25-10fab6f9ec39/verify.gif)
+![verify.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/verification/verify.gif)
 
 ### 3. **Reaching Agreement**
 
 - Here’s the twist: It’s not enough for one or two nodes to say the transaction is valid. The majority of the network must agree. This is where **consensus** comes in.
 - Once consensus is reached, your transaction is included in a block, which is then added to the blockchain. Congratulations, Bob—you’ve successfully sent Bitcoin to Alice!
 
-![agree.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/40795098-e8cc-4624-b6e4-01d0b69460c1/agree.gif)
+![agree.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/verification/agree.gif)
 
 ---
 

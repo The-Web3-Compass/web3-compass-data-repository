@@ -4,7 +4,7 @@ Welcome back! So far, we’ve explored the revolutionary ideas behind blockchain
 
 Well, think of blockchain as the world’s most secure and meticulously organized book. Each **block** is like a page in this book, recording specific information. 
 
-![block.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/b4ae7b41-77cf-4a72-bf71-0daa57d78934/block.gif)
+![block.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/block.gif)
 
 Just like every page in a book has a defined structure—headings, paragraphs, maybe even footnotes—each block in the blockchain has its own carefully designed structure. Let’s dive in and break it down.
 
@@ -16,7 +16,7 @@ At its core, a block is the fundamental unit of a blockchain. You can think of i
 
 Each block has two main parts: the **block header** and the **block body**. Together, they store all the information needed to make the blockchain work.
 
-![hb.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/a3308fc7-ba5f-4b34-b1ec-069f984fd731/hb.gif)
+![hb.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/hb.gif)
 
 ---
 
@@ -48,7 +48,7 @@ This one might sound technical, but it’s vital. The Merkle root is like a summ
 
 The block header is like the brain of the block—it keeps everything organized, connected, and verifiable.
 
-![header.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/ef942ff0-dd35-4ef9-be06-358d0ac305ea/header.gif)
+![header.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/header.gif)
 
 ---
 
@@ -56,7 +56,7 @@ The block header is like the brain of the block—it keeps everything organized,
 
 If the header is the brain, the **block body** is ..well… the body. This is where the actual data—the stuff we care about—is stored.
 
-![data.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/9fe921b8-7cdb-4f9d-8fc1-c39ff0624453/data.gif)
+![data.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/data.gif)
 
 ### **2.1 Transactions**
 

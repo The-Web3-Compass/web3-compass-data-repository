@@ -10,7 +10,7 @@ So, what’s the deal? Why do people run nodes, and what do they get out of it? 
 
 Running a node might sound like a full-time job, but for many, it’s worth the effort. Here’s why people take on this critical role:
 
-![run-node.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/901020ca-2f56-4950-b4cf-a5c46fa00906/run-node.gif)
+![run-node.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/why-run-nodes/run-node.gif)
 
 ---
 

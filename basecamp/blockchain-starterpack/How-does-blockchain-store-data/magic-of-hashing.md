@@ -15,7 +15,7 @@ Imagine hashing as a process that gives each block in the chain its own **unique
 
 Think of a **hash function** as a high-tech blender for data. You can throw anything into it—text, numbers, files—and it churns out a fixed-length string of characters, called a **Hash value**. This value acts like a fingerprint for the input data.
 
-![Blender.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/2925649c-2b6f-4674-9f04-dcf101f953a1/Blender.gif)
+![Blender.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/Blender.gif)
 
 Here’s how it works in simple terms:
 
@@ -39,19 +39,19 @@ Hash functions are like the unsung heroes of blockchain. They come with some ama
 
 The same input always produces the same hash. Whether you hash the word “Blockchain” today or fifty years from now, the result will always be `4b227777d4dd1fc61c6f884f48641d02`. This consistency is crucial for verifying data.
 
-![deter.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/788fdcf8-19c8-4704-a231-33cf64b0bfe7/deter.gif)
+![deter.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/deter.gif)
 
 ### **2. Fixed-Length Output**
 
 No matter how big or small the input is, the hash will always be the same length. Whether you hash the word “Hi” or an entire encyclopedia, the output might look like this: `5f4dcc3b5aa765d61d8327deb882cf99`. This uniformity keeps things tidy and efficient.
 
-![fixed.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/8c90d616-7a06-4864-be02-5a6b52cd1675/fixed.gif)
+![fixed.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/fixed.gif)
 
 ### **3. One-Way Function**
 
 Hashing is a one-way process. Once data is turned into a hash, you can’t reverse-engineer the hash to get the original data—like blending a smoothie and trying to get your strawberries back. This ensures the data stays secure.
 
-![uno.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/74bc4e7a-9cc2-4613-950e-62c005e0fa1f/uno.gif)
+![uno.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/uno.gif)
 
 ### **4. Tiny Changes, Huge Differences (Avalanche Effect)**
 
@@ -62,13 +62,13 @@ Even the smallest change in the input completely alters the hash. For example:
 
 This sensitivity ensures that any attempt to tamper with the data is immediately noticeable.
 
-![changes.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/7bc3c34e-699e-4747-9a92-5817eec8c324/changes.gif)
+![changes.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/changes.gif)
 
 ### **5. Collision-Resistant**
 
 Two different inputs should never produce the same hash. This makes every hash unique, just like your fingerprint. Without this property, the blockchain’s integrity would crumble.
 
-![collision.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/de5df73e-f7d4-4a7f-a6ef-aa2f824d3579/collision.gif)
+![collision.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/collision.gif)
 
 ---
 

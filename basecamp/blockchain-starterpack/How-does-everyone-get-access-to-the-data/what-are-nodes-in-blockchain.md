@@ -10,7 +10,7 @@ Imagine blockchain as a buzzing digital city. In this city, nodes are the everyd
 
 At its core, a **node** is any computer connected to a blockchain network. 
 
-![node.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/c4e75c2e-e183-443a-a63b-0d4cdb1ef791/node.gif)
+![node.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/node.gif)
 
 These computers actively participate in the network’s operations by storing, verifying, and sharing blockchain data. Nodes are essential for keeping the blockchain secure, decentralized, and operational.
 
@@ -18,7 +18,7 @@ These computers actively participate in the network’s operations by storing, v
 
 Theoretically, **any computational system can become a node**—your laptop, your phone, or even your smart fridge if you’re feeling adventurous. But in practice, running a node requires significant resources, especially on large networks like Bitcoin or Ethereum. 
 
-![graph.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/f4b0d173-23e2-4b08-b159-6a537b4eb26f/graph.gif)
+![graph.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/graph.gif)
 
 Blockchains demand:
 
@@ -58,7 +58,7 @@ Nodes communicate with one another to share updates. When a new block is added, 
 
 Not all nodes are created equal. Depending on their role, nodes can be divided into a few categories, each with its unique responsibilities.
 
-![nodes.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/ae875782-b6a5-46d8-896c-e337be8ae075/nodes.gif)
+![nodes.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/nodes.gif)
 
 ### **1. Full Nodes: The Guardians of the Blockchain**
 

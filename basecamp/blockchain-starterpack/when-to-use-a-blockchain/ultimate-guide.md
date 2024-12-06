@@ -10,7 +10,7 @@ Let’s dive in.
 
 ## **"To Blockchain or Not to Blockchain"**
 
-![hamlet.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/dbfbbaff-b373-4307-a86f-9ff6d130e068/hamlet.gif)
+![hamlet.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/when-to-use-blockchain/guide/hamlet.gif)
 
 Before you jump on the blockchain bandwagon, ask yourself these critical questions. If you answer “yes” to most of them, blockchain might be the right fit. If not, stick with something more suitable.
 

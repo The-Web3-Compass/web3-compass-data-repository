@@ -1,10 +1,10 @@
 [
   {
-    "id": "BC#1",
-    "name": "What is Blockchain? [ placeholder ]",
-    "location": "/what-is-blockchain",
-    "description": "Learn the basics of blockchain technology and its applications.",
+    "id": "BC-BF-BSP",
+    "name": "Blockchain Starterpack: From 0 to 0.1",
+    "location": "/Blockchain-starterpack",
+    "description": "Ever feel like everyone's talking about blockchain, but you're just nodding along pretending to understand? 😅  This course is for you! We'll break down the fundamentals in a fun, easy-to-digest way. No tech jargon, just clear explanations and real-world examples",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/what-is-blockchain/images/blockchain.png",
-    "hashtags": ["#Blockchain", "#Beginner", "#Technology"]
+    "hashtags": ["#Blockchain", "#Beginner", "#Web3"]
   }
 ]

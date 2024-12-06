@@ -6,7 +6,8 @@ Let’s break it down in simple terms.
 
 Imagine you and your friends decide to keep track of who owes money to whom. Normally, one person might be in charge of writing it all down—let’s call him Mark. But what happens if Mark decides to *"forget"* his own IOUs? What if he tweaks the record to say you owe him money instead? (Dont be a Mark.)
 
-![1.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/1.gif)
+<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/1.gif" alt="mark" width="200"/>
+
 
 To solve this, your group decides to do something clever: everyone keeps their own copy of the record. Here’s how it works:
 

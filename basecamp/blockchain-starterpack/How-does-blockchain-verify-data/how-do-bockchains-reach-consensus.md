@@ -8,7 +8,10 @@ Let’s break this down by looking at **how consensus is achieved in general** a
 
 In simple terms, a **consensus mechanism** is the process a blockchain uses to ensure that all the computers (or nodes) in the network agree on the state of the blockchain—like which transactions are valid and which aren’t. 
 
-![state.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/state.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/state.gif" alt="State" width="600" height="350" />
+</p>
 
 This is especially important because there’s no central authority in a blockchain to make the final call.
 
@@ -33,8 +36,10 @@ While specific blockchains use tailored consensus mechanisms, most are based on 
 
 Imagine a group of friends deciding where to go for dinner. Everyone casts a vote, and the majority wins. Voting-based systems work similarly: nodes in the network communicate with each other to agree on whether a block is valid.
 
-![vote.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/vote.gif)
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/vote.gif" alt="Vote" width="600" height="350" />
+</p>
 - **How It Works**:
     - Nodes share their opinion on a transaction or block.
     - A majority agreement is required for the transaction to be added.
@@ -50,7 +55,9 @@ Imagine a group of friends deciding where to go for dinner. Everyone casts a vot
 
 Instead of everyone participating equally, why not elect a leader to make decisions for a specific period? This is the idea behind leader election systems.
 
-![leader.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/leader.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/leader.gif" alt="Leader" width="600" height="350" />
+</p>
 
 - **How It Works**:
     - A node is randomly selected or voted into the role of leader.
@@ -67,7 +74,9 @@ Instead of everyone participating equally, why not elect a leader to make decisi
 
 Sometimes, randomness is the simplest way to decide. Lottery-based consensus mechanisms randomly select a node to validate the next block.
 
-![random.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/random.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/random.gif" alt="Random" width="600" height="350" />
+</p>
 
 - **How It Works**:
     - Nodes enter a lottery, with chances often based on their stake in the system.
@@ -83,7 +92,10 @@ Sometimes, randomness is the simplest way to decide. Lottery-based consensus mec
 
 Instead of luck or votes, work-based systems rely on computational effort. Participants (miners) compete to solve complex problems, with the winner earning the right to add the block.
 
-![compute.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/compute.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-verify-data/reach-consensus/compute.gif" alt="Compute" width="600" height="350" />
+</p>
 
 - **How It Works**:
     - Miners solve cryptographic puzzles to validate transactions.

@@ -10,7 +10,10 @@ Imagine blockchain as a buzzing digital city. In this city, nodes are the everyd
 
 At its core, a **node** is any computer connected to a blockchain network. 
 
-![node.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/node.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/node.gif" alt="Node" width="600" height="350" />
+</p>
 
 These computers actively participate in the network’s operations by storing, verifying, and sharing blockchain data. Nodes are essential for keeping the blockchain secure, decentralized, and operational.
 
@@ -18,7 +21,9 @@ These computers actively participate in the network’s operations by storing, v
 
 Theoretically, **any computational system can become a node**—your laptop, your phone, or even your smart fridge if you’re feeling adventurous. But in practice, running a node requires significant resources, especially on large networks like Bitcoin or Ethereum. 
 
-![graph.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/graph.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/graph.gif" alt="graph" width="600" height="350" />
+</p>
 
 Blockchains demand:
 
@@ -58,7 +63,9 @@ Nodes communicate with one another to share updates. When a new block is added, 
 
 Not all nodes are created equal. Depending on their role, nodes can be divided into a few categories, each with its unique responsibilities.
 
-![nodes.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/nodes.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/what-are-nodes/nodes.gif" alt="Nodes" width="600" height="350" />
+</p>
 
 ### **1. Full Nodes: The Guardians of the Blockchain**
 

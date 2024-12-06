@@ -15,7 +15,10 @@ Imagine hashing as a process that gives each block in the chain its own **unique
 
 Think of a **hash function** as a high-tech blender for data. You can throw anything into it—text, numbers, files—and it churns out a fixed-length string of characters, called a **Hash value**. This value acts like a fingerprint for the input data.
 
-![Blender.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/Blender.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/Blender.gif" alt="blender" width="600" height="350" />
+</p>
 
 Here’s how it works in simple terms:
 
@@ -39,19 +42,28 @@ Hash functions are like the unsung heroes of blockchain. They come with some ama
 
 The same input always produces the same hash. Whether you hash the word “Blockchain” today or fifty years from now, the result will always be `4b227777d4dd1fc61c6f884f48641d02`. This consistency is crucial for verifying data.
 
-![deter.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/deter.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/deter.gif" alt="deter.gif" width="600" height="350" />
+</p>
 
 ### **2. Fixed-Length Output**
 
 No matter how big or small the input is, the hash will always be the same length. Whether you hash the word “Hi” or an entire encyclopedia, the output might look like this: `5f4dcc3b5aa765d61d8327deb882cf99`. This uniformity keeps things tidy and efficient.
 
-![fixed.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/fixed.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/fixed.gif" alt="fixed.gif" width="600" height="350" />
+</p>
 
 ### **3. One-Way Function**
 
 Hashing is a one-way process. Once data is turned into a hash, you can’t reverse-engineer the hash to get the original data—like blending a smoothie and trying to get your strawberries back. This ensures the data stays secure.
 
-![uno.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/uno.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/uno.gif" alt="uno.gif" width="600" height="350" />
+</p>
 
 ### **4. Tiny Changes, Huge Differences (Avalanche Effect)**
 
@@ -62,13 +74,19 @@ Even the smallest change in the input completely alters the hash. For example:
 
 This sensitivity ensures that any attempt to tamper with the data is immediately noticeable.
 
-![changes.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/changes.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/changes.gif" alt="changes" width="600" height="350" />
+</p>
 
 ### **5. Collision-Resistant**
 
 Two different inputs should never produce the same hash. This makes every hash unique, just like your fingerprint. Without this property, the blockchain’s integrity would crumble.
 
-![collision.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/collision.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/hashing/collision.gif" alt="Collision" width="600" height="350" />
+</p>
 
 ---
 

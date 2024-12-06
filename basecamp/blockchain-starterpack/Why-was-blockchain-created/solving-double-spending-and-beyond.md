@@ -30,7 +30,11 @@ That’s the **double-spending problem**, a fundamental challenge that digital c
 
 In the digital world, copying things is easy. You can duplicate a photo or a document with a simple click. If digital money worked the same way, someone could copy a digital coin and spend it multiple times. This is the **Double-Spending Problem**—spending the same digital tokens twice!
 
-![double.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/double-spending/double.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/double-spending/double.gif" alt="Double Spend" width="600" height="350" />
+</p>
+
 
 Double-spending can completely undermine the value of any currency, digital or otherwise. Here’s why:
 
@@ -73,7 +77,10 @@ Bitcoin’s brilliance is in how it reimagines digital transactions without bank
 
 By putting everyone on the same page—literally, with the same shared ledger—Bitcoin solves the double-spending problem without relying on banks or other middlemen. It’s a system where trust is replaced with transparency, and control is spread across the entire network. Cool, right?
 
-![sync.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/double-spending/sync.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/why-create-blockchain/double-spending/sync.gif" alt="Data Sync" width="600" height="350" />
+</p>
 
 ---
 

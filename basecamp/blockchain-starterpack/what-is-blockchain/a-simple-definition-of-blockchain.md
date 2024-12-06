@@ -58,7 +58,11 @@ Unlike traditional systems, blockchain isn’t run by one entity. It’s powered
 
 By now, you should have a solid understanding of what blockchain is at its core. But how does it all come together and actually work? Let’s break it down and explore the mechanics!
 
-![2.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/2.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/2.gif" alt="properties" width="600" height="350" />
+</p>
+
+
 
 ---
 
@@ -90,7 +94,10 @@ The chain of blocks forms a ledger—a complete, transparent record of all the d
 
 Together, these components create a system that is secure, transparent, and decentralized. But why does this structure matter so much? What makes blockchain such a big deal? Let’s explore.
 
-![3.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/3.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/3.gif" alt="blockchain" width="600" height="350" />
+</p>
 
 ---
 

@@ -4,7 +4,10 @@ Welcome back! So far, we’ve explored the revolutionary ideas behind blockchain
 
 Well, think of blockchain as the world’s most secure and meticulously organized book. Each **block** is like a page in this book, recording specific information. 
 
-![block.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/block.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/block.gif" alt="block" width="600" height="350" />
+</p>
 
 Just like every page in a book has a defined structure—headings, paragraphs, maybe even footnotes—each block in the blockchain has its own carefully designed structure. Let’s dive in and break it down.
 
@@ -16,7 +19,10 @@ At its core, a block is the fundamental unit of a blockchain. You can think of i
 
 Each block has two main parts: the **block header** and the **block body**. Together, they store all the information needed to make the blockchain work.
 
-![hb.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/hb.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/hb.gif" alt="block structure" width="600" height="350" />
+</p>
 
 ---
 
@@ -48,7 +54,10 @@ This one might sound technical, but it’s vital. The Merkle root is like a summ
 
 The block header is like the brain of the block—it keeps everything organized, connected, and verifiable.
 
-![header.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/header.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/header.gif" alt="header" width="600" height="350" />
+</p>
 
 ---
 
@@ -56,7 +65,10 @@ The block header is like the brain of the block—it keeps everything organized,
 
 If the header is the brain, the **block body** is ..well… the body. This is where the actual data—the stuff we care about—is stored.
 
-![data.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/data.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-blockchain-store-data/a-block-a-page/data.gif" alt="data" width="600" height="350" />
+</p>
 
 ### **2.1 Transactions**
 

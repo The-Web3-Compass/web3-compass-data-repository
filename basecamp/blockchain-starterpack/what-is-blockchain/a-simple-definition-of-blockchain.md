@@ -6,7 +6,7 @@ Let’s break it down in simple terms.
 
 Imagine you and your friends decide to keep track of who owes money to whom. Normally, one person might be in charge of writing it all down—let’s call him Mark. But what happens if Mark decides to *"forget"* his own IOUs? What if he tweaks the record to say you owe him money instead? (Dont be a Mark.)
 
-![1.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/50768b88-5cfa-4ef6-a2c5-65f7375fcb2c/1.gif)
+![1.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/1.gif)
 
 To solve this, your group decides to do something clever: everyone keeps their own copy of the record. Here’s how it works:
 
@@ -57,7 +57,7 @@ Unlike traditional systems, blockchain isn’t run by one entity. It’s powered
 
 By now, you should have a solid understanding of what blockchain is at its core. But how does it all come together and actually work? Let’s break it down and explore the mechanics!
 
-![2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/37477ffb-ad6a-4c89-9009-6512177b9732/2.gif)
+![2.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/2.gif)
 
 ---
 
@@ -89,7 +89,7 @@ The chain of blocks forms a ledger—a complete, transparent record of all the d
 
 Together, these components create a system that is secure, transparent, and decentralized. But why does this structure matter so much? What makes blockchain such a big deal? Let’s explore.
 
-![3.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/b4f7bf1d-8a1f-4683-bb52-4a54eec90c9b/3.gif)
+![3.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/what-is-blockchain/simiple-definition/3.gif)
 
 ---
 

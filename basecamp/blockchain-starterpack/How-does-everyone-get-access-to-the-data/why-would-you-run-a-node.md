@@ -9,8 +9,6 @@ So, what’s the deal? Why do people run nodes, and what do they get out of it? 
 ## **The Perks of being a node runner**
 
 Running a node might sound like a full-time job, but for many, it’s worth the effort. Here’s why people take on this critical role:
-
-
 <p align="center">
     <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/how-people-access-data/why-run-nodes/run-node.gif" alt="run nodes" width="600" height="350" />
 </p>
@@ -76,6 +74,7 @@ Setting up and maintaining a node isn’t as easy as setting up a new phone. It 
 Given the challenges, it’s no surprise that many users and developers choose to rely on **node providers** instead of running their own nodes. These providers run the nodes for you, offering easy access to blockchain networks without the hassle of setup or maintenance.
 
 ### **How Node Providers Work**
+
 
 Instead of managing your own node, you connect to one hosted by a provider. These providers ensure that their nodes are always online, synced, and ready to interact with the blockchain.
 

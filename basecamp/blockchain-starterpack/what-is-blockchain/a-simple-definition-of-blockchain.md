@@ -95,7 +95,7 @@ Together, these components create a system that is secure, transparent, and dece
 
 ### **Why Is Blockchain a Big Deal?**
 
-Well, Because cryptocurrency prices are through the roof….
+Well, Because cryptocurrency prices are through the roof...
 
 Just kidding.. (or am i)
 

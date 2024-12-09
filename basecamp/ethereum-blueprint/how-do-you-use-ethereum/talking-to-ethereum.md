@@ -10,7 +10,10 @@ So, how does it all connect? How do wallets, dApps, and developers talk to Ether
 
 If Ethereum were a bustling city, **JSON-RPC** would be the shared language everyone uses to communicate. It’s how wallets, dApps, and developer tools talk to Ethereum nodes, asking them to fetch data, process transactions, or execute smart contracts.
 
-![json.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/e270e6d9-d4fa-4cd7-bffa-c6b420faff7c/json.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/talk-to-eth/json.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ## **What is JSON-RPC?**
 
@@ -38,7 +41,11 @@ While JSON-RPC is the foundation of Ethereum communication, it’s not exactly u
 
 Think of these libraries as **wrappers** around JSON-RPC. Instead of making you write out complex, detailed JSON requests, they provide **simple, easy-to-use functions** that handle all the heavy lifting behind the scenes.
 
-![library.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/531b6069-c6ac-4fd7-8604-fcaf9ebd5a4b/library.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/talk-to-eth/library.gif" alt="Gifs" width="600" height="350" />
+</p>
 
  For example:
 
@@ -68,7 +75,11 @@ By acting as a bridge between the raw JSON-RPC layer and developer-friendly func
 
 So, we talked about how libraries like **Web3.js** and **Ethers.js** turning the complexity of JSON-RPC into simple commands.. Well, let’s take it up a notch. Libraries simplify blockchain communication, but **frameworks** are like your Ethereum development headquarters. They don’t just help you communicate—they help you create, test, and deploy smart contracts with ease.
 
-![framework.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/4579db9f-f0d5-4ade-a673-a5e369c65f9e/framework.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/talk-to-eth/framework.gif" alt="Gifs" width="600" height="350" />
+</p>
 
  Frameworks are your all-in-one power tools for Ethereum development, and trust me, once you start using them, you’ll wonder how you ever managed without them.
 

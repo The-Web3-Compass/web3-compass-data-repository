@@ -16,7 +16,10 @@ Ethereum isn’t just another blockchain—it’s like the Swiss Army knife of d
 
 Ethereum has been around since 2015, and in blockchain years, that’s practically ancient. 
 
-![time.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/73dd7e2e-4ad5-4693-8a34-262d2a28eb42/time.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/when-to-bet-on-eth/time.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 It’s weathered more drama than your favorite TV series—hacks, forks, explosive growth, and major upgrades—and it’s still thriving.
 
@@ -33,7 +36,11 @@ If your project can’t afford downtime or instability, Ethereum’s proven it c
 
 Ethereum is a full-blown developer playground. From tools to community support, it’s got you covered.
 
-![support.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/943a41ed-63a7-42d0-9e86-ab2916768a75/support.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/when-to-bet-on-eth/support.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 - **Developer Tools That Deliver:** Whether it’s **Hardhat** for testing or **ERC-20 tokens** that are ridiculously easy to deploy, Ethereum’s tools make building on it a breeze.
 - **A Supportive Community:** Got stuck? Odds are someone’s already solved your problem—and shared a step-by-step tutorial online. With forums, Discords, and endless docs, help is always a click away.
@@ -49,7 +56,11 @@ Starting a blockchain project can feel overwhelming, but Ethereum’s ecosystem 
 
 Whatever you’re building, Ethereum has the flexibility to bring your vision to life.
 
-![decentral.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/0fe80717-a399-496f-9e4f-5293d3ed99f1/decentral.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/when-to-bet-on-eth/decentral.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 - **DeFi (Decentralized Finance):** Platforms like Aave and Uniswap are transforming traditional finance—think lending, borrowing, and trading without middlemen.
 - **DAOs (Decentralized Autonomous Organizations):** Want to create a transparent, code-driven organization? Ethereum’s got you covered.
@@ -66,7 +77,11 @@ Ethereum’s versatility means it can handle just about anything. Whether you’
 
 Decentralization isn’t just a buzzword for Ethereum—it’s the core of its DNA.
 
-![shield.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/58a8c97c-805d-4ef1-86be-54318f7a4100/shield.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/when-to-bet-on-eth/shield.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 - **Global Network:** Thousands of validators around the world keep Ethereum secure and censorship-resistant.
 - **Immutability:** Once data is added to the blockchain, it’s there for good—no edits, no take-backs.
@@ -82,7 +97,11 @@ If transparency, fairness, and resilience are non-negotiable for your project, E
 
 Ethereum’s great, but it knows there’s always room to grow. And it’s not just talking about change—it’s actively making it happen.
 
-![strong.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/cf94a986-113b-41bc-94a6-4a0214b95537/strong.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/when-to-bet-on-eth/strong.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 - **Layer 2 Solutions:** Tools like Optimism and zkSync reduce congestion and fees by processing transactions off-chain. It’s like opening express lanes on a busy highway.
 - **Sharding (Coming Soon):** Sharding splits Ethereum into smaller, parallel pieces to process more transactions at once. Think highways becoming an interconnected supernetwork.

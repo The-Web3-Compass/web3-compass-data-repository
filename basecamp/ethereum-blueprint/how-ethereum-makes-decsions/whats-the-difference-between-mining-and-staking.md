@@ -14,7 +14,11 @@ Today, we’ll break down the difference between mining and staking, why Ethereu
 
 Before we dive into mining and staking, let’s tackle the concept of **consensus.** At its core, consensus is how blockchains make decisions. Imagine Ethereum as a giant shared notebook. Every time you make a transaction—say, sending 1 ETH to your friend Bob—the network needs to agree, “Yes, Bob now owns 1 ETH, and Alice’s balance is reduced.”
 
-![consensus.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/c6a79ef8-ae36-4fbd-a41d-a5cecdca83f1/consensus.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-ethereum-makes-decsions/mining-and-staking/consensus.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 Without consensus, Ethereum would turn into a chaotic group project where nobody agrees on what’s due or who did what. (Sound familiar?) Consensus ensures the blockchain stays:
 
@@ -46,7 +50,10 @@ Proof of Work is blockchain’s OG consensus mechanism. Here’s how it works:
     
     The process starts over with a new puzzle.
     
-    ![pow.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/a8815a0d-0fa3-4b09-b56f-18b8a6b5a2bf/pow.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-ethereum-makes-decsions/mining-and-staking/pow.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 PoW is secure and battle-tested, but it’s got some serious downsides:
@@ -99,7 +106,10 @@ Here’s how it works (We will talk about it in detail in the next lesson):
     PoS doesn’t require massive computing power, making it way more energy-efficient than PoW.
     
 
-![PoS.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/bf94e820-28c8-4402-9420-c643c187249f/PoS.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-ethereum-makes-decsions/mining-and-staking/PoS.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ---
 

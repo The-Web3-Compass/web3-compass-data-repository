@@ -8,9 +8,10 @@ Then, out of nowhere, comes [**Bitcoin**](https://bitcoin.org/en/)—a mysteriou
 
 
 
-<p align="center" style="border: 2px solid #111111; display: inline-block;">
-    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/bitcoin.gif" alt="blender" width="600" height="350" />
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/bitcoin.gif" alt="Gifs" width="600" height="350" />
 </p>
+
 
 
 People started calling Bitcoin **“digital gold.”** Why? Because like gold, it’s scarce, valuable, and doesn’t rely on anyone to back it. Unlike gold, though, you don’t need a safe or a shovel—just a digital wallet. Bitcoin proved that we could have a financial system that didn’t depend on banks. But as groundbreaking as Bitcoin was, it had one big limitation: it was built for one thing—**money.**
@@ -88,8 +89,9 @@ Ethereum is a **decentralized platform** that lets developers build and deploy s
 
 
 
-<p align="center" style="border: 2px solid #111111; display: inline-block;">
-    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/Eth.gif" alt="Gif" width="600" height="350" />
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/Eth.gif" alt="Gifs" width="600" height="350" />
 </p>
 
 

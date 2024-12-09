@@ -12,7 +12,10 @@ But what exactly are smart contracts? How do they work? And why do we call them 
 
 At their core, **smart contracts are lines of code** that live on the Ethereum blockchain. They automatically execute when specific conditions are met, following the classic **“if this, then that”** logic. 
 
-![contracts.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/7728adf1-b1a9-49bc-8395-f1326abf1587/contracts.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/smart-contracts/contracts.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Think of them as digital agreements that enforce themselves—no middlemen, no delays, no “oops, I forgot” moments.
 
@@ -49,7 +52,10 @@ Here’s how it plays out:
 
 Still no middleman. Still no haggling. Just the blockchain making sure everything goes exactly as agreed. It’s like having a vending machine for the digital world—but instead of snacks, it’s delivering loans, art, or ownership transfers. Neat, right?
 
-![vending-machine.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/6ded28aa-b914-4696-a293-6c89f7101d80/vending-machine.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/smart-contracts/vending-machine.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ---
 
@@ -81,7 +87,10 @@ Here’s what makes Solidity special:
 - **Turing Complete:** This means it can handle any computation, making Ethereum as versatile as a general-purpose computer.
 - **Optimized for Ethereum:** Solidity is tailored for creating contracts that interact with Ether and other tokens.
     
-    ![solidity.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/56ec2780-967a-4726-ab84-76ecfdc47cc4/solidity.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/smart-contracts/solidity.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 ---

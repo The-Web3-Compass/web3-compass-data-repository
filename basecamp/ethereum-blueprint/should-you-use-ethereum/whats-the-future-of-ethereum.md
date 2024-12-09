@@ -14,7 +14,10 @@ Before diving into Ethereum's innovative solutions, let’s address a problem th
 2. **Security:** Is the network robust enough to withstand attacks and ensure trustlessness?
 3. **Decentralization:** Can the system maintain fairness and transparency without relying on central control?
 
-![trillema.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/033a3a76-7ad3-4770-80ca-919c907216c1/trillema.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/future/trillema.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ### **What’s the Problem?**
 
@@ -72,7 +75,11 @@ While Ethereum upgrades its foundation, **Layer 2 solutions** are already steppi
 
 Layer 2 solutions are secondary layers built on top of Ethereum. They handle transactions independently and periodically send results back to Layer 1 for final validation.
 
-![l2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/07e402ca-1f76-4200-9bad-9e9e39b8f17d/l2.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/future/l2.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 ### **Types of Layer 2 Solutions**
 

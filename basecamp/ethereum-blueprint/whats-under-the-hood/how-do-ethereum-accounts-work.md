@@ -14,7 +14,11 @@ Today, we’ll explore the two types of Ethereum accounts, how they work, and wh
 
 In simple terms, **Ethereum accounts are your gateway to the Ethereum blockchain.** They hold your Ether, execute transactions, and interact with smart contracts. 
 
-![accounts.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/7819b22f-8f79-46d2-994d-b8bdeb947813/accounts.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/accountts/accounts.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Without an account, you can’t participate in the Ethereum ecosystem—it’s like trying to play Monopoly without any game pieces.
 
@@ -115,7 +119,11 @@ Here’s an example of what an Ethereum address might look like:
 
 So, next time someone asks, “What’s your address?” you can confidently share it—just make sure you don’t mix it up with your private key. One’s for sharing; the other’s for guarding with your life!
 
-![keys.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/eba753d7-d5f8-414a-8906-8b7d4875a4c9/keys.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/accountts/keys.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ---
 

@@ -20,7 +20,10 @@ The EVM is a **decentralized, virtual computing environment** that allows Ethere
 
 But here’s the twist: the EVM isn’t a physical machine. It’s software running on thousands of Ethereum nodes worldwide. Each node has its own instance of the EVM, which processes the same set of instructions independently. Despite being virtual, it’s incredibly powerful, acting as Ethereum’s **operating system**.
 
-![evm.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/a5e0a00e-f135-4859-90d5-70f3a14d4ec7/evm.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/evm/evm.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Here’s how it works in real-world terms:
 
@@ -62,7 +65,11 @@ Let’s break it down step-by-step:
     Every Ethereum node runs the same bytecode on its own EVM instance. If all nodes reach the same result, the transaction is validated and added to the blockchain.
     
 
-![process.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/89fe41cb-f052-42d3-81b2-0296ef04ceac/process.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/evm/process.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 This process guarantees that Ethereum operates **securely, predictably, and without the need for trust.**
 

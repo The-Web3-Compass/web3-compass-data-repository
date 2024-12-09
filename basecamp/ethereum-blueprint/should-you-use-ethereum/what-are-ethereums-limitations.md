@@ -19,7 +19,10 @@ Gas fees are the costs paid to validators for processing transactions and keepin
 - When Ethereum’s network gets busy (think NFT drops or DeFi frenzies), gas fees skyrocket.
 - A simple transaction might cost a few dollars on a good day, but when things heat up, you could be paying more in fees than the value of your transaction.
 
-![gas.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/16cbc018-b596-49e9-9c86-345e8be5e998/gas.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/limitations/gas.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ### **The Trade-Off**
 
@@ -34,7 +37,10 @@ If your project involves frequent microtransactions or caters to users with smal
 
 Ethereum’s popularity is both a blessing and a curse. The more users and dApps that flock to the network, the busier it gets. This congestion leads to slower transaction times and—you guessed it—higher gas fees.
 
-![scale.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/c6f1ed74-3435-4a53-8f06-fdf0579bf336/scale.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/limitations/scale.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ### **Why Scalability is a Challenge**
 
@@ -58,7 +64,12 @@ If your project involves high-frequency transactions or a large user base, Ether
 
 Ethereum may be the OG smart contract platform, but it’s no longer the only kid on the blockchain playground. Competitors like Solana, Avalanche, and Polkadot are making waves by addressing Ethereum’s weaknesses head-on.
 
-![competition.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/490672e6-bb1d-4bcf-9a48-7a950c053d0b/competition.gif)
+
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/should-you-use-ethereum/limitations/competition.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ### **What the Competition Offers**
 

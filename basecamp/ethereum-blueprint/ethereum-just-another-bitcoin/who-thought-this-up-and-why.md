@@ -14,7 +14,10 @@ Today, we’re diving into how Ethereum went from a bold idea to one of the most
 
 ## **Meet Vitalik**
 
-![vitalik.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/959f0542-1d4a-4f4c-97db-ae227e9845b8/vitalik.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/who-thought-this-up/vitalik.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Vitalik Buterin wasn’t your average teenager. Born in Russia in 1994 and raised in Canada, he had a knack for math, programming, and spotting problems most people didn’t even know existed. While other kids were debating video games or grinding for loot, Vitalik was thinking deeply about systems and how they worked—or didn’t.
 
@@ -40,7 +43,10 @@ That question, combined with his Warcraft moment, would set Vitalik on a path to
 
 By 2013, Vitalik had a bold idea: add a **scripting language** to Bitcoin. This wasn’t just a tweak—it was a whole new vision. With programmability, Bitcoin could evolve from a simple ledger into a platform for innovation. Developers could create automated payments, decentralized apps, or even voting systems—all running directly on the Bitcoin network.
 
-![bitcoin-program.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/433182a9-4e08-40e5-85a1-e59605cad720/bitcoin-program.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/who-thought-this-up/bitcoin-program.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 But when Vitalik pitched this to Bitcoin’s developers, they weren’t interested. Their philosophy was clear: Bitcoin’s strength was its simplicity. Programmability, they argued, could make the network less secure and harder to maintain. Bitcoin was built to be digital gold, and they wanted it to stay that way.
 
@@ -56,7 +62,11 @@ In late 2013, Vitalik wrote the [**Ethereum whitepaper**](https://ethereum.org/e
 - **Turing-completeness:** A fancy way of saying the blockchain could handle any kind of computation, like a general-purpose computer.
 - **Decentralized applications (dApps):** Apps that don’t rely on centralized servers and can run directly on the blockchain.
 
-![eth-items.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/131adb58-38fd-42b1-921f-ca302bec0602/eth-items.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/who-thought-this-up/eth-items.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 When Vitalik shared the whitepaper with the blockchain community, it created a buzz. Developers and entrepreneurs saw Ethereum as the next evolution of blockchain technology.
 

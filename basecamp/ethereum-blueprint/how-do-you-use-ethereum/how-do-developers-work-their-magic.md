@@ -4,7 +4,11 @@ Alright, you’ve got the basics: wallets to interact, JSON-RPC to communicate, 
 
 Developers use **Integrated Development Environments (IDEs)** to write code, **testnets** to safely experiment, and **blockchain explorers** to inspect and debug their creations. 
 
-![tools.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/2bba6970-f2a7-4f50-8f61-31dcabefab01/tools.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/dev-tools/tools.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 These tools form the foundation of Ethereum development, making the process not just possible but efficient and even fun. Ready to take a peek inside the developer’s toolbox? Let’s dive in!
 

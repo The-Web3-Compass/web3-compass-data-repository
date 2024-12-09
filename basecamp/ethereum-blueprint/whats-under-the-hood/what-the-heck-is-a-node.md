@@ -27,8 +27,10 @@ Here’s what nodes do:
 3. **Maintain Consensus:**
     
     Ethereum is a decentralized network, meaning there’s no central authority to call the shots. Nodes work together to agree on the state of the blockchain, ensuring everyone’s on the same page.
-    
-    ![Node.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/92d6c0b2-03e0-4ccd-b2a3-db0783a63656/Node.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/node/Node.gif" alt="Gifs" width="600" height="350" />
+</p>
     
 
 In short, nodes are Ethereum’s referees, record keepers, and watchdogs rolled into one. They make sure the game stays fair, the rules are followed, and the records are accurate.
@@ -88,7 +90,9 @@ Archive nodes are the obsessive collectors of Ethereum. They store not just the 
 
 Now here’s a critical detail: a computer doesn’t become a node just by wishing on a star. It needs software called a **client** to connect to the Ethereum network and participate in its operations.
 
-![client.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/2d4e77de-d083-4f66-96e8-5480df0d8186/client.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/node/client.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Think of a client as the instruction manual for your computer. It tells your machine how to store blockchain data, validate transactions, and communicate with other nodes. Without a client, a computer is just a spectator—not an active player in Ethereum’s ecosystem.
 

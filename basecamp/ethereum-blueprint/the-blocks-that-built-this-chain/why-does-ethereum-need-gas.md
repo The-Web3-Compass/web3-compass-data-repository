@@ -14,7 +14,12 @@ In simple terms, **gas is the unit of measurement for computational work on Ethe
 
 Think of gas as a toll fee for using Ethereum’s infrastructure. When you initiate a transaction or interact with a smart contract, you’re asking the network’s computers (nodes) to do work on your behalf. Gas is how you pay them for that work.
 
-![gas.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/4e09c095-7d6c-47f5-a2b9-1fa35d21c9d5/gas.gif)
+
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/gas/gas.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Here’s how it works:
 
@@ -58,7 +63,11 @@ Here’s the formula:
 
 **Gas Fee = Gas Limit × Gas Price**
 
-![formula.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/d1f4dc6e-4b56-49de-8620-c4a2c624155d/formula.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/the-blocks-that-built-this-chain/gas/formula.gif" alt="Gifs" width="600" height="350" />
+</p>
+
 
 For example:
 

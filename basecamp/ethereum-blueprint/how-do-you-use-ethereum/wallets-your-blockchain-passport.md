@@ -23,8 +23,10 @@ At its core, an **Ethereum wallet** is a digital tool that allows you to:
 3. **Connect to dApps:**
     
     Want to trade tokens on Uniswap, mint an NFT on OpenSea, or lend crypto on Aave? Your wallet is the bridge that makes these interactions possible.
-    
-    ![wallet.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/36574550-994e-43f9-a239-d0fbe9bd87a2/wallet.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/wallets/wallet.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 ---
@@ -62,7 +64,10 @@ Let’s explore the different types of wallets and what makes each one unique:
     
     Since they’re online, hot wallets are more vulnerable to hacks. Think of them like carrying cash in your pocket—convenient, but risky if you’re not careful.
     
-    ![online.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/d6f3bf70-baf1-4f72-8a49-a9fb2e98e1c1/online.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/wallets/online.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 ---
@@ -81,7 +86,10 @@ Let’s explore the different types of wallets and what makes each one unique:
     
     They’re less convenient for daily use, and losing the physical device or paper means losing access to your assets.
     
-    ![cold.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/28325e52-b5f7-4ed9-bfc7-89677684cbff/cold.gif)
+
+    <p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/wallets/cold.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 ---
@@ -101,7 +109,11 @@ Let’s explore the different types of wallets and what makes each one unique:
     They’re more complex to set up and use, making them less beginner-friendly.
     
 
-![multi.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/6333dfd7-dd87-4650-8d48-0cace273ccdb/multi.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/how-do-you-use-ethereum/wallets/multi.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 ---
 

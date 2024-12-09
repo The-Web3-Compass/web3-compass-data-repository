@@ -4,7 +4,11 @@ We’ve covered a lot about Ethereum’s secret sauce—smart contracts, gas, an
 
 If Bitcoin is the **gold bar of the crypto world**—sturdy, shiny, and great for hoarding—then Ether is more like **electricity.** It powers an entire decentralized ecosystem, enabling everything from minting NFTs to running DeFi protocols. 
 
-![ether.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/598be31a-d6bd-422b-97a1-e8584e17899e/ether.gif)
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/ether/ether.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Yes, you can spend it like money, but its real value lies in being the fuel that keeps Ethereum alive and thriving.
 
@@ -22,7 +26,9 @@ But here’s the twist: unlike Bitcoin, which is primarily a **store of value**,
 
 ## **Ether’s Two Jobs: Currency and Gas**
 
-![gas-currency.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/0b5dca17-8c69-477b-8a4d-ded8b9d8c4c7/gas-currency.gif)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/ether/gas-currency.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Let’s break down Ether’s dual responsibilities:
 
@@ -71,7 +77,11 @@ Just like a dollar has cents, Ether is divisible into smaller units to facilitat
 - **Gwei:** Commonly used for gas fees (1 Gwei = 10⁹ Wei).
 - **Ether:** The standard unit for most transactions.
     
-    ![denom.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/d2d6df4f-6935-4f54-a6f3-8caf30e6db77/denom.gif)
+
+
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/whats-under-the-hood/ether/denom.gif" alt="Gifs" width="600" height="350" />
+    </p>
     
 
 **Example:**

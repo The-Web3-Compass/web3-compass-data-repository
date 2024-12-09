@@ -20,7 +20,10 @@ So, what are people actually *doing* with Ethereum? Let’s dive into the real-w
 
 Imagine walking into a bank and saying, “I don’t need you anymore.” Sounds bold, right? That’s essentially what **DeFi** (Decentralized Finance) lets you do. Built on Ethereum, DeFi replaces banks with smart contracts—self-executing programs that handle everything from lending and borrowing to trading and earning interest.
 
-![defi.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/c534330e-0686-448d-b463-387fc561909c/defi.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/why-everyone-talking/defi.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Here’s why DeFi is a big deal:
 
@@ -38,7 +41,10 @@ If someone told you five years ago that digital art would sell for millions, you
 
 What’s an NFT? It’s a digital token that proves ownership of something unique—like a piece of art, a song, or even a virtual sword. Think of it as a certificate of authenticity for the digital age.
 
-![nft.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/bb655a25-1b14-482f-8dba-7055a3a2eafd/nft.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/why-everyone-talking/nft.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Here’s why NFTs matter:
 
@@ -52,7 +58,10 @@ Platforms like **OpenSea** and **Foundation** have made Ethereum the go-to block
 
 Now, let’s talk about **DAOs** (Decentralized Autonomous Organizations). Imagine a group of people working together, but instead of a boss calling the shots, smart contracts handle the rules, payments, and decision-making. Sounds wild, right? That’s the magic of DAOs.
 
-![dao.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/f07ef0f3-c640-45df-b316-86039dbe244b/dao.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/why-everyone-talking/dao.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Here’s why DAOs are gaining momentum:
 

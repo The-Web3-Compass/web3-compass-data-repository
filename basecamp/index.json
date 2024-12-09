@@ -6,5 +6,13 @@
     "description": "Learn the fundamentals of blockchain with clear explanations and real-world examples—no tech jargon, just simple and fun.",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/banner-course.png",
     "hashtags": ["#Blockchain", "#Beginner", "#Web3"]
+  },
+  {
+    "id": "BC-EF-DETH",
+    "name": "Decoding Ethereum: A Beginner’s Guide",
+    "location": "ethereum-blueprint",
+    "description": "Everything you need to get started with Ethereum in one course. From wallets to dApps, we’ve got you covered.",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/banner-course.png",
+    "hashtags": ["#Ethereum", "#Foundation", "#Developer"]
   }
 ]

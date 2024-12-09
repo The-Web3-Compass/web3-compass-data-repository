@@ -1,0 +1,106 @@
+{
+    "Wait, Isn’t Ethereum Just Another Bitcoin?": [
+      {
+        "topic": "How is Ethereum Different from Bitcoin?",
+        "location": "/ethereum-just-another-bitcoin/how-is-ethereum-different-from-bitcoin.md",
+        "question": "If Bitcoin solved trust and double spending, what key problem did Ethereum aim to solve?"
+      },
+      {
+        "topic": "Who Thought This Up? And Why?",
+        "location": "/ethereum-just-another-bitcoin/who-thought-this-up-and-why.md",
+        "question": "How does Ethereum's programmability solve the problem of centralized control?"
+      },
+      {
+        "topic": "Why Is Everyone Talking About Ethereum?",
+        "location": "/ethereum-just-another-bitcoin/why-is-everyone-talking-about-ethereum.md",
+        "question": "Ethereum has been called a 'digital playground.' Based on its use cases like DeFi, NFTs, and DAOs, what do you think makes Ethereum more than just another blockchain?"
+      }
+    ],
+    "What Are the Blocks That Built This Chain?": [
+      {
+        "topic": "What's so Smart about Ethereum?",
+        "location": "/the-blocks-that-built-this-chain/What-so-smart-about-ethereum.md",
+        "question": "Why is immutability both a strength and a challenge for smart contracts?"
+      },
+      {
+        "topic": "What’s the EVM, and Why Should You Know About It?",
+        "location": "/the-blocks-that-built-this-chain/whats-the-evm.md",
+        "question": "Why is the Ethereum Virtual Machine (EVM) essential for running smart contracts consistently across the network?"
+      },
+      {
+        "topic": "Why Does Ethereum Need Gas?",
+        "location": "/the-blocks-that-built-this-chain/why-does-ethereum-need-gas.md",
+        "question": "If gas is Ethereum’s toll system, why is it essential for preventing network congestion and maintaining fairness?"
+      }
+    ],
+    "What’s Under the Hood of Ethereum?": [
+      {
+        "topic": "What’s Ether, and How Is It More Than Just Money?",
+        "location": "/whats-under-the-hood/whats-ether.md",
+        "question": "If Ether powers Ethereum like fuel powers a car, why is it essential for both transactions and the network’s security?"
+      },
+      {
+        "topic": "How Do Ethereum Accounts Actually Work?",
+        "location": "/whats-under-the-hood/how-do-ethereum-accounts-work.md",
+        "question": "Why are Ethereum accounts—both EOAs and contract accounts—essential for interacting with the blockchain?"
+      },     {
+        "topic": "What the Heck Is a Node, Anyway?",
+        "location": "/whats-under-the-hood/what-the-heck-is-a-node.md",
+        "question": "Nodes are the backbone of Ethereum. Can you explain how they ensure the network stays decentralized and trustworthy?"
+      }
+    ],
+    "How Does Ethereum Make Decisions Without a Boss?": [
+      {
+        "topic": "What’s the Difference Between Mining and Staking?",
+        "location": "/how-ethereum-makes-decsions/whats-the-difference-between-mining-and-staking.md",
+        "question": "How does Proof of Stake make Ethereum greener, fairer, and more scalable compared to Proof of Work?"
+      },
+      {
+        "topic": "How Does Proof of Stake Actually Work?",
+        "location": "/how-ethereum-makes-decsions/how-does-pos-actually-work.md",
+        "question": "How does staking Ether in Proof of Stake turn validators into both guardians and investors of the Ethereum network?"
+      }
+    ],
+    "How Do You Actually Use Ethereum?": [
+      {
+        "topic": "Wallets: Your Blockchain Passport",
+        "location": "/how-do-you-use-ethereum/wallets-your-blockchain-passport.md",
+        "question": "Why are Ethereum wallets more than just storage tools, and how do they act as your bridge to the blockchain?"
+      },
+      {
+        "topic": "Talking to Ethereum: Nodes, JSON-RPC, and Explorers",
+        "location": "/how-do-you-use-ethereum/talking-to-ethereum.md",
+        "question": "How do JSON-RPC, libraries, and frameworks work together to turn complex blockchain interactions into seamless Ethereum experiences?"
+      },
+      {
+        "topic": "How Do Developers Work Their Magic?",
+        "location": "/how-do-you-use-ethereum/how-do-developers-work-their-magic.md",
+        "question": "How do testnets, IDEs, and blockchain explorers come together to help developers build, test, and perfect their Ethereum projects?"
+      }
+    ],
+    "Should You Really Use Ethereum for Your Project??": [
+      {
+        "topic": "When Should You Bet on Ethereum?",
+        "location": "/should-you-use-ethereum/when-should-you-bet-on-ethereum.md",
+        "question": "What makes Ethereum a resilient, versatile, and future-ready platform for building decentralized projects?"
+      },
+      {
+        "topic": "What are Ethereum’s Limitations?",
+        "location": "/should-you-use-ethereum/what-are-ethereums-limitations.md",
+        "question": "How do Ethereum’s challenges—like gas fees, scalability, and competition—impact its appeal, and what might still make it the best choice for your project?"
+      },
+      {
+        "topic": "What’s the future of Ethereum?",
+        "location": "/should-you-use-ethereum/whats-the-future-of-ethereum.md",
+        "question": "How is layer 1 solutions different from layer 2 solutions in ethereum?"
+      }
+    ],
+    "And that’s a wrap": [
+      {
+        "topic": "Summary",
+        "location": "/summary/summary.md",
+        "question": "What are your thoughts on the potential of Ethereum?"
+      }
+    ]
+  }
+  

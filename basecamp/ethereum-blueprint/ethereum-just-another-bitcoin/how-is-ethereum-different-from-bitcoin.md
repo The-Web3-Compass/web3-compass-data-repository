@@ -6,7 +6,12 @@ It’s 2008. The global financial system is in shambles. Banks are failing, gove
 
 Then, out of nowhere, comes [**Bitcoin**](https://bitcoin.org/en/)—a mysterious creation by someone (or maybe some group) called Satoshi Nakamoto. Nobody knows who they are, but what they created was revolutionary: **a digital currency that doesn’t rely on banks, borders, or middlemen.** Instead, Bitcoin is decentralized, secure, and transparent—a new way to think about money.
 
-![bitcoin.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/9b43468b-a2b2-4e59-a132-33b88c85ede4/bitcoin.gif)
+
+
+<p align="center" style="border: 2px solid #111111; display: inline-block;">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/bitcoin.gif" alt="blender" width="600" height="350" />
+</p>
+
 
 People started calling Bitcoin **“digital gold.”** Why? Because like gold, it’s scarce, valuable, and doesn’t rely on anyone to back it. Unlike gold, though, you don’t need a safe or a shovel—just a digital wallet. Bitcoin proved that we could have a financial system that didn’t depend on banks. But as groundbreaking as Bitcoin was, it had one big limitation: it was built for one thing—**money.**
 
@@ -81,7 +86,12 @@ Ethereum is a **decentralized platform** that lets developers build and deploy s
 
 ## **What Makes Ethereum Different?**
 
-![Eth.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/c4ed5da6-5444-4815-9ff1-2741101c0598/Eth.gif)
+
+
+<p align="center" style="border: 2px solid #111111; display: inline-block;">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/ethereum-just-another-bitcoin/how-eth-different/Eth.gif" alt="Gif" width="600" height="350" />
+</p>
+
 
 ### **1. Smart Contracts: The Game-Changer**
 

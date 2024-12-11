@@ -222,7 +222,7 @@ Block 2:
 <aside>
 💡
 
-Here is the reference code for this lesson : Visualizing the Blockchain
+Here is the reference code for this lesson : [Visualizing the Blockchain](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/visualising-the-chain.js)
 
 </aside>
 

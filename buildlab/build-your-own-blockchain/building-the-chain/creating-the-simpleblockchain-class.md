@@ -249,8 +249,6 @@ console.log(JSON.stringify(myBlockchain, null, 2));
 Here’s an example of what you should see:
 
 ```
-plaintext
-Copy code
 Creating the genesis block...
 Mining a new block with difficulty 2...
 Block mined with hash: 00c4d5...
@@ -309,7 +307,7 @@ Block successfully added to the blockchain!
 <aside>
 💡
 
-Here is the reference code for this chapter : Creating the SimpleBlockchain class
+Here is the reference code for this chapter : [Creating the SimpleBlockchain class](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-chain/creating-simpleblockchain-class.js)
 
 </aside>
 

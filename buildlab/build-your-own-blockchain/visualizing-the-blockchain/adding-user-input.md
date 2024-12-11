@@ -162,6 +162,7 @@ Now it’s time to test your blockchain and see it grow dynamically based on you
 Here’s an example of what you might see in the terminal:
 
 ```
+
 How many blocks would you like to add? 2
 Enter data for Block 1: Hello, Blockchain!
 Mining a new block with difficulty 2...
@@ -199,7 +200,7 @@ Final Blockchain Structure:
 <aside>
 💡
 
-Here is the reference code for this lesson : Adding user input
+Here is the reference code for this lesson : [Adding user input](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/adding-user-input.js)
 
 </aside>
 

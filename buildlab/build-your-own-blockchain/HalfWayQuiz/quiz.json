@@ -5,61 +5,37 @@
         "type": "multiple_choice",
         "question": "What is a blockchain at its simplest?",
         "options": ["A digital ledger", "A type of cryptocurrency", "A programming language", "A central authority for transactions"],
-        "answerHash": "24a824047cc1b8eb4537f22c0dbdd21a82ab86ab3ecb156f8ab8e0330ad5d203"
+        "answerHash": "a26003097c7e9077d3e63d20c1167b2acf4d3a2276425dbd45ee15f2013ffb21"
       },
       {
         "type": "true_false",
         "question": "Once data is recorded in a block, it can be edited or erased.",
         "options": ["True", "False"],
-        "answerHash": "d2b9a9dc4c8e3e85e2cced77e331c48fc1f487e84c3b80aaf244a98720c39a0b"
+        "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
       },
       {
         "type": "fill_in_the_blank",
         "question": "Each block in a blockchain contains a unique identifier called a '______'.",
         "options": ["hash", "token", "key", "transaction"],
-        "answerHash": "86eae17009a3ddbeddb1d927d87cb6028b82fda1d2f2c7f52b8e2ec44f90ae24"
-      },
-      {
-        "type": "multiple_choice",
-        "question": "What is the primary feature of a decentralized system?",
-        "options": ["It relies on a central authority", "All participants share a copy of the blockchain", "Data is stored on a single server", "Transactions are instant"],
-        "answerHash": "718865fd9e79b3b9b2a1d8b5f5a2d99e7881d92f3d6761a853fb4e5f18fcbf9e"
+        "answerHash": "d04b98f48e8f8bcc15c6ae5ac050801cd6dcfd428fb5f9e65c4e16e7807340fa"
       },
       {
         "type": "fill_in_the_blank",
         "question": "A blockchain is considered '______' because any changes break the chain and are easily detected.",
         "options": ["immutable", "editable", "temporary", "decentralized"],
-        "answerHash": "a642bb86ec1c4f3d72e75e9d8f2d8e1c29e4cf21eae8f6a1cb82c9b9e1b2dbd8"
-      },
-      {
-        "type": "true_false",
-        "question": "Decentralized blockchains rely on group consensus instead of a central authority.",
-        "options": ["True", "False"],
-        "answerHash": "4cf5c9dba1f84f5b9b0cb7dcd8e8b4cbf5b0cb8d4b8e9e5c7b8e4f5b8c7b9c8e"
+        "answerHash": "3e58bada6a180c0d7f817bdae51fba96a461575b309bfbc17a6918d20c6617c7"
       },
       {
         "type": "multiple_choice",
         "question": "Which of the following makes blockchain secure against tampering?",
         "options": ["Its use of paper ledgers", "Each block links to the previous block using hashes", "Data can be easily edited", "It requires a central authority"],
-        "answerHash": "98fc5e72bcd3b7db9ef49bf4f2c8e3b9e5d7c6a3b7c9e2f4b5e7c9f5d7b8c9a3"
-      },
-      {
-        "type": "fill_in_the_blank",
-        "question": "Blockchain is often compared to a shared '______', where everyone can see and verify changes in real-time.",
-        "options": ["Google Doc", "Spreadsheet", "Ledger", "Database"],
-        "answerHash": "7d5c4e3f2a6b7c8d9f0a1b2c3e4d5f6b7c8d9e0f1a2b3c4d5e6f7b8c9a0b1c2"
-      },
-      {
-        "type": "true_false",
-        "question": "Blockchains are only used for financial transactions.",
-        "options": ["True", "False"],
-        "answerHash": "3f2e4d5c7b8d9e0f1a2b3c4d5e6f7b8c9a0b1c2d3e4f5b6c7a8d9e0f1b2c3d4"
+        "answerHash": "9a0d71260a1720d7d1017d7737bc14e4a24e49ef87f3bf4f113d1d4194dec90d"
       },
       {
         "type": "multiple_choice",
         "question": "What happens if someone tries to tamper with a block in the blockchain?",
         "options": ["The blockchain automatically updates", "The chain breaks and everyone notices", "The data is automatically deleted", "Nothing happens"],
-        "answerHash": "af3b5c7d9e0f1a2b3c4d5e6f7b8c9a0b1c2d3e4f5b6c7d8e9f0a1b2c3d4e5f6a"
+        "answerHash": "aa60d43dc2f2d247848f26a45e3057007860ca44e27422ff34aa718a93c12819"
       }
     ]
   }

@@ -1,0 +1,17 @@
+{
+    "points": [
+      "Simulate tampering with one of the blocks and revalidate the blockchain.",
+      "Understand what hashing is and why it ensures data integrity in a blockchain.",
+      "Create the `SimpleBlock` class with a header and body to define a block's structure.",
+      "Add a `validateBlockchain` method to check the integrity of the entire chain.",
+      "Implement the `generateHash` function in the `SimpleBlock` class using the SHA-256 algorithm.",
+      "Use the `mineBlock` method to secure blocks with Proof of Work.",
+      "Set up a project environment with Node.js and initialize the blockchain project.",
+      "Write the `addNewBlock` method in the `SimpleBlockchain` class to grow the chain dynamically.",
+      "Build an interactive blockchain that accepts user input to add blocks.",
+      "Add a `displayBlockchain` method to visualize the blockchain structure and links.",
+      "Test the chain by adding blocks, mining them, and validating the blockchain."
+    ],
+    "hash": "be7d27acbe3ee8f2199d3ee2e1395fc6b8c1e78cfda39628f283c2ee40a9d441"
+  }
+  

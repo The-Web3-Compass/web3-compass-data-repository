@@ -1,5 +1,3 @@
-# Lesson 3: Creating the SimpleBlock Class
-
 ## **Introduction: Birth of the Block**
 
 Congratulations! You’re about to take the first step in building your blockchain by creating its core unit—the **block**. This is where all the magic begins. Every blockchain is made up of these blocks, each one holding precious data and linking securely to the next like the links of a chain.
@@ -156,7 +154,7 @@ Let’s create our first block, often called the **Genesis Block**, and print it
 
 ### **Code Snippet: Creating and Printing the Genesis Block**
 
-Add this code to the bottom of your file:
+Add this code to the bottom of your file, after the `SimpleBlock` class definition:
 
 ```jsx
 

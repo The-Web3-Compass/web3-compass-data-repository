@@ -89,8 +89,7 @@ Let’s test the validation method by:
 ### **Code Explanation: Testing Validation**
 
 ```jsx
-javascript
-Copy code
+
 // Instantiate a new blockchain
 const myBlockchain = new SimpleBlockchain();
 

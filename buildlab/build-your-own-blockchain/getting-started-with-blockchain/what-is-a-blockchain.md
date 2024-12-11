@@ -1,14 +1,16 @@
-# **Lesson 1: What is a Blockchain?**
+## **Welcome to the World of Blockchains!**
 
-### **Welcome to the World of Blockchains!**
+Picture this: You’re in a room with a group of strangers, and somehow, everyone is agreeing on every detail about who owes whom, how much was exchanged, and when it happened. No fights, no confusion, just perfect harmony . Sounds impossible, right? 
 
-Picture this: You’re in a room with a group of strangers, and somehow, everyone is agreeing on every detail about who owes whom, how much was exchanged, and when it happened. No fights, no confusion, just perfect consensus. Sounds impossible, right? Yet, this is exactly what blockchains do—every day, everywhere, across the globe.
+![strangers.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/242e655f-b43c-479d-b617-372c15b0a064/7745fd60-b485-4c81-b440-1e47cfdb7fa5/strangers.gif)
+
+Yet, this is exactly what blockchains do—every day, everywhere, across the globe.
 
 A blockchain is like the ultimate referee, the trust whisperer, the unbreakable ledger that ensures no one can cheat, lie, or manipulate the truth. But what makes it so special? And why is everyone from techies to governments obsessed with it? Today, we’ll uncover the magic of blockchain, step by step.
 
 ---
 
-### **So, What is a Blockchain Anyway?**
+## **So, What is a Blockchain Anyway?**
 
 At its simplest, a blockchain is a **digital ledger**—a record-keeping system that stores information like transactions, agreements, or any data you care about. But unlike the paper ledgers or databases you’re used to, blockchains have superpowers. Let’s explore:
 
@@ -64,7 +66,7 @@ It’s faster, more secure, and removes unnecessary middlemen. From cryptocurren
 
 ---
 
-### **What Are We Building Together?**
+## **What Are We Building Together?**
 
 Alright, enough theory—it’s time to build something cool! Over the next few lessons, you’ll create your own **mini blockchain**. While we won’t recreate Bitcoin or Ethereum (yet!), we’ll cover the core mechanics that make them tick.
 
@@ -82,7 +84,7 @@ It’s like building a LEGO tower:
 
 ---
 
-### **Why Start Small?**
+## **Why Start Small?**
 
 Blockchain is an incredibly powerful tool, but it’s also a complex topic. Instead of getting overwhelmed by all its advanced features (smart contracts, anyone?), we’re going to start small. Why?
 
@@ -98,6 +100,6 @@ By the end of this course, you’ll understand:
 
 ---
 
-### **What’s Next?**
+## **What’s Next?**
 
 In the next lesson, we’ll roll up our sleeves and dive into coding. You’ll set up your project, install Node.js, and create the skeleton of your blockchain. This is where the real magic begins. Excited? You should be. Let’s go!

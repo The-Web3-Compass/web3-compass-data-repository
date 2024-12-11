@@ -1,12 +1,12 @@
 [
   {
-    "id": "course4",
-    "name": "Building Your First Contract [ Placeholder Course ]",
-    "description": "A placeholder course on creating a basic CRUD smart contract using Solidity and Remix.",
+    "id": "BL-BC-BYOB",
+    "name": "Build your own Blockchain",
+    "description": "A hands-on blockchain course for absolute beginners to build, secure, and validate their own blockchain from scratch",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-first-contract/images/build-contract.png",
-    "level": "Beginner",
+    "level": " Absolute Beginner",
     "duration": "2 hours",
-    "tags": ["#Solidity", "#Remix", "#SmartContract"],
-    "location": "build-your-first-contract"
+    "tags": ["#Blockchain", "#JS", "#Basic"],
+    "location": "build-your-own-blockchain"
   }
 ]

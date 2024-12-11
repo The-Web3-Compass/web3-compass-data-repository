@@ -1,0 +1,85 @@
+{
+    "Getting Started with Blockchain": [
+      {
+        "topic": "What is a Blockchain?",
+        "location": "getting-started-with-blockchain/what-is-a-blockchain.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Setting Up The Enviornment",
+        "location": "getting-started-with-blockchain/setting-up-the-enviornment.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Building the Block": [
+      {
+        "topic": "Creating the SimpleBlock Class",
+        "location": "building-the-block/creating-the-simpleblock-class.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Adding Proof of Work",
+        "location": "building-the-block/adding-proof-of-work.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Quiz: Halfway point": [
+      {
+        "topic": "Blockchain Basics Quiz",
+        "location": "HalfWayQuiz/quiz.json"
+      }
+    ],
+    "Building the Chain": [
+      {
+        "topic": "Creating the SimpleBlockchain Class",
+        "location": "building-the-chain/creating-the-simpleblockchain-class.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Validating the Blockchain",
+        "location": "building-the-chain/validating-the-blockchain.md",
+        "resources": [
+
+        ]
+      }
+    ],
+    "Visualising the Blockchain": [
+      {
+        "topic": "Adding user input",
+        "location": "visualizing-the-blockchain/adding-user-input.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Visualizing the Blockchain",
+        "location": "visualizing-the-blockchain/visualising-the-blockchain.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Quiz: Final Checkpoint": [
+      {
+        "topic": "Blockchain Basics Quiz II",
+        "location": "FinalQuiz/quiz.json"
+      }
+    ],
+    "Summary": [
+        {
+          "topic": "You Did It! Blockchain Mastery Unlocked! ",
+          "location": "summary/blockchain-mastery-unlocked.md"
+        }
+      ],
+
+    "Code FlowChallenge": [
+      {
+        "topic": "BYOB Course FlowChallenge",
+        "location": "code-flow-challenge/challenge.json"
+      }
+    ]
+  }
+  

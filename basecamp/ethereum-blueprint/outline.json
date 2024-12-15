@@ -1,106 +1,268 @@
 {
-    "Wait, Isn’t Ethereum Just Another Bitcoin?": [
-      {
-        "topic": "How is Ethereum Different from Bitcoin?",
-        "location": "/ethereum-just-another-bitcoin/how-is-ethereum-different-from-bitcoin.md",
-        "question": "If Bitcoin solved trust and double spending, what key problem did Ethereum aim to solve?"
-      },
-      {
-        "topic": "Who Thought This Up? And Why?",
-        "location": "/ethereum-just-another-bitcoin/who-thought-this-up-and-why.md",
-        "question": "How does Ethereum's programmability solve the problem of centralized control?"
-      },
-      {
-        "topic": "Why Is Everyone Talking About Ethereum?",
-        "location": "/ethereum-just-another-bitcoin/why-is-everyone-talking-about-ethereum.md",
-        "question": "Ethereum has been called a 'digital playground.' Based on its use cases like DeFi, NFTs, and DAOs, what do you think makes Ethereum more than just another blockchain?"
+  "Wait, Isn’t Ethereum Just Another Bitcoin?": [
+    {
+      "topic": "How is Ethereum Different from Bitcoin?",
+      "location": "/ethereum-just-another-bitcoin/how-is-ethereum-different-from-bitcoin.md",
+      "question": "If Bitcoin solved trust and double spending, what key problem did Ethereum aim to solve?",
+      "secondary": {
+        "options": [
+          "Ethereum introduced programmability, allowing developers to create decentralized applications (dApps).",
+          "Ethereum focused on replacing centralized banks with blockchain-based financial institutions.",
+          "Ethereum’s primary goal was to increase transaction speeds compared to Bitcoin.",
+          "Ethereum was designed solely to address Bitcoin’s scalability limitations."
+        ],
+        "answer": "Ethereum introduced programmability, allowing developers to create decentralized applications (dApps)."
       }
-    ],
-    "What Are the Blocks That Built This Chain?": [
-      {
-        "topic": "What's so Smart about Ethereum?",
-        "location": "/the-blocks-that-built-this-chain/What-so-smart-about-ethereum.md",
-        "question": "Why is immutability both a strength and a challenge for smart contracts?"
-      },
-      {
-        "topic": "What’s the EVM, and Why Should You Know About It?",
-        "location": "/the-blocks-that-built-this-chain/whats-the-evm.md",
-        "question": "Why is the Ethereum Virtual Machine (EVM) essential for running smart contracts consistently across the network?"
-      },
-      {
-        "topic": "Why Does Ethereum Need Gas?",
-        "location": "/the-blocks-that-built-this-chain/why-does-ethereum-need-gas.md",
-        "question": "If gas is Ethereum’s toll system, why is it essential for preventing network congestion and maintaining fairness?"
+    },
+    {
+      "topic": "Who Thought This Up? And Why?",
+      "location": "/ethereum-just-another-bitcoin/who-thought-this-up-and-why.md",
+      "question": "How does Ethereum's programmability solve the problem of centralized control?",
+      "secondary": {
+        "options": [
+          "By enabling smart contracts, Ethereum removes the need for centralized intermediaries to execute agreements.",
+          "Ethereum reduces centralized control by allowing instant payments without banks.",
+          "Smart contracts in Ethereum automatically replace government regulations with decentralized rules.",
+          "Ethereum ensures decentralized control by storing data redundantly across multiple nodes."
+        ],
+        "answer": "By enabling smart contracts, Ethereum removes the need for centralized intermediaries to execute agreements."
       }
-    ],
-    "What’s Under the Hood of Ethereum?": [
-      {
-        "topic": "What’s Ether, and How Is It More Than Just Money?",
-        "location": "/whats-under-the-hood/whats-ether.md",
-        "question": "If Ether powers Ethereum like fuel powers a car, why is it essential for both transactions and the network’s security?"
-      },
-      {
-        "topic": "How Do Ethereum Accounts Actually Work?",
-        "location": "/whats-under-the-hood/how-do-ethereum-accounts-work.md",
-        "question": "Why are Ethereum accounts—both EOAs and contract accounts—essential for interacting with the blockchain?"
-      },     {
-        "topic": "What the Heck Is a Node, Anyway?",
-        "location": "/whats-under-the-hood/what-the-heck-is-a-node.md",
-        "question": "Nodes are the backbone of Ethereum. Can you explain how they ensure the network stays decentralized and trustworthy?"
+    },
+    {
+      "topic": "Why Is Everyone Talking About Ethereum?",
+      "location": "/ethereum-just-another-bitcoin/why-is-everyone-talking-about-ethereum.md",
+      "question": "Ethereum has been called a 'digital playground.' Based on its use cases like DeFi, NFTs, and DAOs, what do you think makes Ethereum more than just another blockchain?",
+      "secondary": {
+        "options": [
+          "Ethereum provides a platform for creating programmable assets and decentralized organizations.",
+          "Ethereum’s blockchain focuses exclusively on digital art and collectibles (NFTs).",
+          "Ethereum operates as a faster payment processor for cryptocurrency transactions.",
+          "Ethereum's primary innovation is its ability to replace cloud storage providers."
+        ],
+        "answer": "Ethereum provides a platform for creating programmable assets and decentralized organizations."
       }
-    ],
-    "How Does Ethereum Make Decisions Without a Boss?": [
-      {
-        "topic": "What’s the Difference Between Mining and Staking?",
-        "location": "/how-ethereum-makes-decsions/whats-the-difference-between-mining-and-staking.md",
-        "question": "How does Proof of Stake make Ethereum greener, fairer, and more scalable compared to Proof of Work?"
-      },
-      {
-        "topic": "How Does Proof of Stake Actually Work?",
-        "location": "/how-ethereum-makes-decsions/how-does-pos-actually-work.md",
-        "question": "How does staking Ether in Proof of Stake turn validators into both guardians and investors of the Ethereum network?"
+    }
+  ],
+  "What Are the Blocks That Built This Chain?": [
+    {
+      "topic": "What's so Smart about Ethereum?",
+      "location": "/the-blocks-that-built-this-chain/What-so-smart-about-ethereum.md",
+      "question": "Why is immutability both a strength and a challenge for smart contracts?",
+      "secondary": {
+        "options": [
+          "Immutability ensures contracts are tamper-proof, but mistakes or bugs in the code cannot be easily corrected.",
+          "Immutability speeds up execution but makes contracts vulnerable to external tampering.",
+          "Immutability allows developers to adjust smart contracts freely after deployment.",
+          "Immutability makes smart contracts highly scalable, reducing the need for validation."
+        ],
+        "answer": "Immutability ensures contracts are tamper-proof, but mistakes or bugs in the code cannot be easily corrected."
       }
-    ],
-    "How Do You Actually Use Ethereum?": [
-      {
-        "topic": "Wallets: Your Blockchain Passport",
-        "location": "/how-do-you-use-ethereum/wallets-your-blockchain-passport.md",
-        "question": "Why are Ethereum wallets more than just storage tools, and how do they act as your bridge to the blockchain?"
-      },
-      {
-        "topic": "Talking to Ethereum: Nodes, JSON-RPC, and Explorers",
-        "location": "/how-do-you-use-ethereum/talking-to-ethereum.md",
-        "question": "How do JSON-RPC, libraries, and frameworks work together to turn complex blockchain interactions into seamless Ethereum experiences?"
-      },
-      {
-        "topic": "How Do Developers Work Their Magic?",
-        "location": "/how-do-you-use-ethereum/how-do-developers-work-their-magic.md",
-        "question": "How do testnets, IDEs, and blockchain explorers come together to help developers build, test, and perfect their Ethereum projects?"
+    },
+    {
+      "topic": "What’s the EVM, and Why Should You Know About It?",
+      "location": "/the-blocks-that-built-this-chain/whats-the-evm.md",
+      "question": "Why is the Ethereum Virtual Machine (EVM) essential for running smart contracts consistently across the network?",
+      "secondary": {
+        "options": [
+          "The EVM ensures that all nodes execute smart contracts identically, regardless of the underlying hardware or operating system.",
+          "The EVM stores all blockchain data, making it more efficient than other virtual machines.",
+          "The EVM acts as a centralized authority to approve smart contract executions.",
+          "The EVM allows nodes to execute smart contracts only under certain conditions, enhancing security."
+        ],
+        "answer": "The EVM ensures that all nodes execute smart contracts identically, regardless of the underlying hardware or operating system."
       }
-    ],
-    "Should You Really Use Ethereum for Your Project??": [
-      {
-        "topic": "When Should You Bet on Ethereum?",
-        "location": "/should-you-use-ethereum/when-should-you-bet-on-ethereum.md",
-        "question": "What makes Ethereum a resilient, versatile, and future-ready platform for building decentralized projects?"
-      },
-      {
-        "topic": "What are Ethereum’s Limitations?",
-        "location": "/should-you-use-ethereum/what-are-ethereums-limitations.md",
-        "question": "How do Ethereum’s challenges—like gas fees, scalability, and competition—impact its appeal, and what might still make it the best choice for your project?"
-      },
-      {
-        "topic": "What’s the future of Ethereum?",
-        "location": "/should-you-use-ethereum/whats-the-future-of-ethereum.md",
-        "question": "How is layer 1 solutions different from layer 2 solutions in ethereum?"
+    },
+    {
+      "topic": "Why Does Ethereum Need Gas?",
+      "location": "/the-blocks-that-built-this-chain/why-does-ethereum-need-gas.md",
+      "question": "If gas is Ethereum’s toll system, why is it essential for preventing network congestion and maintaining fairness?",
+      "secondary": {
+        "options": [
+          "Gas fees prioritize transactions by ensuring that users pay for the computational resources they consume.",
+          "Gas fees create artificial scarcity, discouraging overuse of Ethereum’s blockchain.",
+          "Gas fees ensure that every transaction is approved by all nodes simultaneously.",
+          "Gas fees eliminate network congestion by limiting the number of transactions per block."
+        ],
+        "answer": "Gas fees prioritize transactions by ensuring that users pay for the computational resources they consume."
       }
-    ],
-    "And that’s a wrap": [
-      {
-        "topic": "Summary",
-        "location": "/summary/summary.md",
-        "question": "What are your thoughts on the potential of Ethereum?"
+    }
+  ],
+  "What’s Under the Hood of Ethereum?": [
+    {
+      "topic": "What’s Ether, and How Is It More Than Just Money?",
+      "location": "/whats-under-the-hood/whats-ether.md",
+      "question": "If Ether powers Ethereum like fuel powers a car, why is it essential for both transactions and the network’s security?",
+      "secondary": {
+        "options": [
+          "Ether incentivizes validators and miners while also serving as the medium of exchange for executing smart contracts.",
+          "Ether serves only as a digital currency, separate from Ethereum’s computational layer.",
+          "Ether is used exclusively to fund decentralized application development.",
+          "Ether operates as a reserve currency for staking, unrelated to transaction processing."
+        ],
+        "answer": "Ether incentivizes validators and miners while also serving as the medium of exchange for executing smart contracts."
       }
-    ]
-  }
-  
+    },
+    {
+      "topic": "How Do Ethereum Accounts Actually Work?",
+      "location": "/whats-under-the-hood/how-do-ethereum-accounts-work.md",
+      "question": "Why are Ethereum accounts—both EOAs and contract accounts—essential for interacting with the blockchain?",
+      "secondary": {
+        "options": [
+          "Accounts enable users to manage funds, interact with smart contracts, and participate in the Ethereum network.",
+          "Accounts act as backups for storing private keys securely on the blockchain.",
+          "Accounts are only used to receive Ether, while smart contracts handle all interactions.",
+          "Accounts decentralize storage by splitting data between multiple nodes."
+        ],
+        "answer": "Accounts enable users to manage funds, interact with smart contracts, and participate in the Ethereum network."
+      }
+    },
+    {
+      "topic": "What the Heck Is a Node, Anyway?",
+      "location": "/whats-under-the-hood/what-the-heck-is-a-node.md",
+      "question": "Nodes are the backbone of Ethereum. Can you explain how they ensure the network stays decentralized and trustworthy?",
+      "secondary": {
+        "options": [
+          "Nodes validate and propagate transactions and blocks, maintaining a distributed and secure blockchain.",
+          "Nodes centralize data storage, making it easier to retrieve information quickly.",
+          "Nodes grant selective permissions to participants, ensuring secure transactions.",
+          "Nodes allow real-time updates of blockchain data only to trusted users."
+        ],
+        "answer": "Nodes validate and propagate transactions and blocks, maintaining a distributed and secure blockchain."
+      }
+    }
+  ],
+  "How Does Ethereum Make Decisions Without a Boss?": [
+    {
+      "topic": "What’s the Difference Between Mining and Staking?",
+      "location": "/how-ethereum-makes-decsions/whats-the-difference-between-mining-and-staking.md",
+      "question": "How does Proof of Stake make Ethereum greener, fairer, and more scalable compared to Proof of Work?",
+      "secondary": {
+        "options": [
+          "Proof of Stake reduces energy consumption by replacing mining with staking and aligning incentives for validators.",
+          "Proof of Stake eliminates the need for consensus algorithms, reducing computational requirements.",
+          "Proof of Stake rewards users based solely on the age of their participation in the network.",
+          "Proof of Stake automatically scales Ethereum by doubling the transaction throughput monthly."
+        ],
+        "answer": "Proof of Stake reduces energy consumption by replacing mining with staking and aligning incentives for validators."
+      }
+    },
+    {
+      "topic": "How Does Proof of Stake Actually Work?",
+      "location": "/how-ethereum-makes-decsions/how-does-pos-actually-work.md",
+      "question": "How does staking Ether in Proof of Stake turn validators into both guardians and investors of the Ethereum network?",
+      "secondary": {
+        "options": [
+          "Validators stake their Ether as collateral, aligning their incentives with the network’s security and integrity.",
+          "Validators earn Ether without staking by contributing computational power alone.",
+          "Staking Ether eliminates transaction fees, ensuring all participants benefit equally.",
+          "Validators can withdraw their staked Ether at any time without penalties."
+        ],
+        "answer": "Validators stake their Ether as collateral, aligning their incentives with the network’s security and integrity."
+      }
+    }
+  ],
+  "How Do You Actually Use Ethereum?": [
+    {
+      "topic": "Wallets: Your Blockchain Passport",
+      "location": "/how-do-you-use-ethereum/wallets-your-blockchain-passport.md",
+      "question": "Why are Ethereum wallets more than just storage tools, and how do they act as your bridge to the blockchain?",
+      "secondary": {
+        "options": [
+          "Ethereum wallets manage keys and facilitate interactions with dApps, acting as both a security tool and a gateway.",
+          "Wallets primarily serve as cold storage for Ether, with limited use for blockchain interaction.",
+          "Ethereum wallets store contracts directly, allowing developers to bypass dApp dependencies.",
+          "Wallets require continuous internet access, making them impractical for offline transactions."
+        ],
+        "answer": "Ethereum wallets manage keys and facilitate interactions with dApps, acting as both a security tool and a gateway."
+      }
+    },
+    {
+      "topic": "Talking to Ethereum: Nodes, JSON-RPC, and Explorers",
+      "location": "/how-do-you-use-ethereum/talking-to-ethereum.md",
+      "question": "How do JSON-RPC, libraries, and frameworks work together to turn complex blockchain interactions into seamless Ethereum experiences?",
+      "secondary": {
+        "options": [
+          "They provide a unified interface for applications to query and interact with the blockchain seamlessly.",
+          "They store blockchain data locally, reducing the need for node synchronization.",
+          "They eliminate the need for smart contracts by replacing them with pre-configured templates.",
+          "They act as centralized gateways to authenticate users on the blockchain."
+        ],
+        "answer": "They provide a unified interface for applications to query and interact with the blockchain seamlessly."
+      }
+    },
+    {
+      "topic": "How Do Developers Work Their Magic?",
+      "location": "/how-do-you-use-ethereum/how-do-developers-work-their-magic.md",
+      "question": "How do testnets, IDEs, and blockchain explorers come together to help developers build, test, and perfect their Ethereum projects?",
+      "secondary": {
+        "options": [
+          "They simulate the blockchain environment, enabling developers to debug and deploy smart contracts securely.",
+          "They replace live environments, making blockchain testing unnecessary.",
+          "They act as centralized systems for storing dApp configurations.",
+          "They remove the need for consensus algorithms during development."
+        ],
+        "answer": "They simulate the blockchain environment, enabling developers to debug and deploy smart contracts securely."
+      }
+    }
+  ],
+  "Should You Really Use Ethereum for Your Project?": [
+    {
+      "topic": "When Should You Bet on Ethereum?",
+      "location": "/should-you-use-ethereum/when-should-you-bet-on-ethereum.md",
+      "question": "What makes Ethereum a resilient, versatile, and future-ready platform for building decentralized projects?",
+      "secondary": {
+        "options": [
+          "Its programmability, large developer community, and continuous innovation make it a robust platform for dApps.",
+          "Ethereum is primarily suited for financial applications, limiting its use in other industries.",
+          "Its reliance on staking makes it inherently unstable and less versatile for applications.",
+          "Ethereum’s fixed transaction model ensures cost predictability, making it future-proof."
+        ],
+        "answer": "Its programmability, large developer community, and continuous innovation make it a robust platform for dApps."
+      }
+    },
+    {
+      "topic": "What are Ethereum’s Limitations?",
+      "location": "/should-you-use-ethereum/what-are-ethereums-limitations.md",
+      "question": "How do Ethereum’s challenges—like gas fees, scalability, and competition—impact its appeal, and what might still make it the best choice for your project?",
+      "secondary": {
+        "options": [
+          "High gas fees and scalability challenges can be mitigated by innovations like Layer 2 solutions and sharding.",
+          "Ethereum’s challenges are unique and cannot be addressed by technological improvements.",
+          "Gas fees primarily affect developers, leaving users unaffected.",
+          "Competition from other blockchains has rendered Ethereum obsolete."
+        ],
+        "answer": "High gas fees and scalability challenges can be mitigated by innovations like Layer 2 solutions and sharding."
+      }
+    },
+    {
+      "topic": "What’s the future of Ethereum?",
+      "location": "/should-you-use-ethereum/whats-the-future-of-ethereum.md",
+      "question": "How is Layer 1 different from Layer 2 solutions in Ethereum?",
+      "secondary": {
+        "options": [
+          "Layer 1 refers to the Ethereum mainnet, while Layer 2 solutions are built on top to improve scalability and reduce costs.",
+          "Layer 1 is primarily for testing, while Layer 2 handles all real-world transactions.",
+          "Layer 2 solutions replace Layer 1 entirely, removing the need for the Ethereum mainnet.",
+          "Layer 1 handles governance, while Layer 2 solutions store all the data."
+        ],
+        "answer": "Layer 1 refers to the Ethereum mainnet, while Layer 2 solutions are built on top to improve scalability and reduce costs."
+      }
+    }
+  ],
+  "And that’s a wrap": [
+    {
+      "topic": "Summary",
+      "location": "/summary/summary.md",
+      "question": "What are your thoughts on the potential of Ethereum?",
+      "secondary": {
+        "options": [
+          "Ethereum has the potential to revolutionize multiple industries with its programmability and decentralization.",
+          "Ethereum’s primary use case is limited to cryptocurrency transactions.",
+          "Ethereum will likely remain unchanged, as innovation is not its focus.",
+          "Ethereum ensures absolute security, eliminating risks from smart contracts."
+        ],
+        "answer": "Ethereum has the potential to revolutionize multiple industries with its programmability and decentralization."
+      }
+    }
+  ]
+}

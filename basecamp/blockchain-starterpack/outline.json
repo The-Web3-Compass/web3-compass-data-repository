@@ -1,72 +1,170 @@
 {
-    "What is a blockchain?": [
-      {
-        "topic": "A Simple Definition of Blockchain",
-        "location": "/what-is-blockchain/a-simple-definition-of-blockchain.md",
-        "question": "How does having everyone in a network keep a shared copy of the record help ensure fairness and prevent cheating?"
+  "What is a blockchain?": [
+    {
+      "topic": "A Simple Definition of Blockchain",
+      "location": "/what-is-blockchain/a-simple-definition-of-blockchain.md",
+      "question": "How does having everyone in a network keep a shared copy of the record help ensure fairness and prevent cheating?",
+      "secondary": {
+        "options": [
+          "By ensuring transparency, as all participants can verify and track changes in real-time.",
+          "By restricting access to only trusted users, preventing outsiders from tampering.",
+          "By creating a centralized record that is more secure than individual copies.",
+          "By allowing anyone in the network to alter records freely, ensuring fairness through collaboration."
+        ],
+        "answer": "By ensuring transparency, as all participants can verify and track changes in real-time."
       }
-    ],
-    "Why was Blockchain Created?": [
-      {
-        "topic": "The Story of Blockchain's creation",
-        "location": "/Why-was-blockchain-created/The-story-of-blockchain-creation.md",
-        "question": "What problems with traditional financial systems did blockchain aim to solve?"
-      },
-      {
-        "topic": "Solving Double-Spending and Beyond",
-        "location": "/Why-was-blockchain-created/solving-double-spending-and-beyond.md",
-        "question": "Why is the double-spending problem a major issue for digital money?"
+    }
+  ],
+  "Why was Blockchain Created?": [
+    {
+      "topic": "The Story of Blockchain's creation",
+      "location": "/Why-was-blockchain-created/The-story-of-blockchain-creation.md",
+      "question": "What problems with traditional financial systems did blockchain aim to solve?",
+      "secondary": {
+        "options": [
+          "Centralized control and inefficiencies in financial transactions.",
+          "Limited physical accessibility of bank branches.",
+          "The inability to conduct financial transactions without internet connectivity.",
+          "Excessive government regulation in global financial systems."
+        ],
+        "answer": "Centralized control and inefficiencies in financial transactions."
       }
-    ],
-    "How does blockchain store data?": [
-      {
-        "topic": "A Block A Page",
-        "location": "/How-does-blockchain-store-data/a-block-a-page.md",
-        "question": "Why is each block in a blockchain connected to the one before it?"
-      },
-      {
-        "topic": "The Magic of Hashing: Blockchain’s Fingerprint",
-        "location": "/How-does-blockchain-store-data/magic-of-hashing.md",
-        "question": "How does hashing ensure that any tampering with a block in a blockchain is immediately noticeable?"
+    },
+    {
+      "topic": "Solving Double-Spending and Beyond",
+      "location": "/Why-was-blockchain-created/solving-double-spending-and-beyond.md",
+      "question": "Why is the double-spending problem a major issue for digital money?",
+      "secondary": {
+        "options": [
+          "Double-spending allows a user to spend the same digital token in multiple transactions, undermining trust.",
+          "It slows down transaction processing due to conflicting records in the ledger.",
+          "Double-spending prevents users from accessing their funds promptly.",
+          "It results in higher transaction fees for all network participants."
+        ],
+        "answer": "Double-spending allows a user to spend the same digital token in multiple transactions, undermining trust."
       }
-    ],
-    "How Does Blockchain Verify Data?": [
-      {
-        "topic": "What Does Verification Mean in Blockchain?",
-        "location": "/How-does-blockchain-verify-data/what-does-verification-mean-in-blockchain.md",
-        "question": "How does blockchain verify transactions without relying on a central authority?"
-      },
-      {
-        "topic": "How Do Blockchains Reach Consensus?",
-        "location": "/How-does-blockchain-verify-data/how-do-bockchains-reach-consensus.md",
-        "question": "In a blockchain with no leader, how does chaos not take over when deciding which transactions are valid?"
+    }
+  ],
+  "How does blockchain store data?": [
+    {
+      "topic": "A Block A Page",
+      "location": "/How-does-blockchain-store-data/a-block-a-page.md",
+      "question": "Why is each block in a blockchain connected to the one before it?",
+      "secondary": {
+        "options": [
+          "To maintain a verifiable chain of records where changes can be detected easily.",
+          "To allow users to modify previous blocks without disrupting the chain.",
+          "To increase the overall speed of adding new data to the chain.",
+          "To store redundant copies of unrelated data across the blockchain."
+        ],
+        "answer": "To maintain a verifiable chain of records where changes can be detected easily."
       }
-    ],
-    "How Does Everyone Get Access to the Data?": [
-      {
-        "topic": "What are Nodes in Blockchain?",
-        "location": "/How-does-everyone-get-access-to-the-data/what-are-nodes-in-blockchain.md",
-        "question": "If nodes are the backbone of a blockchain, how do they ensure the network stays secure and decentralized?"
-      },
-      {
-        "topic": "Why would you run a Node?",
-        "location": "/How-does-everyone-get-access-to-the-data/why-would-you-run-a-node.md",
-        "question": "Why would someone choose to run their own blockchain node despite the challenges involved?"
+    },
+    {
+      "topic": "The Magic of Hashing: Blockchain’s Fingerprint",
+      "location": "/How-does-blockchain-store-data/magic-of-hashing.md",
+      "question": "How does hashing ensure that any tampering with a block in a blockchain is immediately noticeable?",
+      "secondary": {
+        "options": [
+          "Hashing creates a unique identifier for each block, and even small changes result in a completely different hash.",
+          "Hashing encrypts the data in each block, making it impossible for anyone to access it.",
+          "Hashes ensure that every block is automatically validated by a central authority.",
+          "Hashing duplicates the entire blockchain, creating redundant copies for verification."
+        ],
+        "answer": "Hashing creates a unique identifier for each block, and even small changes result in a completely different hash."
       }
-    ],
-    "When to use a blockchain?": [
-      {
-        "topic": "The Ultimate Guide to Avoiding Blockchain Overkill",
-        "location": "/when-to-use-a-blockchain/ultimate-guide.md",
-        "question": "When do you not use a blockchain?"
+    }
+  ],
+  "How Does Blockchain Verify Data?": [
+    {
+      "topic": "What Does Verification Mean in Blockchain?",
+      "location": "/How-does-blockchain-verify-data/what-does-verification-mean-in-blockchain.md",
+      "question": "How does blockchain verify transactions without relying on a central authority?",
+      "secondary": {
+        "options": [
+          "By using consensus mechanisms where participants agree on the validity of transactions.",
+          "By assigning a central validator to oversee and approve transactions on behalf of the network.",
+          "By allowing individual users to validate their own transactions without interference.",
+          "By comparing each transaction with a predefined database of valid transactions."
+        ],
+        "answer": "By using consensus mechanisms where participants agree on the validity of transactions."
       }
-    ],
-    "Summary": [
-      {
-        "topic": "Wrapping It Up: Blockchain, Simplified",
-        "location": "/summary/wrapping-it-up.md",
-        "question": "What are your thoughts on the potential of blockchain?"
+    },
+    {
+      "topic": "How Do Blockchains Reach Consensus?",
+      "location": "/How-does-blockchain-verify-data/how-do-bockchains-reach-consensus.md",
+      "question": "In a blockchain with no leader, how does chaos not take over when deciding which transactions are valid?",
+      "secondary": {
+        "options": [
+          "Consensus algorithms like Proof of Work or Proof of Stake ensure that participants follow predefined rules to agree on valid transactions.",
+          "A rotating leader system is implemented to approve transactions in a decentralized manner.",
+          "Each participant independently validates their own transactions and syncs with others periodically.",
+          "Transactions are automatically approved based on the highest number of votes from participants."
+        ],
+        "answer": "Consensus algorithms like Proof of Work or Proof of Stake ensure that participants follow predefined rules to agree on valid transactions."
       }
-    ]
-  }
-  
+    }
+  ],
+  "How Does Everyone Get Access to the Data?": [
+    {
+      "topic": "What are Nodes in Blockchain?",
+      "location": "/How-does-everyone-get-access-to-the-data/what-are-nodes-in-blockchain.md",
+      "question": "If nodes are the backbone of a blockchain, how do they ensure the network stays secure and decentralized?",
+      "secondary": {
+        "options": [
+          "Nodes validate and relay transactions, creating a distributed and secure network.",
+          "Nodes store all data centrally, allowing users to access information faster.",
+          "Nodes prevent users from interacting directly with the blockchain, ensuring safety.",
+          "Nodes control the permissions for accessing specific blocks in the chain."
+        ],
+        "answer": "Nodes validate and relay transactions, creating a distributed and secure network."
+      }
+    },
+    {
+      "topic": "Why would you run a Node?",
+      "location": "/How-does-everyone-get-access-to-the-data/why-would-you-run-a-node.md",
+      "question": "Why would someone choose to run their own blockchain node despite the challenges involved?",
+      "secondary": {
+        "options": [
+          "To contribute to the security, decentralization, and resilience of the network.",
+          "To reduce their reliance on the internet for accessing blockchain data.",
+          "To gain full administrative control over all blockchain transactions.",
+          "To store only selective parts of the blockchain for personal use."
+        ],
+        "answer": "To contribute to the security, decentralization, and resilience of the network."
+      }
+    }
+  ],
+  "When to use a blockchain?": [
+    {
+      "topic": "The Ultimate Guide to Avoiding Blockchain Overkill",
+      "location": "/when-to-use-a-blockchain/ultimate-guide.md",
+      "question": "When do you not use a blockchain?",
+      "secondary": {
+        "options": [
+          "When a centralized database provides more efficiency and simplicity for the task.",
+          "When full decentralization is required to maintain user trust and transparency.",
+          "When data redundancy is critical to the success of the application.",
+          "When multiple users need simultaneous access to the same data."
+        ],
+        "answer": "When a centralized database provides more efficiency and simplicity for the task."
+      }
+    }
+  ],
+  "Summary": [
+    {
+      "topic": "Wrapping It Up: Blockchain, Simplified",
+      "location": "/summary/wrapping-it-up.md",
+      "question": "What are your thoughts on the potential of blockchain?",
+      "secondary": {
+        "options": [
+          "Blockchain can revolutionize industries by enhancing transparency, security, and efficiency.",
+          "Blockchain is best suited for replacing existing financial systems with cryptocurrencies.",
+          "Blockchain eliminates all risks associated with data breaches and hacking.",
+          "Blockchain automatically guarantees success for any application that adopts it."
+        ],
+        "answer": "Blockchain can revolutionize industries by enhancing transparency, security, and efficiency."
+      }
+    }
+  ]
+}

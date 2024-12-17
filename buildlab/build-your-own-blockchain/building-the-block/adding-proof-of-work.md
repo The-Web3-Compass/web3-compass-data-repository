@@ -1,3 +1,5 @@
+# Adding Proof of Work
+
 ## **Introduction: Let’s Mine Some Blocks**
 
 Alright! So, you’ve already built the basic structure of your blockchain’s blocks, complete with a unique fingerprint (hash) for each one. That’s a great start! But right now, it’s way too easy to create blocks. Imagine if anyone could generate blocks instantly—your blockchain would be vulnerable to tampering, spam, or even outright chaos.
@@ -55,7 +57,6 @@ Let’s dive into the code.
 Add the following method to your `SimpleBlock` class:
 
 ```jsx
-
 mineBlock(difficultyLevel) {
   // The mining process involves finding a hash that starts with a certain number of zeros
   while (
@@ -68,55 +69,55 @@ mineBlock(difficultyLevel) {
 
   console.log(`Block mined with hash: ${this.blockHeader.hash}`);
 }
-
 ```
-
----
 
 ### **Explanation of the Code**
 
-1. **What is `difficultyLevel`?**
-    - This parameter determines how hard the puzzle is. For example:
-        - A `difficultyLevel` of 2 means the hash must start with `00`.
-        - A `difficultyLevel` of 3 means the hash must start with `000`.
-    - Higher difficulty levels require more computational effort because there are fewer hashes that satisfy the condition.
-2. **The `while` Loop:**
-    - This loop keeps running until the block’s hash meets the difficulty criteria.
-    - The condition:
-        
-        ```jsx
-        
-        this.blockHeader.hash.substring(0, difficultyLevel) !==
-        Array(difficultyLevel + 1).join("0")
-        
-        ```
-        
-        - Checks if the hash starts with enough zeros.
-        - `Array(difficultyLevel + 1).join("0")` generates a string of zeros equal to the difficulty level.
-3. **Incrementing the `nonce`:**
-    - Each time the loop runs, the `nonce` is incremented:
-        
-        ```jsx
-        this.blockHeader.nonce++;
-        ```
-        
-    - The `nonce` is added to the block’s data, so every time it changes, the block’s hash changes.
-4. **Recalculating the Hash:**
-    - The hash is recalculated with the updated `nonce`:
-        
-        ```jsx
-        
-        this.blockHeader.hash = this.generateHash();
-        ```
-        
-5. **Logging the Result:**
-    - Once a valid hash is found, the loop exits, and the hash is logged:
-        
-        ```jsx
-        
-        console.log(`Block mined with hash: ${this.blockHeader.hash}`);
-        ```
-        
+**#1 - What is `difficultyLevel`?**
+
+- This parameter determines how hard the puzzle is. For example:
+    - A `difficultyLevel` of 2 means the hash must start with `00`.
+    - A `difficultyLevel` of 3 means the hash must start with `000`.
+- Higher difficulty levels require more computational effort because there are fewer hashes that satisfy the condition
+
+**#2 - The `while` Loop:**
+
+- This loop keeps running until the block’s hash meets the difficulty criteria.
+- The condition:
+
+```jsx
+this.blockHeader.hash.substring(0, difficultyLevel) !==
+Array(difficultyLevel + 1).join("0")
+```
+
+- Checks if the hash starts with enough zeros.
+- `Array(difficultyLevel + 1).join("0")` generates a string of zeros equal to the difficulty level.
+
+**#3 - Incrementing the `nonce`:**
+
+- Each time the loop runs, the `nonce` is incremented:
+
+```jsx
+this.blockHeader.nonce++;
+```
+
+- The `nonce` is added to the block’s data, so every time it changes, the block’s hash changes.
+
+**#4 - Recalculating the Hash:**
+
+- The hash is recalculated with the updated `nonce`:
+
+```jsx
+this.blockHeader.hash = this.generateHash();
+```
+
+**#5 - Logging the Result:**
+
+- Once a valid hash is found, the loop exits, and the hash is logged:
+
+```jsx
+console.log(`Block mined with hash: ${this.blockHeader.hash}`);
+```
 
 ---
 
@@ -129,7 +130,6 @@ Now, let’s put this method to work by creating and mining a block.
 Replace the code at the end of the file (the one after the class definition) with the following snippet to test the `mineBlock` method:
 
 ```jsx
-
 // Creating a new block
 const newBlock = new SimpleBlock(1, Date.now(), "This is a mined block", firstBlock.blockHeader.hash);
 
@@ -139,17 +139,21 @@ newBlock.mineBlock(2); // Difficulty level of 2
 
 // Displaying the mined block
 console.log("Here is your mined block:", newBlock);
-
 ```
 
 ---
 
-### **What to Expect When Running the Code**
+## **Run the Code**
+
+Run your program by typing this in your terminal:
+
+```bash
+node blockchain.js
+```
 
 When you run the program, you’ll see output similar to this:
 
 ```
-
 Mining the new block...
 Block mined with hash: 00e93f2c49c1d0ed91ab3e5e0fd59a6b2c38cbeea1d29f8d
 Here is your mined block: {
@@ -164,7 +168,6 @@ Here is your mined block: {
     data: 'This is a mined block'
   }
 }
-
 ```
 
 > What to look for: Notice how the hash has a couple of zeros at the front. you can tweak it by increasing the difficulty level.
@@ -172,12 +175,7 @@ Here is your mined block: {
 
 ---
 
-<aside>
-💡
-
-Here is the reference code for this lesson : [Adding proof of work](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-block/adding-proof-of-work.js)
-
-</aside>
+***Here is the reference code for this lesson : [Adding proof of work](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-block/adding-proof-of-work.js)***
 
 ---
 
@@ -191,6 +189,8 @@ Mining in this example is simplified to help you understand the process, but in 
 4. **Decentralized Competition**: Miners worldwide compete to solve the puzzle. Only the first miner to solve it gets to add the block to the chain and claim the reward.
 
 In this lesson, we’ve simplified the process to focus on understanding the concept. Our `mineBlock` method is a basic implementation of Proof of Work that mimics how the algorithm works on a smaller scale.
+
+---
 
 ## **What’s Next?**
 

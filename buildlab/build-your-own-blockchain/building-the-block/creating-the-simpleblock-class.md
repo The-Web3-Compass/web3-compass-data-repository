@@ -1,3 +1,5 @@
+# Creating the SimpleBlock Class
+
 ## **Introduction: Birth of the Block**
 
 Congratulations! You’re about to take the first step in building your blockchain by creating its core unit—the **block**. This is where all the magic begins. Every blockchain is made up of these blocks, each one holding precious data and linking securely to the next like the links of a chain.
@@ -32,10 +34,8 @@ To generate hashes, we’ll use Node.js’s built-in `crypto` module. It’s lik
 Open your `blockchain.js` file and add this line at the top:
 
 ```jsx
-
 // Importing the crypto module for hashing
 const crypto = require("crypto");
-
 ```
 
 > Why this is important: The crypto module provides cryptographic functions, including the SHA-256 algorithm we’ll use to generate hashes. It’s built into Node.js, so there’s no need to install anything.
@@ -57,7 +57,6 @@ Let’s define our block structure in code.
 Add this class definition to your `blockchain.js` file:
 
 ```jsx
-
 class SimpleBlock {
   constructor(blockIndex, timestamp, blockData, previousBlockHash = "") {
     // The metadata (header) of the block
@@ -75,11 +74,10 @@ class SimpleBlock {
     };
   }
 }
-
 ```
 
-> What’s happening here?
-> 
+What’s happening here?
+
 - We’re defining a class called `SimpleBlock` that serves as a template for all blocks in our blockchain.
 - The constructor accepts four parameters:
     - `blockIndex`: The position of the block in the chain.
@@ -117,11 +115,10 @@ generateHash() {
     .update(index + timestamp + previousHash + dataString + nonce)
     .digest("hex");
 }
-
 ```
 
-> What’s happening here?
-> 
+What’s happening here?
+
 - The `generateHash` method takes the block’s metadata (`index`, `timestamp`, `previousHash`, `nonce`) and data.
 - It converts the data into a string format using `JSON.stringify` (to handle complex data structures).
 - It then uses `crypto.createHash` with the SHA-256 algorithm to generate a unique hash for the block.
@@ -138,15 +135,11 @@ To ensure every block has a hash when it’s created, we’ll call the `generate
 Update the constructor in your `SimpleBlock` class to include this line:
 
 ```jsx
-
 this.blockHeader.hash = this.generateHash();
-
 ```
 
 > What this does: Every time a new block is created, its hash is automatically calculated and stored in the blockHeader.
 > 
-
----
 
 ## **Step 5: Testing Your First Block**
 
@@ -157,7 +150,6 @@ Let’s create our first block, often called the **Genesis Block**, and print it
 Add this code to the bottom of your file, after the `SimpleBlock` class definition:
 
 ```jsx
-
 // Creating the first block (Genesis Block)
 const firstBlock = new SimpleBlock(0, Date.now(), "Genesis Block", "0");
 
@@ -168,11 +160,10 @@ console.log(`
   Timestamp: ${new Date(firstBlock.blockHeader.timestamp)}
   Hash: ${firstBlock.blockHeader.hash}
 `);
-
 ```
 
-> What this does:
-> 
+What this does:
+
 - We create a new instance of `SimpleBlock` with:
     - Index `0` (it’s the first block).
     - The current timestamp (`Date.now()`).
@@ -187,7 +178,6 @@ console.log(`
 Run your program by typing this in your terminal:
 
 ```bash
-
 node blockchain.js
 ```
 
@@ -203,12 +193,9 @@ Hash: c2b7c9fae53c15790db7c64f0a9a21dcd80ebc241c03b02b42b2e01eb97e5a16
 > What to look for: Notice how the hash is a long string of random-looking characters. This is your block’s unique fingerprint!
 > 
 
-<aside>
-💡
+---
 
-Here is the reference code for this lesson : [Creating SimpleBlock Class](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-block/creating-simpleblock-class.js)
-
-</aside>
+***Here is the reference code for this lesson : [Creating SimpleBlock Class](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-block/creating-simpleblock-class.js)***
 
 ---
 

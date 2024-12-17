@@ -1,3 +1,5 @@
+# Validating the Blockchain
+
 ## **Introduction: Trust, But Verify**
 
 Congratulations! Your blockchain is coming to life—you’ve built a system that creates blocks, mines them with Proof of Work, and links them securely. But here’s a big question: how do you know your blockchain can be trusted? What if someone tampered with one of the blocks? Would your blockchain even notice?
@@ -41,14 +43,11 @@ The `validateBlockchain` method does two critical checks for each block in the c
 
 Here’s how we can implement it.
 
----
-
 ### **Code: The `validateBlockchain` Method**
 
 Add this method to your `SimpleBlockchain` class:
 
 ```jsx
-
 validateBlockchain() {
   console.log("\nValidating the blockchain...");
   for (let i = 1; i < this.chain.length; i++) { // Start from the second block
@@ -70,10 +69,7 @@ validateBlockchain() {
   console.log("Blockchain is valid!");
   return true;
 }
-
 ```
-
----
 
 ### **Explanation**
 
@@ -92,7 +88,7 @@ validateBlockchain() {
 
 ---
 
-### **Step 3: Simulating Tampering**
+## **Step 3: Simulating Tampering**
 
 To truly understand the power of validation, let’s simulate a tampering scenario. We’ll:
 
@@ -101,14 +97,11 @@ To truly understand the power of validation, let’s simulate a tampering scenar
 
 Here’s how to do it.
 
----
-
 ### **Code: Testing Validation**
 
 To test the `validateBlockchain` method, modify the code at the end of the file with the following snippet :
 
 ```jsx
-
 // Instantiate a new blockchain
 const myBlockchain = new SimpleBlockchain();
 
@@ -130,10 +123,7 @@ block1.blockBody.data = "Tampered Data";
 // Validate the blockchain after tampering
 console.log("\nValidating blockchain after tampering:");
 myBlockchain.validateBlockchain();
-
 ```
-
----
 
 ### **What’s Happening Here?**
 
@@ -148,20 +138,19 @@ myBlockchain.validateBlockchain();
 
 ---
 
-### **Step 4: Testing Instructions**
+## **Step 4: Testing Instructions**
 
 1. **Add the Code:**
     - Add the `validateBlockchain` method to your `SimpleBlockchain` class.
     - Add the testing code below your `SimpleBlockchain` class.
 2. **Run the File:**
     - Save your file and run it using:
-        
-        ```bash
-        
-        node blockchain.js
-        ```
-        
-3. **Observe the Output:**
+
+```bash
+node blockchain.js
+```
+
+1. **Observe the Output:**
     - Before tampering, the blockchain should pass validation.
     - After tampering, the validation method should log an error, indicating which block is tampered.
 
@@ -172,7 +161,6 @@ myBlockchain.validateBlockchain();
 Here’s an example of what you should see:
 
 ```
-
 Validating the blockchain before tampering:
 Blockchain is valid!
 
@@ -180,7 +168,6 @@ Tampering with Block 1...
 
 Validating the blockchain after tampering:
 Block 1 has been tampered with!
-
 ```
 
 > What to look for: Notice how each we detect the tampering of the data
@@ -188,16 +175,11 @@ Block 1 has been tampered with!
 
 ---
 
-<aside>
-💡
-
-Here is the Reference code of this lesson: [Validating the Blockchain](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-chain/validating-blockchain.js)
-
-</aside>
+***Here is the Reference code of this lesson: [Validating the Blockchain](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-chain/validating-blockchain.js)***
 
 ---
 
-### **Step 5: Real-World Insight**
+## **Step 5: Real-World Insight**
 
 In real-world blockchains like Bitcoin:
 
@@ -209,7 +191,7 @@ Your blockchain now mirrors these principles by detecting and flagging tampered 
 
 ---
 
-### **What’s Next? Making Your Blockchain Interactive**
+## **What’s Next? Making Your Blockchain Interactive**
 
 Your blockchain can now validate itself and catch tampering. But wouldn’t it be more exciting if users could interact with it? In the next module, we’ll:
 

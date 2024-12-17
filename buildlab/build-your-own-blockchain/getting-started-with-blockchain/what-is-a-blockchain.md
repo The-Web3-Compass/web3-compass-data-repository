@@ -1,20 +1,23 @@
+# **What is a Blockchain?**
+
 ## **Welcome to the World of Blockchains!**
 
 Picture this: You’re in a room with a group of strangers, and somehow, everyone is agreeing on every detail about who owes whom, how much was exchanged, and when it happened. No fights, no confusion, just perfect harmony . Sounds impossible, right? 
 
-![strangers.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-blockchain/images/getting-started-with-blockchain/strangers.gif)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-blockchain/images/getting-started-with-blockchain/strangers.gif" alt="Gifs" width="600" height="350" />
+</p>
 
 Yet, this is exactly what blockchains do—every day, everywhere, across the globe.
 
-A blockchain is like the ultimate referee, the trust whisperer, the unbreakable ledger that ensures no one can cheat, lie, or manipulate the truth. But what makes it so special? And why is everyone from techies to governments obsessed with it? Today, we’ll uncover the magic of blockchain, step by step.
+Blockchain is like a digital referee that keeps everything fair and honest. It’s a system that no one can cheat, hack, or manipulate. But what makes it so powerful? And why is everyone, from tech enthusiasts to governments, so interested in it? Let’s break it down, step by step.
 
 ---
 
 ## **So, What is a Blockchain Anyway?**
 
 At its simplest, a blockchain is a **digital ledger**—a record-keeping system that stores information like transactions, agreements, or any data you care about. But unlike the paper ledgers or databases you’re used to, blockchains have superpowers. Let’s explore:
-
----
 
 ### **1. It’s a Chain of Blocks**
 
@@ -26,15 +29,11 @@ A blockchain is exactly what its name suggests—a **chain of blocks**. Each blo
 
 Imagine blocks as LEGO bricks. You can snap them together in a specific order, and if you try to swap one brick or mess with its contents, the entire structure breaks apart.
 
----
-
 ### **2. It’s Immutable**
 
 Here’s where blockchain gets its superpower: once something is recorded in a block, it’s permanent. No erasing. No editing. Why? Because each block’s fingerprint depends on its data. Change one tiny bit of data, and the fingerprint changes entirely.
 
 But it doesn’t stop there. Since each block links to the one before it, any change breaks the entire chain. So, tampering with a block is like trying to replace one domino in a chain without everyone noticing. Spoiler: You can’t.
-
----
 
 ### **3. It’s Decentralized**
 
@@ -48,7 +47,7 @@ Think of it as a giant Google Doc where everyone can see and verify changes in r
 
 ---
 
-### **Why Should You Care?**
+## **Why Should You Care?**
 
 Let’s put blockchain into perspective with a real-world problem. Say you’re transferring money to a friend:
 

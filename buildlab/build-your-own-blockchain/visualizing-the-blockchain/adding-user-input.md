@@ -1,3 +1,7 @@
+# Adding user input
+
+---
+
 ## **Introduction: Your Blockchain, Your Data**
 
 You’ve built a blockchain that creates blocks, mines them with Proof of Work, links them securely, and even validates itself. Pretty cool, right? But let’s be honest—it’s still a little… robotic. Hardcoding data into blocks was great for learning, but blockchains in the real world thrive on **user interaction**.
@@ -39,10 +43,8 @@ Here’s what the `readline` module lets us do:
 Before we dive into the code, let’s start by importing the `readline` module. Since it’s a built-in library in Node.js, you don’t need to install anything extra—just include it at the top of your file:
 
 ```jsx
-
 // Importing the readline module for user interaction
 const readline = require("readline");
-
 ```
 
 This line gives your program access to `readline`, enabling it to interact with the user via the terminal. It’s simple, powerful, and essential for making your blockchain dynamic.
@@ -59,14 +61,11 @@ To make your blockchain interactive, you’ll:
 
 Here’s how to do it.
 
----
-
 ### **Code: Adding User Input to Your Blockchain**
 
 Modify the code at the end of the file (after the class declarations) with the following code :
 
 ```jsx
-
 // Setting up the Readline Interface
 const rl = readline.createInterface({
   input: process.stdin,
@@ -113,7 +112,6 @@ function interactiveBlockchain() {
 
 // Run the interactive blockchain
 interactiveBlockchain();
-
 ```
 
 ---
@@ -142,17 +140,16 @@ Now it’s time to test your blockchain and see it grow dynamically based on you
 
 1. **Run the Program:**
     - Save your file and run it using:
-        
-        ```bash
-        
-        node blockchain.js
-        ```
-        
-2. **Enter the Number of Blocks:**
+
+```bash
+node blockchain.js
+```
+
+1. **Enter the Number of Blocks:**
     - The program will ask how many blocks you want to add. Enter a positive number.
-3. **Add Data for Each Block:**
+2. **Add Data for Each Block:**
     - For each block, the program will prompt you to enter some data. Get creative—add a message, a record, or anything you like!
-4. **View the Blockchain:**
+3. **View the Blockchain:**
     - After adding all the blocks, the program will display the entire blockchain structure in JSON format, showing how each block links to the previous one.
 
 ---
@@ -162,7 +159,6 @@ Now it’s time to test your blockchain and see it grow dynamically based on you
 Here’s an example of what you might see in the terminal:
 
 ```
-
 How many blocks would you like to add? 2
 Enter data for Block 1: Hello, Blockchain!
 Mining a new block with difficulty 2...
@@ -189,7 +185,6 @@ Final Blockchain Structure:
     "blockBody": { "data": "Learning is fun!" }
   }
 ]
-
 ```
 
 > What to look for: Notice how the blockchain is formed based on our input
@@ -197,16 +192,11 @@ Final Blockchain Structure:
 
 ---
 
-<aside>
-💡
-
-Here is the reference code for this lesson : [Adding user input](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/adding-user-input.js)
-
-</aside>
+***Here is the reference code for this lesson : [Adding user input](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/adding-user-input.js)***
 
 ---
 
-### **What’s Next? Making It Even Better**
+## **What’s Next? Making It Even Better**
 
 Your blockchain is now interactive and dynamic! But we’re not stopping here. In the next lesson, we’ll:
 

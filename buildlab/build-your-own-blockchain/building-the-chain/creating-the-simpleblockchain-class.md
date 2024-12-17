@@ -1,3 +1,7 @@
+# **Creating the `SimpleBlockchain` Class**
+
+---
+
 ## **Introduction: Building the Chain That Makes the Blockchain**
 
 You’ve done an incredible job so far—creating blocks, generating unique fingerprints (hashes) for them, and securing them with Proof of Work. But let’s face it, a single block (or even two) isn’t a **blockchain**, is it?
@@ -25,8 +29,6 @@ The `SimpleBlockchain` class is where the magic of the blockchain comes to life.
 > Important: Before we start, ensure you’ve added the `SimpleBlock` class to your file. The `SimpleBlockchain` class will build on top of it.
 > 
 
----
-
 ### **Instruction: Add the `SimpleBlockchain` Class**
 
 Below your `SimpleBlock` class, add a new class named `SimpleBlockchain`. This is how we’ll transition from managing single blocks to a full blockchain.
@@ -42,14 +44,11 @@ Every blockchain begins with a **genesis block**, the first block in the chain. 
 1. It has no predecessor, so its `previousHash` is set to `"0"`.
 2. It acts as the foundation of the blockchain. Without it, there’s no chain.
 
----
-
 ### **Code: Adding the Genesis Block**
 
 Here’s the code for the `SimpleBlockchain` class that uses the `SimpleBlock` object to create the genesis block:
 
 ```jsx
-
 class SimpleBlockchain {
   constructor() {
     // The blockchain starts with the genesis block
@@ -68,7 +67,7 @@ class SimpleBlockchain {
 
 ## **How the Genesis Block is Created Using `SimpleBlock`**
 
-### **Step 1: The `SimpleBlock` Class**
+### **#1: The `SimpleBlock` Class**
 
 Before we dive into the `SimpleBlockchain` class, let’s quickly recap the `SimpleBlock` class. Here’s what it does:
 
@@ -80,7 +79,7 @@ Before we dive into the `SimpleBlockchain` class, let’s quickly recap the `Sim
 
 The `SimpleBlock` class is the blueprint for creating blocks.
 
-### **Step 2: Using `SimpleBlock` in the Genesis Block**
+### **#2: Using `SimpleBlock` in the Genesis Block**
 
 In the `SimpleBlockchain` class, the `createGenesisBlock` method calls the `SimpleBlock` constructor to create a new block:
 
@@ -109,14 +108,11 @@ Here’s what’s happening step by step:
 3. **Returning the Block:**
     - Once the genesis block is created, it’s returned to the `createGenesisBlock` method, which adds it to the blockchain.
 
----
-
-### **Step 3: Storing the Genesis Block**
+### **#3: Storing the Genesis Block**
 
 In the `SimpleBlockchain` class’s `constructor`, the `createGenesisBlock` method is called, and the resulting block is stored in the `chain` array:
 
 ```jsx
-
 this.chain = [this.createGenesisBlock()];
 ```
 
@@ -134,14 +130,11 @@ For a blockchain to grow, it must:
 2. **Mine the block** to meet the Proof of Work difficulty.
 3. **Add the block to the chain** once it’s valid.
 
----
-
 ### **Code: Adding Blocks**
 
 Expand your `SimpleBlockchain` class with the following methods:
 
 ```jsx
-
 class SimpleBlockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
@@ -170,7 +163,6 @@ class SimpleBlockchain {
     console.log("Block successfully added to the blockchain!");
   }
 }
-
 ```
 
 ---
@@ -198,14 +190,11 @@ Now it’s time to test your blockchain! We’ll:
 2. Add a few blocks to the chain.
 3. Log the entire blockchain to visualize its structure.
 
----
-
 ### **Code: Testing the Blockchain**
 
 Modify the code at the end of the file (the one after the class definitions) with the following snippet :
 
 ```jsx
-
 // Instantiate a new blockchain
 const myBlockchain = new SimpleBlockchain();
 
@@ -219,7 +208,6 @@ myBlockchain.addNewBlock(block2);
 // Log the entire blockchain structure
 console.log("\n--- Blockchain Structure ---");
 console.log(JSON.stringify(myBlockchain, null, 2));
-
 ```
 
 ---
@@ -230,13 +218,12 @@ console.log(JSON.stringify(myBlockchain, null, 2));
     - Save your file as `blockchain.js`.
 2. **Run the File:**
     - Open your terminal, navigate to the file’s location, and run:
-        
-        ```bash
-        
-        node blockchain.js
-        ```
-        
-3. **Observe the Output:**
+
+```bash
+node blockchain.js
+```
+
+1. **Observe the Output:**
     - Check the terminal for the following:
         1. Genesis block creation.
         2. Mining of each new block, including its hash.
@@ -296,7 +283,6 @@ Block successfully added to the blockchain!
     }
   }
 ]
-
 ```
 
 > What to look for: Notice how each block carries the hash of the previous block, creating a chained list of blocks.
@@ -304,12 +290,7 @@ Block successfully added to the blockchain!
 
 ---
 
-<aside>
-💡
-
-Here is the reference code for this chapter : [Creating the SimpleBlockchain class](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-chain/creating-simpleblockchain-class.js)
-
-</aside>
+***Here is the reference code for this chapter : [Creating the SimpleBlockchain class](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/building-the-chain/creating-simpleblockchain-class.js)***
 
 ---
 

@@ -1,4 +1,6 @@
-# **The Journey Begins Here**
+# Setting Up The Enviornment
+
+## **The Journey Begins Here**
 
 Alright, so you’re pumped up to build your very own blockchain. But before we dive into the nitty-gritty of creating blocks and linking them like digital wizards, we need to gear up. Think of this as packing your toolkit before heading out on a treasure hunt. No one goes hunting for treasure without a map, compass, and maybe a snack or two.
 
@@ -9,8 +11,6 @@ In this lesson, we’re going to:
 3. Write the very first lines of code to prepare for the magic ahead.
 
 Let’s get started!
-
----
 
 ## **Step 1: Install Node.js**
 
@@ -40,11 +40,10 @@ Think of your project folder as the home base for all your blockchain files. Her
 
 1. Create a new folder called `my-blockchain`. You can do this anywhere on your computer.
 2. Open your terminal and navigate to the folder:(Replace `path/to` with the actual path to your folder.)
-    
-    ```bash
-    cd path/to/my-blockchain
-    ```
-    
+
+```bash
+cd path/to/my-blockchain
+```
 
 ---
 
@@ -53,14 +52,14 @@ Think of your project folder as the home base for all your blockchain files. Her
 Every Node.js project needs a `package.json` file to keep track of dependencies (libraries) and project metadata. Let’s create one.
 
 1. In your terminal, run:
-    
-    ```bash
-    npm init -y
-    ```
-    
-    This command initializes the project and automatically creates a `package.json` file with default settings.
-    
-2. You should now see a new file in your folder called `package.json`. This file will grow as we add libraries later.
+
+```bash
+npm init -y
+```
+
+This command initializes the project and automatically creates a `package.json` file with default settings.
+
+1. You should now see a new file in your folder called `package.json`. This file will grow as we add libraries later.
 
 ---
 
@@ -85,8 +84,6 @@ console.log("Hello, Blockchain!");
 
 Save the file. Simple, right? This line is just to make sure your setup is working. Now, let’s test it.
 
----
-
 ## **Step 6: Run Your First Code**
 
 In your terminal, make sure you’re still inside the `my-blockchain` folder. Then run:
@@ -98,9 +95,7 @@ node blockchain.js
 If everything is set up correctly, you should see this in your terminal:
 
 ```
-
 Hello, Blockchain!
-
 ```
 
 🎉 Congratulations! You’ve just run your first piece of code in the blockchain project. It’s a small step, but every great journey begins with one.

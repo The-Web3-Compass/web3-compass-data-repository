@@ -1,3 +1,7 @@
+# **Visualizing the Blockchain**
+
+---
+
 ## **Introduction: Giving Your Blockchain a Face**
 
 You’ve built an incredible blockchain—it accepts user input, mines blocks, links them securely, and validates itself. That’s a lot of power! But let’s be honest—right now, it’s like a brilliant scientist who mumbles their findings in a monotone. It works, but it’s not exactly easy to understand at a glance.
@@ -35,14 +39,11 @@ The `displayBlockchain` method will:
 
 Here’s how we’ll implement it.
 
----
-
 ### **Code: Implementing the `displayBlockchain` Method**
 
 Add this method to your `SimpleBlockchain` class:
 
 ```jsx
-
 displayBlockchain() {
   console.log("\n--- Blockchain Visualization ---");
   this.chain.forEach((block, index) => {
@@ -69,10 +70,7 @@ displayBlockchain() {
       .join(" -> ")
   );
 }
-
 ```
-
----
 
 ### **Explanation: Making Sense of the Method**
 
@@ -91,14 +89,11 @@ displayBlockchain() {
 
 Now, let’s integrate the `displayBlockchain` method into your interactive blockchain. Once users finish adding blocks, they’ll see their blockchain presented beautifully.
 
----
-
 ### **Code: Interactive Blockchain with Visualization**
 
 Update your `interactiveBlockchain` function to include the visualization step:
 
 ```jsx
-
 function interactiveBlockchain() {
   const myBlockchain = new SimpleBlockchain();
   function addBlockRecursively(blockIndex, totalBlocks) {
@@ -134,27 +129,24 @@ function interactiveBlockchain() {
 
 // Run the interactive blockchain
 interactiveBlockchain();
-
 ```
 
 ---
 
-### **Step 4: Testing Your Enhanced Blockchain**
+## **Step 4: Testing Your Enhanced Blockchain**
 
 Let’s test your new, user-friendly blockchain visualization.
 
 1. **Run the Program:**
     - Save your file and execute it using:
-        
-        ```bash
-        
-        node blockchain.js
-        
-        ```
-        
-2. **Add Blocks:**
+
+```bash
+node blockchain.js
+```
+
+1. **Add Blocks:**
     - Enter the number of blocks to add and provide data for each block.
-3. **See the Visualization:**
+2. **See the Visualization:**
     - Once all blocks are added, your blockchain will be displayed in a neat, readable format with a chain summary.
 
 ---
@@ -164,7 +156,6 @@ Let’s test your new, user-friendly blockchain visualization.
 Here’s an example of what you might see in the terminal:
 
 ```
-
 How many blocks would you like to add? 2
 Enter data for Block 1: Hello, Blockchain!
 Mining a new block with difficulty 2...
@@ -211,7 +202,6 @@ Block 2:
     Data: Learning is fun!
 
 --- Chain Summary --- [Block 0: 000ab3...] -> [Block 1: 00a7b3...] -> [Block 2: 0024e1...]
-
 ```
 
 > What to look for: Notice how the blockchain details are neatly arranged
@@ -219,12 +209,9 @@ Block 2:
 
 ---
 
-<aside>
-💡
+***Here is the reference code for this lesson : [Visualizing the Blockchain](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/visualising-the-chain.js)***
 
-Here is the reference code for this lesson : [Visualizing the Blockchain](https://github.com/The-Web3-Compass/web3-compass-data-repository/blob/main/buildlab/build-your-own-blockchain/reference-code/visualising-the-blockchain/visualising-the-chain.js)
-
-</aside>
+---
 
 ## **What’s Next? Wrapping Up Your Journey**
 

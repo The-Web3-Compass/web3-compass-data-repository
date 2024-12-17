@@ -5,7 +5,9 @@
     "location": "blockchain-starterpack",
     "description": "Learn the fundamentals of blockchain with clear explanations and real-world examples—no tech jargon, just simple and fun.",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/banner-course.png",
-    "hashtags": ["#Blockchain", "#Beginner", "#Web3"]
+    "hashtags": ["#Blockchain", "#Beginner", "#Web3"],
+    "status": "active"
+
   },
   {
     "id": "BC-EF-DETH",
@@ -13,6 +15,16 @@
     "location": "ethereum-blueprint",
     "description": "Everything you need to get started with Ethereum in one course. From wallets to dApps, we’ve got you covered.",
     "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/Ethereum-banner.png",
-    "hashtags": ["#Ethereum", "#Foundation", "#Developer"]
+    "hashtags": ["#Ethereum", "#Foundation", "#Developer"],
+    "status": "active"
+  },
+  {
+    "id": "BC-BTCF-BFSB",
+    "name": "Bitcoin Fundementals: The Starting Block",
+    "location": "bitcoin-fundementals",
+    "description": "Your gateway to understanding Bitcoin, from its origins to its essential concepts, one block at a time.",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/Ethereum-banner.png",
+    "hashtags": ["#Bitcoin", "#Beginner", "#Fundemental"],
+    "status": "pending" 
   }
 ]

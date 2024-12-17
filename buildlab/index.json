@@ -7,6 +7,18 @@
     "level": "Beginner",
     "duration": "2 hours",
     "tags": ["#Blockchain", "#JS", "#Basic"],
-    "location": "build-your-own-blockchain"
+    "location": "build-your-own-blockchain",
+    "status":"active"
+  },
+  {
+    "id": "BL-ETH-BYOT",
+    "name": "Build your own Token",
+    "description": "A hands-on blockchain course for absolute beginners to build, secure, and validate their own blockchain from scratch",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-blockchain/images/banner.png",
+    "level": "Beginner",
+    "duration": "2 hours",
+    "tags": ["#Token", "#Solidity", "#Basic"],
+    "location": "build-your-own-token",
+    "status":"pending"
   }
 ]

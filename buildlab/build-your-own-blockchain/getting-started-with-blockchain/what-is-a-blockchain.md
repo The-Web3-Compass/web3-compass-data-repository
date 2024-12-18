@@ -4,10 +4,7 @@
 
 Picture this: You’re in a room with a group of strangers, and somehow, everyone is agreeing on every detail about who owes whom, how much was exchanged, and when it happened. No fights, no confusion, just perfect harmony . Sounds impossible, right? 
 
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-blockchain/images/getting-started-with-blockchain/strangers.gif" alt="Gifs" width="600" height="350" />
-</p>
+![strangers.gif](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-blockchain/images/getting-started-with-blockchain/strangers.gif)
 
 Yet, this is exactly what blockchains do—every day, everywhere, across the globe.
 

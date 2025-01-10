@@ -14,7 +14,7 @@
     "id": "BL-ETH-BYOT",
     "name": "Build your own Token",
     "description": "A practical blockchain course for absolute beginners to design, build, and launch their own crypto token from scratch.",
-    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/refs/heads/main/buildlab/build-your-own-token/images/thumbnail.svg",
+    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/6a52132252fc5e909c9f0e93f40c31b2b425f541/buildlab/build-your-own-token/images/thumbnail.svg",
     "level": "Beginner",
     "duration": "3 hours",
     "tags": ["#Token", "#Solidity", "#Basic"],

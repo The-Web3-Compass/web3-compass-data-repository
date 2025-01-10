@@ -4,7 +4,7 @@
     "name": "Blockchain Starterpack: From 0 to 0.1",
     "location": "blockchain-starterpack",
     "description": "Learn the fundamentals of blockchain with clear explanations and real-world examples—no tech jargon, just simple and fun.",
-    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/blockchain-starterpack/images/banner-course.png",
+    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/506c6df44ad0a17e7e6257aa527c01312cc575c3/basecamp/blockchain-starterpack/images/banner-course.svg",
     "hashtags": ["#Blockchain", "#Beginner", "#Web3"],
     "status": "active"
 
@@ -14,7 +14,7 @@
     "name": "Decoding Ethereum: A Beginner’s Guide",
     "location": "ethereum-blueprint",
     "description": "Everything you need to get started with Ethereum in one course. From wallets to dApps, we’ve got you covered.",
-    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/ethereum-blueprint/images/Ethereum-banner.png",
+    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/b492a8d2057fc94c0f6e9ab7a1ca688ca17d24c0/basecamp/ethereum-blueprint/images/banner-course.svg",
     "hashtags": ["#Ethereum", "#Foundation", "#Developer"],
     "status": "active"
   },
@@ -23,7 +23,7 @@
     "name": "Bitcoin Fundementals: The Starting Block",
     "location": "bitcoin-fundementals",
     "description": "Your gateway to understanding Bitcoin, from its origins to its essential concepts, one block at a time.",
-    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/basecamp/bitcoin-fundementals/images/thumbnail.png",
+    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/9c78497df373f586bbefab84b92879fbc1fb706c/basecamp/bitcoin-fundementals/images/banner-course.svg",
     "hashtags": ["#Bitcoin", "#Beginner", "#Fundemental"],
     "status": "pending" 
   }

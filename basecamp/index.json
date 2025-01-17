@@ -6,7 +6,8 @@
     "description": "Learn the fundamentals of blockchain with clear explanations and real-world examples—no tech jargon, just simple and fun.",
     "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/506c6df44ad0a17e7e6257aa527c01312cc575c3/basecamp/blockchain-starterpack/images/banner-course.svg",
     "hashtags": ["#Blockchain", "#Beginner", "#Web3"],
-    "status": "active"
+    "status": "active",
+    "category":"basics"
 
   },
   {
@@ -16,7 +17,9 @@
     "description": "Everything you need to get started with Ethereum in one course. From wallets to dApps, we’ve got you covered.",
     "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/b492a8d2057fc94c0f6e9ab7a1ca688ca17d24c0/basecamp/ethereum-blueprint/images/banner-course.svg",
     "hashtags": ["#Ethereum", "#Foundation", "#Developer"],
-    "status": "active"
+    "status": "active",
+    "category":"ethereum"
+
   },
   {
     "id": "BC-BTCF-BFSB",
@@ -25,6 +28,8 @@
     "description": "Your gateway to understanding Bitcoin, from its origins to its essential concepts, one block at a time.",
     "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/9c78497df373f586bbefab84b92879fbc1fb706c/basecamp/bitcoin-fundementals/images/banner-course.svg",
     "hashtags": ["#Bitcoin", "#Beginner", "#Fundemental"],
-    "status": "pending" 
+    "status": "pending",
+    "category":"bitcoin"
+ 
   }
 ]

@@ -52,6 +52,10 @@
     "definition": "A consensus mechanism where miners solve complex puzzles to validate transactions and create new blocks."
   },
   {
+  "term": "Nonce",
+  "definition": "A nonce is a unique number that miners change to solve a complex puzzle during the process of adding a new block to the blockchain. It ensures the block is valid and securely linked to the chain."
+},
+  {
     "term": "Proof of Stake (PoS)",
     "definition": "A consensus mechanism where validators are chosen based on the amount of cryptocurrency they hold and stake in the network."
   },

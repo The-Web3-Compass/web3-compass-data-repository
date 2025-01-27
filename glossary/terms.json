@@ -4,6 +4,10 @@
     "definition": "A decentralized, distributed ledger that records transactions across multiple computers to ensure data integrity and security."
   },
   {
+    "term": "Ledger",
+    "definition": "A record-keeping system that tracks all transactions and balances, traditionally used in accounting but now often digital and distributed in blockchain technology."
+  },
+  {
     "term": "Decentralization",
     "definition": "The process of transferring control and decision-making from a centralized authority to a distributed network."
   },

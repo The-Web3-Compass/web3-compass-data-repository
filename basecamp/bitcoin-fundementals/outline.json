@@ -1,146 +1,210 @@
 {
-    "A Note To Readers": [
-      {
-        "topic": "Bitcoin Genisis",
-        "location": "/note-to-readers/bitcoin-genisis.md",
-        "question": "",
-        "secondary": {
-          "options": [],
-          "answer": ""
-        }
+  "A Note To Readers": [
+    {
+      "topic": "Bitcoin Genesis",
+      "location": "/note-to-readers/bitcoin-genesis.md",
+      "question": "What is the main problem Bitcoin aims to solve?",
+      "secondary": {
+        "options": [
+          "Double-spending without a trusted third party",
+          "High transaction fees in traditional banking",
+          "Lack of global payment systems",
+          "Data encryption for financial transactions"
+        ],
+        "answer": "Double-spending without a trusted third party"
       }
-    ],
-    "Introduction": [
-      {
-        "topic": "Why Bitcoin?",
-        "location": "/introduction/why-bitcoin.md",
-        "question": "",
-        "secondary": {
-          "options": [],
-          "answer": ""
-        }
+    }
+  ],
+  "Introduction": [
+    {
+      "topic": "Why Bitcoin?",
+      "location": "/introduction/why-bitcoin.md",
+      "question": "How does Bitcoin differ from traditional financial systems?",
+      "secondary": {
+        "options": [
+          "It uses cryptographic proof instead of trust",
+          "It relies on financial institutions for dispute resolution",
+          "It enforces reversibility in transactions",
+          "It increases reliance on centralized authorities"
+        ],
+        "answer": "It uses cryptographic proof instead of trust"
       }
-    ],
-    "Transactions": [
-        {
-          "topic": "How Money Moves?",
-          "location": "/transactions/how-money-moves.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Timestamp Server": [
-        {
-          "topic": "Securing the Timeline",
-          "location": "/timpstamp-server/securing-the-timeline.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Proof of Work": [
-        {
-          "topic": "The Mining Race",
-          "location": "/proof-of-wook/the-mining-race.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Network": [
-        {
-          "topic": "Nodes in Action",
-          "location": "/network/nodes-in-action.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Incentive": [
-        {
-          "topic": "Motivating the miners",
-          "location": "/incentive/motivating-miners.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Reclaiming Disk Space": [
-        {
-          "topic": "Keeping the chain compact",
-          "location": "/reclaiming-disk-space/keeping-the-chain-compact.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Simplified Payment Verification": [
-        {
-          "topic": "Quick Checkouts",
-          "location": "/spv/quick-checkouts.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Combining and Splitting Values": [
-        {
-          "topic": "Making Changes",
-          "location": "/combining-and-spliting/making-changes.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Privacy": [
-        {
-          "topic": "Staying Mysterious",
-          "location": "/privacy/staying-mysterious.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Calculations": [
-        {
-          "topic": "Math for Security",
-          "location": "/calculation/math-for-security.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ],
-      "Conclusion": [
-        {
-          "topic": "A New Financial Era",
-          "location": "/conclusion/a-new-financial-era.md",
-          "question": "",
-          "secondary": {
-            "options": [],
-            "answer": ""
-          }
-        }
-      ]
-  }
-  
+    }
+  ],
+  "Transactions": [
+    {
+      "topic": "How Money Moves?",
+      "location": "/transactions/how-money-moves.md",
+      "question": "How does Bitcoin define an electronic coin?",
+      "secondary": {
+        "options": [
+          "A chain of digital signatures",
+          "A series of encrypted keys",
+          "A verified ledger entry",
+          "A block in the blockchain"
+        ],
+        "answer": "A chain of digital signatures"
+      }
+    }
+  ],
+  "Timestamp Server": [
+    {
+      "topic": "Securing the Timeline",
+      "location": "/timestamp-server/securing-the-timeline.md",
+      "question": "What is the function of the Bitcoin timestamp server?",
+      "secondary": {
+        "options": [
+          "To prove data existed at a specific time",
+          "To encrypt blockchain data",
+          "To monitor node activities",
+          "To assign unique identifiers to transactions"
+        ],
+        "answer": "To prove data existed at a specific time"
+      }
+    }
+  ],
+  "Proof of Work": [
+    {
+      "topic": "The Mining Race",
+      "location": "/proof-of-work/the-mining-race.md",
+      "question": "Why is proof-of-work essential in Bitcoin?",
+      "secondary": {
+        "options": [
+          "It prevents tampering with blocks",
+          "It enables faster transactions",
+          "It guarantees user anonymity",
+          "It ensures low energy consumption"
+        ],
+        "answer": "It prevents tampering with blocks"
+      }
+    }
+  ],
+  "Network": [
+    {
+      "topic": "Nodes in Action",
+      "location": "/network/nodes-in-action.md",
+      "question": "What do Bitcoin nodes consider as the correct chain?",
+      "secondary": {
+        "options": [
+          "The chain with the most blocks and proof-of-work",
+          "The chain with the oldest transactions",
+          "The chain validated by central authorities",
+          "The chain with the fewest nodes"
+        ],
+        "answer": "The chain with the most blocks and proof-of-work"
+      }
+    }
+  ],
+  "Incentive": [
+    {
+      "topic": "Motivating the Miners",
+      "location": "/incentive/motivating-miners.md",
+      "question": "How are miners incentivized to secure the network?",
+      "secondary": {
+        "options": [
+          "By earning block rewards and transaction fees",
+          "By receiving priority in future transactions",
+          "Through direct payment from other nodes",
+          "By gaining additional computing resources"
+        ],
+        "answer": "By earning block rewards and transaction fees"
+      }
+    }
+  ],
+  "Reclaiming Disk Space": [
+    {
+      "topic": "Keeping the Chain Compact",
+      "location": "/reclaiming-disk-space/keeping-the-chain-compact.md",
+      "question": "How does Bitcoin save disk space over time?",
+      "secondary": {
+        "options": [
+          "By pruning older transactions using a Merkle Tree",
+          "By storing only recent blocks",
+          "By compressing transaction data",
+          "By archiving old blocks"
+        ],
+        "answer": "By pruning older transactions using a Merkle Tree"
+      }
+    }
+  ],
+  "Simplified Payment Verification": [
+    {
+      "topic": "Quick Checkouts",
+      "location": "/spv/quick-checkouts.md",
+      "question": "What is the purpose of Simplified Payment Verification (SPV)?",
+      "secondary": {
+        "options": [
+          "To verify transactions without downloading the full blockchain",
+          "To eliminate transaction fees",
+          "To encrypt transactions for added security",
+          "To enable direct payments without proof-of-work"
+        ],
+        "answer": "To verify transactions without downloading the full blockchain"
+      }
+    }
+  ],
+  "Combining and Splitting Values": [
+    {
+      "topic": "Making Changes",
+      "location": "/combining-and-splitting/making-changes.md",
+      "question": "Why do Bitcoin transactions have multiple inputs and outputs?",
+      "secondary": {
+        "options": [
+          "To allow splitting and combining of values",
+          "To encrypt transaction data",
+          "To improve transaction speed",
+          "To enable user anonymity"
+        ],
+        "answer": "To allow splitting and combining of values"
+      }
+    }
+  ],
+  "Privacy": [
+    {
+      "topic": "Staying Mysterious",
+      "location": "/privacy/staying-mysterious.md",
+      "question": "How does Bitcoin ensure privacy despite public transactions?",
+      "secondary": {
+        "options": [
+          "By keeping public keys anonymous",
+          "By encrypting all data",
+          "By hiding transaction amounts",
+          "By requiring identity verification only at sign-up"
+        ],
+        "answer": "By keeping public keys anonymous"
+      }
+    }
+  ],
+  "Calculations": [
+    {
+      "topic": "Math for Security",
+      "location": "/calculation/math-for-security.md",
+      "question": "What ensures an attacker cannot easily alter the blockchain?",
+      "secondary": {
+        "options": [
+          "The exponential difficulty of catching up",
+          "Encryption of every transaction",
+          "A decentralized network structure",
+          "Periodic node validations"
+        ],
+        "answer": "The exponential difficulty of catching up"
+      }
+    }
+  ],
+  "Conclusion": [
+    {
+      "topic": "A New Financial Era",
+      "location": "/conclusion/a-new-financial-era.md",
+      "question": "What is the core innovation Bitcoin introduces?",
+      "secondary": {
+        "options": [
+          "Peer-to-peer electronic transactions without trust",
+          "Faster global payments",
+          "Decentralized identity management",
+          "A new form of digital gold"
+        ],
+        "answer": "Peer-to-peer electronic transactions without trust"
+      }
+    }
+  ]
+}

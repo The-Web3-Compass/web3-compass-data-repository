@@ -1,5 +1,3 @@
-# Nodes in Action
-
 ### Welcome to the Network: The Big Picture Comes Together
 
 Alright, you’ve reached a checkpoint! Let’s take a moment to appreciate how far we’ve come. So far, you’ve mastered Bitcoin’s core ingredients: transactions, timestamps, and Proof of Work. Now it’s time to see how they all come together to create the Bitcoin network—a decentralized, self-regulating system that works without a single person or organization in charge.

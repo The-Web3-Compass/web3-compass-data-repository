@@ -1,5 +1,3 @@
-# Math For Security
-
 ### How Bitcoin Keeps Your Transactions Secure: Beating the Odds ⚔️
 
 Whoo-hoo! We’re in the final stretch of Bitcoin’s technical journey. So far, we’ve seen how it handles value, protects privacy, and keeps everything efficient—and sometimes a bit tricky to wrap your head around (you know what I mean). But now comes the big question: **what happens when someone actually tries to cheat the system?**

@@ -1,5 +1,3 @@
-# Making Changes
-
 ### Combining Value
 
 We’ve explored how Bitcoin keeps its blockchain compact and how SPV wallets make verifying transactions easier. Now, let’s dive into another crucial part of Bitcoin’s design: **managing value.** Unlike traditional cash with fixed denominations like $10 bills or quarters, Bitcoin operates on a much more flexible and precise system.

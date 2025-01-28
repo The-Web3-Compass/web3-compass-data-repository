@@ -1,5 +1,3 @@
-# Bitcoin Genesis
-
 ### Here we go!
 
 Let me set the scene: It’s 2008, and the global economy is doing its best impression of a sinking ship. Banks are collapsing, governments are scrambling to stay afloat, and trust in the financial system is hovering somewhere between “non-existent” and “laughable”

@@ -1,5 +1,3 @@
-# The Mining Race
-
 ### Creating a Distributed Timestamp Server
 
 In the previous section, we saw how a **timestamp server** ensures that every Bitcoin transaction is recorded in the correct order. Sounds simple, right? But here’s the million-dollar question:

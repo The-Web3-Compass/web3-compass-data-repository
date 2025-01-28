@@ -1,5 +1,3 @@
-# How Money Moves
-
 ### Transactions
 
 Alright, so we’ve explored how Bitcoin removes the need for trust in traditional financial systems by relying on cryptography, math, code, decentralization, and a whole other bunch of big, scary words. But what does that actually look like in practice? How does Bitcoin handle something as fundamental as moving money from one person to another?

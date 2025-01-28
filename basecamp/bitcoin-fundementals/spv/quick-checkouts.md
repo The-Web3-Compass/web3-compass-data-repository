@@ -1,5 +1,3 @@
-# Quick Checkouts
-
 ### Simplified Payment Verification
 
 Let’s face it—not everyone wants to carry the entire blockchain around just to verify a transaction. Running a full-fledged bitcoin node is great for security and independence, but it’s also like keeping a library for every book you’ve ever read. So, what’s the solution for someone who wants to participate in the Bitcoin network without storing all that data? Enter **Simplified Payment Verification (SPV)**—a lightweight method that lets users verify transactions without downloading the entire blockchain.

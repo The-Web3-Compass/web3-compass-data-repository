@@ -1,5 +1,3 @@
-# Why bitcoin?
-
 ### The Internet’s Financial Puzzle
 
 Imagine you’re shopping online. Whether it’s for a quirky cat-shaped mug or a rare comic book, the process feels magical. You hit “pay,” and everything just happens. Your bank or payment processor leaps into action, confirming the transaction and ensuring the seller gets their money. It’s smooth and seamless—or so it seems.

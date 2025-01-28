@@ -1,5 +1,3 @@
-# Keeping the chain compact
-
 ### Reclaiming Disk Space 🗄️
 
 Alright, so we’ve explored how Bitcoin incentivizes miners and keeps the network secure. But with new blocks being added roughly every 10 minutes, you might be wondering: **doesn’t the blockchain grow endlessly?** Without a way to manage its size, the ledger could become too large for anyone to store or verify.

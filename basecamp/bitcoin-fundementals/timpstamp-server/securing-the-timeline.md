@@ -1,5 +1,3 @@
-# Securing the Timeline
-
 ### The Timestamp Server: Bitcoin’s Timekeeper
 
 Now that we’ve explored how Bitcoin transactions are like passing a magical baton, let’s talk about how Bitcoin keeps track of **when** each baton pass happens. This part is actually quite crucial—I mean, imagine a relay race where no one knows the order of the passes! I mean , the race would be completely meaningless right?

@@ -1,5 +1,3 @@
-# Motivating the Miners
-
 ### Unlocking the Incentives: Why Miners Play the Game 🎮
 
 Welcome back! After taking a breather, you’re ready to dive into what keeps Bitcoin running: **incentives**. Let’s face it—no one fires up a computer and burns electricity for free. Miners need a reason to solve those cryptographic puzzles, and Bitcoin gives them a pretty good one: rewards.

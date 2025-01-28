@@ -3,15 +3,15 @@
     {
       "topic": "Bitcoin Genesis",
       "location": "/note-to-readers/bitcoin-genesis.md",
-      "question": "What is the main problem Bitcoin aims to solve?",
+      "question": "Why was Bitcoin introduced in 2008?",
       "secondary": {
         "options": [
-          "Double-spending without a trusted third party",
-          "High transaction fees in traditional banking",
-          "Lack of global payment systems",
-          "Data encryption for financial transactions"
+          "To provide a trust-based system during the financial crisis",
+          "To replace physical currency with a digital one controlled by banks",
+          "To create a decentralized system immune to financial institution failures",
+          "To introduce a fast and centralized payment system"
         ],
-        "answer": "Double-spending without a trusted third party"
+        "answer": "To create a decentralized system immune to financial institution failures"
       }
     }
   ],

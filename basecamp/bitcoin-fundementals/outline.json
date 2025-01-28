@@ -1,0 +1,146 @@
+{
+    "A Note To Readers": [
+      {
+        "topic": "Bitcoin Genisis",
+        "location": "/note-to-readers/bitcoin-genisis.md",
+        "question": "",
+        "secondary": {
+          "options": [],
+          "answer": ""
+        }
+      }
+    ],
+    "Introduction": [
+      {
+        "topic": "Why Bitcoin?",
+        "location": "/introduction/why-bitcoin.md",
+        "question": "",
+        "secondary": {
+          "options": [],
+          "answer": ""
+        }
+      }
+    ],
+    "Transactions": [
+        {
+          "topic": "How Money Moves?",
+          "location": "/transactions/how-money-moves.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Timestamp Server": [
+        {
+          "topic": "Securing the Timeline",
+          "location": "/timpstamp-server/securing-the-timeline.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Proof of Work": [
+        {
+          "topic": "The Mining Race",
+          "location": "/proof-of-wook/the-mining-race.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Network": [
+        {
+          "topic": "Nodes in Action",
+          "location": "/network/nodes-in-action.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Incentive": [
+        {
+          "topic": "Motivating the miners",
+          "location": "/incentive/motivating-miners.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Reclaiming Disk Space": [
+        {
+          "topic": "Keeping the chain compact",
+          "location": "/reclaiming-disk-space/keeping-the-chain-compact.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Simplified Payment Verification": [
+        {
+          "topic": "Quick Checkouts",
+          "location": "/spv/quick-checkouts.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Combining and Splitting Values": [
+        {
+          "topic": "Making Changes",
+          "location": "/combining-and-spliting/making-changes.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Privacy": [
+        {
+          "topic": "Staying Mysterious",
+          "location": "/privacy/staying-mysterious.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Calculations": [
+        {
+          "topic": "Math for Security",
+          "location": "/calculation/math-for-security.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ],
+      "Conclusion": [
+        {
+          "topic": "A New Financial Era",
+          "location": "/conclusion/a-new-financial-era.md",
+          "question": "",
+          "secondary": {
+            "options": [],
+            "answer": ""
+          }
+        }
+      ]
+  }
+  

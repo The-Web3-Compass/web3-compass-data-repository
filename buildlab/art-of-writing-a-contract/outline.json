@@ -75,16 +75,16 @@
         ]
       }
     ],
-    "Quiz: Final Checkpoint": [
-      {
-        "topic": "Solidity Basics Quiz II",
-        "location": "FinalQuiz/quiz.json"
-      }
-    ],
     "Retrieving the Results": [
         {
           "topic": "Displaying Election Results",
           "location": "retriving-and-displaying-results/display-result.md"
+        }
+      ],
+      "Quiz: Final Checkpoint": [
+        {
+          "topic": "Solidity Basics Quiz II",
+          "location": "FinalQuiz/quiz.json"
         }
       ],
       "Deployment": [

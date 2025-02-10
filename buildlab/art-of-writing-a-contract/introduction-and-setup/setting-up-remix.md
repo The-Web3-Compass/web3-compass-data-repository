@@ -35,9 +35,8 @@ To get started, open Remix IDE in your browser:https://remix.ethereum.org/.
 
 It should look something like this:
 
-<p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/remix-Intro.gif" alt="Node" width="600" height="350" />
-</p>
+<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/remix-Intro.gif" alt="Node" width="600" height="350" />
+
 
 
 > ⚠️ Heads up! Remix works best in Chrome or Brave. If you’re using Safari or Edge, things might get a little weird.
@@ -53,9 +52,8 @@ Now that Remix is open, let's create the file where all the magic will happen. F
 2. Click the **+ (New File)** button to create a fresh Solidity file.
 3. Name it **Vote.sol**—the `.sol` extension is what tells Remix (and the Solidity compiler) that this is a Solidity file.
 
-<p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/new-sol-file.gif" alt="Node" width="600" height="350" />
-</p>
+
+<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/new-sol-file.gif" alt="Node" width="600" height="350" />
 
 That’s it! You should now have a blank screen and a new solidity file where we can start writing our contract.
 

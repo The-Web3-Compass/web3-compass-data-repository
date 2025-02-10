@@ -10,13 +10,13 @@
           "To keep a record of all registered voters",
           "To determine the winner of the election"
         ],
-        "answerHash": "35c9fbc0d744f2c4263c89ab23876c8a8d5be6249e0ade25835235f62a978a5d"
+        "answerHash": "afca5f00436f1c1e784d3206bb1b12294a32e1dae392ebca2fc6a4a193c714f7"
       },
       {
         "type": "true_false",
         "question": "In Solidity, state variables are permanently stored on the blockchain.",
         "options": ["True", "False"],
-        "answerHash": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+        "answerHash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
       },
       {
         "type": "fill_in_the_blank",
@@ -39,7 +39,7 @@
           "A string variable",
           "A uint variable"
         ],
-        "answerHash": "f5ba22d1754ed2acc8a4d2f61bb92451fe722442518d3a4fd09dd2a0547fa8fc"
+        "answerHash": "392cc6a6d6cd9150181a5c211161f4e314025b40d38d5bfe4d4028b21c6946b3"
       },
       {
         "type": "multiple_choice",
@@ -50,7 +50,7 @@
           "The contract’s deployment address",
           "The Solidity compiler version"
         ],
-        "answerHash": "7601cabb81d103635db0f8161cbc5f1ca046352630b744d2fce4edacda3b0338"
+        "answerHash": "6e6464d6543b22ec3ad04a1197d81ab57de20c2c792f0925cc8c364f8fcc1ad6"
       }
     ]
   }

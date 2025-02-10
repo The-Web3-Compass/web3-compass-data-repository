@@ -10,19 +10,19 @@
           "The admin must vote first",
           "The total votes must be initialized"
         ],
-        "answerHash": "a4216ac0b406b1c34fc399aa0868741dbe6b70e683601704c9f7b1f246611e96"
+        "answerHash": "1577cda23d93227b7e1bdc6315616fe8a82f005068ce0a94c3dad8993bf96077"
       },
       {
         "type": "true_false",
         "question": "A voter can vote multiple times as long as they vote for different candidates.",
         "options": ["True", "False"],
-        "answerHash": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+        "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
       },
       {
         "type": "fill_in_the_blank",
         "question": "The function that ensures only the admin can perform specific actions in the contract is called '______'.",
         "options": ["onlyAdmin", "adminControl", "restrictedAccess", "secureAdmin"],
-        "answerHash": "893bb14b447cd0bed67372843a7059ce043eb37e8790064f6ae8fc4fe4c558cb"
+        "answerHash": "67d0105d180f8a353ae8e308a66d4ce3fe2cb404ab6f8505b05ed1003a8f98ae"
       },
       {
         "type": "multiple_choice",
@@ -33,13 +33,13 @@
           "The vote is stored but shown as pending",
           "Nothing happens, the vote is silently discarded"
         ],
-        "answerHash": "0a78112071e504ff326d9615cc7d3844833fde8aaec9f848cdf6781aa32aec34"
+        "answerHash": "d4bdc14e4a3776b009d5fcacc081434262a32c09f68523ac608f174b3bc4b845"
       },
       {
         "type": "true_false",
         "question": "The `getWinner()` function can be called at any time, even while voting is still open.",
         "options": ["True", "False"],
-        "answerHash": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+        "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
       },
       {
         "type": "multiple_choice",
@@ -50,7 +50,7 @@
           "To reset the vote count after each election",
           "To prevent duplicate votes from being cast"
         ],
-        "answerHash": "2974c7523558aa1d73656af351f2ba06abec2a2403ea6d01b6eee28b075bfc43"
+        "answerHash": "b2a53dd0767ddcc9faf6fa862b3cc750a9724cdb6711d7bc440dd38d59ec0a9b"
       }
     ]
   }

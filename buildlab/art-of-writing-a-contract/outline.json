@@ -1,0 +1,104 @@
+{
+    "Introduction and Setup": [
+      {
+        "topic": "Welcome to the course",
+        "location": "introduction-and-setup/welcome-to-the-course.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Setting up your first contract",
+        "location": "introduction-and-setup/setting-up-remix.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Solidity Basics": [
+      {
+        "topic": "Variables, Data Types & State Management",
+        "location": "solidity-basics-and-data-structures/solidity-basics.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Structs & Mappings",
+        "location": "solidity-basics-and-data-structures/stucts-and-mapping.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Quiz: Halfway point": [
+      {
+        "topic": "Solidity Basics Quiz",
+        "location": "HalfWayQuiz/quiz.json"
+      }
+    ],
+    "Writing core contract functions": [
+      {
+        "topic": "Adding Candidates & Voters",
+        "location": "writing-core-contract-functions/writing-functions.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Access Control",
+        "location": "writing-core-contract-functions/access-control.md",
+        "resources": [
+
+        ]
+      },
+      {
+        "topic": "Events",
+        "location": "writing-core-contract-functions/events.md",
+        "resources": [
+
+        ]
+      }
+    ],
+    "Managing The Voting Process": [
+      {
+        "topic": "Controlling the Voting Process",
+        "location": "managing-votng-process/controlling-the-voting-process.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Function Modifiers",
+        "location": "managing-votng-process/function-modifiers.md",
+        "resources": [
+        ]
+      },
+      {
+        "topic": "Voting Logic",
+        "location": "managing-votng-process/implement-voting-logic.md",
+        "resources": [
+        ]
+      }
+    ],
+    "Quiz: Final Checkpoint": [
+      {
+        "topic": "Solidity Basics Quiz II",
+        "location": "FinalQuiz/quiz.json"
+      }
+    ],
+    "Retrieving the Results": [
+        {
+          "topic": "Displaying Election Results",
+          "location": "retriving-and-displaying-results/display-result.md"
+        }
+      ],
+      "Deployment": [
+        {
+          "topic": "Deploying & Interacting with Our Contract",
+          "location": "deployment/deployment.md"
+        }
+      ],
+
+    "Code FlowChallenge": [
+      {
+        "topic": "BYOB Course FlowChallenge",
+        "location": "code-flow-challenge/challenge.json"
+      }
+    ]
+  }
+  

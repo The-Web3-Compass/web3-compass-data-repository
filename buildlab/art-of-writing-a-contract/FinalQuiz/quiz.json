@@ -1,0 +1,57 @@
+{
+    "section": "Quiz: Solidity Voting Contract",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What condition must be met before the voting process can start?",
+        "options": [
+          "At least one voter must be registered",
+          "At least one candidate must be added",
+          "The admin must vote first",
+          "The total votes must be initialized"
+        ],
+        "answerHash": "a4216ac0b406b1c34fc399aa0868741dbe6b70e683601704c9f7b1f246611e96"
+      },
+      {
+        "type": "true_false",
+        "question": "A voter can vote multiple times as long as they vote for different candidates.",
+        "options": ["True", "False"],
+        "answerHash": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+      },
+      {
+        "type": "fill_in_the_blank",
+        "question": "The function that ensures only the admin can perform specific actions in the contract is called '______'.",
+        "options": ["onlyAdmin", "adminControl", "restrictedAccess", "secureAdmin"],
+        "answerHash": "893bb14b447cd0bed67372843a7059ce043eb37e8790064f6ae8fc4fe4c558cb"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What happens when a voter tries to vote before the voting period starts?",
+        "options": [
+          "The vote is recorded but not counted",
+          "The transaction is reverted with an error",
+          "The vote is stored but shown as pending",
+          "Nothing happens, the vote is silently discarded"
+        ],
+        "answerHash": "0a78112071e504ff326d9615cc7d3844833fde8aaec9f848cdf6781aa32aec34"
+      },
+      {
+        "type": "true_false",
+        "question": "The `getWinner()` function can be called at any time, even while voting is still open.",
+        "options": ["True", "False"],
+        "answerHash": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the purpose of the `Voted` event in the contract?",
+        "options": [
+          "To store votes on the blockchain",
+          "To log and track voting actions transparently",
+          "To reset the vote count after each election",
+          "To prevent duplicate votes from being cast"
+        ],
+        "answerHash": "2974c7523558aa1d73656af351f2ba06abec2a2403ea6d01b6eee28b075bfc43"
+      }
+    ]
+  }
+  

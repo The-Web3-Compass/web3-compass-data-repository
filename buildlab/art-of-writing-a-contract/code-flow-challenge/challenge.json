@@ -1,0 +1,16 @@
+{
+    "points": [
+      "The admin starts the voting process, allowing registered voters to vote.",
+      "Each vote increases the selected candidate’s vote count.",
+      "The contract admin registers eligible voters by checking their age.",
+      "The contract admin registers candidates for the election.",
+      "A registered voter casts their vote for a candidate.",
+      "The `getWinner()` function loops through all candidates to determine the winner.",
+      "The contract allows retrieval of the election winner after voting has ended.",
+      "The winner’s name and vote count are returned as the election result.",
+      "The contract ensures a voter can only vote once and records their selection.",
+      "The admin ends the voting process, preventing further votes from being cast."
+    ],
+    "hash": "83283863cbfd0f2e104e3431bd95351d6cc4614fee52b8351163a2cb09e93829"
+  }
+  

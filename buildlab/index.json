@@ -23,5 +23,17 @@
     "location": "build-your-own-token",
     "status":"pending",
     "category": "ethereum"
+  },
+  {
+    "id": "BL-ETH-AOWASM",
+    "name": "Art of writing a Smart Contract",
+    "description": "A hands-on Solidity course that teaches beginners how to build a fully functional voting smart contract from scratch",
+    "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/thumbnail.svg",
+    "level": "Beginner",
+    "duration": "2 hours",
+    "tags": ["#Contract", "#Solidity", "#Basic"],
+    "location": "art-of-writing-a-contract",
+    "status":"active",
+    "category": "ethereum"
   }
 ]

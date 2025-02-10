@@ -1,0 +1,57 @@
+{
+    "section": "Quiz: Solidity & Smart Contracts",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the primary purpose of the 'admin' variable in our smart contract?",
+        "options": [
+          "To store the Ethereum address of the contract owner",
+          "To track the number of votes",
+          "To keep a record of all registered voters",
+          "To determine the winner of the election"
+        ],
+        "answerHash": "35c9fbc0d744f2c4263c89ab23876c8a8d5be6249e0ade25835235f62a978a5d"
+      },
+      {
+        "type": "true_false",
+        "question": "In Solidity, state variables are permanently stored on the blockchain.",
+        "options": ["True", "False"],
+        "answerHash": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18"
+      },
+      {
+        "type": "fill_in_the_blank",
+        "question": "A Solidity function that runs only once when the contract is deployed is called a '______'.",
+        "options": ["constructor", "initializer", "setup", "deploy"],
+        "answerHash": "e3c1703abf8a6b3df04dd30e184fe02bb6724f46830b544562ff083169371068"
+      },
+      {
+        "type": "fill_in_the_blank",
+        "question": "Mappings in Solidity provide '______' lookups for key-value storage.",
+        "options": ["instant", "slow", "manual", "expensive"],
+        "answerHash": "618dc58379dda348eba010597accf72a98ab4cd357b42acdda4091901b2ff144"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is the most gas-efficient way to store voter registration status?",
+        "options": [
+          "A boolean in a struct inside a mapping",
+          "An array of voter addresses",
+          "A string variable",
+          "A uint variable"
+        ],
+        "answerHash": "f5ba22d1754ed2acc8a4d2f61bb92451fe722442518d3a4fd09dd2a0547fa8fc"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'msg.sender' represent in a Solidity function?",
+        "options": [
+          "The Ethereum address that called the function",
+          "The total number of votes cast",
+          "The contract’s deployment address",
+          "The Solidity compiler version"
+        ],
+        "answerHash": "7601cabb81d103635db0f8161cbc5f1ca046352630b744d2fce4edacda3b0338"
+      }
+    ]
+  }
+  

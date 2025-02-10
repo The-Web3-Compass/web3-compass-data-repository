@@ -13,18 +13,6 @@
 
   },
   {
-    "id": "BL-ETH-BYOT",
-    "name": "Build your own Token",
-    "description": "A practical blockchain course for absolute beginners to design, build, and launch their own crypto token from scratch.",
-    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/6a52132252fc5e909c9f0e93f40c31b2b425f541/buildlab/build-your-own-token/images/thumbnail.svg",
-    "level": "Beginner",
-    "duration": "3 hours",
-    "tags": ["#Token", "#Solidity", "#Basic"],
-    "location": "build-your-own-token",
-    "status":"pending",
-    "category": "ethereum"
-  },
-  {
     "id": "BL-ETH-AOWASM",
     "name": "Art of writing a Smart Contract",
     "description": "A hands-on Solidity course that teaches beginners how to build a fully functional voting smart contract from scratch",
@@ -35,5 +23,18 @@
     "location": "art-of-writing-a-contract",
     "status":"active",
     "category": "ethereum"
+  },
+  {
+    "id": "BL-ETH-BYOT",
+    "name": "Build your own Token",
+    "description": "A practical blockchain course for absolute beginners to design, build, and launch their own crypto token from scratch.",
+    "thumbnail": "https://raw.githubusercontent.com/SethuRamanOmanakuttan/web3-compass-data-repository/6a52132252fc5e909c9f0e93f40c31b2b425f541/buildlab/build-your-own-token/images/thumbnail.svg",
+    "level": "Beginner",
+    "duration": "3 hours",
+    "tags": ["#Token", "#Solidity", "#Basic"],
+    "location": "build-your-own-token",
+    "status":"pending",
+    "category": "ethereum"
   }
+
 ]

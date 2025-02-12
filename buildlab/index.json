@@ -20,7 +20,7 @@
     "level": "Beginner",
     "duration": "2 hours",
     "tags": ["#Contract", "#Solidity", "#Basic"],
-    "location": "art-of-writing-a-contract",
+    "location": "art-of-writing-a-smart-contract",
     "status":"active",
     "category": "ethereum"
   },

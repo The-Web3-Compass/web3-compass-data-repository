@@ -233,7 +233,7 @@ Now that the functions are implemented, we will deploy and test the contract in 
     - Verify that the candidates and voters are correctly stored in the contract.
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-5/calling-functions.gif" alt="Node" width="600" height="350" />
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-5/calling-functions.gif" alt="Node" width="600" height="350" />
 </p>
 
 ---

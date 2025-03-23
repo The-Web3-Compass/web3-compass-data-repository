@@ -35,7 +35,7 @@ To get started, open Remix IDE in your browser:https://remix.ethereum.org/.
 
 It should look something like this:
 
-<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/remix-Intro.gif" alt="Node" width="600" height="350" />
+<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-2/remix-Intro.gif" alt="Node" width="600" height="350" />
 
 
 
@@ -53,7 +53,7 @@ Now that Remix is open, let's create the file where all the magic will happen. F
 3. Name it **Vote.sol**—the `.sol` extension is what tells Remix (and the Solidity compiler) that this is a Solidity file.
 
 
-<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/new-sol-file.gif" alt="Node" width="600" height="350" />
+<img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-2/new-sol-file.gif" alt="Node" width="600" height="350" />
 
 That’s it! You should now have a blank screen and a new solidity file where we can start writing our contract.
 
@@ -205,7 +205,7 @@ If there are **no errors**, Remix will show a **green checkmark**, meaning the c
 
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/compile-contract.gif" alt="Node" width="600" height="350" />
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-2/compile-contract.gif" alt="Node" width="600" height="350" />
 </p>
 
 > 🔍 Pro Tip: If you see warnings in Remix but not errors, your contract can still compile, but you should pay attention to those warnings—some might indicate potential issues or inefficiencies in your code.
@@ -225,7 +225,7 @@ Now, let’s **deploy it to a test blockchain**.
 3. Click **Deploy**.
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-2/deploy-contract.gif" alt="Node" width="600" height="350" />
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-2/deploy-contract.gif" alt="Node" width="600" height="350" />
 </p>
 
 Boom! Your contract is now **live** on Remix’s virtual blockchain.(Not a real blockchain)

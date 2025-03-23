@@ -154,7 +154,7 @@ After deploying the contract, we can test **event logs** in Remix.
 
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-7/events.gif" alt="Node" width="600" height="350" />
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-7/events.gif" alt="Node" width="600" height="350" />
 </p>
 
 1. **Repeat the process for `registerVoter()`**, passing an address and age.

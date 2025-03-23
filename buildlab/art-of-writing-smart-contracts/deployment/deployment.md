@@ -140,7 +140,7 @@ Now that we have **MetaMask configured** and **test ETH available**, we can depl
 3. MetaMask will prompt you to **connect to Remix**—select **Sepolia network** and confirm.
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-a-contract/images/lesson-12/injected-provider.gif" alt="Node" width="600" height="350" />
+        <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/buildlab/art-of-writing-smart-contracts/images/lesson-12/injected-provider.gif" alt="Node" width="600" height="350" />
 </p>
 
 1. Under **Contract**, select `VotingContract`.

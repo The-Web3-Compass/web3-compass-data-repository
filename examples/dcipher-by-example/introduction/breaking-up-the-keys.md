@@ -1,6 +1,3 @@
-# Example #1 : Threshold Signatures Explained
-
-
 ## Breaking Up the Keys to the Kingdom (So No Single Person Can Lose Them)
 
 You and four friends just won $10 million in the lottery. Champagne everywhere, tears of joy, the whole nine yards. Then reality hits. Someone needs to physically hold that winning ticket until you can all get to the lottery office together and claim your fortune.

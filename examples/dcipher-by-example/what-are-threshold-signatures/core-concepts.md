@@ -6,13 +6,7 @@ In traditional cryptography, signing something (authorizing a transaction, unloc
 
 Threshold Signature Schemes (TSS) take a completely different approach. Instead of one person holding one complete key, TSS mathematically divides that key into multiple "key shares" and distributes them among different participants. In blockchain land, we call these participants "nodes." In pure cryptography, they're "signers." Either way, the concept is identical.
 
-| Model | How it works | What you see on-chain | Key weaknesses |
-| --- | --- | --- | --- |
-| Single private key (traditional) | One entity holds one complete private key and signs everything | One signature from one key | Single point of failure. If the key is lost, stolen, or misused, the system is compromised |
-| Multisig | Multiple independent private keys each produce their own signature; a minimum number is required | Multiple signatures and a visible signer set | Signer set and threshold are public, coordination is manual, transactions are larger and more expensive |
-| Threshold signatures (TSS) | One key is split into shares; participants jointly produce a single signature without reconstructing the key | One normal-looking signature from one public key | Requires MPC and coordination infrastructure, more complex to operate |
-| Blockchain consensus | Many validators agree on transaction ordering and state transitions | Blocks confirmed by network consensus | Distributes verification, not authorization; does not protect application-level keys |
-
 Now, the important thing to note here is that no single participant ever possesses the complete key. Not during setup, not during operation, not even temporarily in computer memory. The complete key doesn't exist anywhere. It's distributed across multiple parties in such a way that they can collectively use it without any individual having complete control.
 
 Think about that for a second. The key literally doesn't exist in any one place. You can't steal it because there's nothing to steal. You can't lose it because there's nothing to lose. The power is distributed at the foundational level, not just the organizational level.
+

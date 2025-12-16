@@ -1,6 +1,5 @@
 # Example #1 : Threshold Signatures Explained
 
-Created: December 5, 2025 7:41 PM
 
 ## Breaking Up the Keys to the Kingdom (So No Single Person Can Lose Them)
 

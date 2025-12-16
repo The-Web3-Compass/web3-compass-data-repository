@@ -10,7 +10,7 @@
                 "Threshold signatures don't require any coordination",
                 "Threshold signatures are easier to implement"
             ],
-            "answerHash": "b2a53dd0767ddcc9faf6fa862b3cc750a9724cdb6711d7bc440dd38d59ec0a9b"
+            "correctAnswer": "Threshold signatures hide the signing structure and produce one compact signature"
         },
         {
             "type": "true_false",
@@ -19,7 +19,7 @@
                 "True",
                 "False"
             ],
-            "answerHash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+            "correctAnswer": "True"
         },
         {
             "type": "multiple_choice",
@@ -30,7 +30,7 @@
                 "By requiring each chain to validate the threshold",
                 "By converting signatures between different blockchain formats"
             ],
-            "answerHash": "1577cda23d93227b7e1bdc6315616fe8a82f005068ce0a94c3dad8993bf96077"
+            "correctAnswer": "By using a single committee that can monitor multiple chains and sign for any of them"
         },
         {
             "type": "fill_in_the_blank",
@@ -41,7 +41,7 @@
                 "equally",
                 "hierarchically"
             ],
-            "answerHash": "67d0105d180f8a353ae8e308a66d4ce3fe2cb404ab6f8505b05ed1003a8f98ae"
+            "correctAnswer": "mathematically"
         },
         {
             "type": "multiple_choice",
@@ -52,7 +52,7 @@
                 "BLS signatures",
                 "Schnorr signatures"
             ],
-            "answerHash": "d4bdc14e4a3776b009d5fcacc081434262a32c09f68523ac608f174b3bc4b845"
+            "correctAnswer": "BLS signatures"
         },
         {
             "type": "true_false",
@@ -61,7 +61,7 @@
                 "True",
                 "False"
             ],
-            "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+            "correctAnswer": "False"
         },
         {
             "type": "multiple_choice",
@@ -72,7 +72,7 @@
                 "Reducing blockchain storage requirements",
                 "Eliminating transaction fees"
             ],
-            "answerHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+            "correctAnswer": "MEV prevention through encrypted mempools with time-based decryption"
         }
     ]
 }

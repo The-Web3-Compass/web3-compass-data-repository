@@ -10,7 +10,7 @@
                 "5 nodes",
                 "7 nodes"
             ],
-            "answerHash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+            "correctAnswer": "4 nodes"
         },
         {
             "type": "true_false",
@@ -19,7 +19,7 @@
                 "True",
                 "False"
             ],
-            "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+            "correctAnswer": "False"
         },
         {
             "type": "multiple_choice",
@@ -30,7 +30,7 @@
                 "To encrypt the final signature",
                 "To reduce the number of nodes needed"
             ],
-            "answerHash": "1c7f3c2c1e4c8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e"
+            "correctAnswer": "To allow nodes to jointly compute signatures while keeping their key shares private"
         },
         {
             "type": "fill_in_the_blank",
@@ -41,7 +41,7 @@
                 "incomplete",
                 "temporary"
             ],
-            "answerHash": "8f3c3c2c1e4c8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e8f8d8c8e"
+            "correctAnswer": "useless"
         },
         {
             "type": "multiple_choice",
@@ -52,7 +52,7 @@
                 "As one normal-looking signature indistinguishable from traditional signatures",
                 "As an encrypted signature bundle"
             ],
-            "answerHash": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35"
+            "correctAnswer": "As one normal-looking signature indistinguishable from traditional signatures"
         },
         {
             "type": "true_false",
@@ -61,7 +61,7 @@
                 "True",
                 "False"
             ],
-            "answerHash": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+            "correctAnswer": "False"
         }
     ]
 }

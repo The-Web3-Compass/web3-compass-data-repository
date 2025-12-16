@@ -1,0 +1,75 @@
+{
+    "Introduction": [
+        {
+            "topic": "Breaking Up the Keys to the Kingdom",
+            "location": "introduction/breaking-up-the-keys.md",
+            "resources": []
+        }
+    ],
+    "What Are Threshold Signatures?": [
+        {
+            "topic": "Core Concepts and Mechanics",
+            "location": "what-are-threshold-signatures/core-concepts.md",
+            "resources": []
+        },
+        {
+            "topic": "The (t, n) Threshold Concept",
+            "location": "what-are-threshold-signatures/threshold-concept.md",
+            "resources": []
+        }
+    ],
+    "Traditional vs Threshold Signatures": [
+        {
+            "topic": "How Threshold Signatures Differ",
+            "location": "traditional-vs-threshold/how-they-differ.md",
+            "resources": []
+        }
+    ],
+    "Multi-Party Computation": [
+        {
+            "topic": "How Multiple Nodes Share Control",
+            "location": "multi-party-computation/sharing-control.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Threshold Signatures Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Trust-Minimized Operations": [
+        {
+            "topic": "Why This Enables Trustless Systems",
+            "location": "trust-minimized-operations/eliminating-trust-points.md",
+            "resources": []
+        }
+    ],
+    "Security Guarantees": [
+        {
+            "topic": "The Security You Actually Get",
+            "location": "security-guarantees/what-you-get.md",
+            "resources": []
+        }
+    ],
+    "dcipher Implementation": [
+        {
+            "topic": "Why dcipher Built on Threshold Signatures",
+            "location": "dcipher-implementation/why-dcipher-uses-this.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Advanced Threshold Cryptography Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "Mathematics Replacing Trust",
+            "location": "conclusion/mathematics-replacing-trust.md",
+            "resources": []
+        }
+    ]
+}

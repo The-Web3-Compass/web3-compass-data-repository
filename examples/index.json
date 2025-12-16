@@ -1,0 +1,18 @@
+[
+    {
+        "id": "EX-DC-TSE",
+        "name": "Threshold Signatures Explained",
+        "description": "A deep dive into threshold cryptography and how dcipher uses it to enable trust-minimized operations across blockchains",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/dcipher-by-example/images/thumbnail.svg",
+        "level": "Intermediate",
+        "duration": "45 minutes",
+        "tags": [
+            "#Cryptography",
+            "#dcipher",
+            "#Threshold"
+        ],
+        "location": "dcipher-by-example",
+        "status": "active",
+        "category": "cryptography"
+    }
+]

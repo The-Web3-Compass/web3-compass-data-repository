@@ -18,6 +18,8 @@ But now it gets interesting. The dcipher network operators are watching the bloc
 
 Each operator has a share of a collective private key. These operators independently perform their part of the signing process. Each produces a "partial signature" using their key share. These partial signatures get broadcast to the other operators. When enough arrive (meeting the threshold), they get mathematically combined into one complete signature.
 
+![Operators Watching Chains](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-3/images/operators-watching-chains.png)
+
 Here's the strange part: that threshold signature *is* your randomness.
 
 Not "derived from randomness," not "signed randomness."

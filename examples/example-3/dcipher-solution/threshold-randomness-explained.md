@@ -15,6 +15,8 @@ Here's how it works. You request a random number. Multiple independent nodes jum
 
 The output is a threshold signature over your request. That signature gets verified cryptographically before your contract ever sees it. If the signature is valid, the randomness is legit. If someone tried to cheat, the signature verification fails and the whole thing gets rejected. Your contract never has to check anything, the math already proved the randomness is sound.
 
+![Collaborative Randomness Generation](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-3/images/collaborative-randomness.png)
+
 Now think about what it takes to attack this versus the old approaches. 
 
 Want to manipulate a block hash? Control one miner. Takes money and maybe some technical skill, but people do it. 

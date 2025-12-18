@@ -1,6 +1,6 @@
-## onlyswaps: Cross-Chain Coordination in Practice
+## only swaps: Cross-Chain Coordination in Practice
 
-Now let's look at how these capabilities come together in a real application: onlyswaps, dcipher's cross-chain token transfer protocol.
+Now let's look at how these capabilities come together in a real application: only swaps, dcipher's cross-chain token transfer protocol.
 
 ### The Problem with Traditional Bridges
 
@@ -14,9 +14,9 @@ Most bridges operate in one of these broken modes:
 
 **Oracle + relayer:** Oracles watch Chain A, relayers submit proofs to Chain B. You're trusting the oracle set and the relayers not to collude.
 
-### How onlyswaps Actually Works
+### How only swaps Actually Works
 
-onlyswaps is an **intent-based protocol** backed by threshold verification. That distinction matters.
+![OnlySwaps](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/only-swaps.png)
 
 **Step 1: User Creates a Swap Request**
 
@@ -68,7 +68,7 @@ You get the speed of liquidity pools (solvers front capital immediately), the se
 
 ### The Fee Structure (Because Economics Matter)
 
-Fees in onlyswaps have two components:
+Fees in only swaps have two components:
 
 **Solver Fee (Flat):** This is what you offer to solvers as an incentive to fulfill your swap. It's a competitive market you can set this however you want. Higher fees get your swap fulfilled faster because solvers prioritize profitable orders.
 
@@ -87,7 +87,7 @@ The fee market self-regulates. When demand is high, solver fees rise. When chain
 
 ### Solver Competition (The Hidden Genius)
 
-Solvers compete. There's no single entity with a monopoly on fulfilling swaps. Anyone with capital can run the onlyswaps solver binary and participate.
+Solvers compete. There's no single entity with a monopoly on fulfilling swaps. Anyone with capital can run the only swaps solver binary and participate.
 
 If one solver goes offline, others pick up the slack. If one solver tries to cheat (not fulfilling after claiming they did), the dcipher committee catches it and they don't get reimbursed. If one solver gets too greedy with low fulfillment rates, users just offer higher fees and other solvers step in.
 

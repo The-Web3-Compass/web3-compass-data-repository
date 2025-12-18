@@ -14,6 +14,8 @@ The encrypted data sits there, useless, until the condition is met. Then and onl
 
 **The Technical Flow:**
 
+![Blocklock Encryption Flow](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/blocklock-encryption-flow.png)
+
 **Step 1: Encryption.** You encrypt your data using Identity-Based Encryption (IBE) where the "identity" is the condition itself. "Ethereum block 20000000" becomes the identity. This uses the committee's public key, which was published during their DKG ceremony.
 
 **Step 2: On-Chain Request.** You submit the encrypted data and condition to a smart contract. This creates a public record of what needs to be decrypted and when.

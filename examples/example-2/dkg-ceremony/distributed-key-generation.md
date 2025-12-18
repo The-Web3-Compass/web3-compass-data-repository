@@ -12,6 +12,8 @@ This was covered in detail in the previous chapter, but here's the operational r
 
 ### The DKG Ceremony in Practice
 
+![DKG Ceremony Phases](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/dkg-ceremony-phases.png)
+
 **Phase 1: Setup**
 
 When a new committee forms, the operators who'll be members connect to each other through a peer-to-peer network. They've already registered on-chain and staked collateral.

@@ -14,7 +14,7 @@
         },
         {
             "type": "true_false",
-            "question": "In onlyswaps, solvers must be pre-approved and trusted by the dcipher committee.",
+            "question": "In only swaps, solvers must be pre-approved and trusted by the dcipher committee.",
             "options": [
                 "True",
                 "False"
@@ -23,14 +23,14 @@
         },
         {
             "type": "multiple_choice",
-            "question": "How does onlyswaps differ from traditional lock-and-mint bridges?",
+            "question": "How does only swaps differ from traditional lock-and-mint bridges?",
             "options": [
-                "onlyswaps creates wrapped tokens on the destination chain",
-                "onlyswaps uses native tokens and solvers front capital, verified by threshold signatures",
-                "onlyswaps requires a 7-day challenge window",
-                "onlyswaps relies on a centralized liquidity pool"
+                "only swaps creates wrapped tokens on the destination chain",
+                "only swaps uses native tokens and solvers front capital, verified by threshold signatures",
+                "only swaps requires a 7-day challenge window",
+                "only swaps relies on a centralized liquidity pool"
             ],
-            "correctAnswer": "onlyswaps uses native tokens and solvers front capital, verified by threshold signatures"
+            "correctAnswer": "only swaps uses native tokens and solvers front capital, verified by threshold signatures"
         },
         {
             "type": "fill_in_the_blank",
@@ -65,7 +65,7 @@
         },
         {
             "type": "multiple_choice",
-            "question": "What is the main advantage of intent-based protocols like onlyswaps?",
+            "question": "What is the main advantage of intent-based protocols like only swaps?",
             "options": [
                 "They eliminate all transaction fees",
                 "They allow users to specify desired outcomes while solvers compete to fulfill them efficiently",

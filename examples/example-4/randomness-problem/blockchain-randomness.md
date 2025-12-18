@@ -1,3 +1,5 @@
+## The Randomness Problem
+
 Blockchains weren't designed for randomness. They were designed for verification.
 
 Every node needs to independently execute transactions and arrive at the same state. That's how consensus works. That's how trust is achieved without a central authority.

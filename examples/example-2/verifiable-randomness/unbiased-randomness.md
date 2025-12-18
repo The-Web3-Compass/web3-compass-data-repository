@@ -20,6 +20,8 @@ dcipher generates randomness through a distributed protocol where no participant
 
 **The Play-by-Play:**
 
+![Randomness Generation Flow](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/randomness-generation-flow.png)
+
 **Step 1: Entropy Contribution.** Each committee member generates their own random contribution locally. They commit to this contribution cryptographically before revealing it basically hashing it and publishing the hash.
 
 **Step 2: Commitment Verification.** Once all commitments are in, the reveals happen. Each operator publishes their actual random value. If anyone's reveal doesn't match their commitment, the protocol catches them and they get slashed.

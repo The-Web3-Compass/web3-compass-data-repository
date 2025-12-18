@@ -76,7 +76,7 @@ The documentation includes full guides for:
 
 - Building a lottery system with verifiable randomness
 - Creating sealed-bid auctions with Blocklock
-- Integrating onlyswaps for cross-chain token transfers
+- Integrating only swaps for cross-chain token transfers
 - Running your own node operator
 
 Each capability has example code, deployment guides, and troubleshooting tips. The Randamu team maintains active Discord and Telegram channels for developer support.

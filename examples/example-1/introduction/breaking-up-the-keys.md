@@ -2,6 +2,8 @@
 
 You and four friends just won $10 million in the lottery. Champagne everywhere, tears of joy, the whole nine yards. Then reality hits. Someone needs to physically hold that winning ticket until you can all get to the lottery office together and claim your fortune.
 
+![Lottery Friends](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-1/images/lottery-friends.png)
+
 Do you trust Marcus with it? Sure, Marcus is your boy, but Marcus also left his phone in an Uber last month. What if his apartment gets broken into? What if Marcus, in a moment of weakness, decides he'd rather have $10 million than four friends? Or maybe Marcus goes on a spontaneous "find yourself" trip to Nepal and you can't reach him for three months while your ticket sits in his sock drawer.
 
 Okay, so maybe you make copies and everyone holds one? Now you've just created five opportunities for someone to steal the ticket and claim the whole prize. Five points of failure instead of one. Congratulations, you played yourself.
@@ -17,7 +19,6 @@ Threshold cryptography makes power *modular*. You bascially break the lottery ti
 Which means Marcus can lose his, Sarah can meditate in Nepal without cell service, and you, Jessica, and David can still **collect the ticket and redeem it** , *with the payout automatically split five ways, exactly as agreed upfront.*
 
 No single point of failure. No one who can just go rogue and wreck everything, because the math forces cooperation and lets you dial the threshold up or down based on the risk you're willing to take.
-****
 
 This is the technology that makes truly decentralized systems actually work. Not just theoretically, not just philosophically, but mechanically, at the mathematical level where reality happens.
 

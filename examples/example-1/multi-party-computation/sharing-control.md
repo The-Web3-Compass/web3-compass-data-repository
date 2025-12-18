@@ -18,6 +18,8 @@ This is what's happening with threshold signatures, except instead of computing 
 
 When a threshold signing operation needs to happen, here's the play-by-play:
 
+![Threshold Signing Flow](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-1/images/threshold-signing-flow.png)
+
 **Step 1: Job Assignment**
 
 First, someone (or something, usually a smart contract) declares that a specific operation needs to be signed. "We need to authorize this transaction." "We need to unlock this vault." Whatever the operation is, it gets assigned to a committee of nodes that hold the relevant key shares.

@@ -1,4 +1,4 @@
-### The (t, n) Threshold Concept
+## The (t, n) Threshold Concept
 
 When people talk about threshold schemes, you'll see notation like **(t, n) threshold**. This looks intimidating but it's actually straightforward:
 

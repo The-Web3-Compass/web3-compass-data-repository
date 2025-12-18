@@ -1,6 +1,6 @@
 ## What is dcipher (Really)?
 
-![dcipher](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/dcipher_v_ob.png)
+
 
 Before we touch dcipher, let's get everyone back into the same headspace. Remember that $10 million lottery ticket? You and four friends standing there, trying to figure out how to trust each other without accidentally ruining your lives?
 
@@ -21,6 +21,8 @@ Now we're going to see how that theory becomes infrastructure.
 If you ask most people what dcipher is, they'll give you a polite, surface-level answer: "secure randomness and cross-chain communication." Technically correct, but completely missing the soul of the system.
 
 dcipher is a **cryptographic coordination layer**. It's a permissionless threshold signing network designed to help blockchains agree on things they cannot compute alone. Randomness, signatures, cross-chain state validation, conditional encryption all handled without trusting a server, sequencer, committee captain, or validator cartel.
+
+![dcipher](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/dcipher_v_ob.png)
 
 Picture a swarm of nodes that can only produce meaningful output when they collaborate through cryptography, not hierarchy. Every output is born decentralized. No single node ever holds the full secret. No one can bias the result. And verification is trivial on any chain.
 

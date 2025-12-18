@@ -56,4 +56,6 @@ Here's the full loop:
 
 The blockchain provides public verifiability, economic security, and tamper-proof coordination. The operators provide cryptographic security, computational power, and the actual threshold signatures. Neither layer needs to trust the other—they're bound by mathematics and economics.
 
+![dcipher Two-Layer Architecture](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/dcipher-two-layers.png)
+
 ---

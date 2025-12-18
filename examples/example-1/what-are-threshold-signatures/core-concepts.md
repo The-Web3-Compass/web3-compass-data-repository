@@ -14,7 +14,9 @@ Think about that for a second. The key literally doesn't exist in any one place.
 
 To better understand how threshold signatures differ from other approaches, let's look at the key management landscape:
 
-![Comparison of cryptographic key management models](../images/key-management-comparison.png)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-1/images/key-management-comparison.png" alt="block" width="600" height="350" />
+</p>
 
 As you can see from this comparison, threshold signatures offer a unique balance: they provide the security benefits of distributed key management (like multisig) while maintaining the simplicity and efficiency of a single signature on-chain. Unlike multisig, where everyone can see your signer set and threshold, TSS keeps that information private. And unlike blockchain consensus, which distributes verification but not authorization, TSS actually distributes the authorization power itself.
 

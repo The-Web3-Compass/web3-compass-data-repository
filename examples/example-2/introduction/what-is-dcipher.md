@@ -1,5 +1,7 @@
 ## What is dcipher (Really)?
 
+![dcipher](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/dcipher_v_ob.png)
+
 Before we touch dcipher, let's get everyone back into the same headspace. Remember that $10 million lottery ticket? You and four friends standing there, trying to figure out how to trust each other without accidentally ruining your lives?
 
 Blockchains face the exact same problem. Every chain is holding its own "lottery ticket"—its state, its assets, its security guarantees. And whenever one chain wants to talk to another, to send value or verify something or coordinate anything, it hits the same trust dilemma:

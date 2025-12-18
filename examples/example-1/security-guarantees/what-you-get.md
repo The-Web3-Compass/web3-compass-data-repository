@@ -2,6 +2,8 @@
 
 Alright, enough theory. What does all this mathematics actually protect you from in practice? Let's get concrete.
 
+![Security Guarantees Overview](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-1/images/security-guarantees.png)
+
 ### 1. No Single Point of Failure
 
 This is the foundation everything else builds on. In a threshold system, there is no single component whose failure breaks everything. The distributed approach fundamentally eliminates the "one bad day" scenario.

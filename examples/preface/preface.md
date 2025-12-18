@@ -1,7 +1,3 @@
-# Preface
-
-Created: December 5, 2025 7:34 PM
-
 # Welcome to dcipher by example: Building the Impossible
 
 You've probably hit the wall before. You're building something on-chain and suddenly realize you need randomness—actual randomness, not the "hash a block number and pray" kind. Or you want to run a sealed-bid auction but everything on the blockchain is public, so bids are about as secret as a billboard on the highway. Or maybe you just want to move tokens from one chain to another without going through some bridge that'll probably get hacked next month.

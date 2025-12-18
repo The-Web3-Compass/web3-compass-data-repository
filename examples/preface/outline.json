@@ -1,8 +1,18 @@
 {
-    "Welcome": [
+    "Getting Started": [
         {
-            "topic": "Building the Impossible",
-            "location": "preface.md",
+            "topic": "How to Approach This",
+            "location": "part-1-how-to-approach.md",
+            "resources": []
+        },
+        {
+            "topic": "What You're Getting Into",
+            "location": "part-2-what-youre-getting-into.md",
+            "resources": []
+        },
+        {
+            "topic": "The Rules of Engagement",
+            "location": "part-3-rules-of-engagement.md",
             "resources": []
         }
     ]

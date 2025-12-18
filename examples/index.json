@@ -1,11 +1,11 @@
 [
     {
         "id": "EX-DC-PRF",
-        "name": "Preface",
-        "description": "Welcome to dcipher by example - understanding the three primitives that unlock impossible applications",
+        "name": "Getting Started",
+        "description": "How to approach this guide, what you're building, and the rules of engagement (GitHub submissions, quizzes, and leveling up)",
         "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/preface/images/thumbnail.svg",
         "level": "Beginner",
-        "duration": "10 minutes",
+        "duration": "15 minutes",
         "tags": [
             "#dcipher",
             "#Introduction",

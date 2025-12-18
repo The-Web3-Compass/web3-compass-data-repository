@@ -1,0 +1,112 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Grand Finale: Sealed Bid Problems",
+            "location": "introduction/sealed-bid-problems.md",
+            "resources": []
+        }
+    ],
+    "Architecture": [
+        {
+            "topic": "Complete Auction Flow",
+            "location": "architecture/auction-flow.md",
+            "resources": []
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment & Project Initialization",
+            "location": "setup/environment-setup.md",
+            "resources": []
+        }
+    ],
+    "The Contract": [
+        {
+            "topic": "Complete SealedBidMarketplace Contract",
+            "location": "contract/complete-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Architecture": [
+        {
+            "topic": "Inheritance, State Machine & Data Structures",
+            "location": "contract-breakdown/architecture.md",
+            "resources": []
+        }
+    ],
+    "Sealed Bidding": [
+        {
+            "topic": "Blocklock Integration & Bid Encryption",
+            "location": "contract-breakdown/sealed-bidding.md",
+            "resources": []
+        }
+    ],
+    "Winner & Payment": [
+        {
+            "topic": "Winner Selection & Cross-Chain Payments",
+            "location": "contract-breakdown/winner-and-payment.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Sealed Bidding & Contract Architecture Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Base Sepolia",
+            "location": "deployment/deploying-contract.md",
+            "resources": []
+        }
+    ],
+    "Summary": [
+        {
+            "topic": "What Makes This Different & Next Steps",
+            "location": "deployment/summary-and-next.md",
+            "resources": []
+        }
+    ],
+    "Frontend Journey": [
+        {
+            "topic": "From Contract to Product: User Journey",
+            "location": "frontend/user-journey.md",
+            "resources": []
+        }
+    ],
+    "Frontend Setup": [
+        {
+            "topic": "React Setup & Configuration",
+            "location": "frontend/setup.md",
+            "resources": []
+        }
+    ],
+    "Core Integrations": [
+        {
+            "topic": "Wagmi, blocklock-js & OnlySwaps Integration",
+            "location": "frontend/core-integrations.md",
+            "resources": []
+        }
+    ],
+    "UI Components": [
+        {
+            "topic": "Design System & Component Architecture",
+            "location": "frontend/ui-components.md",
+            "resources": []
+        }
+    ],
+    "Production": [
+        {
+            "topic": "Production Deployment & What You've Built",
+            "location": "frontend/production-and-summary.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Frontend Integration & Production Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ]
+}

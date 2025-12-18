@@ -64,6 +64,8 @@ Auctions live squarely in that second category.
 
 ## How Sealed-Bid Auctions Are Supposed to Work
 
+
+
 Forget blockchains for a moment.
 
 Think about a sealed-bid auction in the real world.
@@ -85,6 +87,8 @@ No last-second adjustments. No edging someone out by a fraction because you saw 
 That's real price discovery. And it only works because information stays hidden until the moment it's supposed to be revealed.
 
 Now try doing that on a blockchain.
+
+![Sealed-Bid Auction](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-7/images/sealed-bid.png)
 
 ---
 

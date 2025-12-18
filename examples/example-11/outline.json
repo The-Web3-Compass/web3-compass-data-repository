@@ -1,0 +1,105 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Lottery Paradox & What We're Building",
+            "location": "introduction/lottery-problem.md",
+            "resources": []
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Setting Up Development Environment",
+            "location": "setup/environment-setup.md",
+            "resources": []
+        }
+    ],
+    "The Contract": [
+        {
+            "topic": "Complete CrossChainLottery Contract",
+            "location": "contract/complete-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Architecture": [
+        {
+            "topic": "Inheritance, State Machine & Data Structures",
+            "location": "contract-breakdown/architecture.md",
+            "resources": []
+        }
+    ],
+    "Creating & Entering": [
+        {
+            "topic": "Lottery Creation & Entry Functions",
+            "location": "contract-breakdown/creation-and-entry.md",
+            "resources": []
+        }
+    ],
+    "Drawing Winner": [
+        {
+            "topic": "Randomness Request & Winner Selection",
+            "location": "contract-breakdown/drawing-winner.md",
+            "resources": []
+        }
+    ],
+    "Claiming Prizes": [
+        {
+            "topic": "Same-Chain & Cross-Chain Prize Claims",
+            "location": "contract-breakdown/claiming-prizes.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Contract Architecture & Randomness Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Base Sepolia",
+            "location": "deployment/deploying-contract.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Creating & Testing Your First Lottery",
+            "location": "deployment/creating-lottery.md",
+            "resources": []
+        }
+    ],
+    "Frontend Flow": [
+        {
+            "topic": "User Experience & Complete Flow",
+            "location": "frontend/user-flow.md",
+            "resources": []
+        }
+    ],
+    "Frontend Setup": [
+        {
+            "topic": "React Setup & Wagmi Architecture",
+            "location": "frontend/setup-and-architecture.md",
+            "resources": []
+        }
+    ],
+    "Frontend Implementation": [
+        {
+            "topic": "Contract Interactions & OnlySwaps Integration",
+            "location": "frontend/implementation.md",
+            "resources": []
+        }
+    ],
+    "Running the App": [
+        {
+            "topic": "Running Locally & Building with dcipher",
+            "location": "frontend/running-and-next-steps.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Deployment & Frontend Integration Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ]
+}

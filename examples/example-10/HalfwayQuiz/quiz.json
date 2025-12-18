@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Cross-Chain Payment Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What is the main problem with traditional bridges for cross-chain payments?",
+            "options": [
+                "They are too expensive",
+                "They take 5-15 minutes and stack multiple fees (source gas + bridge fee + destination gas + swap fee)",
+                "They don't support stablecoins",
+                "They only work on Ethereum"
+            ],
+            "correctAnswer": "They take 5-15 minutes and stack multiple fees (source gas + bridge fee + destination gas + swap fee)"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does OnlySwaps differ from traditional bridges?",
+            "options": [
+                "It uses a centralized server",
+                "Solvers provide instant liquidity by sending tokens on the destination chain immediately",
+                "It only works for small amounts",
+                "It requires KYC verification"
+            ],
+            "correctAnswer": "Solvers provide instant liquidity by sending tokens on the destination chain immediately"
+        },
+        {
+            "type": "true_false",
+            "question": "In the CrossChainPaymentGateway contract, all merchants settle to the same chain and token configured at deployment.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why are the router, settlementChainId, and settlementToken variables declared as immutable?",
+            "options": [
+                "To save gas and enforce consistency across all merchants",
+                "Because Solidity requires it",
+                "To make the contract upgradeable",
+                "To allow merchants to change settings"
+            ],
+            "correctAnswer": "To save gas and enforce consistency across all merchants"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The Payment struct stores a ______ which links back to the OnlySwaps router to check if the swap executed.",
+            "options": [
+                "swapRequestId",
+                "orderId",
+                "paymentId",
+                "merchantId"
+            ],
+            "correctAnswer": "swapRequestId"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why must merchants register before receiving payments?",
+            "options": [
+                "To pay registration fees",
+                "To prevent accidental payments to typos and give merchants control over settlement address",
+                "To comply with regulations",
+                "To enable refunds"
+            ],
+            "correctAnswer": "To prevent accidental payments to typos and give merchants control over settlement address"
+        },
+        {
+            "type": "true_false",
+            "question": "A customer can make a payment on the same chain where settlements occur (e.g., pay on Base when Base is the settlement chain).",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

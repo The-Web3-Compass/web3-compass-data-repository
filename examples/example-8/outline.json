@@ -1,0 +1,84 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Media Scaling Problem",
+            "location": "introduction/media-problem.md",
+            "resources": []
+        }
+    ],
+    "Foundation": [
+        {
+            "topic": "Message System Recap",
+            "location": "foundation/message-system-recap.md",
+            "resources": []
+        }
+    ],
+    "Approach": [
+        {
+            "topic": "Migration Strategy from Messages to Media",
+            "location": "approach/migration-strategy.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "Complete TimedMediaRelease Contract",
+            "location": "building-contract/complete-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Breakdown - Part 1": [
+        {
+            "topic": "Contract Structure & State Management",
+            "location": "contract-breakdown/contract-walkthrough-part1.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Time-Locked Media Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Contract Breakdown - Part 2": [
+        {
+            "topic": "Functions & Callbacks",
+            "location": "contract-breakdown/contract-walkthrough-part2.md",
+            "resources": []
+        }
+    ],
+    "Encryption": [
+        {
+            "topic": "Blocklock Encryption for Media",
+            "location": "encryption/blocklock-encryption.md",
+            "resources": []
+        }
+    ],
+    "Frontend Integration": [
+        {
+            "topic": "Upload & Decryption Flows",
+            "location": "frontend/frontend-integration.md",
+            "resources": []
+        }
+    ],
+    "Use Cases": [
+        {
+            "topic": "Real-World Applications",
+            "location": "use-cases/real-world-applications.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Use Cases Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "What You've Built",
+            "location": "conclusion/what-you-built.md",
+            "resources": []
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Time-Locked Media Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What is the main constraint that prevents storing media files directly on-chain like text messages?",
+            "options": [
+                "Blockchain encryption doesn't work for large files",
+                "Storage costs make it economically impractical ($4000 for a 50MB video on mainnet)",
+                "Smart contracts can't handle binary data",
+                "IPFS is required by the EVM for media files"
+            ],
+            "correctAnswer": "Storage costs make it economically impractical ($4000 for a 50MB video on mainnet)"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "In the hybrid storage architecture for time-locked media, where does the encrypted media content actually live?",
+            "options": [
+                "On-chain in the smart contract",
+                "In the dcipher network",
+                "On decentralized storage like IPFS",
+                "In the user's browser localStorage"
+            ],
+            "correctAnswer": "On decentralized storage like IPFS"
+        },
+        {
+            "type": "true_false",
+            "question": "The blocklock encryption mechanism changes significantly when adapting from messages to media files.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the smart contract store for time-locked media instead of the actual encrypted bytes?",
+            "options": [
+                "The decrypted media file",
+                "A reference (IPFS hash) to the encrypted content",
+                "The encryption key",
+                "A compressed version of the media"
+            ],
+            "correctAnswer": "A reference (IPFS hash) to the encrypted content"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "In the MediaRelease struct, the ______ field stores the location identifier for the encrypted content on IPFS.",
+            "options": [
+                "ipfsHash",
+                "mediaType",
+                "decryptionKey",
+                "fileSize"
+            ],
+            "correctAnswer": "ipfsHash"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why does the contract inherit from AbstractBlocklockReceiver?",
+            "options": [
+                "To store encrypted media on-chain",
+                "To get access to decryption request functions and callback routing from dcipher",
+                "To compress large files",
+                "To connect to IPFS"
+            ],
+            "correctAnswer": "To get access to decryption request functions and callback routing from dcipher"
+        },
+        {
+            "type": "true_false",
+            "question": "The contract decrypts the media file on-chain in the _onBlocklockReceived callback, just like it does for text messages.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

@@ -27,12 +27,7 @@ Not socially distributed. Not legally distributed. **Mathematically distributed.
 
 Let's compare what it takes to cheat:
 
-| Attack Target | What's Required |
-|--------------|-----------------|
-| **Pre-generated metadata** | Compromise one team member |
-| **Block-based randomness** | Control a validator for one block |
-| **Centralized oracle** | Compromise one oracle service |
-| **Threshold randomness** | Coordinate a majority of independent operators, across different infrastructure, in different locations, at the same time, AND convince the cryptography to output a specific value |
+![Attack Comparison Table](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-5/images/nft--table.png)
 
 That last one doesn't fail because people are honest.
 

@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Use Cases",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Where does the actual decryption of media files happen in the time-locked media system?",
+            "options": [
+                "On-chain in the smart contract callback",
+                "In the dcipher network",
+                "Client-side in the user's browser",
+                "On IPFS gateways"
+            ],
+            "correctAnswer": "Client-side in the user's browser"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the _onBlocklockReceived callback store for media files?",
+            "options": [
+                "The decrypted media content",
+                "The IPFS hash",
+                "Just the decryption key",
+                "The encrypted ciphertext"
+            ],
+            "correctAnswer": "Just the decryption key"
+        },
+        {
+            "type": "true_false",
+            "question": "In the frontend flow, users must upload the encrypted media to IPFS before submitting the transaction to the smart contract.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What is the key advantage of using time-locked media for product launches?",
+            "options": [
+                "It's cheaper than regular storage",
+                "Press can download early but can't view until announcement time, preventing leaks",
+                "It automatically generates marketing materials",
+                "It compresses the media file"
+            ],
+            "correctAnswer": "Press can download early but can't view until announcement time, preventing leaks"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The pattern for time-locked media is: commit now, reveal later, trust ______ not people.",
+            "options": [
+                "math",
+                "servers",
+                "IPFS",
+                "contracts"
+            ],
+            "correctAnswer": "math"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "In a dead man's switch scenario using time-locked media, how do you prevent the documents from auto-releasing?",
+            "options": [
+                "Delete the IPFS files",
+                "Cancel the smart contract",
+                "Periodically update the target block to push it further into the future",
+                "Request early decryption"
+            ],
+            "correctAnswer": "Periodically update the target block to push it further into the future"
+        },
+        {
+            "type": "true_false",
+            "question": "The blocklock encryption library cares whether it's encrypting text or video - it uses different functions for each.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

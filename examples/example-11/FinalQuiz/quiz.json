@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Deployment & Frontend Integration",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does the deployment script save to deployments/baseSepolia.json?",
+            "options": [
+                "Only the contract address",
+                "Contract address, deployer address, network config, and deployment timestamp",
+                "The contract ABI",
+                "User wallet private keys"
+            ],
+            "correctAnswer": "Contract address, deployer address, network config, and deployment timestamp"
+        },
+        {
+            "type": "true_false",
+            "question": "The frontend can interact with the contract without copying the ABI file.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why do users need to approve tokens before entering the lottery?",
+            "options": [
+                "To pay gas fees",
+                "Because the contract uses transferFrom which requires prior approval",
+                "To register as a participant",
+                "To enable cross-chain claims"
+            ],
+            "correctAnswer": "Because the contract uses transferFrom which requires prior approval"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The ______ library provides hooks like useAccount, useChainId, and useWriteContract for wallet interactions.",
+            "options": [
+                "Wagmi",
+                "Ethers",
+                "Web3",
+                "Viem"
+            ],
+            "correctAnswer": "Wagmi"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the 'value' field in the drawWinner transaction pay for?",
+            "options": [
+                "The lottery entry fee",
+                "The randomness callback gas cost",
+                "The solver fee",
+                "The prize pool"
+            ],
+            "correctAnswer": "The randomness callback gas cost"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "When claiming cross-chain, who sends tokens to the winner on the destination chain?",
+            "options": [
+                "The lottery contract",
+                "The dcipher network",
+                "A solver who then gets reimbursed on Base",
+                "The contract owner"
+            ],
+            "correctAnswer": "A solver who then gets reimbursed on Base"
+        },
+        {
+            "type": "true_false",
+            "question": "The onlyswaps-js SDK is required for the lottery frontend to work.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

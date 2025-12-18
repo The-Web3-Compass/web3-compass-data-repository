@@ -162,6 +162,28 @@
         "handsCoding": true
     },
     {
+        "id": "EX-DC-TLM",
+        "name": "Time-Locked Media",
+        "description": "Scale blocklock encryption from text messages to large media files using hybrid storage architecture with IPFS",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-8/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "150 minutes",
+        "tags": [
+            "#dcipher",
+            "#Blocklock",
+            "#Encryption",
+            "#IPFS",
+            "#Solidity"
+        ],
+        "location": "example-8",
+        "status": "active",
+        "category": "tutorial",
+        "index": 8,
+        "categoryGroup": "Building with Blocklock Encryption",
+        "focus": "Blocklock Encryption",
+        "handsCoding": true
+    },
+    {
         "id": "EX-DC-XCS",
         "name": "Basic Cross-Chain Swap",
         "description": "Build cross-chain token swaps using only swaps and threshold cryptography - no bridges, no wrapped tokens",
@@ -180,6 +202,92 @@
         "index": 9,
         "categoryGroup": "Building with only swaps",
         "focus": "only swaps",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-OS-CPG",
+        "name": "Cross-Chain Payment Gateway",
+        "description": "Build a payment gateway that accepts payments on any chain and settles on your preferred chain using OnlySwaps",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-10/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "180 minutes",
+        "tags": [
+            "#OnlySwaps",
+            "#CrossChain",
+            "#Payments",
+            "#Solidity"
+        ],
+        "location": "example-10",
+        "status": "active",
+        "category": "tutorial",
+        "index": 10,
+        "categoryGroup": "Building with OnlySwaps",
+        "focus": "Cross-Chain",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-OS-CPG",
+        "name": "Cross-Chain Payment Gateway",
+        "description": "Build a payment gateway that accepts payments on any chain and settles on your preferred chain using OnlySwaps",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-10/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "180 minutes",
+        "tags": [
+            "#OnlySwaps",
+            "#CrossChain",
+            "#Payments",
+            "#Solidity"
+        ],
+        "location": "example-10",
+        "status": "active",
+        "category": "tutorial",
+        "index": 10,
+        "categoryGroup": "Building with OnlySwaps",
+        "focus": "Cross-Chain",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-CCL",
+        "name": "Cross-Chain Lottery with Threshold Randomness",
+        "description": "Build a provably fair lottery with cross-chain prize claims using dcipher's threshold randomness and OnlySwaps",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-11/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "240 minutes",
+        "tags": [
+            "#dcipher",
+            "#Randomness",
+            "#OnlySwaps",
+            "#CrossChain",
+            "#Lottery"
+        ],
+        "location": "example-11",
+        "status": "active",
+        "category": "tutorial",
+        "index": 11,
+        "categoryGroup": "Building with dcipher",
+        "focus": "Threshold Cryptography",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-SBM",
+        "name": "Sealed Bid Marketplace with Cross-Chain Payments",
+        "description": "Build a sealed bid auction marketplace combining blocklock encryption and OnlySwaps for cross-chain payments",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-12/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "300 minutes",
+        "tags": [
+            "#dcipher",
+            "#Blocklock",
+            "#OnlySwaps",
+            "#Marketplace",
+            "#Auctions"
+        ],
+        "location": "example-12",
+        "status": "active",
+        "category": "tutorial",
+        "index": 12,
+        "categoryGroup": "Building with dcipher",
+        "focus": "Combining Primitives",
         "handsCoding": true
     }
 ]

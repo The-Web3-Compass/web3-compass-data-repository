@@ -20,6 +20,8 @@ Remember threshold signatures from the randomness examples? The same underlying 
 
 For time-lock encryption, here's what happens:
 
+![Bid Process](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-7/images/bid-process.png)
+
 **1. Encryption**
 
 You want to encrypt a bid that reveals at block 1,000,000.

@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "In the makePayment function, why does the contract take custody of tokens before approving the router?",
+            "options": [
+                "To save gas",
+                "To maintain control and prevent customers from calling unwanted router functions directly",
+                "Because the router requires it",
+                "To enable refunds"
+            ],
+            "correctAnswer": "To maintain control and prevent customers from calling unwanted router functions directly"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How long does a typical OnlySwaps cross-chain payment take to settle?",
+            "options": [
+                "5-15 minutes like traditional bridges",
+                "1-2 hours",
+                "10-30 seconds",
+                "Instant (0 seconds)"
+            ],
+            "correctAnswer": "10-30 seconds"
+        },
+        {
+            "type": "true_false",
+            "question": "The isPaymentSettled function duplicates swap status in the contract's storage for faster queries.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "In the frontend, why must users approve tokens in a separate transaction before making a payment?",
+            "options": [
+                "To save gas on the payment transaction",
+                "Because the contract uses transferFrom which requires prior approval",
+                "To enable batch payments",
+                "To comply with ERC20 standards"
+            ],
+            "correctAnswer": "Because the contract uses transferFrom which requires prior approval"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "When a solver fulfills a swap, they send tokens to the merchant on the ______ chain and later claim the locked tokens on the source chain.",
+            "options": [
+                "destination",
+                "source",
+                "intermediate",
+                "bridge"
+            ],
+            "correctAnswer": "destination"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens if you try to deploy the contract with a zero address for the router or settlement token?",
+            "options": [
+                "The contract deploys successfully but won't work",
+                "The deployment transaction reverts with 'Invalid router' or 'Invalid token'",
+                "The contract uses default values",
+                "The deployment succeeds with a warning"
+            ],
+            "correctAnswer": "The deployment transaction reverts with 'Invalid router' or 'Invalid token'"
+        },
+        {
+            "type": "true_false",
+            "question": "Wagmi's useReadContract hook automatically updates when you call a write function, so you don't need to manually refetch data.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

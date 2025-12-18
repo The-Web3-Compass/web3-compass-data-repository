@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Contract Architecture & Randomness",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why does the CrossChainLottery contract inherit from RandomnessReceiverBase?",
+            "options": [
+                "To save gas on deployment",
+                "To request random numbers from the threshold network and receive callbacks when ready",
+                "To enable cross-chain swaps",
+                "To implement reentrancy protection"
+            ],
+            "correctAnswer": "To request random numbers from the threshold network and receive callbacks when ready"
+        },
+        {
+            "type": "true_false",
+            "question": "A lottery can move from CLOSED state back to OPEN state if no one claims the prize.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does buying multiple lottery entries increase your chances of winning?",
+            "options": [
+                "It gives you a higher random number",
+                "Your address gets pushed to the participants array multiple times, increasing selection probability",
+                "It reduces the entry fee for others",
+                "It automatically claims the prize if you win"
+            ],
+            "correctAnswer": "Your address gets pushed to the participants array multiple times, increasing selection probability"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The ______ modifier prevents recursive calls to functions that transfer tokens and modify state.",
+            "options": [
+                "nonReentrant",
+                "onlyOwner",
+                "payable",
+                "external"
+            ],
+            "correctAnswer": "nonReentrant"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens during the DRAWING state?",
+            "options": [
+                "Users can still buy entries",
+                "The contract waits for dcipher network to generate randomness and call back",
+                "The winner can claim their prize",
+                "The lottery automatically restarts"
+            ],
+            "correctAnswer": "The contract waits for dcipher network to generate randomness and call back"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Who can call the drawWinner function?",
+            "options": [
+                "Only the contract owner",
+                "Only lottery participants",
+                "Anyone, once the lottery has ended",
+                "Only the dcipher network"
+            ],
+            "correctAnswer": "Anyone, once the lottery has ended"
+        },
+        {
+            "type": "true_false",
+            "question": "The solver fee for cross-chain claims is added on top of the prize pool.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

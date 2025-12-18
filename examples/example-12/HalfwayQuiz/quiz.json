@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Sealed Bidding & Contract Architecture",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why does the SealedBidMarketplace contract inherit from AbstractBlocklockReceiver?",
+            "options": [
+                "To save gas on deployment",
+                "To request time-locked decryption and receive callbacks when decryption keys are ready",
+                "To enable cross-chain swaps",
+                "To implement reentrancy protection"
+            ],
+            "correctAnswer": "To request time-locked decryption and receive callbacks when decryption keys are ready"
+        },
+        {
+            "type": "true_false",
+            "question": "Bids can be decrypted before the reveal block height is reached.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens during the _onBlocklockReceived callback?",
+            "options": [
+                "New bids are submitted",
+                "The contract decrypts the ciphertext using the provided decryption key and reveals the bid amount",
+                "The winner is selected",
+                "Payment is processed"
+            ],
+            "correctAnswer": "The contract decrypts the ciphertext using the provided decryption key and reveals the bid amount"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The listing state changes to ______ after the winner is selected.",
+            "options": [
+                "ENDED",
+                "ACTIVE",
+                "SETTLED",
+                "CANCELLED"
+            ],
+            "correctAnswer": "ENDED"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Who can call the selectWinner function?",
+            "options": [
+                "Only the seller",
+                "Only bidders",
+                "Anyone, once the end block height is reached",
+                "Only the dcipher network"
+            ],
+            "correctAnswer": "Anyone, once the end block height is reached"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "In cross-chain payments, what does the solver fee pay for?",
+            "options": [
+                "Gas costs on the destination chain",
+                "The liquidity provider who fulfills the swap by sending tokens from their own funds",
+                "The dcipher network verification",
+                "The marketplace contract owner"
+            ],
+            "correctAnswer": "The liquidity provider who fulfills the swap by sending tokens from their own funds"
+        },
+        {
+            "type": "true_false",
+            "question": "The contract can see the bid amounts before they are decrypted.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

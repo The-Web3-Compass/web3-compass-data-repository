@@ -1,0 +1,105 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Cross-Chain Payment Problem",
+            "location": "introduction/payment-problem.md",
+            "resources": []
+        }
+    ],
+    "The Problem": [
+        {
+            "topic": "Cross-Chain Payment Challenges",
+            "location": "problem/cross-chain-challenges.md",
+            "resources": []
+        }
+    ],
+    "The Solution": [
+        {
+            "topic": "OnlySwaps Architecture",
+            "location": "solution/onlyswaps-architecture.md",
+            "resources": []
+        }
+    ],
+    "Project Overview": [
+        {
+            "topic": "What We're Building",
+            "location": "overview/project-overview.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "Complete CrossChainPaymentGateway Contract",
+            "location": "building-contract/complete-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Architecture": [
+        {
+            "topic": "Understanding Contract Structure",
+            "location": "contract-breakdown/architecture.md",
+            "resources": []
+        }
+    ],
+    "Setup & Registration": [
+        {
+            "topic": "Constructor & Merchant Registration",
+            "location": "contract-breakdown/constructor-and-registration.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Cross-Chain Payment Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Making Payments": [
+        {
+            "topic": "Core Payment Function",
+            "location": "contract-breakdown/making-payments.md",
+            "resources": []
+        }
+    ],
+    "View Functions": [
+        {
+            "topic": "Query Functions",
+            "location": "contract-breakdown/view-functions.md",
+            "resources": []
+        }
+    ],
+    "Developer Guide": [
+        {
+            "topic": "How to Approach Building",
+            "location": "development/developer-guide.md",
+            "resources": []
+        }
+    ],
+    "Frontend Architecture": [
+        {
+            "topic": "Frontend Components & Integration",
+            "location": "frontend/frontend-architecture.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "Complete Payment Flow",
+            "location": "understanding/payment-flow.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deployment & Testing Guide",
+            "location": "deployment/deployment-guide.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ]
+}

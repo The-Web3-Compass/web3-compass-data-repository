@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Frontend Integration & Production",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What library is used to encrypt bids in the browser before submitting to the contract?",
+            "options": [
+                "ethers.js",
+                "blocklock-js",
+                "onlyswaps-js",
+                "wagmi"
+            ],
+            "correctAnswer": "blocklock-js"
+        },
+        {
+            "type": "true_false",
+            "question": "The frontend can interact with the contract without copying the ABI file.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the 'value' field in the submitBid transaction pay for?",
+            "options": [
+                "The bid amount",
+                "The decryption callback gas cost",
+                "The solver fee",
+                "The marketplace listing fee"
+            ],
+            "correctAnswer": "The decryption callback gas cost"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The ______ library provides hooks like useAccount, useChainId, and useWriteContract for wallet interactions.",
+            "options": [
+                "Wagmi",
+                "Ethers",
+                "Web3",
+                "Viem"
+            ],
+            "correctAnswer": "Wagmi"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "When a user places a bid, where does the encryption happen?",
+            "options": [
+                "On the blockchain",
+                "In the smart contract",
+                "Entirely in the browser using blocklock-js",
+                "On the dcipher network"
+            ],
+            "correctAnswer": "Entirely in the browser using blocklock-js"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens when a winner pays cross-chain?",
+            "options": [
+                "The contract bridges the tokens",
+                "A solver sends tokens to the seller on Base from their own liquidity, then gets reimbursed on the destination chain",
+                "The winner manually bridges tokens first",
+                "The payment is delayed until both chains sync"
+            ],
+            "correctAnswer": "A solver sends tokens to the seller on Base from their own liquidity, then gets reimbursed on the destination chain"
+        },
+        {
+            "type": "true_false",
+            "question": "The onlyswaps-js SDK is required for the marketplace frontend to work.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

@@ -27,6 +27,8 @@ The message stays locked until that block exists. Once it does, the decryption k
 
 Let's make this concrete. You want to encrypt a message that unlocks at block 1,000,000. Currently, we're at block 999,000.
 
+![Time-Lock Steps](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-6/images/time-lock-steps.png)
+
 ### Step 1: Encryption
 
 Your client-side code:

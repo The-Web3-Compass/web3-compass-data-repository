@@ -34,6 +34,8 @@ At that point, the damage is already done.
 
 So let's talk about how NFT projects usually handle this, and why it keeps going sideways.
 
+![NFT Sniping Problem](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-5/images/nft-sniping-problem.png)
+
 ---
 
 ## How NFT Randomness Usually Goes Wrong

@@ -1,3 +1,5 @@
+## What Actually Happens On-Chain
+
 Let's trace what happens when you try to pick a lottery winner using block properties.
 
 Say your lottery has 100 participants.

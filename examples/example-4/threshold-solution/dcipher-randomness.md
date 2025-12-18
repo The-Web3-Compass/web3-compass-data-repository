@@ -53,6 +53,8 @@ The dcipher network consists of independent operators distributed globally. Each
 
 Here's what happens when your lottery contract requests randomness:
 
+![Randomness Request Flowchart](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-4/images/randomness-request-flowchart.png)
+
 **Step 1: Your Contract Makes a Request**
 
 Your contract inherits from `RandomnessReceiverBase` and calls `_requestRandomnessPayInNative()`. This function:

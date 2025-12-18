@@ -47,5 +47,3 @@ We need mathematical guarantees instead of physical ones.
 That's where threshold cryptography comes in.
 
 ---
-
-## What Actually Happens On-Chain

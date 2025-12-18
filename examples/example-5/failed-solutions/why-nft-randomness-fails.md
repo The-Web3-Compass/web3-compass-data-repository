@@ -94,21 +94,11 @@ The people who *don't* do this? They're minting blind while others cherry-pick.
 
 ---
 
-## The Core Issue
+## Summary
 
-Here's the fundamental problem, no buzzwords:
+Every traditional approach to NFT randomness fails because blockchains are deterministic machines. If randomness can be derived from on-chain state, it can be predicted and exploited.
 
-**Blockchains are deterministic machines.**
-
-- If randomness is derived from on-chain state → it can be calculated
-- If it can be calculated → it can be predicted
-- If it can be predicted → someone will exploit it
-
-This isn't a Solidity limitation. This isn't an Ethereum flaw. This is how deterministic systems work.
-
-**What we actually need:**
-
-Randomness that:
+What we need is randomness that:
 1. Comes from outside the mint transaction (unpredictable)
 2. Is still verifiable on-chain (trustless)
 3. Cannot be manipulated by any single party (decentralized)

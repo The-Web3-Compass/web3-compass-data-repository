@@ -40,50 +40,15 @@ So let's talk about how NFT projects usually handle this, and why it keeps going
 
 ## How NFT Randomness Usually Goes Wrong
 
-### The "Trust Us, We're Nice" Reveal
+Most NFT projects handle randomness in one of two ways:
 
-This one's everywhere.
+1. **Pre-generated metadata with a "trust us" reveal** — The team knows which tokens are rare before anyone mints, and promises to shuffle fairly later.
 
-The team generates all the metadata ahead of time. Every trait. Every rarity. Every legendary.
+2. **On-chain pseudo-randomness** — Using `block.timestamp`, `msg.sender`, or block hashes to generate traits that look random but are actually predictable.
 
-They upload it to IPFS. Then they promise to do a fair, random shuffle after the mint.
+Both approaches fail for different reasons, but the outcome is the same: someone with better tooling or inside knowledge ends up with the rare traits.
 
-Sounds reasonable… until you think about it for more than five seconds.
-
-Someone knows the mapping *before* the public does. Maybe it's the founders. Maybe it's a contractor. Maybe it's just a script sitting on someone's laptop.
-
-Doesn't really matter.
-
-If *anyone* knows which token IDs are rare before minting finishes, the system already relies on trust. And trust is exactly what blockchains were supposed to remove.
-
-Doxxed teams still mess up. Good reputations still crack. Promises don't survive incentives.
-
----
-
-### The "On-Chain = Safe" Shortcut
-
-Then there's the on-chain pseudo-random approach. The one that looks decentralized and feels clever.
-
-You've seen the code:
-
-```solidity
-uint256 randomish = uint256(
-    keccak256(abi.encodePacked(block.timestamp, msg.sender, tokenId))
-);
-```
-
-It *feels* right. It's cheap. It's deterministic.
-
-And that last part is exactly why it fails.
-
-Validators can see the result before finalizing the block. Sophisticated users can simulate the outcome locally. MEV bots can decide whether your transaction lives or dies based on the traits it produces.
-
-So what actually happens?
-
-Good outcome? Transaction goes through.
-Bad outcome? Transaction disappears.
-
-Your "random" mint quietly turns into a game for whoever has the best tooling.
+We'll break down exactly why these methods fail in the next section. But first, let's understand the core problem.
 
 ---
 

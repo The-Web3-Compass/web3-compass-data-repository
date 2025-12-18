@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does RandomnessReceiverBase provide to your contract?",
+            "options": [
+                "The actual randomness generation logic",
+                "Infrastructure for requesting randomness, receiving callbacks, and verifying threshold signatures",
+                "A user interface for interacting with randomness",
+                "Direct access to operator nodes"
+            ],
+            "correctAnswer": "Infrastructure for requesting randomness, receiving callbacks, and verifying threshold signatures"
+        },
+        {
+            "type": "true_false",
+            "question": "The _requestRandomnessPayInNative() function requires the function to be marked as payable because you're sending native tokens with msg.value.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What's the difference between direct payment and subscription payment models?",
+            "options": [
+                "Direct payment is faster than subscription",
+                "Direct payment pays per request with msg.value, subscription draws from a prepaid balance",
+                "Subscription is more secure than direct payment",
+                "Direct payment requires more gas than subscription"
+            ],
+            "correctAnswer": "Direct payment pays per request with msg.value, subscription draws from a prepaid balance"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "For simple contracts, a callbackGasLimit of ______ gas is typically sufficient.",
+            "options": [
+                "100,000",
+                "21,000",
+                "500,000",
+                "1,000,000"
+            ],
+            "correctAnswer": "100,000"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why is randomness stored as bytes32 in the contract?",
+            "options": [
+                "It's the smallest data type available",
+                "It's the raw output format of the threshold signature (32 bytes of cryptographic entropy)",
+                "Solidity requires all random values to be bytes32",
+                "It makes the contract cheaper to deploy"
+            ],
+            "correctAnswer": "It's the raw output format of the threshold signature (32 bytes of cryptographic entropy)"
+        },
+        {
+            "type": "true_false",
+            "question": "You can extract multiple random values from a single bytes32 by using different byte ranges or bit shifts.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What must you provide in the constructor when deploying a randomness consumer contract?",
+            "options": [
+                "The random seed value",
+                "The RandomnessSender contract address and owner address",
+                "The callback gas limit",
+                "The subscription ID"
+            ],
+            "correctAnswer": "The RandomnessSender contract address and owner address"
+        }
+    ]
+}

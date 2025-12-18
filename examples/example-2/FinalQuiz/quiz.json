@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Advanced dcipher & Cross-Chain Coordination",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What happens to a committee's key shares when the committee dissolves?",
+            "options": [
+                "They are stored in a secure vault for future use",
+                "They are transferred to the next committee",
+                "They are destroyed and the key can never be reconstructed",
+                "They are archived on-chain for transparency"
+            ],
+            "correctAnswer": "They are destroyed and the key can never be reconstructed"
+        },
+        {
+            "type": "true_false",
+            "question": "In onlyswaps, solvers must be pre-approved and trusted by the dcipher committee.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does onlyswaps differ from traditional lock-and-mint bridges?",
+            "options": [
+                "onlyswaps creates wrapped tokens on the destination chain",
+                "onlyswaps uses native tokens and solvers front capital, verified by threshold signatures",
+                "onlyswaps requires a 7-day challenge window",
+                "onlyswaps relies on a centralized liquidity pool"
+            ],
+            "correctAnswer": "onlyswaps uses native tokens and solvers front capital, verified by threshold signatures"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The core security assumption in dcipher is that at least a ______ of nodes in every committee behave honestly.",
+            "options": [
+                "threshold",
+                "majority",
+                "minority",
+                "supermajority"
+            ],
+            "correctAnswer": "threshold"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What prevents Sybil attacks in the dcipher network?",
+            "options": [
+                "IP address restrictions",
+                "KYC requirements for all operators",
+                "Staking requirements—each node requires locked capital",
+                "Proof of work mining"
+            ],
+            "correctAnswer": "Staking requirements—each node requires locked capital"
+        },
+        {
+            "type": "true_false",
+            "question": "Committee rotation helps prevent attackers from having time to corrupt a static set of nodes.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What is the main advantage of intent-based protocols like onlyswaps?",
+            "options": [
+                "They eliminate all transaction fees",
+                "They allow users to specify desired outcomes while solvers compete to fulfill them efficiently",
+                "They process transactions faster than any other method",
+                "They don't require any smart contracts"
+            ],
+            "correctAnswer": "They allow users to specify desired outcomes while solvers compete to fulfill them efficiently"
+        }
+    ]
+}

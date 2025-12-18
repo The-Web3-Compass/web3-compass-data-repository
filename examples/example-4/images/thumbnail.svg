@@ -1,0 +1,17 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#f39c12" text-anchor="middle">Fair Lottery</text>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="18" fill="#a8dadc" text-anchor="middle">Provably Fair with dcipher</text>
+  <g transform="translate(200, 200)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#f39c12" stroke-width="3"/>
+    <circle cx="-30" cy="-30" r="8" fill="#4ecdc4"/>
+    <circle cx="30" cy="-30" r="8" fill="#4ecdc4"/>
+    <circle cx="30" cy="30" r="8" fill="#4ecdc4"/>
+    <circle cx="-30" cy="30" r="8" fill="#4ecdc4"/>
+    <circle cx="0" cy="-40" r="8" fill="#4ecdc4"/>
+    <circle cx="40" cy="0" r="8" fill="#4ecdc4"/>
+    <circle cx="0" cy="40" r="8" fill="#4ecdc4"/>
+    <circle cx="-40" cy="0" r="8" fill="#4ecdc4"/>
+    <circle cx="0" cy="0" r="12" fill="#f39c12"/>
+  </g>
+</svg>

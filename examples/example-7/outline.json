@@ -1,0 +1,101 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Auction Transparency Problem",
+            "location": "introduction/auction-problem.md",
+            "resources": []
+        }
+    ],
+    "Failed Solutions": [
+        {
+            "topic": "Why Current Solutions Don't Work",
+            "location": "failed-solutions/why-current-solutions-fail.md",
+            "resources": []
+        }
+    ],
+    "Threshold Solution": [
+        {
+            "topic": "How Time-Lock Encryption Works",
+            "location": "threshold-solution/timelock-encryption.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "Complete Auction Lifecycle",
+            "location": "auction-flow/complete-lifecycle.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Sealed-Bid Auction Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment",
+            "location": "environment-setup/dev-setup.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "SealedBidAuction Contract",
+            "location": "building-contract/auction-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Breakdown": [
+        {
+            "topic": "Contract Walkthrough - Part 1",
+            "location": "contract-breakdown/contract-walkthrough-part1.md",
+            "resources": []
+        },
+        {
+            "topic": "Contract Walkthrough - Part 2",
+            "location": "contract-breakdown/contract-walkthrough-part2.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Base Sepolia",
+            "location": "deployment/deploying-contract.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Testing the Sealed-Bid Auction",
+            "location": "testing/testing-auction.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Extensions & Troubleshooting": [
+        {
+            "topic": "Enhancement Ideas & Use Cases",
+            "location": "extensions/enhancements.md",
+            "resources": []
+        },
+        {
+            "topic": "Troubleshooting Common Issues",
+            "location": "extensions/troubleshooting.md",
+            "resources": []
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "Final Thoughts",
+            "location": "conclusion/final-thoughts.md",
+            "resources": []
+        }
+    ]
+}

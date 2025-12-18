@@ -1,0 +1,101 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Cross-Chain Problem",
+            "location": "introduction/cross-chain-problem.md",
+            "resources": []
+        }
+    ],
+    "Failed Solutions": [
+        {
+            "topic": "Why Current Solutions Don't Work",
+            "location": "failed-solutions/why-bridges-fail.md",
+            "resources": []
+        }
+    ],
+    "only swaps Solution": [
+        {
+            "topic": "How only swaps Works",
+            "location": "onlyswaps-solution/how-onlyswaps-works.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "Complete Swap Lifecycle",
+            "location": "swap-flow/complete-lifecycle.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Cross-Chain Swap Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment",
+            "location": "environment-setup/dev-setup.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "CrossChainSwapper Contract",
+            "location": "building-contract/swapper-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Breakdown": [
+        {
+            "topic": "Contract Walkthrough - Part 1",
+            "location": "contract-breakdown/contract-walkthrough-part1.md",
+            "resources": []
+        },
+        {
+            "topic": "Contract Walkthrough - Part 2",
+            "location": "contract-breakdown/contract-walkthrough-part2.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Base Sepolia",
+            "location": "deployment/deploying-contract.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Testing the Cross-Chain Swap",
+            "location": "testing/testing-swaps.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Extensions & Troubleshooting": [
+        {
+            "topic": "Future Applications & Use Cases",
+            "location": "extensions/use-cases.md",
+            "resources": []
+        },
+        {
+            "topic": "Troubleshooting Common Issues",
+            "location": "extensions/troubleshooting.md",
+            "resources": []
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "Final Thoughts",
+            "location": "conclusion/final-thoughts.md",
+            "resources": []
+        }
+    ]
+}

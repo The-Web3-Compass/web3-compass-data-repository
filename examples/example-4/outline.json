@@ -1,0 +1,115 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Lottery Fairness Problem",
+            "location": "introduction/lottery-problem.md",
+            "resources": []
+        }
+    ],
+    "The Randomness Problem": [
+        {
+            "topic": "Why Blockchains Struggle with Randomness",
+            "location": "randomness-problem/blockchain-randomness.md",
+            "resources": []
+        }
+    ],
+    "Failed Solutions": [
+        {
+            "topic": "Why Traditional Approaches Fail",
+            "location": "failed-solutions/why-solutions-fail.md",
+            "resources": []
+        }
+    ],
+    "Threshold Randomness Solution": [
+        {
+            "topic": "How dcipher's Randomness Works",
+            "location": "threshold-solution/dcipher-randomness.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "Complete Lottery Lifecycle",
+            "location": "lottery-flow/complete-flow.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Lottery Fairness & Threshold Randomness Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment",
+            "location": "environment-setup/dev-setup.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "Fair Lottery Contract",
+            "location": "building-contract/fair-lottery-contract.md",
+            "resources": []
+        }
+    ],
+    "Contract Breakdown": [
+        {
+            "topic": "Contract Walkthrough - Part 1",
+            "location": "contract-breakdown/contract-walkthrough-part1.md",
+            "resources": []
+        },
+        {
+            "topic": "Contract Walkthrough - Part 2",
+            "location": "contract-breakdown/contract-walkthrough-part2.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying the Lottery",
+            "location": "deployment/deploying-lottery.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Testing the Lottery",
+            "location": "testing/testing-lottery.md",
+            "resources": []
+        }
+    ],
+    "Frontend Integration": [
+        {
+            "topic": "React Frontend with Wagmi",
+            "location": "frontend-integration/react-frontend.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Extensions & Troubleshooting": [
+        {
+            "topic": "Enhancement Ideas",
+            "location": "extensions/enhancements.md",
+            "resources": []
+        },
+        {
+            "topic": "Troubleshooting Common Issues",
+            "location": "extensions/troubleshooting.md",
+            "resources": []
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "Final Thoughts",
+            "location": "conclusion/final-thoughts.md",
+            "resources": []
+        }
+    ]
+}

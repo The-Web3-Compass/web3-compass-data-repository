@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Cross-Chain Swap Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What is the fundamental problem with using centralized exchanges for cross-chain transfers?",
+            "options": [
+                "They are too expensive",
+                "You must trust a custodial intermediary with your funds",
+                "They don't support enough chains",
+                "They are too slow"
+            ],
+            "correctAnswer": "You must trust a custodial intermediary with your funds"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What is the main security risk with traditional bridge protocols?",
+            "options": [
+                "They use outdated cryptography",
+                "They concentrate massive amounts of value in lockup contracts, making them attractive targets",
+                "They don't support ERC-20 tokens",
+                "They require too many confirmations"
+            ],
+            "correctAnswer": "They concentrate massive amounts of value in lockup contracts, making them attractive targets"
+        },
+        {
+            "type": "true_false",
+            "question": "only swaps works by wrapping tokens on the destination chain.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What role do Solvers play in the only swaps protocol?",
+            "options": [
+                "They verify transactions using threshold cryptography",
+                "They provide liquidity by fronting tokens on the destination chain",
+                "They mint wrapped tokens",
+                "They manage the bridge multisig"
+            ],
+            "correctAnswer": "They provide liquidity by fronting tokens on the destination chain"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The dcipher network uses ______ cryptography to verify cross-chain swaps without a single point of trust.",
+            "options": [
+                "threshold",
+                "symmetric",
+                "asymmetric",
+                "quantum"
+            ],
+            "correctAnswer": "threshold"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "When does a Solver get reimbursed for fulfilling a swap?",
+            "options": [
+                "Immediately after sending tokens on the destination chain",
+                "After the dcipher network generates a threshold signature proving the swap is valid",
+                "After 24 hours",
+                "When the user manually confirms receipt"
+            ],
+            "correctAnswer": "After the dcipher network generates a threshold signature proving the swap is valid"
+        },
+        {
+            "type": "true_false",
+            "question": "In only swaps, liquidity sits in large pools similar to traditional AMMs.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

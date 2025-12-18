@@ -1,9 +1,28 @@
 [
     {
+        "id": "EX-DC-PRF",
+        "name": "Preface",
+        "description": "Welcome to dcipher by example - understanding the three primitives that unlock impossible applications",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/preface/images/thumbnail.svg",
+        "level": "Beginner",
+        "duration": "10 minutes",
+        "tags": [
+            "#dcipher",
+            "#Introduction",
+            "#Overview"
+        ],
+        "location": "preface",
+        "status": "active",
+        "category": "introduction",
+        "index": 0,
+        "categoryGroup": "Introduction",
+        "focus": "Overview"
+    },
+    {
         "id": "EX-DC-TSE",
         "name": "Threshold Signatures Explained",
         "description": "A deep dive into threshold cryptography and how dcipher uses it to enable trust-minimized operations across blockchains",
-        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/dcipher-by-example/images/thumbnail.svg",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-1/images/thumbnail.svg",
         "level": "Intermediate",
         "duration": "45 minutes",
         "tags": [
@@ -11,8 +30,156 @@
             "#dcipher",
             "#Threshold"
         ],
-        "location": "dcipher-by-example",
+        "location": "example-1",
         "status": "active",
-        "category": "cryptography"
+        "category": "cryptography",
+        "index": 1,
+        "categoryGroup": "Understanding dcipher (Background)",
+        "focus": "Conceptual overview"
+    },
+    {
+        "id": "EX-DC-NET",
+        "name": "The dcipher Network",
+        "description": "Understanding dcipher's cryptographic coordination layer, from verifiable randomness to cross-chain swaps",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/thumbnail.svg",
+        "level": "Intermediate",
+        "duration": "60 minutes",
+        "tags": [
+            "#dcipher",
+            "#Cross-Chain",
+            "#Randomness"
+        ],
+        "location": "example-2",
+        "status": "active",
+        "category": "infrastructure",
+        "index": 2,
+        "categoryGroup": "Understanding dcipher (Background)",
+        "focus": "Architecture overview"
+    },
+    {
+        "id": "EX-DC-RND",
+        "name": "Request On-Chain Randomness",
+        "description": "Build a dice roller contract using dcipher's threshold randomness - from setup to deployment",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-3/images/thumbnail.svg",
+        "level": "Beginner",
+        "duration": "90 minutes",
+        "tags": [
+            "#dcipher",
+            "#Randomness",
+            "#Solidity"
+        ],
+        "location": "example-3",
+        "status": "active",
+        "category": "tutorial",
+        "index": 3,
+        "categoryGroup": "Building with Randomness",
+        "focus": "Randomness",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-LOT",
+        "name": "Build a Fair Lottery",
+        "description": "Create a provably fair lottery contract using threshold randomness - from concept to deployment with frontend",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-4/images/thumbnail.svg",
+        "level": "Intermediate",
+        "duration": "120 minutes",
+        "tags": [
+            "#dcipher",
+            "#Randomness",
+            "#Solidity",
+            "#React"
+        ],
+        "location": "example-4",
+        "status": "active",
+        "category": "tutorial",
+        "index": 4,
+        "categoryGroup": "Building with Randomness",
+        "focus": "Randomness",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-NFT",
+        "name": "Random NFT Traits",
+        "description": "Build NFTs with truly unpredictable traits using threshold randomness - no manipulation, no trust required",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-5/images/thumbnail.svg",
+        "level": "Intermediate",
+        "duration": "120 minutes",
+        "tags": [
+            "#dcipher",
+            "#Randomness",
+            "#NFT",
+            "#Solidity"
+        ],
+        "location": "example-5",
+        "status": "active",
+        "category": "tutorial",
+        "index": 5,
+        "categoryGroup": "Building with Randomness",
+        "focus": "Randomness",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-TLM",
+        "name": "Time-Locked Messages",
+        "description": "Build encrypted messages that unlock at specific future blocks using blocklock - no trust required",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-6/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "150 minutes",
+        "tags": [
+            "#dcipher",
+            "#Blocklock",
+            "#Encryption",
+            "#Solidity",
+            "#React"
+        ],
+        "location": "example-6",
+        "status": "active",
+        "category": "tutorial",
+        "index": 6,
+        "categoryGroup": "Building with Blocklock Encryption",
+        "focus": "Blocklock Encryption",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-AUC",
+        "name": "Sealed-Bid Auctions",
+        "description": "Build fair on-chain auctions using blocklock encryption - bids stay hidden until reveal time",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-7/images/thumbnail.svg",
+        "level": "Advanced",
+        "duration": "150 minutes",
+        "tags": [
+            "#dcipher",
+            "#Blocklock",
+            "#Auctions",
+            "#Solidity"
+        ],
+        "location": "example-7",
+        "status": "active",
+        "category": "tutorial",
+        "index": 7,
+        "categoryGroup": "Building with Blocklock Encryption",
+        "focus": "Blocklock Encryption",
+        "handsCoding": true
+    },
+    {
+        "id": "EX-DC-XCS",
+        "name": "Basic Cross-Chain Swap",
+        "description": "Build cross-chain token swaps using only swaps and threshold cryptography - no bridges, no wrapped tokens",
+        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-9/images/thumbnail.svg",
+        "level": "Intermediate",
+        "duration": "120 minutes",
+        "tags": [
+            "#dcipher",
+            "#only swaps",
+            "#Cross-Chain",
+            "#Solidity"
+        ],
+        "location": "example-9",
+        "status": "active",
+        "category": "tutorial",
+        "index": 9,
+        "categoryGroup": "Building with only swaps",
+        "focus": "only swaps",
+        "handsCoding": true
     }
 ]

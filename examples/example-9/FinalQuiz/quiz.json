@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why must the CrossChainSwapper contract approve the Router before calling requestCrossChainSwap?",
+            "options": [
+                "It's a security best practice",
+                "The Router needs permission to transfer the locked tokens from the swapper contract",
+                "To save gas costs",
+                "To emit the correct events"
+            ],
+            "correctAnswer": "The Router needs permission to transfer the locked tokens from the swapper contract"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What is the total amount of tokens that must be locked on the source chain?",
+            "options": [
+                "Only the swap amount",
+                "The swap amount plus the solver fee",
+                "The swap amount plus the network fee",
+                "The swap amount plus both solver and network fees"
+            ],
+            "correctAnswer": "The swap amount plus the solver fee"
+        },
+        {
+            "type": "true_false",
+            "question": "The same private key will generate the same address on both Base Sepolia and Avalanche Fuji.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the requestCrossChainSwap function return?",
+            "options": [
+                "The transaction hash",
+                "A unique request ID for tracking the swap",
+                "The amount of tokens locked",
+                "The Solver's address"
+            ],
+            "correctAnswer": "A unique request ID for tracking the swap"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "To check if a swap has been executed, you can call the ______ function with the request ID.",
+            "options": [
+                "isSwapExecuted",
+                "checkSwapStatus",
+                "verifySwap",
+                "getSwapResult"
+            ],
+            "correctAnswer": "isSwapExecuted"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "If a swap stays pending for a long time, what is the most likely reason?",
+            "options": [
+                "The smart contract has a bug",
+                "The solver fee is too low to attract Solvers",
+                "The blockchain is down",
+                "The tokens are locked permanently"
+            ],
+            "correctAnswer": "The solver fee is too low to attract Solvers"
+        },
+        {
+            "type": "true_false",
+            "question": "The tokens received on the destination chain are wrapped versions issued by only swaps.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

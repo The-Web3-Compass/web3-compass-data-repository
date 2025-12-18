@@ -1,0 +1,48 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="200" y="60" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#accentGradient)" text-anchor="middle">dcipher</text>
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="18" fill="#94a3b8" text-anchor="middle">by example</text>
+  
+  <!-- Decorative elements representing the three primitives -->
+  <g opacity="0.6">
+    <!-- Randomness - dice -->
+    <rect x="60" y="140" width="40" height="40" rx="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="70" cy="150" r="3" fill="#3b82f6"/>
+    <circle cx="90" cy="170" r="3" fill="#3b82f6"/>
+    <circle cx="70" cy="170" r="3" fill="#3b82f6"/>
+    <circle cx="90" cy="150" r="3" fill="#3b82f6"/>
+    
+    <!-- Blocklock - lock -->
+    <rect x="175" y="150" width="50" height="30" rx="3" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <path d="M 185 150 Q 185 135, 200 135 Q 215 135, 215 150" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="200" cy="165" r="4" fill="#8b5cf6"/>
+    
+    <!-- Cross-chain - connected chains -->
+    <circle cx="310" cy="150" r="15" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <circle cx="340" cy="170" r="15" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <line x1="320" y1="158" x2="332" y2="165" stroke="#ec4899" stroke-width="2"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Randomness</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Blocklock</text>
+  <text x="325" y="200" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle">Cross-Chain</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Building the Impossible</text>
+</svg>

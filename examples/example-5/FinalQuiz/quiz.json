@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does the tokenTraitSeed mapping store?",
+            "options": [
+                "The NFT owner's address",
+                "The random bytes32 value used to derive all traits for a token",
+                "The token's metadata URI",
+                "The mint timestamp"
+            ],
+            "correctAnswer": "The random bytes32 value used to derive all traits for a token"
+        },
+        {
+            "type": "true_false",
+            "question": "The onRandomnessReceived() function can be called directly by users to set their NFT traits.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens if you query an NFT's traits before the randomness callback completes?",
+            "options": [
+                "The transaction reverts",
+                "You get an error",
+                "You get 'Revealing' for all traits",
+                "You get random placeholder values"
+            ],
+            "correctAnswer": "You get 'Revealing' for all traits"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The RandomTraitsNFT contract inherits from both ERC721 and ______.",
+            "options": [
+                "RandomnessReceiverBase",
+                "Ownable",
+                "ERC20",
+                "AccessControl"
+            ],
+            "correctAnswer": "RandomnessReceiverBase"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why is the NFT metadata and image generated fully on-chain?",
+            "options": [
+                "It's cheaper than using IPFS",
+                "It eliminates external dependencies and ensures the NFT is truly permanent",
+                "It makes the NFT load faster",
+                "It's required by the ERC721 standard"
+            ],
+            "correctAnswer": "It eliminates external dependencies and ensures the NFT is truly permanent"
+        },
+        {
+            "type": "true_false",
+            "question": "Once tokenTraitSeed is set for an NFT, the traits can be changed by calling mint() again.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How long does it typically take for NFT traits to be revealed after minting?",
+            "options": [
+                "Instantly",
+                "10-30 seconds",
+                "5-10 minutes",
+                "24 hours"
+            ],
+            "correctAnswer": "10-30 seconds"
+        }
+    ]
+}

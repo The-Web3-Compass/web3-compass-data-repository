@@ -1,0 +1,80 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does inheriting from AbstractBlocklockReceiver provide to the SealedBidAuction contract?",
+            "options": [
+                "Automatic bid encryption",
+                "The ability to request decryption and receive callbacks from dcipher",
+                "Gas optimization for storage",
+                "Built-in auction logic"
+            ],
+            "correctAnswer": "The ability to request decryption and receive callbacks from dcipher"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why must the revealBlock come after the biddingDeadline?",
+            "options": [
+                "To save gas costs",
+                "If bids could decrypt while bidding is open, it collapses back to the transparency problem",
+                "It's a Solidity requirement",
+                "To give the dcipher network more time"
+            ],
+            "correctAnswer": "If bids could decrypt while bidding is open, it collapses back to the transparency problem"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The ______ mapping links asynchronous blocklock callbacks back to specific auction IDs.",
+            "options": [
+                "requestIdToAuction",
+                "auctionBids",
+                "auctions",
+                "auctionCounter"
+            ],
+            "correctAnswer": "requestIdToAuction"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does the contract decrypt bids in _onBlocklockReceived?",
+            "options": [
+                "It uses the bidder's private key",
+                "It loops through all bids and decrypts each using the threshold key provided by dcipher",
+                "It asks each bidder to decrypt their own bid",
+                "It uses a commit-reveal pattern"
+            ],
+            "correctAnswer": "It loops through all bids and decrypts each using the threshold key provided by dcipher"
+        },
+        {
+            "type": "true_false",
+            "question": "If no one calls requestDecryption after bidding ends, the bids will automatically decrypt when the reveal block is reached.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why do we need to pay ETH when calling requestDecryption?",
+            "options": [
+                "To pay the auction creator",
+                "To cover the gas cost of the dcipher callback transaction",
+                "To lock in the bid amounts",
+                "To incentivize bidders"
+            ],
+            "correctAnswer": "To cover the gas cost of the dcipher callback transaction"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What determines the winner of the auction?",
+            "options": [
+                "The first bid submitted",
+                "The last bid submitted",
+                "The highest decrypted bid that meets the minimum bid requirement",
+                "Random selection from all valid bids"
+            ],
+            "correctAnswer": "The highest decrypted bid that meets the minimum bid requirement"
+        }
+    ]
+}

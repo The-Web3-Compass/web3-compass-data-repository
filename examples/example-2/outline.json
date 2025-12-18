@@ -1,0 +1,84 @@
+{
+    "Introduction": [
+        {
+            "topic": "What is dcipher (Really)?",
+            "location": "introduction/what-is-dcipher.md",
+            "resources": []
+        }
+    ],
+    "Network Architecture": [
+        {
+            "topic": "The Two-Layer System",
+            "location": "network-architecture/two-layer-system.md",
+            "resources": []
+        }
+    ],
+    "Verifiable Randomness": [
+        {
+            "topic": "Unbiased Randomness Generation",
+            "location": "verifiable-randomness/unbiased-randomness.md",
+            "resources": []
+        }
+    ],
+    "Conditional Encryption": [
+        {
+            "topic": "Blocklock Explained",
+            "location": "conditional-encryption/blocklock-explained.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "dcipher Network Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Threshold Signing": [
+        {
+            "topic": "General Coordination Capability",
+            "location": "threshold-signing/general-coordination.md",
+            "resources": []
+        }
+    ],
+    "DKG Ceremony": [
+        {
+            "topic": "Distributed Key Generation",
+            "location": "dkg-ceremony/distributed-key-generation.md",
+            "resources": []
+        }
+    ],
+    "onlyswaps Protocol": [
+        {
+            "topic": "Cross-Chain Swaps in Practice",
+            "location": "onlyswaps-protocol/cross-chain-swaps.md",
+            "resources": []
+        }
+    ],
+    "Security Model": [
+        {
+            "topic": "Trust Assumptions and Guarantees",
+            "location": "security-model/trust-assumptions.md",
+            "resources": []
+        }
+    ],
+    "Development Setup": [
+        {
+            "topic": "Getting Started with dcipher SDKs",
+            "location": "development-setup/getting-started.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Advanced dcipher & Cross-Chain Coordination Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "The Trust-Minimized Future",
+            "location": "conclusion/trust-minimized-future.md",
+            "resources": []
+        }
+    ]
+}

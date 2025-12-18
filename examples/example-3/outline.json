@@ -1,0 +1,82 @@
+{
+    "Introduction": [
+        {
+            "topic": "The Randomness Problem",
+            "location": "introduction/randomness-problem.md",
+            "resources": []
+        }
+    ],
+    "Why Traditional Approaches Fail": [
+        {
+            "topic": "Failed Solutions Explained",
+            "location": "failed-solutions/why-traditional-approaches-fail.md",
+            "resources": []
+        }
+    ],
+    "dcipher's Solution": [
+        {
+            "topic": "Threshold Randomness Explained",
+            "location": "dcipher-solution/threshold-randomness-explained.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "Request-Callback Pattern",
+            "location": "randomness-flow/request-callback-pattern.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "Randomness Fundamentals & dcipher Basics Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment",
+            "location": "environment-setup/dev-environment.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "DiceRoller Contract Overview",
+            "location": "building-contract/contract-overview.md",
+            "resources": []
+        },
+        {
+            "topic": "Payment Models",
+            "location": "building-contract/payment-models.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Testnet",
+            "location": "deployment/deploying-to-testnet.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Rolling Dice and Checking Results",
+            "location": "testing-randomness/rolling-and-checking.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "Behind the Scenes & Next Steps",
+            "location": "conclusion/behind-the-scenes.md",
+            "resources": []
+        }
+    ]
+}

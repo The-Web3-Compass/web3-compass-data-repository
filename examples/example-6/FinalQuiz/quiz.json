@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does the requestIdToMessageId mapping store?",
+            "options": [
+                "The message text",
+                "The link between dcipher's request ID and the message ID",
+                "The recipient's address",
+                "The reveal block number"
+            ],
+            "correctAnswer": "The link between dcipher's request ID and the message ID"
+        },
+        {
+            "type": "true_false",
+            "question": "The _onBlocklockReceived() function can be called directly by users to decrypt their messages.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why does the requestDecryption function require the recipient to send ETH?",
+            "options": [
+                "To pay the sender",
+                "To pre-pay for the callback gas when dcipher delivers the decryption key",
+                "To pay for storage costs",
+                "To prevent spam only"
+            ],
+            "correctAnswer": "To pre-pay for the callback gas when dcipher delivers the decryption key"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The GiftMessage contract inherits from ______, which provides blocklock functionality.",
+            "options": [
+                "AbstractBlocklockReceiver",
+                "ERC721",
+                "Ownable",
+                "RandomnessReceiverBase"
+            ],
+            "correctAnswer": "AbstractBlocklockReceiver"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the 0x42 prefix in the condition encoding represent?",
+            "options": [
+                "The chain ID",
+                "A block-based condition",
+                "The contract version",
+                "The encryption algorithm"
+            ],
+            "correctAnswer": "A block-based condition"
+        },
+        {
+            "type": "true_false",
+            "question": "After a message is decrypted, the plaintext remains private and only the recipient can see it.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How long does it typically take for the decryption callback to arrive after requesting?",
+            "options": [
+                "Instantly",
+                "10-30 seconds",
+                "5-10 minutes",
+                "24 hours"
+            ],
+            "correctAnswer": "10-30 seconds"
+        }
+    ]
+}

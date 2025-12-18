@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Lottery Fairness & Threshold Randomness",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why can't we use block.timestamp for lottery randomness?",
+            "options": [
+                "Block timestamps are always the same value",
+                "Miners control timestamps within a range and can choose to mine or skip blocks based on favorable outcomes",
+                "Block timestamps are too large for modulo operations",
+                "Solidity doesn't allow accessing block.timestamp"
+            ],
+            "correctAnswer": "Miners control timestamps within a range and can choose to mine or skip blocks based on favorable outcomes"
+        },
+        {
+            "type": "true_false",
+            "question": "In threshold randomness, no single operator can generate the random value alone - they need threshold cooperation.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What are the three guarantees a fair lottery needs?",
+            "options": [
+                "Speed, Cheapness, Simplicity",
+                "Unpredictability, Unmanipulability, Verifiability",
+                "Decentralization, Scalability, Security",
+                "Privacy, Anonymity, Transparency"
+            ],
+            "correctAnswer": "Unpredictability, Unmanipulability, Verifiability"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "When using future block hashes for randomness, the miner of that block can profitably ______ their own block to change the outcome.",
+            "options": [
+                "orphan",
+                "validate",
+                "encrypt",
+                "broadcast"
+            ],
+            "correctAnswer": "orphan"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does dcipher's threshold randomness work?",
+            "options": [
+                "One operator generates randomness and others verify it",
+                "Each operator generates a partial signature using their key share, which are combined when threshold is met",
+                "The smart contract generates randomness and operators validate it",
+                "Randomness is pulled from an external oracle service"
+            ],
+            "correctAnswer": "Each operator generates a partial signature using their key share, which are combined when threshold is met"
+        },
+        {
+            "type": "true_false",
+            "question": "The threshold signature itself IS the random value used for winner selection.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens during the randomness callback?",
+            "options": [
+                "The contract generates its own random number",
+                "The RandomnessSender verifies the threshold signature and calls onRandomnessReceived() with the verified random value",
+                "Players vote on the winner",
+                "The organizer manually inputs the random value"
+            ],
+            "correctAnswer": "The RandomnessSender verifies the threshold signature and calls onRandomnessReceived() with the verified random value"
+        }
+    ]
+}

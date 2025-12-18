@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: NFT Randomness Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why is the 'Trust Us, We're Nice' reveal pattern problematic for NFT launches?",
+            "options": [
+                "It requires too much gas to execute",
+                "Someone knows which token IDs map to rare traits before the public mint completes",
+                "It doesn't work with IPFS",
+                "It's too expensive to implement"
+            ],
+            "correctAnswer": "Someone knows which token IDs map to rare traits before the public mint completes"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What's the main vulnerability of using block.timestamp for NFT trait randomness?",
+            "options": [
+                "Block timestamps are always the same",
+                "Validators can see the result before finalizing the block and sophisticated users can simulate outcomes locally",
+                "Block timestamps don't exist on all chains",
+                "It costs too much gas"
+            ],
+            "correctAnswer": "Validators can see the result before finalizing the block and sophisticated users can simulate outcomes locally"
+        },
+        {
+            "type": "true_false",
+            "question": "In threshold randomness for NFTs, the mint transaction and trait assignment happen in the same transaction.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What makes threshold randomness more secure than centralized oracles for NFT traits?",
+            "options": [
+                "It's faster",
+                "It's cheaper",
+                "An attacker must compromise multiple independent operators meeting the threshold, not just one service",
+                "It doesn't require any cryptography"
+            ],
+            "correctAnswer": "An attacker must compromise multiple independent operators meeting the threshold, not just one service"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The gap between the mint transaction and the randomness callback is what makes NFT traits ______.",
+            "options": [
+                "unpredictable",
+                "expensive",
+                "visible",
+                "transferable"
+            ],
+            "correctAnswer": "unpredictable"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why do we divide the random value before taking modulo when deriving multiple traits?",
+            "options": [
+                "To make the code run faster",
+                "To prevent correlation between traits by using different parts of the random value",
+                "To reduce gas costs",
+                "To make the traits more rare"
+            ],
+            "correctAnswer": "To prevent correlation between traits by using different parts of the random value"
+        },
+        {
+            "type": "true_false",
+            "question": "With threshold randomness, the project team can control which wallets receive rare NFT traits.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        }
+    ]
+}

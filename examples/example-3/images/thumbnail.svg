@@ -1,0 +1,12 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4ecdc4" text-anchor="middle">On-Chain Randomness</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="18" fill="#a8dadc" text-anchor="middle">Build with dcipher</text>
+  <g transform="translate(200, 220)">
+    <circle cx="-60" cy="0" r="20" fill="#4ecdc4" opacity="0.7"/>
+    <circle cx="0" cy="0" r="20" fill="#4ecdc4" opacity="0.7"/>
+    <circle cx="60" cy="0" r="20" fill="#4ecdc4" opacity="0.7"/>
+    <path d="M -40,0 L -20,0" stroke="#4ecdc4" stroke-width="2"/>
+    <path d="M 20,0 L 40,0" stroke="#4ecdc4" stroke-width="2"/>
+  </g>
+</svg>

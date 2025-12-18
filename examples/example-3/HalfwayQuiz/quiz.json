@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Randomness Fundamentals & dcipher Basics",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "Why is using block hashes for randomness insecure?",
+            "options": [
+                "Block hashes are too short to provide enough entropy",
+                "Miners can see block hashes before finalizing blocks and refuse to publish unfavorable ones",
+                "Block hashes are deterministic and always produce the same value",
+                "Block hashes can only be accessed by contract owners"
+            ],
+            "correctAnswer": "Miners can see block hashes before finalizing blocks and refuse to publish unfavorable ones"
+        },
+        {
+            "type": "true_false",
+            "question": "In dcipher's threshold randomness, the threshold signature itself IS the random value, not derived from it.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What makes threshold randomness more secure than a centralized oracle?",
+            "options": [
+                "It's faster to compute",
+                "It costs less to operate",
+                "An attacker must compromise multiple independent nodes meeting the threshold, not just one service",
+                "It doesn't require any cryptography"
+            ],
+            "correctAnswer": "An attacker must compromise multiple independent nodes meeting the threshold, not just one service"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The randomness request-callback process is ______, meaning your transaction finishes immediately and randomness arrives later.",
+            "options": [
+                "asynchronous",
+                "synchronous",
+                "sequential",
+                "parallel"
+            ],
+            "correctAnswer": "asynchronous"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens when dcipher operators generate randomness?",
+            "options": [
+                "One operator generates the random value and broadcasts it to others",
+                "Each operator contributes entropy through MPC protocols to collectively generate a value no single operator could predict",
+                "The smart contract generates the randomness and operators verify it",
+                "Operators vote on which random number to use"
+            ],
+            "correctAnswer": "Each operator contributes entropy through MPC protocols to collectively generate a value no single operator could predict"
+        },
+        {
+            "type": "true_false",
+            "question": "When your onRandomnessReceived() callback executes, the randomness has already been cryptographically verified by the base contract.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What does the callbackGasLimit parameter specify?",
+            "options": [
+                "The maximum gas price you're willing to pay",
+                "How much gas to allocate for the callback transaction when dcipher fulfills your request",
+                "The total gas limit for the entire randomness request",
+                "The minimum gas required to deploy the contract"
+            ],
+            "correctAnswer": "How much gas to allocate for the callback transaction when dcipher fulfills your request"
+        }
+    ]
+}

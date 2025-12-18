@@ -1,0 +1,8 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#00d4ff" text-anchor="middle">dcipher Network</text>
+  <text x="200" y="170" font-family="Arial, sans-serif" font-size="18" fill="#a8dadc" text-anchor="middle">Cryptographic Coordination Layer</text>
+  <circle cx="100" cy="220" r="15" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="200" cy="220" r="15" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="300" cy="220" r="15" fill="#00d4ff" opacity="0.6"/>
+</svg>

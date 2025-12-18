@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: dcipher Network Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What are the two layers that make up the dcipher network architecture?",
+            "options": [
+                "Frontend and backend layers",
+                "Smart contracts (on-chain) and node operators (off-chain)",
+                "Application layer and consensus layer",
+                "User interface and database layers"
+            ],
+            "correctAnswer": "Smart contracts (on-chain) and node operators (off-chain)"
+        },
+        {
+            "type": "true_false",
+            "question": "Smart contracts in dcipher perform the actual threshold cryptography computations on-chain.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does dcipher prevent a single operator from biasing the randomness output?",
+            "options": [
+                "By using block hashes as the source of randomness",
+                "By requiring operators to commit to their random contributions before revealing them",
+                "By generating randomness on a centralized server",
+                "By using VRF (Verifiable Random Function) from a single trusted node"
+            ],
+            "correctAnswer": "By requiring operators to commit to their random contributions before revealing them"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "In Blocklock, the decryption key doesn't exist before the condition is met—it's generated ______ by the committee.",
+            "options": [
+                "on-demand",
+                "randomly",
+                "centrally",
+                "permanently"
+            ],
+            "correctAnswer": "on-demand"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What type of encryption does Blocklock use where the condition itself becomes the identity?",
+            "options": [
+                "AES encryption",
+                "RSA encryption",
+                "Identity-Based Encryption (IBE)",
+                "Homomorphic encryption"
+            ],
+            "correctAnswer": "Identity-Based Encryption (IBE)"
+        },
+        {
+            "type": "true_false",
+            "question": "If you compromise one operator's key share in a threshold system, you can decrypt all Blocklock-encrypted data.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why does dcipher use BLS signatures on the BN254 curve?",
+            "options": [
+                "They are faster to compute than other signature schemes",
+                "They are aggregatable, allowing multiple signatures to combine into one compact signature",
+                "They require less storage space",
+                "They are easier to implement"
+            ],
+            "correctAnswer": "They are aggregatable, allowing multiple signatures to combine into one compact signature"
+        }
+    ]
+}

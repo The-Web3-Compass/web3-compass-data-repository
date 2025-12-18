@@ -1,0 +1,87 @@
+{
+    "Introduction": [
+        {
+            "topic": "The NFT Randomness Problem",
+            "location": "introduction/nft-randomness-problem.md",
+            "resources": []
+        }
+    ],
+    "Why Traditional Approaches Fail": [
+        {
+            "topic": "Failed NFT Randomness Solutions",
+            "location": "failed-solutions/why-nft-randomness-fails.md",
+            "resources": []
+        }
+    ],
+    "dcipher's Solution": [
+        {
+            "topic": "Threshold Randomness for NFTs",
+            "location": "dcipher-solution/threshold-randomness-for-nfts.md",
+            "resources": []
+        }
+    ],
+    "Understanding the Flow": [
+        {
+            "topic": "The Two-Transaction Pattern",
+            "location": "randomness-flow/two-transaction-pattern.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Halfway Point": [
+        {
+            "topic": "NFT Randomness Fundamentals Quiz",
+            "location": "HalfwayQuiz/quiz.json"
+        }
+    ],
+    "Environment Setup": [
+        {
+            "topic": "Development Environment",
+            "location": "environment-setup/dev-environment.md",
+            "resources": []
+        }
+    ],
+    "Building the Contract": [
+        {
+            "topic": "RandomTraitsNFT Contract Overview",
+            "location": "building-contract/contract-overview.md",
+            "resources": []
+        },
+        {
+            "topic": "Trait Generation & Metadata",
+            "location": "building-contract/trait-generation.md",
+            "resources": []
+        }
+    ],
+    "Deployment": [
+        {
+            "topic": "Deploying to Base Sepolia",
+            "location": "deployment/deploying-nft-contract.md",
+            "resources": []
+        }
+    ],
+    "Testing": [
+        {
+            "topic": "Minting NFTs",
+            "location": "testing-randomness/minting-nfts.md",
+            "resources": []
+        },
+        {
+            "topic": "Viewing in MetaMask",
+            "location": "testing-randomness/viewing-in-wallet.md",
+            "resources": []
+        }
+    ],
+    "Quiz: Final Checkpoint": [
+        {
+            "topic": "Implementation & Deployment Quiz",
+            "location": "FinalQuiz/quiz.json"
+        }
+    ],
+    "Conclusion": [
+        {
+            "topic": "What You've Built & Next Steps",
+            "location": "conclusion/next-steps.md",
+            "resources": []
+        }
+    ]
+}

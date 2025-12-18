@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Implementation & Deployment",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What does the FairLottery contract inherit from?",
+            "options": [
+                "ERC20",
+                "RandomnessReceiverBase",
+                "Ownable",
+                "ReentrancyGuard"
+            ],
+            "correctAnswer": "RandomnessReceiverBase"
+        },
+        {
+            "type": "true_false",
+            "question": "The closeLotteryAndRequestRandomness() function must be payable because requesting randomness requires prepaying for callback gas.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What percentage is the HOUSE_FEE_PERCENT in the FairLottery contract?",
+            "options": [
+                "10%",
+                "5%",
+                "2%",
+                "1%"
+            ],
+            "correctAnswer": "5%"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The onRandomnessReceived() function must be marked as ______ override.",
+            "options": [
+                "internal",
+                "external",
+                "public",
+                "private"
+            ],
+            "correctAnswer": "internal"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "How does the contract select the winner from the players array?",
+            "options": [
+                "First player in the array always wins",
+                "Converts randomness to uint256, uses modulo to get index within array bounds",
+                "Organizer manually selects from the array",
+                "Random selection from blockchain validators"
+            ],
+            "correctAnswer": "Converts randomness to uint256, uses modulo to get index within array bounds"
+        },
+        {
+            "type": "true_false",
+            "question": "The cancelAndRefund() function allows players to get refunds if randomness doesn't arrive within the TIMEOUT period.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "True"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "In the React frontend, what library is used for blockchain interactions?",
+            "options": [
+                "ethers.js directly",
+                "web3.js",
+                "wagmi hooks",
+                "hardhat"
+            ],
+            "correctAnswer": "wagmi hooks"
+        }
+    ]
+}

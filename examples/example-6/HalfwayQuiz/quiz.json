@@ -1,0 +1,78 @@
+{
+    "section": "Quiz: Time-Lock Fundamentals",
+    "questions": [
+        {
+            "type": "multiple_choice",
+            "question": "What is the fundamental problem with traditional server-based time-locks?",
+            "options": [
+                "They are too expensive to implement",
+                "The decryption key exists now and can be accessed by anyone with database access",
+                "They don't work on blockchains",
+                "They require too much gas"
+            ],
+            "correctAnswer": "The decryption key exists now and can be accessed by anyone with database access"
+        },
+        {
+            "type": "true_false",
+            "question": "In blocklock encryption, the decryption key exists from the moment of encryption but is kept secret by dcipher operators.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What makes blocklock encryption fundamentally different from threshold encryption?",
+            "options": [
+                "It's faster",
+                "The decryption key literally doesn't exist until the target block is mined",
+                "It costs less gas",
+                "It works on more blockchains"
+            ],
+            "correctAnswer": "The decryption key literally doesn't exist until the target block is mined"
+        },
+        {
+            "type": "fill_in_the_blank",
+            "question": "The decryption key in blocklock is derived from the target block's ______, which is unpredictable before the block is created.",
+            "options": [
+                "signature",
+                "timestamp",
+                "hash",
+                "number"
+            ],
+            "correctAnswer": "signature"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "Why must encryption happen client-side in the browser?",
+            "options": [
+                "It's faster than server-side encryption",
+                "If you send plaintext in a transaction, it's visible to everyone before encryption",
+                "Browsers have better encryption libraries",
+                "It saves gas costs"
+            ],
+            "correctAnswer": "If you send plaintext in a transaction, it's visible to everyone before encryption"
+        },
+        {
+            "type": "true_false",
+            "question": "Once a message is encrypted with blocklock, even the sender can decrypt it immediately if they want to.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswer": "False"
+        },
+        {
+            "type": "multiple_choice",
+            "question": "What happens if you try to encrypt a message for a block that has already been mined?",
+            "options": [
+                "The encryption fails",
+                "Someone could derive the key immediately and decrypt the message",
+                "The message gets encrypted for the next block automatically",
+                "It costs more gas"
+            ],
+            "correctAnswer": "Someone could derive the key immediately and decrypt the message"
+        }
+    ]
+}

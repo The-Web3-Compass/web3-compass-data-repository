@@ -22,7 +22,7 @@ And honestly... We're trying to make this fun. Not in a "fellow kids" cringe way
 
 Think of this like a video game progression system, except instead of unlocking new skins, you're unlocking the ability to build applications that were literally impossible before. Cool trade-off, right?
 
-![Learning Flow Diagram](./images/learning-flow-diagram.png)
+![Learning Flow Diagram](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/preface/images/learning-flow-diagram.png)
 
 We start with the "what" and "why" of dcipher. What are these three primitives everyone keeps talking about? Why do they matter? What problems do they actually solve? This is the only part where we get a bit theoretical, but we keep it snappy. No 50-page whitepapers, promise.
 

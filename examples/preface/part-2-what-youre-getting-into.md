@@ -20,7 +20,7 @@ dcipher tries to fill those gaps. But to understand how, we need to talk about t
 
 ## The Three Primitives (AKA: The Good Stuff)
 
-![Three Primitives](./images/three-primitives.png)
+![Three Primitives](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/preface/images/three-primitives.png)
 
 ### 1. Verifiable Randomness (Or: Finally, Dice That Don't Lie)
 

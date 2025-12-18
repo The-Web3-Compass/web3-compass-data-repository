@@ -226,27 +226,6 @@
         "handsCoding": true
     },
     {
-        "id": "EX-OS-CPG",
-        "name": "Cross-Chain Payment Gateway",
-        "description": "Build a payment gateway that accepts payments on any chain and settles on your preferred chain using OnlySwaps",
-        "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-10/images/thumbnail.svg",
-        "level": "Advanced",
-        "duration": "180 minutes",
-        "tags": [
-            "#OnlySwaps",
-            "#CrossChain",
-            "#Payments",
-            "#Solidity"
-        ],
-        "location": "example-10",
-        "status": "active",
-        "category": "tutorial",
-        "index": 10,
-        "categoryGroup": "Building with OnlySwaps",
-        "focus": "Cross-Chain",
-        "handsCoding": true
-    },
-    {
         "id": "EX-DC-CCL",
         "name": "Cross-Chain Lottery with Threshold Randomness",
         "description": "Build a provably fair lottery with cross-chain prize claims using dcipher's threshold randomness and OnlySwaps",

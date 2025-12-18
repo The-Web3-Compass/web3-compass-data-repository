@@ -10,3 +10,11 @@ Now, the important thing to note here is that no single participant ever possess
 
 Think about that for a second. The key literally doesn't exist in any one place. You can't steal it because there's nothing to steal. You can't lose it because there's nothing to lose. The power is distributed at the foundational level, not just the organizational level.
 
+### Comparing Key Management Models
+
+To better understand how threshold signatures differ from other approaches, let's look at the key management landscape:
+
+![Comparison of cryptographic key management models](../images/key-management-comparison.png)
+
+As you can see from this comparison, threshold signatures offer a unique balance: they provide the security benefits of distributed key management (like multisig) while maintaining the simplicity and efficiency of a single signature on-chain. Unlike multisig, where everyone can see your signer set and threshold, TSS keeps that information private. And unlike blockchain consensus, which distributes verification but not authorization, TSS actually distributes the authorization power itself.
+

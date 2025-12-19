@@ -8,13 +8,13 @@ This contract does neither. Bids are cryptographically sealed using time-locked 
 
 When the reveal time hits, the dcipher network automatically decrypts all bids. No trusted party. No manual reveals. Just cryptography enforcing the timeline.
 
-And once the winner is selected, they can pay from any supported chain without touching a bridge. OnlySwaps coordinates the cross-chain transfer using threshold signatures. No wrapped tokens. No centralized custody. No security nightmares.
+And once the winner is selected, they can pay from any supported chain without touching a bridge. only swaps coordinates the cross-chain transfer using threshold signatures. No wrapped tokens. No centralized custody. No security nightmares.
 
 The randomness is verifiable. The cross-chain swaps are trustless. The entire flow is transparent and auditable.
 
 That’s what makes this interesting. Not the Solidity patterns (those are standard). Not the state machine (that’s basic). The integration with dcipher’s primitives in a way that creates something neither primitive could do alone.
 
-You couldn’t build this without blocklock. You couldn’t build this without OnlySwaps. Together, they enable an auction that’s actually fair and actually flexible.
+You couldn’t build this without blocklock. You couldn’t build this without only swaps. Together, they enable an auction that’s actually fair and actually flexible.
 
 ---
 

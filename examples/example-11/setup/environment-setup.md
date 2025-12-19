@@ -74,7 +74,7 @@ What each of these does:
 
 **randomness-solidity** is dcipher’s randomness library. Gives us `RandomnessReceiverBase`, which handles all the request-and-receive randomness infrastructure.
 
-**onlyswaps-solidity** is the OnlySwaps integration. We get the `IRouter` interface for cross-chain swaps.
+**onlyswaps-solidity** is the only swaps integration. We get the `IRouter` interface for cross-chain swaps.
 
 **@openzeppelin/contracts** has the standard stuff. ERC20, ReentrancyGuard, all the utilities everyone uses. No point reinventing these.
 

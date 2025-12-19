@@ -207,7 +207,7 @@
     {
         "id": "EX-OS-CPG",
         "name": "Cross-Chain Payment Gateway",
-        "description": "Build a payment gateway that accepts payments on any chain and settles on your preferred chain using OnlySwaps",
+        "description": "Build a payment gateway that accepts payments on any chain and settles on your preferred chain using only swaps",
         "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-10/images/thumbnail.svg",
         "level": "Advanced",
         "duration": "180 minutes",
@@ -221,14 +221,14 @@
         "status": "active",
         "category": "tutorial",
         "index": 10,
-        "categoryGroup": "Building with OnlySwaps",
+        "categoryGroup": "Building with only swaps",
         "focus": "Cross-Chain",
         "handsCoding": true
     },
     {
         "id": "EX-DC-CCL",
         "name": "Cross-Chain Lottery with Threshold Randomness",
-        "description": "Build a provably fair lottery with cross-chain prize claims using dcipher's threshold randomness and OnlySwaps",
+        "description": "Build a provably fair lottery with cross-chain prize claims using dcipher's threshold randomness and only swaps",
         "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-11/images/thumbnail.svg",
         "level": "Advanced",
         "duration": "240 minutes",
@@ -250,14 +250,14 @@
     {
         "id": "EX-DC-SBM",
         "name": "Sealed Bid Marketplace with Cross-Chain Payments",
-        "description": "Build a sealed bid auction marketplace combining blocklock encryption and OnlySwaps for cross-chain payments",
+        "description": "Build a sealed bid auction marketplace combining blocklock encryption and only swaps for cross-chain payments",
         "thumbnail": "https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-12/images/thumbnail.svg",
         "level": "Advanced",
         "duration": "300 minutes",
         "tags": [
             "#dcipher",
             "#Blocklock",
-            "#OnlySwaps",
+            "#only swaps",
             "#Marketplace",
             "#Auctions"
         ],

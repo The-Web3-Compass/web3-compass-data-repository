@@ -24,7 +24,7 @@ This one’s different. It integrates two dcipher primitives in a way that makes
 
 **Threshold randomness** - The user doesn’t know or care that multiple nodes are generating randomness using threshold cryptography. They just click “Draw Winner” and a winner gets selected. Fairly. Verifiably. Trustlessly.
 
-**OnlySwaps** - The user doesn’t know or care about solvers, swap intents, or cross-chain verification. They just select “Claim on Avalanche” and their prize shows up there. No bridge. No wrapped tokens. No manual steps.
+**only swaps** - The user doesn’t know or care about solvers, swap intents, or cross-chain verification. They just select “Claim on Avalanche” and their prize shows up there. No bridge. No wrapped tokens. No manual steps.
 
 The frontend’s job is making powerful primitives feel simple. That’s what this does.
 
@@ -47,7 +47,7 @@ If you’re building something using dcipher’s primitives, here’s what you a
 5. **In your frontend** - Call your request function with `value` to pay for the callback
 6. **Poll for results** - Watch contract state or listen for events to know when randomness arrives
 
-### For OnlySwaps:
+### For only swaps:
 
 1. **Install the library** - `npm install onlyswaps-solidity` (contract) and `npm install onlyswaps-js` (frontend)
 2. **Import the router interface** - `import {IRouter} from "onlyswaps-solidity/src/interfaces/IRouter.sol"`

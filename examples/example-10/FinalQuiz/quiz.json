@@ -14,7 +14,7 @@
         },
         {
             "type": "multiple_choice",
-            "question": "How long does a typical OnlySwaps cross-chain payment take to settle?",
+            "question": "How long does a typical only swaps cross-chain payment take to settle?",
             "options": [
                 "5-15 minutes like traditional bridges",
                 "1-2 hours",

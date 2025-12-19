@@ -9,7 +9,7 @@ Avalanche Fuji                          Base Sepolia
      │  Payer pays 15.01 FUSD                │
      │  ───────────────────►                 │
      │                                       │
-     │         OnlySwaps Solver              │
+     │         only swaps Solver              │
      │  ◄─────────────────────────────────►  │
      │         (7 seconds!)                  │
      │                                       │

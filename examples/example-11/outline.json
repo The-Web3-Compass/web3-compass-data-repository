@@ -84,7 +84,7 @@
     ],
     "Frontend Implementation": [
         {
-            "topic": "Contract Interactions & OnlySwaps Integration",
+            "topic": "Contract Interactions & only swaps Integration",
             "location": "frontend/implementation.md",
             "resources": []
         }

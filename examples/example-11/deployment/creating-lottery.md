@@ -128,7 +128,7 @@ So what did we just do?
 
 We built a smart contract that runs a lottery with provably fair randomness and lets winners claim on any chain they want. We deployed it to Base Sepolia. We created a lottery. It works.
 
-The contract handles creation, entry, drawing, and claiming. Threshold cryptography ensures fairness. OnlySwaps enables cross-chain payouts without bridges or wrapped tokens.
+The contract handles creation, entry, drawing, and claiming. Threshold cryptography ensures fairness. only swaps enables cross-chain payouts without bridges or wrapped tokens.
 
 This is a real lottery. Not a demo. Not a toy. You could run this in production right now (with some obvious improvements like better access control and testing, but the core mechanics work).
 

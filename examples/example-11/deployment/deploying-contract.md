@@ -36,7 +36,7 @@ async function main() {
 
   console.log("\nUsing addresses:");
   console.log("- RandomnessSender:", config.randomnessSender);
-  console.log("- OnlySwaps Router:", config.router);
+  console.log("- only swaps Router:", config.router);
   console.log("- RUSD Token:", config.rusdToken);
 
   // Entry fee: 1 RUSD (6 decimals)
@@ -115,7 +115,7 @@ Balance: 0.1 ETH
 
 Using addresses:
 - RandomnessSender: 0xf4e080Db4765C856c0af43e4A8C4e31aA3b48779
-- OnlySwaps Router: 0x16323707e61d20A39AaE5ab64808e480B91658aB
+- only swaps Router: 0x16323707e61d20A39AaE5ab64808e480B91658aB
 - RUSD Token: 0x9Eb392A6286138E5d59a40Da5398e567Ab3AAd7c
 
 Deploying contract...

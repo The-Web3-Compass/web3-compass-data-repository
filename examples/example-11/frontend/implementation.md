@@ -101,11 +101,11 @@ The `value` field sends ETH along with the transaction. This pays for the random
 
 After this transaction confirms, lottery state flips to DRAWING. The frontend polls the contract and updates the UI when the winner gets announced.
 
-### Cross-Chain Claims (Where OnlySwaps Shines)
+### Cross-Chain Claims (Where only swaps Shines)
 
 This is where it gets interesting.
 
-When a winner wants their prize on a different chain, they call `claimPrizeCrossChain`. The contract handles the OnlySwaps integration, but the frontend needs to feed it the right parameters.
+When a winner wants their prize on a different chain, they call `claimPrizeCrossChain`. The contract handles the only swaps integration, but the frontend needs to feed it the right parameters.
 
 Look at `src/components/ClaimPrize.jsx`:
 
@@ -125,17 +125,17 @@ const handleClaimCrossChain = async () => {
 
 The solver fee goes to whoever fulfills the swap. In this case, 0.1 RUSD. Winner receives `prizePool - solverFee` on the destination chain.
 
-The contract calls `router.requestCrossChainSwap`, creating a swap intent. Solvers watching the OnlySwaps network see this and compete to fulfill it.
+The contract calls `router.requestCrossChainSwap`, creating a swap intent. Solvers watching the only swaps network see this and compete to fulfill it.
 
 One solver sends RUSD to the winner on Avalanche, then submits proof to dcipher. Once verified, that solver gets reimbursed on Base.
 
 From the user’s perspective: click button, sign transaction, prize shows up on Avalanche a few minutes later. No bridge UI. No wrapped tokens. No twelve-step process.
 
-That’s OnlySwaps.
+That’s only swaps.
 
 ### Using onlyswaps-js (When You Need More Control)
 
-In this lottery, the contract handles everything OnlySwaps-related. But if you’re building something that needs direct OnlySwaps integration (checking swap status, monitoring solver activity, building a cross-chain DEX aggregator), you’d use `onlyswaps-js`.
+In this lottery, the contract handles everything only swaps-related. But if you’re building something that needs direct only swaps integration (checking swap status, monitoring solver activity, building a cross-chain DEX aggregator), you’d use `onlyswaps-js`.
 
 Install it:
 
@@ -169,7 +169,7 @@ client.on('SwapFulfilled', (event) => {
 })
 ```
 
-For this lottery, we don’t need this. The contract handles everything. But if you’re building something more complex (DEX aggregator, cross-chain bridge UI, multi-chain portfolio tracker), `onlyswaps-js` gives you direct access to the OnlySwaps network.
+For this lottery, we don’t need this. The contract handles everything. But if you’re building something more complex (DEX aggregator, cross-chain bridge UI, multi-chain portfolio tracker), `onlyswaps-js` gives you direct access to the only swaps network.
 
 The library handles:
 - Querying available routes and solver liquidity
@@ -177,5 +177,5 @@ The library handles:
 - Listening for fulfillment events
 - Estimating fees and execution times
 
-It’s the JavaScript SDK for OnlySwaps. Use it when you need programmatic access to cross-chain functionality beyond what your contract provides.
+It’s the JavaScript SDK for only swaps. Use it when you need programmatic access to cross-chain functionality beyond what your contract provides.
 

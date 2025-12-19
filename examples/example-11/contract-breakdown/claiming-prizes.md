@@ -69,13 +69,13 @@ function claimPrizeCrossChain(
 }
 ```
 
-This is where OnlySwaps comes in. Winner calls this if they want their prize on a different chain.
+This is where only swaps comes in. Winner calls this if they want their prize on a different chain.
 
 They specify the destination chain ID, the token address on that chain, and a solver fee. The solver fee is what gets paid to the liquidity provider who fulfills the swap. It comes out of the prize pool, so the winner receives `prizePool - solverFee` on the destination chain.
 
-The contract approves the OnlySwaps router to spend the prize tokens, then calls `requestCrossChainSwap`. This creates a swap intent that solvers can see and fulfill.
+The contract approves the only swaps router to spend the prize tokens, then calls `requestCrossChainSwap`. This creates a swap intent that solvers can see and fulfill.
 
-OnlySwaps handles everything from here. A solver will send tokens to the winner on the destination chain, then get reimbursed on Base once the dcipher network verifies both sides of the swap. No bridge. No wrapped tokens. Just coordinated transfers verified by threshold signatures.
+only swaps handles everything from here. A solver will send tokens to the winner on the destination chain, then get reimbursed on Base once the dcipher network verifies both sides of the swap. No bridge. No wrapped tokens. Just coordinated transfers verified by threshold signatures.
 
 The contract stores the payout details so we can track completion later if needed.
 
@@ -87,13 +87,13 @@ Most lottery contracts are either provably fair OR flexible with payouts. Not bo
 
 If they use on-chain randomness, they’re usually stuck with block hashes or timestamps, which are manipulatable. If they use external oracles, they’re introducing trust and cost. If they support cross-chain claims, they’re usually relying on bridges with all the security nightmares that entails.
 
-This contract does both. Fair randomness through threshold cryptography. Flexible payouts through OnlySwaps. No bridges. No centralized oracles. No trust beyond the math.
+This contract does both. Fair randomness through threshold cryptography. Flexible payouts through only swaps. No bridges. No centralized oracles. No trust beyond the math.
 
 The randomness is verifiable. The cross-chain swaps are trustless. The entire flow is transparent and auditable.
 
 That’s what makes this interesting. Not the Solidity patterns (those are standard). Not the state machine (that’s basic). The integration with dcipher’s primitives in a way that creates something neither primitive could do alone.
 
-You couldn’t build this without threshold randomness. You couldn’t build this without OnlySwaps. Together, they enable a lottery that’s actually fair and actually flexible.
+You couldn’t build this without threshold randomness. You couldn’t build this without only swaps. Together, they enable a lottery that’s actually fair and actually flexible.
 
 Now let’s deploy it and see it work.
 

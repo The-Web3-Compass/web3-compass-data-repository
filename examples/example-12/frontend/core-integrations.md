@@ -166,7 +166,7 @@ The UI flow:
 
 Two transactions. But the UX makes it obvious what’s happening and why each step matters.
 
-### Cross-Chain Payments (Where OnlySwaps Shines)
+### Cross-Chain Payments (Where only swaps Shines)
 
 This is where it gets really interesting.
 
@@ -190,17 +190,17 @@ const handleCrossChainPayment = async () => {
 
 The solver fee goes to whoever fulfills the swap. In this case, 0.1 RUSD. Seller receives `winningBid - solverFee` on Base.
 
-The contract calls `router.requestCrossChainSwap`, creating a swap intent. Solvers watching the OnlySwaps network see this and compete to fulfill it.
+The contract calls `router.requestCrossChainSwap`, creating a swap intent. Solvers watching the only swaps network see this and compete to fulfill it.
 
 One solver sends RUSD to the seller on Base, then submits proof to dcipher. Once verified, that solver gets reimbursed on Avalanche.
 
 From the user’s perspective: select chain, click button, sign transaction, seller gets paid on Base a few minutes later. No bridge UI. No wrapped tokens. No twelve-step process.
 
-That’s OnlySwaps.
+That’s only swaps.
 
 ### Using onlyswaps-js (When You Need More Control)
 
-In this marketplace, the contract handles everything OnlySwaps-related. But if you’re building something that needs direct OnlySwaps integration (checking swap status, monitoring solver activity, building a cross-chain DEX aggregator), you’d use `onlyswaps-js`.
+In this marketplace, the contract handles everything only swaps-related. But if you’re building something that needs direct only swaps integration (checking swap status, monitoring solver activity, building a cross-chain DEX aggregator), you’d use `onlyswaps-js`.
 
 Install it:
 
@@ -234,7 +234,7 @@ client.on('SwapFulfilled', (event) => {
 })
 ```
 
-For this marketplace, we don’t need this. The contract handles everything. But if you’re building something more complex (DEX aggregator, cross-chain bridge UI, multi-chain portfolio tracker), `onlyswaps-js` gives you direct access to the OnlySwaps network.
+For this marketplace, we don’t need this. The contract handles everything. But if you’re building something more complex (DEX aggregator, cross-chain bridge UI, multi-chain portfolio tracker), `onlyswaps-js` gives you direct access to the only swaps network.
 
 The library handles:
 - Querying available routes and solver liquidity
@@ -242,6 +242,6 @@ The library handles:
 - Listening for fulfillment events
 - Estimating fees and execution times
 
-It’s the JavaScript SDK for OnlySwaps. Use it when you need programmatic access to cross-chain functionality beyond what your contract provides.
+It’s the JavaScript SDK for only swaps. Use it when you need programmatic access to cross-chain functionality beyond what your contract provides.
 
 ---

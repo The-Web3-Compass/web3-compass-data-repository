@@ -70,7 +70,7 @@ Now comes the interesting part. The winner has two options.
 
 **Option 1: Claim on Base.** Simple. Direct. The contract transfers the prize pool to their address on Base Sepolia. Transaction completes. They’re done.
 
-**Option 2: Claim cross-chain.** The winner wants their prize on Avalanche Fuji instead. The contract uses OnlySwaps to coordinate a cross-chain transfer. No bridge. No wrapped tokens. Just an efficient swap where the winner receives native tokens on their chosen chain.
+**Option 2: Claim cross-chain.** The winner wants their prize on Avalanche Fuji instead. The contract uses only swaps to coordinate a cross-chain transfer. No bridge. No wrapped tokens. Just an efficient swap where the winner receives native tokens on their chosen chain.
 
 That’s the entire flow. Fair randomness. Flexible payouts. No centralized chokepoints.
 
@@ -80,7 +80,7 @@ Look, this isn’t just another lottery contract.
 
 Fair randomness on blockchains? Absolute nightmare. Miners manipulate block hashes. Timestamps are gameable. External oracles mean you’re trusting someone else’s infrastructure. Threshold randomness fixes this by spreading the randomness generation across multiple independent nodes. Nobody controls the outcome alone.
 
-Cross-chain transfers? Even worse. Bridges lock massive amounts of value in single contracts, basically painting a target on themselves for hackers. Wrapped tokens fragment liquidity and introduce depeg risk. OnlySwaps sidesteps this entire mess by coordinating independent transfers on each chain, verified by threshold signatures.
+Cross-chain transfers? Even worse. Bridges lock massive amounts of value in single contracts, basically painting a target on themselves for hackers. Wrapped tokens fragment liquidity and introduce depeg risk. only swaps sidesteps this entire mess by coordinating independent transfers on each chain, verified by threshold signatures.
 
 Combining these two primitives gives you something genuinely new: a lottery that’s provably fair and chain-agnostic. Winners don’t need to trust the operator. They don’t need to trust a bridge. They just need to trust the math.
 

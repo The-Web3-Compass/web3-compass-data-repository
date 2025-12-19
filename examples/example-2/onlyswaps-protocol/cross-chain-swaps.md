@@ -16,7 +16,7 @@ Most bridges operate in one of these broken modes:
 
 ### How only swaps Actually Works
 
-![OnlySwaps](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/only-swaps.png)
+![only swaps](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/example-2/images/only-swaps.png)
 
 **Step 1: User Creates a Swap Request**
 

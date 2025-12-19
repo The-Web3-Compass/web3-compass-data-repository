@@ -84,7 +84,7 @@
     ],
     "Core Integrations": [
         {
-            "topic": "Wagmi, blocklock-js & OnlySwaps Integration",
+            "topic": "Wagmi, blocklock-js & only swaps Integration",
             "location": "frontend/core-integrations.md",
             "resources": []
         }

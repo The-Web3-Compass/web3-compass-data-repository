@@ -6,7 +6,7 @@ This marketplace uses **blocklock** for time-locked encryption. Bids are cryptog
 
 When the reveal time hits, the dcipher network automatically decrypts all bids. No trusted party. No manual reveals. Just cryptography enforcing the timeline.
 
-And once the winner is selected, they can pay from any supported chain using **OnlySwaps**. No bridges. No wrapped tokens. No security nightmares.
+And once the winner is selected, they can pay from any supported chain using **only swaps**. No bridges. No wrapped tokens. No security nightmares.
 
 The frontend makes all this complexity invisible. Connect wallet, browse listings, place encrypted bid, pay from any chain. That’s it.
 
@@ -14,7 +14,7 @@ The randomness is verifiable. The cross-chain swaps are trustless. The entire fl
 
 That’s what makes this interesting. Not the React patterns (those are standard). Not the Wagmi hooks (those are documented). The integration with dcipher’s primitives in a way that creates something neither primitive could do alone.
 
-You couldn’t build this without blocklock. You couldn’t build this without OnlySwaps. Together, they enable an auction that’s actually fair and actually flexible.
+You couldn’t build this without blocklock. You couldn’t build this without only swaps. Together, they enable an auction that’s actually fair and actually flexible.
 
 ---
 
@@ -76,7 +76,7 @@ You’ve built a sealed bid marketplace that combines two dcipher primitives:
 
 **Blocklock** for time-locked bid encryption. Bids stay sealed until reveal time. Automatically decrypt when the blockchain reaches the specified block height. No trust required.
 
-**OnlySwaps** for cross-chain payments. Winners can pay from any supported chain. No bridges. No wrapped tokens. Just coordinated transfers verified by threshold signatures.
+**only swaps** for cross-chain payments. Winners can pay from any supported chain. No bridges. No wrapped tokens. Just coordinated transfers verified by threshold signatures.
 
 The frontend makes this complexity disappear. Users connect their wallet, browse listings, place encrypted bids, and pay from whatever chain they want. The cryptography happens in the background.
 

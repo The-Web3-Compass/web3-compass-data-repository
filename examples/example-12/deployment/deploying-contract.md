@@ -36,7 +36,7 @@ async function main() {
 
     console.log("\\nUsing addresses:");
     console.log("- BlocklockSender:", config.blocklockSender);
-    console.log("- OnlySwaps Router:", config.router);
+    console.log("- only swaps Router:", config.router);
     console.log("- RUSD Token:", config.rusdToken);
 
     console.log("\\nDeploying contract...");
@@ -86,7 +86,7 @@ Balance: 0.05 ETH
 
 Using addresses:
 - BlocklockSender: 0x82Fed730CbdeC5A2D8724F2e3b316a70A565e27e
-- OnlySwaps Router: 0x16323707e61d20A39AaE5ab64808e480B91658aB
+- only swaps Router: 0x16323707e61d20A39AaE5ab64808e480B91658aB
 - RUSD Token: 0x9Eb392A6286138E5d59a40Da5398e567Ab3AAd7c
 
 Deploying contract...

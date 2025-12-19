@@ -16,7 +16,7 @@ npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
 # Install OpenZeppelin contracts
 npm install @openzeppelin/contracts
 
-# Install OnlySwaps SDK
+# Install only swaps SDK
 npm install only swaps-solidity
 
 # Install dotenv for managing secrets
@@ -588,7 +588,7 @@ Reasons:
 - Amount too small (solvers ignore tiny amounts)
 - Destination chain gas price spiked (solvers waiting for cheaper gas)
 
-Check the OnlySwaps router events to see if any solver attempted fulfillment.
+Check the only swaps router events to see if any solver attempted fulfillment.
 
 **Issue 5: Frontend can’t connect to contract**
 

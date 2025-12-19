@@ -1,12 +1,12 @@
 ## From Smart Contract to Actual Product
 
-So you’ve got a contract that does sealed bids with blocklock and cross-chain payments with OnlySwaps. The Solidity compiles. The tests pass. You could deploy it right now and everything would function exactly as written.
+So you’ve got a contract that does sealed bids with blocklock and cross-chain payments with only swaps. The Solidity compiles. The tests pass. You could deploy it right now and everything would function exactly as written.
 
 Cool. Now what?
 
 Because here’s the uncomfortable truth: a smart contract sitting on Base Sepolia isn’t a product. It’s infrastructure. If the only way to interact with your sealed bid marketplace is through Hardhat tasks and ethers.js scripts, you’ve built something technically impressive that exactly zero normal humans will ever use.
 
-What you need is a frontend. Not just any frontend—one that takes all this cryptographic complexity and makes it feel simple. Where someone can browse listings, place an encrypted bid without knowing what a ciphertext is, and pay from Avalanche while the auction runs on Base without understanding how OnlySwaps works.
+What you need is a frontend. Not just any frontend—one that takes all this cryptographic complexity and makes it feel simple. Where someone can browse listings, place an encrypted bid without knowing what a ciphertext is, and pay from Avalanche while the auction runs on Base without understanding how only swaps works.
 
 That’s the gap between “it works” and “people will actually use this.”
 
@@ -74,9 +74,9 @@ Then they call `payForItem`. User signs again. Transaction confirms. RUSD moves 
 
 If the user won and wants to pay from Avalanche Fuji instead, they select “Pay from Avalanche Fuji” and click “Pay Cross-Chain.”
 
-The frontend calls `payForItemCrossChain` with the destination chain ID, destination token address, and a solver fee. The contract approves the OnlySwaps router, calls `requestCrossChainSwap`, and creates a swap intent.
+The frontend calls `payForItemCrossChain` with the destination chain ID, destination token address, and a solver fee. The contract approves the only swaps router, calls `requestCrossChainSwap`, and creates a swap intent.
 
-Solvers watching the OnlySwaps network see this intent and compete to fulfill it. One solver sends RUSD to the seller on Base from their own liquidity. They then submit proof to the dcipher network. Once verified, that solver gets reimbursed on Avalanche by pulling the winner’s funds.
+Solvers watching the only swaps network see this intent and compete to fulfill it. One solver sends RUSD to the seller on Base from their own liquidity. They then submit proof to the dcipher network. Once verified, that solver gets reimbursed on Avalanche by pulling the winner’s funds.
 
 Seller gets paid on Base. Winner pays from Avalanche. No bridge. No wrapped tokens. Just works.
 

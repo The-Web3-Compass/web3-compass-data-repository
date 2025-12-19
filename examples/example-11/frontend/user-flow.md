@@ -70,7 +70,7 @@ If the user won and wants their prize on Base Sepolia (same chain), they click �
 
 If the user won and wants their prize on Avalanche Fuji instead, they select “Claim on Avalanche Fuji” and click “Claim Cross-Chain.”
 
-The frontend calls `claimPrizeCrossChain` with the destination chain ID, destination token address, and a solver fee. The contract approves the OnlySwaps router, calls `requestCrossChainSwap`, and creates a swap intent.
+The frontend calls `claimPrizeCrossChain` with the destination chain ID, destination token address, and a solver fee. The contract approves the only swaps router, calls `requestCrossChainSwap`, and creates a swap intent.
 
 Solvers see this intent, fulfill it by sending RUSD to the winner on Avalanche, then get reimbursed on Base once dcipher verifies both sides of the swap.
 

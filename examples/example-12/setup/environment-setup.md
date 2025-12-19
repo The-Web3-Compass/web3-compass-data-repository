@@ -64,7 +64,7 @@ What each does:
 
 **blocklock-solidity** - dcipher’s time-locked encryption library. Gives us `AbstractBlocklockReceiver` for handling encrypted bids and automatic decryption callbacks.
 
-**onlyswaps-solidity** - OnlySwaps integration for cross-chain payments. Provides the `IRouter` interface.
+**onlyswaps-solidity** - only swaps integration for cross-chain payments. Provides the `IRouter` interface.
 
 **@openzeppelin/contracts** - Standard utilities. ERC20, ReentrancyGuard, all the battle-tested components everyone uses.
 

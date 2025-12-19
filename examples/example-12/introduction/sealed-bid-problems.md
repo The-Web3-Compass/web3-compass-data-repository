@@ -2,13 +2,13 @@
 
 Alright, this is it. Example 12. The last one. If this were a movie, this is where all the plot threads come together, the music swells, and the protagonist finally understands what they’ve been building toward all along.
 
-If you’ve stuck with us through all eleven previous examples, you’ve gotten pretty familiar with dcipher’s primitives by now. You’ve seen **blocklock** do its time-locked encryption thing...data that stays locked until a specific block height, then automatically decrypts. You’ve watched **OnlySwaps** shuffle value between blockchains without needing bridges or wrapped tokens. You’ve probably built a lottery or two, maybe an auction, definitely an escrow contract. And yeah, you’ve probably stared at your screen at 2 AM wondering why you chose this path instead of becoming a barista.
+If you’ve stuck with us through all eleven previous examples, you’ve gotten pretty familiar with dcipher’s primitives by now. You’ve seen **blocklock** do its time-locked encryption thing...data that stays locked until a specific block height, then automatically decrypts. You’ve watched **only swaps** shuffle value between blockchains without needing bridges or wrapped tokens. You’ve probably built a lottery or two, maybe an auction, definitely an escrow contract. And yeah, you’ve probably stared at your screen at 2 AM wondering why you chose this path instead of becoming a barista.
 
 We get it. But here’s where it gets interesting.
 
-Up until now, each example focused on one primitive at a time. Blocklock here, OnlySwaps there. Clean. Focused. Educational. But here’s the thing: these primitives get way more interesting when you use them together. Not just side-by-side, but actually integrated...where one primitive enables something the other needs, and vice versa.
+Up until now, each example focused on one primitive at a time. Blocklock here, only swaps there. Clean. Focused. Educational. But here’s the thing: these primitives get way more interesting when you use them together. Not just side-by-side, but actually integrated...where one primitive enables something the other needs, and vice versa.
 
-That’s what we’re doing here. A sealed bid marketplace where bids stay encrypted with blocklock until reveal time...nobody can see what you bid, not even the contract. Winners can pay from whatever chain they want using OnlySwaps, no bridge gymnastics required. The whole thing runs trustlessly, meaning there’s no centralized party you need to have faith in.
+That’s what we’re doing here. A sealed bid marketplace where bids stay encrypted with blocklock until reveal time...nobody can see what you bid, not even the contract. Winners can pay from whatever chain they want using only swaps, no bridge gymnastics required. The whole thing runs trustlessly, meaning there’s no centralized party you need to have faith in.
 
 Think of it as the final exam. Except instead of answering questions, you’re building something that actually solves problems people have right now, today, in production Web3 applications.
 
@@ -99,13 +99,13 @@ Great way to lose a customer. They won the auction fair and square, and now you�
 
 None of these options are acceptable. Bridges are security nightmares. CEXs add friction and centralization. Saying no loses customers.
 
-**OnlySwaps fixes this. Completely.**
+**only swaps fixes this. Completely.**
 
 Here’s how it works:
 
 Your winner calls `payForItemCrossChain` on the contract. They specify they want to pay from Avalanche. The contract creates a swap intent...basically a public announcement that says “I need 500 USDT sent to this seller on Base, and I’ll pay 500 USDT from Avalanche to whoever does it.”
 
-Solvers watching the OnlySwaps network see this intent. These are liquidity providers who have funds on both chains. They compete to fulfill it.
+Solvers watching the only swaps network see this intent. These are liquidity providers who have funds on both chains. They compete to fulfill it.
 
 One solver says “I’ll do it.” They send 500 USDT to you on Base from their own liquidity. Right now. Immediately. You get paid.
 
@@ -121,7 +121,7 @@ No bridge. No wrapped tokens. No centralized custody. No trust required beyond t
 
 So here’s the complete picture.
 
-Sellers list items with encrypted bidding periods...they set a reveal block and an end block. Bidders submit encrypted bids using blocklock, so nobody can see the amounts. When the blockchain hits the reveal block height, all the bids automatically decrypt. The highest bidder wins, determined after all bids are revealed. And then the winner can pay from any chain they want using OnlySwaps..Base, Avalanche, wherever their funds are.
+Sellers list items with encrypted bidding periods...they set a reveal block and an end block. Bidders submit encrypted bids using blocklock, so nobody can see the amounts. When the blockchain hits the reveal block height, all the bids automatically decrypt. The highest bidder wins, determined after all bids are revealed. And then the winner can pay from any chain they want using only swaps..Base, Avalanche, wherever their funds are.
 
 It’s an auction system that’s actually fair because bids are sealed. And it’s actually flexible because payments can happen cross-chain without bridges.
 

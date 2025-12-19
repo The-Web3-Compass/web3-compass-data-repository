@@ -14,7 +14,7 @@
         },
         {
             "type": "multiple_choice",
-            "question": "How does OnlySwaps differ from traditional bridges?",
+            "question": "How does only swaps differ from traditional bridges?",
             "options": [
                 "It uses a centralized server",
                 "Solvers provide instant liquidity by sending tokens on the destination chain immediately",
@@ -45,7 +45,7 @@
         },
         {
             "type": "fill_in_the_blank",
-            "question": "The Payment struct stores a ______ which links back to the OnlySwaps router to check if the swap executed.",
+            "question": "The Payment struct stores a ______ which links back to the only swaps router to check if the swap executed.",
             "options": [
                 "swapRequestId",
                 "orderId",

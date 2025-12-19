@@ -45,7 +45,7 @@ If the winner wants to pay from a different chain (like Avalanche Fuji), they ca
 - The token address on that chain
 - A solver fee (paid to whoever fulfills the swap)
 
-The contract approves the OnlySwaps router, calls `requestCrossChainSwap`, and creates a swap intent. Solvers watching the OnlySwaps network see this, send RUSD to the seller on Base Sepolia from their own liquidity, then get reimbursed on Avalanche Fuji once the dcipher network verifies both sides of the swap.
+The contract approves the only swaps router, calls `requestCrossChainSwap`, and creates a swap intent. Solvers watching the only swaps network see this, send RUSD to the seller on Base Sepolia from their own liquidity, then get reimbursed on Avalanche Fuji once the dcipher network verifies both sides of the swap.
 
 The seller gets paid on Base. The winner pays from Avalanche. No bridge. No wrapped tokens. Just coordinated transfers verified by threshold signatures.
 

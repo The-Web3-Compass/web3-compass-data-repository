@@ -1,115 +1,99 @@
-What You're Getting Into (Or: The Stuff Blockchains Can't Do... Until Now)
+# What You're Getting Into (Or: The Stuff Blockchains Can't Do... Until Now)
 
-Let's talk about the elephant in the room. Actually, three elephants. Three massive, glaring problems that have been haunting blockchain developers since day one.
+Three elephants in the room. Three massive problems haunting blockchain developers since day one.
 
-You've probably hit at least one of these walls. Maybe all three. And if you haven't yet, just wait.
+You've hit at least one. Maybe all three.
 
-Picture this: You're building something on-chain and you need randomness. Not the "hash a block number and pray" kind. Not the "trust this oracle" kind. Actual, verifiable, unpredictable randomness.
+Need randomness on-chain? Not the "hash a block number and pray" kind. Actual, verifiable, unpredictable randomness. Can't get it natively.
 
-Can't get it. Not natively, anyway.
+Want a sealed-bid auction? Everything on the blockchain is public. Your "secret" bids might as well be on a billboard with spotlights.
 
-Or maybe you want to run a sealed-bid auction. Except everything on the blockchain is public. Aggressively public. Your "secret" bids might as well be on a billboard with spotlights and a guy with a megaphone reading them out loud.
+Want to move tokens cross-chain without a bridge that'll get exploited next month? (Too soon? But also... you know it's true.)
 
-Or you just want to move tokens from one chain to another without using a bridge that'll probably get exploited next month. (Too soon? Sorry, bridge developers. But also... you know it's true.)
+These aren't edge cases. These are fundamental gaps blocking entire categories of applications.
 
-These aren't edge cases. These aren't "nice-to-haves." These are fundamental gaps in what smart contracts can do, and they've been blocking entire categories of applications from existing.
-
-dcipher tries to fill those gaps. But to understand how, we need to talk about the three primitives it brings to the table. Think of them as the missing puzzle pieces that suddenly make a lot of "impossible" things very possible.
+dcipher fills those gaps. Here's how.
 
 ---
 
-## The Three Primitives (AKA: The Good Stuff)
+## The Three Primitives
 
 ![Three Primitives](https://raw.githubusercontent.com/The-Web3-Compass/web3-compass-data-repository/refs/heads/main/examples/preface/images/three-primitives.png)
 
-### 1. Verifiable Randomness (Or: Finally, Dice That Don't Lie)
+### 1. Verifiable Randomness (Finally, Dice That Don't Lie)
 
-Here's the dream: You ask for a random number. The network generates one. You get it back with a cryptographic proof that nobody—and we mean nobody—tampered with it.
+Ask for a random number. Network generates one. Get it back with cryptographic proof nobody tampered with it.
 
-No miners reorging blocks to change the outcome. No validators skipping your transaction because they don't like the number. No "trust us bro" oracles.
+No miners reorging blocks. No validators skipping transactions. No "trust us bro" oracles.
 
-Just actual, verifiable, unpredictable randomness you can use in your lottery, your game, your NFT mint, your prediction market, whatever.
+Just actual, verifiable, unpredictable randomness for your lottery, game, NFT mint, prediction market, whatever.
 
-Why does this matter? Because right now, on-chain randomness is either predictable (bad for users) or centralized (bad for trust). With dcipher, you get randomness that's both unpredictable and verifiable. Which means you can finally build fair games, lotteries, and NFT drops without users side-eyeing you like you're running a rigged carnival game.
-
----
-
-### 2. Blocklock Encryption (Or: Time-Locked Secrets That Actually Work)
-
-Imagine this: You encrypt something right now and set it to auto-decrypt at block 1,000,000. Until that block arrives, it stays locked. Completely locked.
-
-You can't decrypt it early. The dcipher operators can't decrypt it early. Nobody can.
-
-When block 1,000,000 hits, the network automatically handles the decryption. It's like writing a letter, putting it in a time-locked safe, and throwing away the key—except the safe opens itself exactly when you planned.
-
-Why does this matter? Because blockchains are transparent by design, which is great for auditability but terrible for privacy. Want to run a sealed-bid auction? Can't do it—everyone can see the bids. Want to create a prediction market where bets stay hidden until the event happens? Nope, everything's public.
-
-Blocklock encryption changes that. You can now have secrets on-chain that reveal themselves at a specific time. No trusted third parties. No "please don't peek" honor systems. Just cryptographic guarantees.
+**Why it matters**: Right now, on-chain randomness is either predictable (bad for users) or centralized (bad for trust). With dcipher, you get both unpredictable and verifiable. Build fair games without users side-eyeing you like you're running a rigged carnival.
 
 ---
 
-### 3. Cross-Chain Swaps (Or: Bridges Are So 2022)
+### 2. Blocklock Encryption (Time-Locked Secrets That Work)
 
-Here's how it works: You post an intent saying you want to swap USDC on Arbitrum for ETH on Base. Solvers see it, compete to give you the best rate, and whoever wins executes the swap atomically.
+Encrypt something now, set it to auto-decrypt at block 1,000,000. Until then, it stays locked. Completely.
 
-No bridges. No wrapped tokens. No praying that some validator set doesn't rug you.
+You can't decrypt early. Operators can't decrypt early. Nobody can.
 
-Either the full swap happens or nothing does. Atomic. Trustless. What cross-chain should have been from the start.
+When block 1,000,000 hits, network handles decryption automatically.
 
-Why does this matter? Because bridges are a disaster. They're honeypots for hackers, they require wrapped tokens (which defeats the whole "native asset" thing), and they're slow. With dcipher's cross-chain swaps, you get native-to-native token swaps across chains without any of the bridge nonsense.
+**Why it matters**: Blockchains are transparent by design—great for auditability, terrible for privacy. Want sealed-bid auctions? Can't do it, everyone sees bids. Prediction markets with hidden bets? Nope, everything's public.
 
-Want to build a lottery on Ethereum where winners get paid out on Polygon? Done. Want users to deposit from any chain into your game? Easy. Want to create a marketplace where payments settle cross-chain without intermediaries? Now you can.
-
----
-
-## Okay, But How Does This Actually Work?
-
-Great question. The answer involves some gnarly cryptography, but here's the version that won't make your eyes glaze over.
-
-Take a private key and split it into pieces across a bunch of operators. Set it up so you need, say, 7 out of 10 pieces to actually use the key.
-
-Now no single operator can do anything alone, but when enough cooperate, they can collectively sign messages, decrypt data, or generate randomness.
-
-You'd have to compromise most of them at once to break the system, and they're distributed globally with real economic incentives to behave.
-
-That's it. The math involves Shamir secret sharing, threshold signatures, distributed key generation, and a bunch of other terms that sound like they belong in a cryptography textbook. But you don't need to dig into any of that.
-
-The important part: You just call functions, and dcipher handles the coordination and cryptography behind the scenes.
-
-It's like using HTTPS. You don't need to understand elliptic curve cryptography to browse the web securely. You just use it. Same deal here.
+Blocklock changes that. Secrets on-chain that reveal at specific times. No trusted third parties. No "please don't peek" honor systems. Just cryptographic guarantees.
 
 ---
 
-## What You Can Build Now (The Fun Part)
+### 3. Cross-Chain Swaps (Bridges Are So 2022)
 
-This isn't about incremental improvements. This isn't "slightly better tooling" or "5% faster transactions."
+Post an intent: swap USDC on Arbitrum for ETH on Base. Solvers compete for best rate, winner executes atomically.
 
-This is about unlocking entire categories of applications that were previously impossible.
+No bridges. No wrapped tokens. No praying validators don't rug you.
 
-Run a lottery on one chain where winners get paid out on whatever chain they prefer. No bridges, no wrapped tokens, just native cross-chain payouts.
+Either the full swap happens or nothing does. Atomic. Trustless.
 
-Build a prediction market where bets stay encrypted until the event happens, then automatically resolve. No one can see the bets early. No manipulation. Just fair, transparent outcomes.
+**Why it matters**: Bridges are disasters. Honeypots for hackers, require wrapped tokens, slow. With dcipher's cross-chain swaps, you get native-to-native swaps without bridge nonsense.
 
-Create a game with provably fair dice rolls where players can deposit from any chain. Randomness is verifiable. Deposits are seamless. Players trust the system because the math guarantees fairness.
+Lottery on Ethereum, winners paid on Polygon? Done. Users deposit from any chain? Easy. Marketplace with cross-chain settlements? Now you can.
 
-Make a marketplace where offers are hidden until they expire and payments settle cross-chain without intermediaries. Sealed bids. Atomic swaps. No middlemen taking cuts.
+---
 
-And we're not just going to tell you about these. We're going to walk through examples. Short, focused, composable code snippets that introduce one concept at a time and compound into fully working applications.
+## How Does This Work?
 
-You'll see how each primitive works individually and how they combine to let you build things that simply weren't possible before.
+Take a private key, split it into pieces across operators. Need 7 out of 10 pieces to use the key.
+
+No single operator can do anything alone. Collectively, they can sign messages, decrypt data, generate randomness.
+
+You'd have to compromise most at once to break it. They're distributed globally with real economic incentives to behave.
+
+The math involves Shamir secret sharing, threshold signatures, distributed key generation—but you don't need to dig into that.
+
+**Important part**: You call functions, dcipher handles coordination and cryptography. Like using HTTPS—you don't need to understand elliptic curve cryptography to browse securely.
+
+---
+
+## What You Can Build Now
+
+This isn't incremental improvements or "5% faster transactions."
+
+This is unlocking entire categories of previously impossible applications.
+
+Lottery on one chain, winners paid on their preferred chain. Prediction markets with encrypted bets until events happen. Games with provably fair dice and seamless cross-chain deposits. Marketplaces with sealed bids and atomic cross-chain payments.
+
+We're not just telling you about these. We're walking through examples—short, focused, composable code that introduces one concept at a time and compounds into fully working applications.
 
 ---
 
 ## Why You Should Care
 
-We've been stuck building the same types of applications for years because the underlying primitives only allowed certain patterns. DEXes, lending markets, NFT drops—these are the things the current toolset makes easy.
+We've been stuck building the same apps for years because primitives only allowed certain patterns. DEXes, lending markets, NFT drops—these are what the current toolset makes easy.
 
-But dcipher changes the baseline. And when you change the primitive layer, you change what's possible at the application layer.
+dcipher changes the baseline. When you change the primitive layer, you change what's possible at the application layer.
 
-The things you couldn't figure out how to make work on-chain? The ideas you shelved because the tech "just didn't support it"? The applications you thought would require centralized components?
+Things you couldn't figure out how to make work? Ideas you shelved because "the tech didn't support it"? Applications you thought needed centralized components?
 
-They're suddenly back on the table.
-
-So yeah. That's what you're getting into. Three primitives. Infinite possibilities. And a bunch of examples to show you exactly how to use them.
+Suddenly back on the table.
 
 Let's build something impossible. 🚀

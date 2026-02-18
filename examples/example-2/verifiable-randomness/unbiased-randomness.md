@@ -44,17 +44,7 @@ This extends systems like drand (which dcipher's parent organization, Randamu, a
 
 ### Why Randomness Matters (More Than People Admit)
 
-Randomness isn't a cute feature. It's structural. If your randomness can be influenced, you don't have a fair protocol you have a system quietly waiting to be exploited.
-
-Lotteries, NFT reveals, game mechanics, validator selections, sequencing logic, probabilistic algorithms everything depends on randomness that adversaries cannot steer. And the usual toolbox isn't great.
-
-**Block hashes are manipulable.** Miners can choose not to publish a block if the hash doesn't favor them. The cost is giving up block rewards, but for high-value outcomes, that trade-off might be worth it.
-
-**Server-based RNG is a trust problem.** You're asking people to believe that the server operator isn't peeking at the random number before revealing it, or isn't colluding with participants to rig outcomes.
-
-**Delay functions are clever but impractical** for most real-world workloads. They work by making the computation take a predictable amount of time, but that time is often too long for applications that need fast randomness.
-
-**VRFs solve a narrow problem but collapse into a single point of failure** if the VRF generator is compromised or corrupted.
+We have already talked about why randomness is hard in the previous section. Let us look at how it matters and how is dcipher helping us with it.
 
 dcipher generates randomness through a distributed protocol where no participant ever learns the final output until everyone does. The bias resistance is baked into the process—not stapled on afterward—and the proof is native.
 

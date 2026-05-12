@@ -1,0 +1,282 @@
+{
+  "What is GBrain?": [
+    {
+      "topic": "From Forgetful Chatbots to Persistent Brains",
+      "location": "/what-is-gbrain/from-forgetful-chatbots-to-persistent-brains.md",
+      "question": "If RAG can retrieve any document in milliseconds, why does it still fail when an AI agent needs to track changes or maintain context across conversations?",
+      "secondary": {
+        "options": [
+          "Because RAG retrieves isolated snapshots but can't connect patterns or track changes across conversations over time.",
+          "Because RAG databases are too slow to handle relationship data at scale.",
+          "Because RAG requires a human to manually tag and categorize every document it stores.",
+          "Because RAG can only store text, not the metadata needed for relationship tracking."
+        ],
+        "answer": "Because RAG retrieves isolated snapshots but can't connect patterns or track changes across conversations over time."
+      }
+    },
+    {
+      "topic": "The Two-Zone Architecture: Compiled Truth Meets Timeline",
+      "location": "/what-is-gbrain/two-zone-architecture-compiled-truth-timeline.md",
+      "question": "Why does GBrain separate Compiled Truth from the Timeline instead of appending all new facts to a single log?",
+      "secondary": {
+        "options": [
+          "Because combining both zones would require twice the storage and slow down queries significantly.",
+          "Because Compiled Truth holds your current synthesis that gets rewritten when updated, while the Timeline preserves raw events — mixing them makes current state ambiguous.",
+          "Because the Timeline is only used for debugging and should be kept separate from operational data.",
+          "Because regulatory compliance requires a strict audit trail that cannot be mixed with working knowledge."
+        ],
+        "answer": "Because Compiled Truth holds your current synthesis that gets rewritten when updated, while the Timeline preserves raw events — mixing them makes current state ambiguous."
+      }
+    },
+    {
+      "topic": "BrainEngine: Storage That Doesn't Lock You In",
+      "location": "/what-is-gbrain/brainengine-storage-abstraction.md",
+      "question": "What problem does BrainEngine solve that a direct database dependency cannot?",
+      "secondary": {
+        "options": [
+          "It automatically backs up your data to multiple cloud providers to prevent data loss.",
+          "It decouples the knowledge layer from any specific storage backend, so you can swap databases without rewriting application logic.",
+          "It compresses knowledge data to fit within the memory constraints of edge devices.",
+          "It provides encryption at rest, ensuring your brain data is always secure regardless of where it's stored."
+        ],
+        "answer": "It decouples the knowledge layer from any specific storage backend, so you can swap databases without rewriting application logic."
+      }
+    }
+  ],
+  "Why Was GBrain Built This Way?": [
+    {
+      "topic": "The Iron Law: Content References Maintain the Graph",
+      "location": "/why-was-gbrain-built-this-way/iron-law-content-references-maintain-graph.md",
+      "question": "Why does GBrain derive relationships from content references rather than asking developers to maintain a separate link table?",
+      "secondary": {
+        "options": [
+          "Because separate link tables require a dedicated database that increases infrastructure costs.",
+          "Because manual link maintenance creates a separate graph that drifts out of sync — content-derived links stay accurate automatically as content changes.",
+          "Because content references are faster to query than relational joins across a link table.",
+          "Because storing links in content makes it easier to export the knowledge base to other formats."
+        ],
+        "answer": "Because manual link maintenance creates a separate graph that drifts out of sync — content-derived links stay accurate automatically as content changes."
+      }
+    },
+    {
+      "topic": "Traceability: Every Claim Has a Receipt",
+      "location": "/why-was-gbrain-built-this-way/traceability-every-claim-has-receipt.md",
+      "question": "What does GBrain's 'every claim has a receipt' principle protect against that a simple knowledge base cannot?",
+      "secondary": {
+        "options": [
+          "It prevents unauthorized users from accessing sensitive data stored in the brain.",
+          "It prevents knowledge rot — you can trace which claims came from which source and update or invalidate them precisely when the source changes.",
+          "It prevents duplicate entries by checking if a claim already exists before storing it.",
+          "It prevents the brain from growing beyond a certain size by pruning unverified claims automatically."
+        ],
+        "answer": "It prevents knowledge rot — you can trace which claims came from which source and update or invalidate them precisely when the source changes."
+      }
+    },
+    {
+      "topic": "Sources and Federation: Brains Within Brains",
+      "location": "/why-was-gbrain-built-this-way/sources-federation-brains-within-brains.md",
+      "question": "When would you choose to federate multiple GBrain sources rather than putting all knowledge into a single brain?",
+      "secondary": {
+        "options": [
+          "When you need to reduce storage costs by distributing knowledge across multiple cheaper databases.",
+          "When different domains need separate ownership, access controls, or update cycles but you still want unified queries across them.",
+          "When the total knowledge base exceeds a size limit that a single brain cannot handle.",
+          "When you want to run multiple GBrain versions simultaneously for A/B testing knowledge strategies."
+        ],
+        "answer": "When different domains need separate ownership, access controls, or update cycles but you still want unified queries across them."
+      }
+    }
+  ],
+  "How Does GBrain Organize Knowledge?": [
+    {
+      "topic": "The Resolver: Automatic Filing for Entities",
+      "location": "/how-does-gbrain-organize-knowledge/resolver-automatic-filing-entities.md",
+      "question": "What happens to knowledge quality over time without the resolver's automatic entity filing?",
+      "secondary": {
+        "options": [
+          "The brain runs out of storage because unstructured data takes more space than entity files.",
+          "Queries slow down because the brain must scan every file for mentions instead of querying entity indexes.",
+          "The same entity accumulates disconnected mentions across files, making unified lookup impossible without manual curation.",
+          "The brain rejects new content if it contains entities not pre-registered in a schema."
+        ],
+        "answer": "The same entity accumulates disconnected mentions across files, making unified lookup impossible without manual curation."
+      }
+    },
+    {
+      "topic": "Entity Cross-Referencing: Building the Web",
+      "location": "/how-does-gbrain-organize-knowledge/entity-cross-referencing-building-web.md",
+      "question": "Why is a web of cross-referenced entities more useful than a flat collection of entity files?",
+      "secondary": {
+        "options": [
+          "Because cross-referenced files compress better and take up less storage than flat files.",
+          "Because real-world relationships are non-linear — cross-references let you traverse connections that flat files would require multiple separate queries to discover.",
+          "Because cross-referencing prevents duplicate entities by automatically detecting when the same name appears twice.",
+          "Because flat entity files cannot store relationships at all, only scalar properties like names and dates."
+        ],
+        "answer": "Because real-world relationships are non-linear — cross-references let you traverse connections that flat files would require multiple separate queries to discover."
+      }
+    },
+    {
+      "topic": "Brain-First Lookup: Query Before Acting",
+      "location": "/how-does-gbrain-organize-knowledge/brain-first-lookup-query-before-acting.md",
+      "question": "What failure mode does the Brain-First Lookup pattern prevent that a purely reactive agent would constantly suffer?",
+      "secondary": {
+        "options": [
+          "It prevents the agent from making API calls that exceed rate limits by caching responses in the brain.",
+          "It prevents the agent from treating every request as starting from scratch, missing existing context and repeating work already done.",
+          "It prevents the agent from storing redundant information by checking for duplicates before writing.",
+          "It prevents the brain from growing too large by ensuring only query-verified knowledge gets stored."
+        ],
+        "answer": "It prevents the agent from treating every request as starting from scratch, missing existing context and repeating work already done."
+      }
+    }
+  ],
+  "How Does GBrain Handle Data Flow?": [
+    {
+      "topic": "Async Sub-Agents: Speed Without Blocking",
+      "location": "/how-does-gbrain-handle-data-flow/async-sub-agents-speed-without-blocking.md",
+      "question": "Why does running entity detection and analysis synchronously create a worse user experience than async sub-agents, even if the total work done is identical?",
+      "secondary": {
+        "options": [
+          "Because synchronous operations use more memory, causing the agent to crash under load.",
+          "Because synchronous execution blocks the entire agent during each operation — async sub-agents keep the main flow responsive while parallel work happens in the background.",
+          "Because synchronous code is harder to debug when errors occur deep in the operation chain.",
+          "Because synchronous execution prevents the agent from storing intermediate results, causing data loss if a step fails."
+        ],
+        "answer": "Because synchronous execution blocks the entire agent during each operation — async sub-agents keep the main flow responsive while parallel work happens in the background."
+      }
+    },
+    {
+      "topic": "Cost-Optimized Model Selection: Sonnet for Detection, Opus for Reasoning",
+      "location": "/how-does-gbrain-handle-data-flow/cost-optimized-model-selection-sonnet-opus.md",
+      "question": "Why is using your most powerful AI model for every task a mistake even when cost isn't a concern?",
+      "secondary": {
+        "options": [
+          "Because powerful models have strict rate limits that throttle your system during peak usage.",
+          "Because over-powered models introduce unnecessary latency on simple tasks — matching model capability to task complexity keeps the system fast and proportionate.",
+          "Because powerful models produce more verbose outputs that are harder to parse reliably.",
+          "Because using one model for everything creates a single point of failure that could take the entire system down."
+        ],
+        "answer": "Because over-powered models introduce unnecessary latency on simple tasks — matching model capability to task complexity keeps the system fast and proportionate."
+      }
+    },
+    {
+      "topic": "Sync, Migration, and Schema Evolution",
+      "location": "/how-does-gbrain-handle-data-flow/sync-migration-schema-evolution.md",
+      "question": "What makes schema migration in a persistent knowledge system harder than in a conventional application database?",
+      "secondary": {
+        "options": [
+          "Because knowledge systems store more data than conventional databases, making migrations slower and riskier.",
+          "Because the timeline of past events must remain interpretable under the new schema — migrations must preserve historical meaning, not just restructure columns.",
+          "Because knowledge systems use graph structures that don't support the ALTER TABLE operations conventional migrations rely on.",
+          "Because knowledge migrations must run during off-peak hours to avoid conflicting with ongoing agent operations."
+        ],
+        "answer": "Because the timeline of past events must remain interpretable under the new schema — migrations must preserve historical meaning, not just restructure columns."
+      }
+    }
+  ],
+  "Who Maintains the Brain?": [
+    {
+      "topic": "Signal Detection: Automating the Watchers",
+      "location": "/who-maintains-the-brain/signal-detection-automating-watchers.md",
+      "question": "Why can't you simply check for signals on-demand when a user query arrives, instead of running continuous watchers?",
+      "secondary": {
+        "options": [
+          "Because on-demand checks would require additional API calls that exceed rate limits during peak traffic.",
+          "Because by the time a query surfaces a stale signal, the damage is already done — continuous watchers catch problems before they corrupt output.",
+          "Because on-demand signal checking requires locking the database, making the system unavailable during checks.",
+          "Because users don't want to wait for signal validation to complete before receiving their results."
+        ],
+        "answer": "Because by the time a query surfaces a stale signal, the damage is already done — continuous watchers catch problems before they corrupt output."
+      }
+    },
+    {
+      "topic": "Shell Jobs: Safe Execution Boundaries",
+      "location": "/who-maintains-the-brain/shell-jobs-safe-execution-boundaries.md",
+      "question": "Why does GBrain treat all shell job submissions as potentially hostile rather than trusting submitted commands by default?",
+      "secondary": {
+        "options": [
+          "Because shell jobs are run on remote infrastructure where the submitter cannot be reliably authenticated.",
+          "Because one malformed command could delete data or expose secrets — default distrust catches even well-intentioned mistakes before they cause irreversible harm.",
+          "Because all shell commands must be logged for compliance, and validation ensures the log is complete.",
+          "Because untrusted commands run slower, so validation routes fast-path commands to optimized executors."
+        ],
+        "answer": "Because one malformed command could delete data or expose secrets — default distrust catches even well-intentioned mistakes before they cause irreversible harm."
+      }
+    },
+    {
+      "topic": "Quiet Hours and Timezone-Aware Operations",
+      "location": "/who-maintains-the-brain/quiet-hours-timezone-aware-operations.md",
+      "question": "Why is checking the recipient's current local time more important than just storing their timezone offset?",
+      "secondary": {
+        "options": [
+          "Because local time determines the language and formatting preferences for notification content.",
+          "Because timezone offsets change with daylight saving time — 'what time is it for them right now' is the live question, not a static offset that may be stale.",
+          "Because storing timezone offsets requires additional database fields that slow down user profile queries.",
+          "Because GDPR regulations require systems to know the recipient's exact local time before sending automated communications."
+        ],
+        "answer": "Because timezone offsets change with daylight saving time — 'what time is it for them right now' is the live question, not a static offset that may be stale."
+      }
+    }
+  ],
+  "When Should You Use GBrain?": [
+    {
+      "topic": "Zero-Config Deployment with PGLite",
+      "location": "/when-should-you-use-gbrain/zero-config-deployment-pglite.md",
+      "question": "What fundamental tradeoff does PGLite's zero-config approach make compared to a managed cloud database?",
+      "secondary": {
+        "options": [
+          "PGLite uses an older Postgres version to maintain WASM compatibility, sacrificing some modern SQL features.",
+          "PGLite trades horizontal scalability and managed backups for zero-setup portability — the database lives in a local file you control entirely.",
+          "PGLite limits query complexity to keep the WASM runtime fast, so advanced analytics require migrating to full Postgres.",
+          "PGLite stores data in memory only, making it unsuitable for any use where data persistence matters."
+        ],
+        "answer": "PGLite trades horizontal scalability and managed backups for zero-setup portability — the database lives in a local file you control entirely."
+      }
+    },
+    {
+      "topic": "Daily Operations: Health Checks and Recovery",
+      "location": "/when-should-you-use-gbrain/daily-operations-health-checks-recovery.md",
+      "question": "Why run health checks at the start of each day rather than only when something breaks?",
+      "secondary": {
+        "options": [
+          "Because health check results are cached and only valid for 24 hours before they expire.",
+          "Because broken-state detection during live operations is high-pressure and reactive — pre-operation checks catch misconfigurations while they're still cheap to fix.",
+          "Because daily health checks generate metrics required for SLA reporting and compliance documentation.",
+          "Because the brain accumulates inconsistencies overnight and must be cleaned before processing the day's new information."
+        ],
+        "answer": "Because broken-state detection during live operations is high-pressure and reactive — pre-operation checks catch misconfigurations while they're still cheap to fix."
+      }
+    },
+    {
+      "topic": "Communicating Change: Benefit-Focused Upgrade Messaging",
+      "location": "/when-should-you-use-gbrain/communicating-change-benefit-focused-upgrades.md",
+      "question": "Why does describing an upgrade in terms of what users can now DO outperform a technically accurate changelog?",
+      "secondary": {
+        "options": [
+          "Because technical changelogs are harder to write accurately and often contain errors that erode trust.",
+          "Because users make adoption decisions based on workflow value, not code changes — benefit-focused messaging translates technical work into the user's language of gain.",
+          "Because regulators require benefit disclosures in plain language before users can accept new terms.",
+          "Because technical terms confuse support teams, and benefit-focused messaging reduces upgrade-related support tickets."
+        ],
+        "answer": "Because users make adoption decisions based on workflow value, not code changes — benefit-focused messaging translates technical work into the user's language of gain."
+      }
+    }
+  ],
+  "And that's a wrap": [
+    {
+      "topic": "Summary",
+      "location": "/summary/summary.md",
+      "question": "After seeing GBrain's full architecture, what's the single design decision that makes everything else — federation, traceability, async flow — possible?",
+      "secondary": {
+        "options": [
+          "The decision to use Postgres as the underlying storage engine, which provides ACID guarantees for all knowledge operations.",
+          "The Two-Zone separation of Compiled Truth from Timeline, which gives every other system a stable, queryable foundation to build on.",
+          "The BrainEngine abstraction, which allows the entire stack to be swapped between storage backends without changing application logic.",
+          "The resolver's automatic entity filing, which ensures all knowledge is structured from the moment it enters the brain."
+        ],
+        "answer": "The Two-Zone separation of Compiled Truth from Timeline, which gives every other system a stable, queryable foundation to build on."
+      }
+    }
+  ]
+}

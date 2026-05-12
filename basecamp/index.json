@@ -29,5 +29,15 @@
     "hashtags": ["#Bitcoin", "#Beginner", "#Fundemental"],
     "status": "active",
     "category": "bitcoin"
+  },
+  {
+    "id": "BC-GB-ITG",
+    "name": "Intro to GBrain: AI Memory That Doesn't Forget",
+    "location": "intro-to-gbrain",
+    "description": "Discover how GBrain gives AI agents persistent, queryable memory — from its two-zone architecture and entity cross-referencing to autonomous brain maintenance and zero-config deployment.",
+    "thumbnail": "",
+    "hashtags": ["#GBrain", "#AI", "#Agents"],
+    "status": "active",
+    "category": "ai-tools"
   }
 ]

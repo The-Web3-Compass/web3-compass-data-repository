@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "brainengine-one-interface-many-backends",
+  "lessonTitle": "BrainEngine: One Interface, Many Backends",
+  "moduleTitle": "How Does gbrain Store and Retrieve Knowledge?",
+  "opening": "You're at a café in Tokyo, ready to work on your knowledge base. You open your laptop, fire up your brain, and... nothing. The app demands connection strings, environment variables, and a Postgres instance that only exists on your home server. Your choices are bleak: either you configured everything for cloud production (and now can't work offline), or you optimized for local development (and now can't deploy without rewriting half your app). Database-driven applications force this choice on you",
+  "keyPoints": [
+    "How **BrainEngine** acts as a universal adapter, letting the same application code speak to embedded PGLite or cloud Postgres without modification",
+    "How **slug-based APIs** hide database-specific IDs, keeping the interface portable across storage backends",
+    "How **normalized SearchResult types** allow engine-agnostic hybrid search, RRF fusion, and deduplication",
+    "Which responsibilities live **outside** the engine (embedding generation, chunking logic) versus inside it (storage, raw search, graph traversal)",
+    "How **bidirectional migration** eliminates the \"local vs production\" forced choice that traps most database applications"
+  ]
+}

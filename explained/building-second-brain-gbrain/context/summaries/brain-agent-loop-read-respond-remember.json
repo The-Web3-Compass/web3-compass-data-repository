@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "brain-agent-loop-read-respond-remember",
+  "lessonTitle": "The Brain-Agent Loop: Read, Respond, Remember",
+  "moduleTitle": "What is gbrain?",
+  "opening": "You're midway through planning a product launch with your AI assistant. You mentioned the target demographic three weeks ago, outlined the budget constraints in an email last Tuesday, and refined the messaging strategy during yesterday's voice call. Now you ask: *\"Should we lead with pricing or value proposition?\"* The assistant confidently suggests leading with aggressive pricing, completely ignoring that you explicitly decided on value-first messaging yesterday. It generates a beautiful, coher",
+  "keyPoints": [
+    "How the signal-to-brain pipeline uses lightweight async sub-agents to detect patterns without blocking the main conversation thread",
+    "Why separating pattern detection (cheap, fast) from reasoning (expensive, deep) saves 50-80% on API costs while maintaining responsiveness",
+    "How brain-first lookup grounds agent responses in authoritative knowledge rather than hallucinated context",
+    "The difference between unified cross-source recall and purpose-separated domain isolation",
+    "Why reading from the brain before responding produces more accurate answers than generating from context alone"
+  ]
+}

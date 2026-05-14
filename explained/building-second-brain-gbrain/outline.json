@@ -1,0 +1,268 @@
+{
+  "What is GBrain?": [
+    {
+      "topic": "Compiled Intelligence: Beyond Note-Taking Apps",
+      "location": "/what-is-gbrain/compiled-intelligence-beyond-note-taking.md",
+      "question": "What makes a 'compiled intelligence' system different from a traditional notes app?",
+      "secondary": {
+        "options": [
+          "It keeps a mutable current synthesis separate from an immutable evidence timeline.",
+          "It stores every note as a database row instead of a Markdown file.",
+          "It automatically deletes outdated notes so the archive stays small.",
+          "It only works if every note is tagged with a perfect taxonomy."
+        ],
+        "answer": "It keeps a mutable current synthesis separate from an immutable evidence timeline."
+      }
+    },
+    {
+      "topic": "Your Brain's File System: Directories as Knowledge Graphs",
+      "location": "/what-is-gbrain/brain-file-system-directories-knowledge-graphs.md",
+      "question": "Why does GBrain treat directories as part of the knowledge graph rather than just storage organization?",
+      "secondary": {
+        "options": [
+          "Because directory structure encodes relationships and navigational intent in a human-readable way.",
+          "Because vector search requires hierarchical folders to compute embeddings.",
+          "Because Postgres can only index files that are placed in nested directories.",
+          "Because it prevents duplicate entities by enforcing one file per directory."
+        ],
+        "answer": "Because directory structure encodes relationships and navigational intent in a human-readable way."
+      }
+    },
+    {
+      "topic": "The Brain-Agent Loop: Read, Respond, Remember",
+      "location": "/what-is-gbrain/brain-agent-loop-read-respond-remember.md",
+      "question": "What is the core loop that turns an assistant into a system that actually improves over time?",
+      "secondary": {
+        "options": [
+          "Read context before acting, respond, then persist what matters as memory.",
+          "Generate an answer first, then search for sources that justify it.",
+          "Store everything automatically and never rewrite anything.",
+          "Ask the user to re-explain background context at the start of every session."
+        ],
+        "answer": "Read context before acting, respond, then persist what matters as memory."
+      }
+    }
+  ],
+  "Why Does GBrain Use the Compiled Truth Pattern?": [
+    {
+      "topic": "The Timeline as Immutable Evidence Chain",
+      "location": "/why-compiled-truth-pattern/timeline-immutable-evidence-chain.md",
+      "question": "Why does GBrain treat the Timeline as immutable instead of letting you edit past entries?",
+      "secondary": {
+        "options": [
+          "Because immutability preserves an auditable evidence trail, and corrections become new entries.",
+          "Because immutable files compress better and reduce storage costs.",
+          "Because editing old entries would break Markdown rendering.",
+          "Because the Timeline is only used for debugging and is never referenced by search."
+        ],
+        "answer": "Because immutability preserves an auditable evidence trail, and corrections become new entries."
+      }
+    },
+    {
+      "topic": "Synthesis vs. Evidence: The Psychology of Understanding",
+      "location": "/why-compiled-truth-pattern/synthesis-vs-evidence-psychology-understanding.md",
+      "question": "What is the practical purpose of separating synthesis (Compiled Truth) from evidence (Timeline)?",
+      "secondary": {
+        "options": [
+          "So current understanding stays coherent while evidence remains available for verification.",
+          "So the system can avoid storing raw evidence entirely.",
+          "So embeddings only need to be generated for the Compiled Truth section.",
+          "So the knowledge base can be kept private without access controls."
+        ],
+        "answer": "So current understanding stays coherent while evidence remains available for verification."
+      }
+    },
+    {
+      "topic": "Why Markdown Wins as Source of Truth",
+      "location": "/why-compiled-truth-pattern/why-markdown-wins-source-truth.md",
+      "question": "Why does GBrain prefer Markdown as the source of truth for knowledge?",
+      "secondary": {
+        "options": [
+          "Because it's portable, reviewable, and keeps knowledge human-owned instead of trapped in a proprietary UI.",
+          "Because Markdown files execute faster than database queries.",
+          "Because Markdown is required for pgvector similarity search.",
+          "Because Markdown automatically enforces schema validation."
+        ],
+        "answer": "Because it's portable, reviewable, and keeps knowledge human-owned instead of trapped in a proprietary UI."
+      }
+    }
+  ],
+  "How Does GBrain Store and Retrieve Knowledge?": [
+    {
+      "topic": "BrainEngine: One Interface, Many Backends",
+      "location": "/how-gbrain-stores-retrieves-knowledge/brainengine-one-interface-many-backends.md",
+      "question": "What is the point of BrainEngine in a system meant to be used both locally and in production?",
+      "secondary": {
+        "options": [
+          "It decouples the brain's API from the storage backend so you can swap engines without changing application logic.",
+          "It generates embeddings and chunks documents automatically.",
+          "It prevents knowledge from ever being stored in a database.",
+          "It guarantees that every brain must use Supabase in production."
+        ],
+        "answer": "It decouples the brain's API from the storage backend so you can swap engines without changing application logic."
+      }
+    },
+    {
+      "topic": "The Iron Law: Every Mention Creates a Back-Link",
+      "location": "/how-gbrain-stores-retrieves-knowledge/iron-law-every-mention-creates-backlink.md",
+      "question": "Why is automatic backlink creation foundational to keeping a growing brain navigable?",
+      "secondary": {
+        "options": [
+          "Because relationships stay consistent as content changes, without manual link tables drifting out of sync.",
+          "Because backlinks are required for Markdown to render correctly.",
+          "Because backlinks reduce vector search cost by avoiding embeddings.",
+          "Because backlinks allow timeline entries to be edited safely."
+        ],
+        "answer": "Because relationships stay consistent as content changes, without manual link tables drifting out of sync."
+      }
+    },
+    {
+      "topic": "Sync States and Federation: When Knowledge Becomes Available",
+      "location": "/how-gbrain-stores-retrieves-knowledge/sync-states-federation-knowledge-availability.md",
+      "question": "What does federation enable that a single monolithic brain cannot?",
+      "secondary": {
+        "options": [
+          "Combining multiple sources with distinct ownership or update cycles into a unified query surface.",
+          "Storing knowledge without any database by using only file search.",
+          "Automatically removing contradictions from historical evidence.",
+          "Guaranteeing that all users see the exact same results regardless of access controls."
+        ],
+        "answer": "Combining multiple sources with distinct ownership or update cycles into a unified query surface."
+      }
+    }
+  ],
+  "How Does GBrain Handle Updates and Changes?": [
+    {
+      "topic": "APPEND vs REWRITE: The Two Operations That Matter",
+      "location": "/how-gbrain-handles-updates-changes/append-vs-rewrite-two-operations-matter.md",
+      "question": "When new information contradicts what you believed before, what should you do in GBrain?",
+      "secondary": {
+        "options": [
+          "APPEND a new Timeline entry with the evidence, then REWRITE the Compiled Truth to reflect current understanding.",
+          "Edit the old Timeline entry so the historical record stays clean.",
+          "Append a new paragraph to Compiled Truth and leave the old assessment intact.",
+          "Delete the page and recreate it with the corrected version."
+        ],
+        "answer": "APPEND a new Timeline entry with the evidence, then REWRITE the Compiled Truth to reflect current understanding."
+      }
+    },
+    {
+      "topic": "The RESOLVER: Automatic Filing and Tiered Enrichment",
+      "location": "/how-gbrain-handles-updates-changes/resolver-automatic-filing-tiered-enrichment.md",
+      "question": "What is the RESOLVER's role as your brain grows beyond what you can manually curate?",
+      "secondary": {
+        "options": [
+          "Automatically routes new information to the right entities/locations and incrementally enriches thin pages.",
+          "Replaces the Timeline by rewriting old events into the latest truth.",
+          "Generates embeddings inside the database without external APIs.",
+          "Forces every page to match a strict schema before it can be saved."
+        ],
+        "answer": "Automatically routes new information to the right entities/locations and incrementally enriches thin pages."
+      }
+    },
+    {
+      "topic": "Migrations: Evolving Your Brain Without Breaking It",
+      "location": "/how-gbrain-handles-updates-changes/migrations-evolving-brain-without-breaking.md",
+      "question": "Why do migrations matter in a persistent brain more than in a typical app database?",
+      "secondary": {
+        "options": [
+          "Because history must remain interpretable while schemas evolve; you can't 'lose meaning' across versions.",
+          "Because migrations are the only way to generate embeddings.",
+          "Because migrations are required to compress old Timeline entries.",
+          "Because migrations only run when the user is online, not offline."
+        ],
+        "answer": "Because history must remain interpretable while schemas evolve; you can't 'lose meaning' across versions."
+      }
+    }
+  ],
+  "Who Does the Work in a GBrain System?": [
+    {
+      "topic": "Async Sub-Agents: Speed Through Parallelism",
+      "location": "/who-does-work-gbrain-system/async-sub-agents-speed-through-parallelism.md",
+      "question": "Why does GBrain push detection and enrichment into async sub-agents instead of doing everything synchronously?",
+      "secondary": {
+        "options": [
+          "So the main interaction stays responsive while background work runs in parallel.",
+          "Because async is required for Markdown parsing.",
+          "So that embeddings can be generated without an API key.",
+          "Because synchronous execution prevents storing any memory."
+        ],
+        "answer": "So the main interaction stays responsive while background work runs in parallel."
+      }
+    },
+    {
+      "topic": "Model Selection: Sonnet for Detection, Opus for Judgment",
+      "location": "/who-does-work-gbrain-system/model-selection-sonnet-detection-opus-judgment.md",
+      "question": "What's the core idea behind routing detection tasks to cheaper models and judgment tasks to stronger models?",
+      "secondary": {
+        "options": [
+          "Match model capability to task complexity to keep the system fast and cost-proportionate.",
+          "Always use the strongest model for everything to avoid inconsistencies.",
+          "Use cheaper models only when you can tolerate hallucinations.",
+          "Use the same model everywhere so caching works better."
+        ],
+        "answer": "Match model capability to task complexity to keep the system fast and cost-proportionate."
+      }
+    },
+    {
+      "topic": "Shell Jobs and Health Checks: Keeping the System Honest",
+      "location": "/who-does-work-gbrain-system/shell-jobs-health-checks-keeping-system-honest.md",
+      "question": "Why are health checks and controlled shell jobs important once your brain starts running autonomously?",
+      "secondary": {
+        "options": [
+          "They catch drift and failures early and enforce safe execution boundaries for automation.",
+          "They allow Timeline entries to be rewritten without losing traceability.",
+          "They eliminate the need for a storage backend like Postgres.",
+          "They guarantee that knowledge never needs updates again."
+        ],
+        "answer": "They catch drift and failures early and enforce safe execution boundaries for automation."
+      }
+    }
+  ],
+  "When Should You Use GBrain in Production?": [
+    {
+      "topic": "Building Your Personal Mini-AGI: The Skillpack Pattern",
+      "location": "/when-use-gbrain-production/building-personal-mini-agi-skillpack-pattern.md",
+      "question": "What does the Skillpack pattern give you that a pile of notes does not?",
+      "secondary": {
+        "options": [
+          "A repeatable, domain-specific playbook that your agent can apply consistently as it learns.",
+          "A way to store files without using Markdown.",
+          "A guarantee that your brain stays small by deleting old evidence.",
+          "A replacement for search so you never need retrieval."
+        ],
+        "answer": "A repeatable, domain-specific playbook that your agent can apply consistently as it learns."
+      }
+    },
+    {
+      "topic": "Disaster Recovery: When Things Go Wrong",
+      "location": "/when-use-gbrain-production/disaster-recovery-when-things-go-wrong.md",
+      "question": "Why does a production brain need an explicit disaster recovery story?",
+      "secondary": {
+        "options": [
+          "Because migrations, sync, and automation can fail; you need a safe path to recover without losing trust.",
+          "Because disaster recovery is required for Markdown files to sync.",
+          "Because it is the only way to keep the Timeline immutable.",
+          "Because production brains must be hosted on a single machine."
+        ],
+        "answer": "Because migrations, sync, and automation can fail; you need a safe path to recover without losing trust."
+      }
+    }
+  ],
+  "And that's a wrap": [
+    {
+      "topic": "Summary",
+      "location": "/summary/summary.md",
+      "question": "After building a second brain with GBrain, what is the main operational habit that keeps it trustworthy over time?",
+      "secondary": {
+        "options": [
+          "Treat evidence as append-only and keep Compiled Truth as a rewritten, current synthesis.",
+          "Keep rewriting the Timeline so it always matches your current beliefs.",
+          "Avoid backlinks so your graph doesn't become too connected.",
+          "Manually tag every line so search can work correctly."
+        ],
+        "answer": "Treat evidence as append-only and keep Compiled Truth as a rewritten, current synthesis."
+      }
+    }
+  ]
+}

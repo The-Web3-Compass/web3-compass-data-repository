@@ -1,0 +1,12 @@
+{
+  "lessonSlug": "shell-jobs-health-checks-keeping-system-honest",
+  "lessonTitle": "Shell Jobs and Health Checks: Keeping the System Honest",
+  "moduleTitle": "Who Does the Work in a gbrain System?",
+  "opening": "You're rushing through LAX with a boarding pass burning a hole in your pocket. You've got your laptop, your liquids bag, your ID. You approach the TSA checkpoint and pull out your passport *and* your driver's license, holding them both up expectantly. The agent stops you. \"Pick one,\" they say. \"Passport OR license. Never both.\" You shrug, pick the passport, and start to walk through—only to realize your carry-on is a soft duffel bag, not a TSA-approved hard case. Another stop. Then they notice y",
+  "keyPoints": [
+    "How shell jobs enforce **mutual exclusion** between `cmd` and `argv`, **absolute path requirements** for working directories, and **string-only constraints** for environment variables at the validation boundary",
+    "Why **MCP clients are blocked by design** from submitting shell jobs, and how the **trust token system** (`allowProtectedSubmit`) gates privileged operations",
+    "How to design **asynchronous health checks** that use cost-effective models for detection and expensive models only for judgment, never blocking the main thread",
+    "How the **Integration Health Check DSL** audits multi-source brain configurations to prevent unintended knowledge leakage between logical repositories"
+  ]
+}

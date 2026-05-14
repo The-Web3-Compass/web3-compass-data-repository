@@ -1,0 +1,12 @@
+{
+  "lessonSlug": "building-personal-mini-agi-skillpack-pattern",
+  "lessonTitle": "Building Your Personal Mini-AGI: The Skillpack Pattern",
+  "moduleTitle": "When Should You Use gbrain in Production?",
+  "opening": "Marcus had spent three weeks nurturing a lead in Singapore. His AI assistant was supposed to be helpful, monitoring emails, suggesting follow-ups, keeping his pipeline warm. Instead, at 3:17 AM local time, his prospect's phone buzzed with an automated \"quick update\" about a minor schema sync. The prospect disabled notifications. The deal went cold. Meanwhile, across the hall, Priya's agent had just detected a critical upgrade to her knowledge base. It fired off a message listing seventeen change",
+  "keyPoints": [
+    "How to compose upgrade messages that lead with user capabilities rather than technical changes, creating \"hell yeah\" momentum instead of version-number inertia",
+    "How quiet hours timezone gating prevents notification fatigue by evaluating each user's local time before delivering non-urgent messages",
+    "Why async signal detection on cost-appropriate models (Sonnet, not Opus) keeps systems responsive without ballooning API costs",
+    "How the full upgrade flow (re-reading skills, running migrations, syncing schema) ensures new code actually produces new agent behavior"
+  ]
+}

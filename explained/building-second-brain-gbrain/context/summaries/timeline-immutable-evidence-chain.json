@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "timeline-immutable-evidence-chain",
+  "lessonTitle": "The Timeline as Immutable Evidence Chain",
+  "moduleTitle": "Why gbrain Uses the Compiled Truth Pattern?",
+  "opening": "You were absolutely certain. Three months ago, Sarah from engineering told you her team was struggling with technical debt. You remember the conversation vividly. Coffee shop, Tuesday afternoon, she mentioned the legacy API was becoming unmanageable. You made a note. You acted on it. You advocated for a refactor in the leadership meeting. Then Sarah transferred to another team. The new VP asked why you pushed for the refactor. You explained the technical debt concerns. The VP looked at you blank",
+  "keyPoints": [
+    "**How immutability works:** Timeline entries are append-only; corrections are added as new entries, not edits to existing ones.",
+    "**Why traceability matters:** Every claim in compiled truth must correspond to specific evidence in the timeline, creating an auditable chain from conclusion to source.",
+    "**The REWRITE vs. APPEND distinction:** Compiled truth is completely rewritten when new evidence arrives; timeline only grows downward.",
+    "**How search prioritizes:** Compiled truth surfaces first because it represents your synthesized understanding, not raw data.",
+    "**What makes the assessment valuable:** Your read—the synthesis that no automated tool can provide—is what differentiates your brain from a database."
+  ]
+}

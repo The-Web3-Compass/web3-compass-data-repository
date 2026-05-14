@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "resolver-automatic-filing-tiered-enrichment",
+  "lessonTitle": "The RESOLVER: Automatic Filing and Tiered Enrichment",
+  "moduleTitle": "How Does gbrain Handle Updates and Changes?",
+  "opening": "You're sitting in a café, laptop open, when someone taps your shoulder. \"Hey, loved your talk at the summit last month. I'm building something in the same space—any chance you'd be open to coffee?\" You squint. They look familiar, but you can't place them. Did you meet them? Did someone introduce you? Are they actually interested in your work, or are they about to pitch you on joining their crypto pyramid scheme? Now imagine a different version: your phone buzzes. A notification reads *\"Lena Kova",
+  "keyPoints": [
+    "**RESOLVER.md** acts as a routing system that determines where new entities belong based on categorical rules",
+    "**Tiered enrichment** prevents wasting resources on transient mentions while ensuring rich context for meaningful contacts",
+    "Entity pages **automatically upgrade tiers** when new signals connect to existing thin profiles",
+    "The system **cross-references entities bi-directionally**, creating a web of relationships rather than isolated contact cards",
+    "Multiple cron jobs form a **flywheel** where each pipeline feeds the enrichment system, compounding knowledge autonomously"
+  ]
+}

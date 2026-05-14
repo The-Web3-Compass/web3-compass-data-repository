@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "migrations-evolving-brain-without-breaking",
+  "lessonTitle": "Migrations: Evolving Your Brain Without Breaking It",
+  "moduleTitle": "How Does gbrain Handle Updates and Changes?",
+  "opening": "You download the latest version. The installer finishes. You launch the app expecting magic, and get the exact same experience as yesterday. New code is sitting on your drive, but nothing feels different. Your agent still responds the same way. Your data looks unchanged. Somewhere between \"download complete\" and \"actually usable,\" something got lost. This is the ghost update problem: new software haunts your system without ever possessing it. Most of us have lived this. The app store shows \"Vers",
+  "keyPoints": [
+    "How the full upgrade flow sequence transforms new code into new capabilities through deliberate orchestration",
+    "Why Sonnet-class models are the right choice for async update detection, and how much cost this saves",
+    "How version-specific migration files bridge the gap between code updates and environment updates",
+    "Why persisting update state across sessions prevents users from indefinitely remaining on stale versions",
+    "How JSONB repair migrations enforce data integrity when flexible storage formats allow silent corruption"
+  ]
+}

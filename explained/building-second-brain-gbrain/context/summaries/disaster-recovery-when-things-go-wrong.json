@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "disaster-recovery-when-things-go-wrong",
+  "lessonTitle": "Disaster Recovery: When Things Go Wrong",
+  "moduleTitle": "When Should You Use gbrain in Production?",
+  "opening": "Imagine running a library where, for months, a silent shredder has been eating the second half of every book that contains a decorative line break. Not the dramatic kind of shredding with lights and alarms. This one was polite, almost apologetic. Books looked fine on the shelf. Covers stayed intact. First chapters looked pristine. Anything after a simple decorative divider was gone. Poof. Into the void. You only discover this when a researcher asks about a meeting note you distinctly remember wr",
+  "keyPoints": [
+    "How the pre-v0.12.2 splitBody parser silently truncated wiki content at bare `---` separators",
+    "How to execute a full recovery using `gbrain sync --full` to re-import from source with corrected parsing",
+    "The three valid timeline sentinels that prevent future truncation",
+    "Why auto-link reconciliation runs concurrently with recovery, rebuilding graph relationships as content heals",
+    "That splitBody is now deterministic—explicit markers only, no heuristic guessing"
+  ]
+}

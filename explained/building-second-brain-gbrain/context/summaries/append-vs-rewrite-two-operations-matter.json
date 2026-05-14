@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "append-vs-rewrite-two-operations-matter",
+  "lessonTitle": "APPEND vs REWRITE: The Two Operations That Matter",
+  "moduleTitle": "How Does gbrain Handle Updates and Changes?",
+  "opening": "Sarah Chen was **not** the CTO. You were sure of it, and three different sources confirmed it. So you wrote it in your notes, marked it as fact, and moved on. Then the correction came. Sarah had just been promoted to CTO that very morning. Your \"fact\" was already outdated. Now you face a choice. Do you silently edit your old note? If you do, you've erased the history of what you knew and when. Three months from now, when someone asks \"how long have you known Sarah was CTO?\", your answer will be ",
+  "keyPoints": [
+    "**How Compiled Truth differs from Timeline**—one is mutable synthesis, the other is immutable evidence",
+    "**When to REWRITE versus APPEND**—rewrite the entire assessment when evidence changes; append new entries without editing old ones",
+    "**Why immutability matters**—preserving the audit trail of how understanding evolved, not just current correctness",
+    "**How to verify traceability**—ensuring every claim in Compiled Truth maps to specific Timeline entries",
+    "**How search prioritizes**—Compiled Truth surfaces first, but Timeline provides the evidentiary foundation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "synthesis-vs-evidence-psychology-understanding",
+  "lessonTitle": "Synthesis vs. Evidence: The Psychology of Understanding",
+  "moduleTitle": "Why gbrain Uses the Compiled Truth Pattern?",
+  "opening": "Maya was drowning in her own notes. She'd spent three years building a personal wiki — thousands of pages about projects, people, and ideas. Every time she met someone, she'd create a page. Every interesting company got an entry. But she kept hitting the same wall: her relationships were scattered across twenty different notes, and her timeline of *actual events* was a mess of forgotten dates and duplicate entries. One day, she realized she'd recorded her first meeting with Sarah Chen three diff",
+  "keyPoints": [
+    "How the Two-Layer Page Architecture Pattern lets you swap between embedded PGLite and cloud Postgres without changing application code",
+    "Why the BrainEngine interface uses slugs instead of database IDs to remain portable across storage backends",
+    "How the splitBody timeline sentinel contract separates auto-reconciled relationship links from explicitly-managed timeline entries",
+    "Why temporal data requires deliberate API calls while entity references maintain themselves from markdown content",
+    "How this architecture preserves the \"single source of truth\" principle while respecting the different psychology of connections versus chronology"
+  ]
+}

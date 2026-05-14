@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "iron-law-every-mention-creates-backlink",
+  "lessonTitle": "The Iron Law: Every Mention Creates a Back-Link",
+  "moduleTitle": "How Does gbrain Store and Retrieve Knowledge?",
+  "opening": "You finish a marathon meeting. Three hours of back-and-forth, four new people you've never met, two companies you've never heard of. You open your notes app and dutifully type out what happened, who said what, which decisions got made. Then you sigh, open a second app, and start manually creating contact cards for each person. Open a third app to log which company each person works for. Open a fourth to connect the meeting to the attendees. By the time you've finished the *administrative* work o",
+  "keyPoints": [
+    "How the auto-link post-hook parses markdown content to extract entity references during every `put_page` call",
+    "How relationship types get inferred from page context and frontmatter, with sensible defaults when context is unclear",
+    "How stale link reconciliation works—adding new references and removing disappeared ones in the same atomic operation",
+    "How Iron Law compliance shifts from explicit API calls to simple content hygiene: include entity references in your markdown",
+    "When manual `add_link` remains necessary—for relationships that cannot be naturally expressed in page content"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "lessonSlug": "sync-states-federation-knowledge-availability",
+  "lessonTitle": "Sync States and Federation: When Knowledge Becomes Available",
+  "moduleTitle": "How Does gbrain Store and Retrieve Knowledge?",
+  "opening": "You hand the bank teller a check. It's a good check with plenty of funds, your signature is perfect, and the amount is clearly written. The teller accepts it, smiles, and tells you everything looks good. You walk out feeling accomplished. Then you try to buy coffee. Card declined. You check your banking app: zero balance. \"But I just deposited a check!\" you protest. The barista shrugs. \"Has it cleared yet?\" In gbrain's world, this happens constantly. You write a brilliant page to your knowledge ",
+  "keyPoints": [
+    "How writes to gbrain sources require synchronization to update that source's independent sync state before becoming queryable",
+    "How federation policies act as boundary controllers, letting sources blend into unified search or remain strictly isolated within the same database",
+    "How gbrain resolves which source to use via a clear priority hierarchy, from explicit flags to dotfiles to defaults",
+    "How the `[source-id:slug]` citation format lets agents attribute facts to their origins without breaking when display names change"
+  ]
+}

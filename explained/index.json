@@ -8,5 +8,15 @@
     "hashtags": ["#GBrain", "#AI", "#Agents"],
     "status": "active",
     "category": "ai-tools"
+  },
+  {
+    "id": "EX-GB-BSB",
+    "name": "Building a Second Brain with GBrain: Compiled Intelligence in Practice",
+    "location": "building-second-brain-gbrain",
+    "description": "A practical walkthrough for building a second brain using GBrain — covering compiled truth vs timeline, storage and retrieval via BrainEngine, handling updates with APPEND/REWRITE, and scaling the system with async sub-agents and production workflows.",
+    "thumbnail": "",
+    "hashtags": ["#GBrain", "#SecondBrain", "#Agents"],
+    "status": "active",
+    "category": "ai-tools"
   }
 ]

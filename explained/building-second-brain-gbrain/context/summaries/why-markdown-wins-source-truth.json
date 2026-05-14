@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "why-markdown-wins-source-truth",
+  "lessonTitle": "Why Markdown Wins as Source of Truth",
+  "moduleTitle": "Why gbrain Uses the Compiled Truth Pattern?",
+  "opening": "Your grandmother has a recipe box. Each card holds a treasure—her Bolognese, the Christmas cookies, that weird Jello thing nobody eats but everyone expects. But here's the problem: some cards are just ingredients and instructions. Others have notes scribbled in the margins about which cousin is allergic to walnuts. One has a wine stain that happens to cover the baking temperature. And good luck finding \"that one soup\" when you need it—the cards aren't organized, labeled, or searchable. Now imagi",
+  "keyPoints": [
+    "How YAML frontmatter acts as a machine-readable nutrition label for markdown files, separating configuration from content",
+    "How the frontmatter parser extracts metadata between triple-dash delimiters, enabling automated filtering and routing without parsing natural language",
+    "How slug-based APIs decouple public contracts from internal storage, making database backends hot-swappable",
+    "How BrainEngine resolves portable slugs to native IDs transparently, keeping CLI, skills, and application logic unchanged across migrations",
+    "How chunking, embedding generation, and search fusion remain engine-agnostic layers above backend-specific storage"
+  ]
+}

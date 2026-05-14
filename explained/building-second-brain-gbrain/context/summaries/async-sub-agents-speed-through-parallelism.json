@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "async-sub-agents-speed-through-parallelism",
+  "lessonTitle": "Async Sub-Agents: Speed Through Parallelism",
+  "moduleTitle": "Who Does the Work in a gbrain System?",
+  "opening": "You send a message. The typing indicator blinks. Then... nothing. Thirty seconds pass. A minute. Ninety seconds of dead air while somewhere in the cloud, an expensive AI model is scanning your message for mentions of \"Sarah from accounting\" or \"that Denver client.\" You're staring at a frozen screen, wondering if the connection dropped, if the service is down, if you should refresh. When the response finally arrives, you don't feel relief. You feel annoyance. The spell is broken. And if this happ",
+  "keyPoints": [
+    "How **asynchronous sub-agent spawning** eliminates user-facing latency by responding immediately while processing continues in the background",
+    "Why **Sonnet-class models** are the right choice for detection tasks, saving 80% on costs compared to running pattern-matching on Opus",
+    "How **separating data collection from judgment** creates a tiered system where cheap models filter noise and expensive models focus on reasoning",
+    "That entity detection runs on every message, making model choice a **multiplicative cost decision**, not a one-time optimization",
+    "How to verify async execution by checking that responses arrive in under 5 seconds, not 30-120 seconds"
+  ]
+}

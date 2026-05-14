@@ -1,0 +1,216 @@
+{
+  "courseTitle": "Building Your Second Brain with gbrain",
+  "courseSlug": "building-second-brain-gbrain",
+  "courseDescription": "Learn to build a self-improving AI knowledge system that compounds intelligence over time. You'll master the brain-agent loop, compiled truth architecture, and production patterns used in real deployments with 14,000+ brain files — transforming scattered notes into a true external memory.",
+  "criticalGapConcerns": [],
+  "modules": [
+    {
+      "title": "What is gbrain?",
+      "slug": "what-is-gbrain",
+      "lessons": [
+        {
+          "title": "Compiled Intelligence: Beyond Note-Taking Apps",
+          "slug": "compiled-intelligence-beyond-note-taking",
+          "conceptIds": [
+            "b4939030-b6a0-46e6-8126-15738601a579"
+          ],
+          "learningFocus": "Explain the fundamental difference between a notes app and a compiled intelligence system, and describe the two-zone architecture that separates mutable synthesis from immutable evidence.",
+          "openQuestion": "If your brain could only keep either the stories you tell yourself OR the raw memories that formed them, which would you choose — and what would you lose?"
+        },
+        {
+          "title": "Your Brain's File System: Directories as Knowledge Graphs",
+          "slug": "brain-file-system-directories-knowledge-graphs",
+          "conceptIds": [
+            "29127575-beaa-4fda-9b2d-6cfdcb25cb4e",
+            "2dafe950-e974-4c8c-84a9-e634ebca2527"
+          ],
+          "learningFocus": "Navigate and explain gbrain's flat directory structure by entity type, and understand how multiple isolated knowledge repositories (sources) coexist in one database.",
+          "openQuestion": "Why might keeping your 'people' and 'companies' in separate folders actually make your AI agent smarter at connecting them?"
+        },
+        {
+          "title": "The Brain-Agent Loop: Read, Respond, Remember",
+          "slug": "brain-agent-loop-read-respond-remember",
+          "conceptIds": [
+            "dd4b9798-b5b9-423d-8aca-0d6410f827a9",
+            "c39c71d7-ab29-484a-b56c-5b86c20c99c0"
+          ],
+          "learningFocus": "Trace the complete signal-to-brain data pipeline and explain why reading from the brain BEFORE responding produces better answers than generating from context alone.",
+          "openQuestion": "If you always had to search your memories before answering a question, how would your conversations change — and what would you accidentally leave behind?"
+        }
+      ]
+    },
+    {
+      "title": "Why gbrain Uses the Compiled Truth Pattern?",
+      "slug": "why-compiled-truth-pattern",
+      "lessons": [
+        {
+          "title": "The Timeline as Immutable Evidence Chain",
+          "slug": "timeline-immutable-evidence-chain",
+          "conceptIds": [
+            "72f8b01c-c5d9-4a10-977f-d326c509ba4c",
+            "3baeac64-beed-4375-b07f-684592592967"
+          ],
+          "learningFocus": "Demonstrate why timeline entries can never be edited or deleted, and explain how every claim in compiled truth must trace back to specific timeline evidence.",
+          "openQuestion": "In a world where you can never delete or edit anything you've said, how would your communication habits evolve — and what errors would you have to live with?"
+        },
+        {
+          "title": "Synthesis vs. Evidence: The Psychology of Understanding",
+          "slug": "synthesis-vs-evidence-psychology-understanding",
+          "conceptIds": [
+            "587cf6f7-8b7c-47b0-a08e-77b3913390d2",
+            "974a0f1f-7726-4df6-a8fb-30ace44ad510"
+          ],
+          "learningFocus": "Contrast the two-layer page architecture and explain why timeline entries require explicit API calls while relationship links are auto-reconciled.",
+          "openQuestion": "Why do we trust Wikipedia's current article more than its edit history, yet need that history to trust the article at all?"
+        },
+        {
+          "title": "Why Markdown Wins as Source of Truth",
+          "slug": "why-markdown-wins-source-truth",
+          "conceptIds": [
+            "8ed715e1-3daf-4bca-9265-19bd47bf39d9",
+            "9d4afb29-b085-4488-a474-ed0b873c37ac"
+          ],
+          "learningFocus": "Parse YAML frontmatter from markdown files and explain the benefits of a slug-based API that remains portable across different storage backends.",
+          "openQuestion": "If your knowledge could outlive any single app or database, what format would you store it in — and what would you sacrifice for that longevity?"
+        }
+      ]
+    },
+    {
+      "title": "How Does gbrain Store and Retrieve Knowledge?",
+      "slug": "how-gbrain-stores-retrieves-knowledge",
+      "lessons": [
+        {
+          "title": "BrainEngine: One Interface, Many Backends",
+          "slug": "brainengine-one-interface-many-backends",
+          "conceptIds": [
+            "db96785a-b749-4270-a1c1-7db12035b84e",
+            "61ddf616-87ea-4b04-857c-f6486b384b0c"
+          ],
+          "learningFocus": "Describe how the BrainEngine abstraction allows swapping between embedded PGLite and cloud Postgres without changing consumer code.",
+          "openQuestion": "What would it mean for your knowledge system if you could run it on your laptop today and migrate to the cloud tomorrow without changing a line of application code?"
+        },
+        {
+          "title": "The Iron Law: Every Mention Creates a Back-Link",
+          "slug": "iron-law-every-mention-creates-backlink",
+          "conceptIds": [
+            "58e50e57-eddc-4624-becc-cfb6c76429e5",
+            "5febce8a-c8ae-44a4-b12d-7499a5426664",
+            "d0bb8bf0-6511-4323-965a-9dce58bf8d92"
+          ],
+          "learningFocus": "Explain how the auto-link post-hook on put_page extracts entity references and maintains bidirectional relationships without manual link management.",
+          "openQuestion": "If every time you mentioned someone in conversation, they automatically knew about it and could respond, how would that change what you say — and to whom?"
+        },
+        {
+          "title": "Sync States and Federation: When Knowledge Becomes Available",
+          "slug": "sync-states-federation-knowledge-availability",
+          "conceptIds": [
+            "6f359b14-2b6f-4322-af5f-e08b4550c9ee",
+            "0c37f14c-d5ac-4b19-8e50-b2c85f223128",
+            "338dee08-081a-4e6e-b465-dabb41b3488b"
+          ],
+          "learningFocus": "Demonstrate why writes must sync before cross-source queries can see them, and how federation policies govern whether sources share or isolate their content.",
+          "openQuestion": "In a world where your personal notes, work projects, and public research live in the same system, what boundaries would you draw — and what would you risk mixing?"
+        }
+      ]
+    },
+    {
+      "title": "How Does gbrain Handle Updates and Changes?",
+      "slug": "how-gbrain-handles-updates-changes",
+      "lessons": [
+        {
+          "title": "APPEND vs REWRITE: The Two Operations That Matter",
+          "slug": "append-vs-rewrite-two-operations-matter",
+          "conceptIds": [
+            "727362d0-fa85-4d32-b3b0-c1b3b549c8b9",
+            "636701c3-2ba5-4390-a197-340d5504394f"
+          ],
+          "learningFocus": "Execute APPEND actions to add immutable timeline entries and REWRITE actions to update compiled truth, understanding when each operation is appropriate.",
+          "openQuestion": "How do you update your opinion of someone when you can't erase your first impression — and what does that say about how trust is built?"
+        },
+        {
+          "title": "The RESOLVER: Automatic Filing and Tiered Enrichment",
+          "slug": "resolver-automatic-filing-tiered-enrichment",
+          "conceptIds": [
+            "68d4afaa-bb73-4e27-aaa4-6db5922e925d",
+            "22c41124-4e22-4383-a8c2-b4e4a2f531e8"
+          ],
+          "learningFocus": "Configure resolver rules to automatically categorize entities and apply appropriate enrichment tiers based on interaction significance.",
+          "openQuestion": "If you could only deeply research 10% of the people you meet, what signals would tell you who deserves that investment — and who might you overlook?"
+        },
+        {
+          "title": "Migrations: Evolving Your Brain Without Breaking It",
+          "slug": "migrations-evolving-brain-without-breaking",
+          "conceptIds": [
+            "5b9c57a1-e7bc-4944-bfba-ff1ae4dd8712",
+            "d8cf913c-5dec-4022-8417-4e1c42b7d2f7",
+            "379e4eb0-04dc-4ec7-a52c-6a113e9b5059"
+          ],
+          "learningFocus": "Orchestrate version-specific migrations including schema updates, skill reloading, and data repairs while persisting update state across sessions.",
+          "openQuestion": "How do you rebuild the foundation of a house while people are still living in it — and what promises must you keep to those residents?"
+        }
+      ]
+    },
+    {
+      "title": "Who Does the Work in a gbrain System?",
+      "slug": "who-does-work-gbrain-system",
+      "lessons": [
+        {
+          "title": "Async Sub-Agents: Speed Through Parallelism",
+          "slug": "async-sub-agents-speed-through-parallelism",
+          "conceptIds": [
+            "a3b662e8-2bfd-4def-813c-592602d54b3a",
+            "3352951a-1149-4c1f-b930-7c942f0ac2cf"
+          ],
+          "learningFocus": "Design async sub-agent patterns that separate data collection from LLM judgment to prevent blocking the main conversation thread.",
+          "openQuestion": "If you could delegate your research to a team that works while you sleep, what would you ask them to find — and how would you verify they got it right?"
+        },
+        {
+          "title": "Model Selection: Sonnet for Detection, Opus for Judgment",
+          "slug": "model-selection-sonnet-detection-opus-judgment",
+          "conceptIds": [
+            "b2801aa5-28a8-4a4a-9352-09faa8acf120",
+            "3f6eba60-7fd6-4ff8-92d5-03652d289ff2"
+          ],
+          "learningFocus": "Calculate cost differences between models and implement detection pipelines that use cheaper models for pattern matching while reserving expensive models for reasoning.",
+          "openQuestion": "When is 'good enough' actually better than 'perfect' — and how do you know which situations deserve your best effort versus your efficient effort?"
+        },
+        {
+          "title": "Shell Jobs and Health Checks: Keeping the System Honest",
+          "slug": "shell-jobs-health-checks-keeping-system-honest",
+          "conceptIds": [
+            "9fa6e817-050a-445c-b5f1-3385956d2692",
+            "10abb6b1-5f85-40eb-8fd6-c2b72001858d",
+            "f9bf0626-e9b1-4729-8e66-9af97c7e2759"
+          ],
+          "learningFocus": "Configure shell jobs with proper validation constraints and define DSL-based health checks that audit configurations without slowing the main system.",
+          "openQuestion": "How do you build guardrails that catch your mistakes without becoming so restrictive that you stop taking risks — and where is that line?"
+        }
+      ]
+    },
+    {
+      "title": "When Should You Use gbrain in Production?",
+      "slug": "when-use-gbrain-production",
+      "lessons": [
+        {
+          "title": "Building Your Personal Mini-AGI: The Skillpack Pattern",
+          "slug": "building-personal-mini-agi-skillpack-pattern",
+          "conceptIds": [
+            "982498a7-4b49-4cee-bf0c-e5d7525a53ee",
+            "3c16b721-0f65-4a21-81bd-cdb9fd898323"
+          ],
+          "learningFocus": "Compose benefit-focused upgrade messages and configure quiet hours to build production agent systems that respect user attention and preferences.",
+          "openQuestion": "If your AI assistant was truly yours — trained on your knowledge, respecting your rhythms — what would you let it do, and what would you never delegate?"
+        },
+        {
+          "title": "Disaster Recovery: When Things Go Wrong",
+          "slug": "disaster-recovery-when-things-go-wrong",
+          "conceptIds": [
+            "da876c15-7899-41e8-ab1c-f374ccaf86ed"
+          ],
+          "learningFocus": "Execute truncated wiki article recovery procedures that rebuild graph relationships by scanning content for entity references.",
+          "openQuestion": "When your external memory becomes corrupted, do you trust your internal memory to reconstruct it — or have you outsourced so much that you no longer can?"
+        }
+      ]
+    }
+  ]
+}

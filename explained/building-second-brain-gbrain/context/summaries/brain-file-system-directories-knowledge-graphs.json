@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "brain-file-system-directories-knowledge-graphs",
+  "lessonTitle": "Your Brain's File System: Directories as Knowledge Graphs",
+  "moduleTitle": "What is gbrain?",
+  "opening": "You're walking into a conference room. The calendar says \"2:00 PM: Lena Kovac.\" You smile, shake hands, and realize with a sinking feeling that you have no idea who this person is. Did you meet her at that conference? Was she the one who emailed about... something? You nod along as she references your last conversation, praying she doesn't notice the panic behind your eyes. This is relationship decay in action. The decay isn't dramatic enough to end friendships. It's silent, making you look unpr",
+  "keyPoints": [
+    "**How gbrain organizes knowledge** into flat directories by entity type (people, companies, meetings) rather than by date or project",
+    "**How markdown files function as database records** with YAML frontmatter for metadata and content sections for timelines and relationships",
+    "**How tiered enrichment works** — files start thin (Tier 3) and deepen automatically (Tier 2, Tier 1) as relationship signals strengthen",
+    "**How cross-linking builds a knowledge graph** — entities reference each other, creating navigable connections without manual curation",
+    "**How multi-source architecture enables isolation** — one database hosts multiple independent knowledge repositories, each with its own namespace and policies"
+  ]
+}

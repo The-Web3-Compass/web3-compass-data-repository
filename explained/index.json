@@ -5,17 +5,25 @@
     "location": "intro-to-gbrain",
     "description": "Discover how GBrain gives AI agents persistent, queryable memory — from its two-zone architecture and entity cross-referencing to autonomous brain maintenance and zero-config deployment.",
     "thumbnail": "",
-    "hashtags": ["#GBrain", "#AI", "#Agents"],
+    "hashtags": [
+      "#GBrain",
+      "#AI",
+      "#Agents"
+    ],
     "status": "active",
     "category": "ai-tools"
   },
   {
     "id": "EX-GB-BSB",
-    "name": "Building a Second Brain with GBrain: Compiled Intelligence in Practice",
+    "name": "Building a Second Brain with GBrain - Improved",
     "location": "building-second-brain-gbrain",
     "description": "A practical walkthrough for building a second brain using GBrain — covering compiled truth vs timeline, storage and retrieval via BrainEngine, handling updates with APPEND/REWRITE, and scaling the system with async sub-agents and production workflows.",
     "thumbnail": "",
-    "hashtags": ["#GBrain", "#SecondBrain", "#Agents"],
+    "hashtags": [
+      "#GBrain",
+      "#SecondBrain",
+      "#Agents"
+    ],
     "status": "active",
     "category": "ai-tools"
   }

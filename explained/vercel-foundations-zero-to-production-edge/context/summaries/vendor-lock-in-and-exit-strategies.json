@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "vendor-lock-in-and-exit-strategies",
+  "lessonTitle": "Vendor Lock-in and Exit Strategies",
+  "moduleTitle": "Costs, Limits, and Alternatives",
+  "opening": "You survived the tsunami. The traffic spike has flattened into a gentle ripple. Your servers stopped screaming around 3 AM, and the marketing team is already posting victory lap screenshots. But as you stare at the final invoice, it loads pixel by pixel like a horror movie reveal. You feel a different kind of dread settling in. It's not just the number. It's the realization that your entire application has become fluent in a proprietary dialect that only one cloud provider understands. Your data",
+  "keyPoints": [
+    "How **Vendor Lock-in** operates through proprietary APIs and managed services that create architectural gravity",
+    "Why **Data Gravity** often proves more expensive to escape than code dependencies",
+    "How **Netlify, Render, and Fly.io** represent different trade-offs between convenience and portability",
+    "The difference between **containerization** (packaging) and true **Architectural Portability** (design)",
+    "Why **Abstraction Layers** and **Standard Formats** serve as migration insurance without sacrificing current productivity"
+  ]
+}

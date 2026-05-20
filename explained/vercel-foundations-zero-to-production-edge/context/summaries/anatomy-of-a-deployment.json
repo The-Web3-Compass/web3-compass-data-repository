@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "anatomy-of-a-deployment",
+  "lessonTitle": "Anatomy of a Deployment",
+  "moduleTitle": "Projects, Domains, and Secrets",
+  "opening": "You remember that moment, your Tokyo teammate refreshing their browser and seeing your app materialize like it had been teleported there, frozen exactly as you built it? That magic hides a complex journey. Before that render reached them, your repository transformed. It got compressed, encrypted, assigned an address, then unveiled to the world. That \"amber\" moment isn't just one thing. It's a handoff between three distinct guardians, your **Project** (the boundary keeper), your **Domain** (the a",
+  "keyPoints": [
+    "How **Builds** transform chaotic repositories into sealed, deployable artifacts within Project boundaries",
+    "Why **Preview Domains** act as temporary, isolated testing addresses that protect your production reputation",
+    "The distinction between **Environment Variables** (configuration) and **Secrets** (sensitive credentials), and why both are injected at runtime rather than build time",
+    "How **Deployment Contexts** maintain separate encrypted vaults, preventing your experimental branch from accidentally using production databases",
+    "Why the handoff between build, domain assignment, and secret injection must happen in precise sequence"
+  ]
+}

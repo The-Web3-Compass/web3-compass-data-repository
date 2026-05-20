@@ -1,0 +1,12 @@
+{
+  "lessonSlug": "securing-preview-urls-and-headers",
+  "lessonTitle": "Securing Preview URLs and Headers",
+  "moduleTitle": "Navigating Vercel's Sharp Edges",
+  "opening": "You just watched that green checkmark validate your **deployment immutability**, the build snapshot frozen in time, the preview URL loading without a hiccup. You treated that Git push like a private sketchpad, iterating on the new dashboard redesign you weren't ready to announce. Then your phone buzzes. It's a screenshot from your product manager, \"Love the direction on the pricing page!\" followed by a URL that looks like alphabet soup ending in `.vercel.app`. Your stomach drops. You never share",
+  "keyPoints": [
+    "How **deployment protection** intercepts requests at the edge to enforce authentication before your application renders, preventing unauthorized access to work-in-progress features",
+    "Why **CSP headers** shift security left into the browser itself, creating an execution sandbox that mitigates XSS even when malicious code reaches the DOM",
+    "The complementary relationship between access control (who can view) and content control (what can execute)",
+    "How to distinguish between security failures at the network perimeter versus runtime execution environments"
+  ]
+}

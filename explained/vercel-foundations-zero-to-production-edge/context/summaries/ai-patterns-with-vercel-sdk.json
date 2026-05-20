@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "ai-patterns-with-vercel-sdk",
+  "lessonTitle": "AI Patterns with Vercel SDK",
+  "moduleTitle": "Patterns for Edge Composition",
+  "opening": "You remember that brick wall your requests hit after the middleware waved them through? The one that turned your edge-optimized traffic into a sluggish, single-file line? That wall wasn't built from caching logic or stale content strategies. It was the latency of **waiting for an entire AI response to materialize** before showing a single character to your user. When you're serving static pages, the Edge Middleware acts as a traffic cop, routing and caching with millisecond precision. But the mo",
+  "keyPoints": [
+    "How streaming transforms AI latency from a waiting period into a performance of cognition",
+    "Why the Edge must handle **orchestration** rather than just **forwarding** when dealing with generative responses",
+    "The distinction between buffering (the brick wall) and true streaming composition (the assembly line)",
+    "How **incremental encoding** maintains persistent connections without blocking on complete responses",
+    "Why **connection management** and heartbeat patterns are essential for mobile and corporate networks"
+  ]
+}

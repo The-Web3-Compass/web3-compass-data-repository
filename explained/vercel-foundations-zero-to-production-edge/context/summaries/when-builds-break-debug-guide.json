@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "when-builds-break-debug-guide",
+  "lessonTitle": "When Builds Break: Debug Guide",
+  "moduleTitle": "Navigating Vercel's Sharp Edges",
+  "opening": "You treated Git like a save button and pushed, chasing that intoxicating preview URL refresh. Yesterday, the pipeline caught your NEXT_PUBLIC_ slip before it became a headline, reinforcing your trust in deployment immutability (those frozen builds that persist even after you fix the code). But today, there is no preview URL. No green checkmark. Only a red X and a cryptic log stream where your confidence used to be. The build failed, and your \"save\" didn't stick. **Build failures** occur when the",
+  "keyPoints": [
+    "How **build-time failures** differ from runtime errors in both cause and symptom, and why compilation acts as a safety gate",
+    "Why **build cache invalidation** is distinct from browser cache clearing, and how stale layers create phantom bugs that survive code fixes",
+    "How **dependency resolution** in clean environments reveals missing declarations that local development hides through global state or existing **node_modules**",
+    "The relationship between **build immutability** and environment variables (why changing dashboard configs requires fresh builds, not just redeployment)",
+    "How to diagnose whether a persistent bug stems from current code or cached artifacts from previous iterations"
+  ]
+}

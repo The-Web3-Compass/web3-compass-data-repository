@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "ci-cd-pipelines-and-integrations",
+  "lessonTitle": "CI/CD Pipelines and Integrations",
+  "moduleTitle": "Git-Native Development Workflows",
+  "opening": "You're watching the preview URL refresh with your latest changes, and it's intoxicating. Yesterday you escaped the chaotic shared staging warehouse, that collision chamber where everyone's half-finished work created a traffic jam of broken builds. Now every branch gets its own isolated playground, automatically. But this power creates a dangerous temptation. Why run tests locally when the pipeline will catch errors for you? Why lint when the cloud will complain automatically? You catch yourself ",
+  "keyPoints": [
+    "How **Git-native automation** transforms version control events into quality gates rather than mere file storage",
+    "Why **local validation** remains essential even when cloud pipelines catch errors, preserving team velocity and shared resource integrity",
+    "How **third-party integrations** extend the pipeline into a comprehensive quality orchestration layer without manual coordination",
+    "The mechanism of **stage dependencies** that prevent broken code from advancing through build, test, and deployment phases",
+    "Why **treating Git as a save button** creates social and technical debt, while treating it as a source of truth requires pre-validation discipline"
+  ]
+}

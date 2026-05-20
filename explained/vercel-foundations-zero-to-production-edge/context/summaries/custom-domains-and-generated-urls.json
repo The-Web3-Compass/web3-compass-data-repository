@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "custom-domains-and-generated-urls",
+  "lessonTitle": "Custom Domains and Generated URLs",
+  "moduleTitle": "Projects, Domains, and Secrets",
+  "opening": "You remember that moment. Your Tokyo teammate refreshes their browser and sees your app materialize like it had been teleported there, frozen in amber exactly as you built it. That magic worked because the platform issued a **Preview Domain**, one of those cryptic URLs that looks like a cat walked across a keyboard (`project-abc-123-xyz.host.app`). Perfect for internal testing, disastrous for sharing with a customer. Try dictating that hash over a phone call. Or worse, printing it on a billboard",
+  "keyPoints": [
+    "How **Generated URLs** provide isolated, ephemeral addresses for testing specific deployments without risking production stability",
+    "Why **Custom Domains** require DNS configuration to bridge the gap between human-readable names and server infrastructure",
+    "The distinction between verification (proving you own the domain) and routing (directing traffic to your project)",
+    "How domain mapping creates a stable public facade that can persist across countless underlying deployment changes",
+    "Why SSL certificates must be provisioned per-domain to maintain encrypted connections"
+  ]
+}

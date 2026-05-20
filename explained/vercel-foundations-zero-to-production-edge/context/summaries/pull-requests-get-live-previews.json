@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "pull-requests-get-live-previews",
+  "lessonTitle": "Pull Requests Get Live Previews",
+  "moduleTitle": "Git-Native Development Workflows",
+  "opening": "You just saw how **preview environments** eliminate the warehouse problem, that chaotic shared staging room where everyone's half-finished work collided like a demolition derby. With **ephemeral infrastructure** and **unique subdomain routing**, every branch now gets its own isolated showroom instead of a crowded shelf. But isolation is only half the battle. Now that these environments spin up automatically, how do you actually route human eyeballs to them without descending into Slack chaos? > ",
+  "keyPoints": [
+    "How **Deploy Previews** transform pull requests from static code diffs into interactive review environments",
+    "Why **webhook integrations** automate the handoff between Git activity and infrastructure provisioning",
+    "How **unique URLs** let designers, PMs, and QA participate in review cycles without local development setups",
+    "The critical distinction between code isolation (subdomains) and **data isolation** (sandboxed databases)",
+    "Why Git-native workflows eliminate the \"screenshot tennis\" that traditionally slows down frontend iteration"
+  ]
+}

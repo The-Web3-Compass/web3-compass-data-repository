@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "composing-react-server-components",
+  "lessonTitle": "Composing React Server Components",
+  "moduleTitle": "Patterns for Edge Composition",
+  "opening": "You remember that moment. Your Tokyo teammate refreshed their browser and saw your app materialize like it had been teleported there, frozen in amber exactly as you built it. That magic worked because of **Preview Domains**, those cryptic URLs that look like a cat walked across a keyboard. But now imagine their excitement evaporating when the page loads and immediately starts hunting for a database that only exists in Virginia. The screen goes blank. The console glows red. Your teammate isn't se",
+  "keyPoints": [
+    "How **React Server Components** execute in a privileged server environment with direct access to backends and **secrets**, never shipping their code to browsers",
+    "Why the import direction creates an **execution boundary** that separates server-only logic from client interactivity",
+    "How **composition via children** creates a safe tunnel for server-rendered content to reach client-side wrappers without violating the serialization boundary",
+    "The distinction between importing (which drags code across universes) and rendering (which sends finished products across)",
+    "Why **serializable props** are the only luggage permitted through the server-client checkpoint"
+  ]
+}

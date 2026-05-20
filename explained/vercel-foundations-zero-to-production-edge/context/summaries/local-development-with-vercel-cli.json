@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "local-development-with-vercel-cli",
+  "lessonTitle": "Local Development with Vercel CLI",
+  "moduleTitle": "Git-Native Development Workflows",
+  "opening": "You just saw how **preview environments** eliminate the warehouse problem—that chaotic shared staging room where everyone's half-finished work collided. But isolation is only half the battle. Now that these environments spin up automatically for every branch, you might be tempted to skip the middleman entirely: why not just push every keystroke to the cloud and watch the preview update? Because waiting thirty seconds to see if a button color changed is the psychological equivalent of dial-up int",
+  "keyPoints": [
+    "How **Vercel CLI** creates production-faithful local environments that eliminate \"works on my machine\" discrepancies",
+    "Why **environment variable synchronization** between cloud and local prevents credential drift and configuration errors",
+    "The distinction between **local iteration** (speed, experimentation) and **preview validation** (shareability, final verification)",
+    "How **framework-aware simulation** ensures your local server matches cloud routing and middleware behavior",
+    "Why local development remains essential even in a world of **instant preview deployments**"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "isolated-projects-and-team-spaces",
+  "lessonTitle": "Isolated Projects and Team Spaces",
+  "moduleTitle": "Projects, Domains, and Secrets",
+  "opening": "You remember that Tokyo teammate watching your app render instantly—frozen in amber exactly as you built it? That magic moment depends on more than just choosing between **Edge Functions** and **Serverless Functions**. It depends on making sure you're not accidentally showing your weekend hackathon project to your company's enterprise client, or leaking your production database password into a pull request preview. This is the architecture of isolation. It's the invisible fencing that keeps your",
+  "keyPoints": [
+    "How **Projects** create hard boundaries between applications, preventing configuration and resource bleeding",
+    "Why **Team Spaces** manage collaboration without breaking runtime isolation between Projects",
+    "The distinction between permanent **Production** environments and ephemeral **Preview Deployments**",
+    "How **Secrets** and **Environment Variables** maintain separate encrypted vaults for different deployment contexts",
+    "Why Preview **Domains** are temporary by design, protecting you from accidental permanent deployments of experimental code"
+  ]
+}

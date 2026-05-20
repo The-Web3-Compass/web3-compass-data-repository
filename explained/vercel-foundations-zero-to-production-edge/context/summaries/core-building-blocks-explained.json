@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "core-building-blocks-explained",
+  "lessonTitle": "Core Building Blocks Explained",
+  "moduleTitle": "Thinking in Vercel Primitives",
+  "opening": "You remember that Tokyo teammate watching your app render instantly—frozen in amber exactly as you built it? That moment wasn't just the **V8 isolates** doing their magic. It happened because you unconsciously chose a specific building material for that part of your application. Every project on Vercel is essentially a construction job using just four distinct primitives. The art of deploying well is knowing which material to use for which job. > **Vercel** is a developer platform that assembles",
+  "keyPoints": [
+    "How **Static files** provide immutable speed by existing as pre-built artifacts rather than executed code",
+    "Why **Serverless Functions** trade cold-start latency for computational power and regional database access",
+    "The distinction between **Edge Functions** (global, instant, lightweight) and **Serverless Functions** (regional, powerful, stateful-capable)",
+    "How **Image Optimization** offloads responsive asset generation from build-time to request-time",
+    "Why choosing the wrong primitive—like running database queries in Edge Functions or authentication in Serverless—creates architectural friction"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "the-global-edge-network-unpacked",
+  "lessonTitle": "The Global Edge Network Unpacked",
+  "moduleTitle": "The Lay of the Vercel Land",
+  "opening": "You just experienced that Friday-evening miracle: the Preview Deployment URL materialized instantly after your Git push, the bug fix live and ready for review. But when your Tokyo teammate clicks that link, what happens between their browser and the code you deployed? If every request had to travel back to a single data center in Virginia, that collaborative moment would dissolve into loading-spinner purgatory. Light travels fast, roughly 186,000 miles per second through fiber optics, but physic",
+  "keyPoints": [
+    "How physical distance creates **latency** that no amount of server optimization can eliminate",
+    "Why **caching** at **Points of Presence (PoPs)** transforms global scale from a liability into an asset",
+    "The distinction between a **Cache Hit** (lightning fast) and a **Cache Miss** (origin fetch penalty)",
+    "Why immutable deployments pair naturally with Edge Networks—new versions get new fingerprints, avoiding stale cache nightmares",
+    "How **Origin Servers** remain the source of truth while **Edge** locations handle the heavy lifting of global distribution"
+  ]
+}

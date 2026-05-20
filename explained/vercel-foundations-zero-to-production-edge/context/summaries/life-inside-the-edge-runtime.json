@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "life-inside-the-edge-runtime",
+  "lessonTitle": "Life Inside the Edge Runtime",
+  "moduleTitle": "Thinking in Vercel Primitives",
+  "opening": "Remember that Tokyo teammate from last time—the one who clicked your Preview Deployment link and saw your app frozen in amber, exactly as you built it thirty seconds ago? Here's the magic trick we skipped: when they clicked that link, the code didn't travel from Virginia to Tokyo. It didn't lumber across an ocean fiber cable while your teammate watched a loading spinner. Instead, it executed instantly—in Tokyo. Less than 50 milliseconds between click and pixel. But how does your code, those immu",
+  "keyPoints": [
+    "How **geographic distribution** transforms latency from a physics problem into an architectural feature",
+    "Why **V8 isolates** enable cold starts measured in microseconds rather than seconds",
+    "How **stateless execution** creates horizontal scaling by design, but prevents traditional \"serverful\" patterns",
+    "The difference between **immutable artifacts** (what we built) and **ephemeral execution** (where they run)",
+    "Why constraints like \"no filesystem access\" aren't limitations but trade-offs for global performance"
+  ]
+}

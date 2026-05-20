@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "every-branch-gets-a-url",
+  "lessonTitle": "Every Branch Gets a URL",
+  "moduleTitle": "The Lay of the Vercel Land",
+  "opening": "You remember watching your Tokyo teammate click a link that didn't exist thirty seconds ago. The Preview Deployment appeared instantly. But the sorcery was this: it wasn't just your code at some random address. It was the entire production environment, copied exactly. Every environment variable, every edge configuration, every build optimization matched the main site. Except for one thing. The URL itself contained your branch name like a nametag: *this is the future, take it for a spin.* **Previ",
+  "keyPoints": [
+    "How **Git branches** transform automatically into live URLs through the deployment lifecycle",
+    "Why **immutable deployments** guarantee that \"works on my machine\" becomes \"works on the edge\"",
+    "How **Preview Deployments** replace shared staging environments with infinite parallel instances",
+    "Why production-identical build environments prevent the drift that makes traditional staging unreliable",
+    "How this workflow shifts code review from static diffs to interactive, shareable experiences"
+  ]
+}

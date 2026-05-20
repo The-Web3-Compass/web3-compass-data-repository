@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "the-frontend-first-architecture-shift",
+  "lessonTitle": "The Frontend-First Architecture Shift",
+  "moduleTitle": "Costs, Limits, and Alternatives",
+  "opening": "You remember that screenshot your product manager sent? The one praising your pricing page redesign. She didn't just love it. She promoted it to the board. Now the CEO wants it live by Friday, and the marketing team is preparing a launch campaign that could push six figures of visitors through your funnel. You're staring at the deployment dashboard, heart racing. But not from excitement. You just realized that the **frontend-first architecture** which let you iterate in seconds, deploying that p",
+  "keyPoints": [
+    "How frontend-first architectures replace always-on servers with ephemeral, event-driven execution that materializes on demand",
+    "Why request-based billing rewards bursty traffic patterns but penalizes consistent workloads through rounding and minimum duration charges",
+    "The concurrency cliff where horizontal function scaling meets finite database connection limits",
+    "When to preserve frontend-first simplicity versus when to surrender to traditional servers or container orchestration for long-running processes",
+    "How vendor-specific edge features create migration friction that accumulates silently until extraction becomes a quarter-long project"
+  ]
+}

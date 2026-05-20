@@ -1,0 +1,291 @@
+{
+  "courseTitle": "Vercel Foundations: Zero to Production Edge",
+  "courseSlug": "vercel-foundations-zero-to-production-edge",
+  "courseDescription": "Learn to ship on Vercel's global edge. Master Git workflows, serverless primitives, rendering patterns, and critical production tradeoffs.",
+  "criticalGapConcerns": [
+    "Lesson mapping for moduleSlug=\"orientation\" lessonSlug=\"what-is-vercel\": No candidate concepts found for topics: Frontend Cloud Platform",
+    "Lesson mapping for moduleSlug=\"orientation\" lessonSlug=\"edge-network-and-cdn\": No candidate concepts found for topics: Edge Network, Global CDN",
+    "Lesson mapping for moduleSlug=\"orientation\" lessonSlug=\"nextjs-and-jamstack\": No candidate concepts found for topics: Next.js Framework, Jamstack",
+    "Lesson mapping for moduleSlug=\"orientation\" lessonSlug=\"git-workflow-and-previews\": No candidate concepts found for topics: Git-based Workflow, Preview Deployments",
+    "Lesson mapping for moduleSlug=\"mental-model\" lessonSlug=\"build-output-api\": No candidate concepts found for topics: Build Output API",
+    "Lesson mapping for moduleSlug=\"mental-model\" lessonSlug=\"immutable-deployments\": No candidate concepts found for topics: Immutable Deployments, Preview vs Production",
+    "Lesson mapping for moduleSlug=\"mental-model\" lessonSlug=\"edge-runtime\": No candidate concepts found for topics: Edge Runtime",
+    "Lesson mapping for moduleSlug=\"primitives\" lessonSlug=\"projects-and-isolation\": No candidate concepts found for topics: Projects, Isolated Environments",
+    "Lesson mapping for moduleSlug=\"primitives\" lessonSlug=\"deployments\": No candidate concepts found for topics: Deployments",
+    "Lesson mapping for moduleSlug=\"primitives\" lessonSlug=\"domains-and-urls\": No candidate concepts found for topics: Domains, Automatic URLs",
+    "Lesson mapping for moduleSlug=\"primitives\" lessonSlug=\"environment-variables\": No candidate concepts found for topics: Environment Variables",
+    "Lesson mapping for moduleSlug=\"composition-and-patterns\" lessonSlug=\"rsc-composition\": No candidate concepts found for topics: React Server Components Composition",
+    "Lesson mapping for moduleSlug=\"composition-and-patterns\" lessonSlug=\"isr-caching\": No candidate concepts found for topics: ISR Caching Strategy",
+    "Lesson mapping for moduleSlug=\"composition-and-patterns\" lessonSlug=\"ai-sdk-composition\": No candidate concepts found for topics: AI SDK Primitive Composition",
+    "Lesson mapping for moduleSlug=\"workflows-and-integration\" lessonSlug=\"git-centered-workflow\": No candidate concepts found for topics: Git-Centered Deployment Workflow",
+    "Lesson mapping for moduleSlug=\"workflows-and-integration\" lessonSlug=\"preview-and-github\": No candidate concepts found for topics: Preview Deployments, GitHub Integration",
+    "Lesson mapping for moduleSlug=\"workflows-and-integration\" lessonSlug=\"cicd-and-integrations\": No candidate concepts found for topics: CI/CD Pipelines, Third-Party Integrations",
+    "Lesson mapping for moduleSlug=\"sharp-edges-and-debugging\" lessonSlug=\"next-public-secrets\": No candidate concepts found for topics: NEXT_PUBLIC_ Secrets Leak, Environment Variable Scope",
+    "Lesson mapping for moduleSlug=\"sharp-edges-and-debugging\" lessonSlug=\"build-debugging\": No candidate concepts found for topics: Build Failure Debugging, Build Cache Issues",
+    "Lesson mapping for moduleSlug=\"sharp-edges-and-debugging\" lessonSlug=\"runtime-logs\": No candidate concepts found for topics: Runtime Error Logs, Function Timeout Errors",
+    "Lesson \"What is Vercel?\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"The Edge Network and Global CDN\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Next.js and the Jamstack Architecture\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Git-Based Workflow and Preview Deployments\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Understanding the Build Output API\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Immutable Deployments and Preview vs Production\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"The Edge Runtime\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Projects and Isolated Environments\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Understanding Deployments\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Domains and Automatic URLs\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Environment Variables and Configuration\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"React Server Components Composition\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"ISR Caching Strategy\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"AI SDK Primitive Composition\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Git-Centered Deployment Workflow\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Preview Deployments and GitHub Integration\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Local Development with Vercel CLI\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"CI/CD Pipelines and Third-Party Integrations\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"NEXT_PUBLIC_ Secrets and Environment Variable Scope\" has no conceptIds. Every lesson must cover at least one concept.",
+    "Lesson \"Debugging Build Failures and Cache Issues\" has no conceptIds. Every lesson must cover at least one concept."
+  ],
+  "modules": [
+    {
+      "title": "The Lay of the Vercel Land",
+      "slug": "the-lay-of-the-vercel-land",
+      "lessons": [
+        {
+          "title": "What Makes Vercel Tick?",
+          "slug": "what-makes-vercel-tick",
+          "conceptIds": [],
+          "learningFocus": "Define Vercel as a frontend cloud platform and understand its position in the deployment ecosystem",
+          "openQuestion": "How does Vercel differ from traditional hosting providers?"
+        },
+        {
+          "title": "The Global Edge Network Unpacked",
+          "slug": "the-global-edge-network-unpacked",
+          "conceptIds": [],
+          "learningFocus": "Understand how the Edge Network and Global CDN enable instant global deployments",
+          "openQuestion": "What are the latency benefits of edge distribution versus centralized servers?"
+        },
+        {
+          "title": "Next.js and the Jamstack Era",
+          "slug": "next-js-and-the-jamstack-era",
+          "conceptIds": [],
+          "learningFocus": "Explore the relationship between Vercel and Next.js within Jamstack architecture",
+          "openQuestion": "Why did Vercel evolve from static hosting to supporting full-stack applications?"
+        },
+        {
+          "title": "Every Branch Gets a URL",
+          "slug": "every-branch-gets-a-url",
+          "conceptIds": [],
+          "learningFocus": "Master the Git-based workflow and preview deployment lifecycle",
+          "openQuestion": "How do preview deployments change the code review process?"
+        }
+      ]
+    },
+    {
+      "title": "Thinking in Vercel Primitives",
+      "slug": "thinking-in-vercel-primitives",
+      "lessons": [
+        {
+          "title": "Speaking the Build Output API",
+          "slug": "speaking-the-build-output-api",
+          "conceptIds": [],
+          "learningFocus": "Understand the Build Output API as the core compilation abstraction",
+          "openQuestion": "What determines how framework code transforms into Vercel primitives?"
+        },
+        {
+          "title": "Immutable Artifacts, Mutable Traffic",
+          "slug": "immutable-artifacts-mutable-traffic",
+          "conceptIds": [],
+          "learningFocus": "Grasp the concept of immutable deployments and the promotion model",
+          "openQuestion": "Why is atomic deployment crucial for production stability?"
+        },
+        {
+          "title": "Life Inside the Edge Runtime",
+          "slug": "life-inside-the-edge-runtime",
+          "conceptIds": [],
+          "learningFocus": "Learn how the Edge Runtime executes code across 100+ global locations",
+          "openQuestion": "What are the constraints of V8 isolates compared to Node.js runtime?"
+        },
+        {
+          "title": "Core Building Blocks Explained",
+          "slug": "core-building-blocks-explained",
+          "conceptIds": [
+            "b3dea95c-e57c-40a2-92ef-32a20100efcb"
+          ],
+          "learningFocus": "Identify the four core primitives: Static files, Serverless Functions, Edge Functions, and Images",
+          "openQuestion": "How do you choose between Edge Functions and Serverless Functions?"
+        }
+      ]
+    },
+    {
+      "title": "Projects, Domains, and Secrets",
+      "slug": "projects-domains-and-secrets",
+      "lessons": [
+        {
+          "title": "Isolated Projects and Team Spaces",
+          "slug": "isolated-projects-and-team-spaces",
+          "conceptIds": [],
+          "learningFocus": "Configure projects and understand environment isolation",
+          "openQuestion": "When should you use multiple projects versus a monorepo approach?"
+        },
+        {
+          "title": "Anatomy of a Deployment",
+          "slug": "anatomy-of-a-deployment",
+          "conceptIds": [],
+          "learningFocus": "Navigate the deployment lifecycle from build to production",
+          "openQuestion": "What differentiates a preview deployment from production beyond the URL?"
+        },
+        {
+          "title": "Custom Domains and Generated URLs",
+          "slug": "custom-domains-and-generated-urls",
+          "conceptIds": [],
+          "learningFocus": "Configure custom domains and understand automatic URL generation",
+          "openQuestion": "How does branch-based URL structure support team workflows?"
+        },
+        {
+          "title": "Secrets, Env Vars, and Scope",
+          "slug": "secrets-env-vars-and-scope",
+          "conceptIds": [],
+          "learningFocus": "Manage Environment Variables across deployment contexts",
+          "openQuestion": "What are the security implications of NEXT_PUBLIC_ prefix?"
+        }
+      ]
+    },
+    {
+      "title": "Patterns for Edge Composition",
+      "slug": "patterns-for-edge-composition",
+      "lessons": [
+        {
+          "title": "Composing React Server Components",
+          "slug": "composing-react-server-components",
+          "conceptIds": [],
+          "learningFocus": "Compose React Server Components with client boundaries for optimal rendering",
+          "openQuestion": "How do server/client boundaries affect bundle size and execution?"
+        },
+        {
+          "title": "Chaining Logic with Edge Middleware",
+          "slug": "chaining-logic-with-edge-middleware",
+          "conceptIds": [
+            "f016a0af-80ae-4109-a60b-51b3aef1386c"
+          ],
+          "learningFocus": "Chain Edge Middleware for request/response transformation",
+          "openQuestion": "What is the execution order when multiple middlewares are configured?"
+        },
+        {
+          "title": "ISR: Stale While Revalidating",
+          "slug": "isr-stale-while-revalidating",
+          "conceptIds": [],
+          "learningFocus": "Implement Incremental Static Regeneration caching patterns",
+          "openQuestion": "How do cache tags enable fine-grained invalidation strategies?"
+        },
+        {
+          "title": "AI Patterns with Vercel SDK",
+          "slug": "ai-patterns-with-vercel-sdk",
+          "conceptIds": [],
+          "learningFocus": "Compose AI SDK primitives for streaming AI interactions",
+          "openQuestion": "How does streaming architecture affect user experience in AI applications?"
+        }
+      ]
+    },
+    {
+      "title": "Git-Native Development Workflows",
+      "slug": "git-native-development-workflows",
+      "lessons": [
+        {
+          "title": "Branches as Staging Environments",
+          "slug": "branches-as-staging-environments",
+          "conceptIds": [],
+          "learningFocus": "Master the Git-centered deployment workflow from push to production",
+          "openQuestion": "How does Vercel's Git integration differ from traditional CI/CD triggers?"
+        },
+        {
+          "title": "Pull Requests Get Live Previews",
+          "slug": "pull-requests-get-live-previews",
+          "conceptIds": [],
+          "learningFocus": "Leverage Preview Deployments and GitHub Integration for team collaboration",
+          "openQuestion": "What authentication mechanisms protect preview deployments?"
+        },
+        {
+          "title": "Local Development with Vercel CLI",
+          "slug": "local-development-with-vercel-cli",
+          "conceptIds": [],
+          "learningFocus": "Use Vercel CLI for local development and deployment management",
+          "openQuestion": "How does local development with vercel dev differ from production?"
+        },
+        {
+          "title": "CI/CD Pipelines and Integrations",
+          "slug": "ci-cd-pipelines-and-integrations",
+          "conceptIds": [],
+          "learningFocus": "Integrate third-party tools and custom CI/CD pipelines",
+          "openQuestion": "When should you bypass Vercel's native Git integration for custom pipelines?"
+        }
+      ]
+    },
+    {
+      "title": "Navigating Vercel's Sharp Edges",
+      "slug": "navigating-vercel-s-sharp-edges",
+      "lessons": [
+        {
+          "title": "NEXT_PUBLIC_ and Leaky Secrets",
+          "slug": "next-public-and-leaky-secrets",
+          "conceptIds": [],
+          "learningFocus": "Secure Environment Variables and understand NEXT_PUBLIC_ exposure risks",
+          "openQuestion": "How can you audit existing projects for accidental secret exposure?"
+        },
+        {
+          "title": "When Builds Break: Debug Guide",
+          "slug": "when-builds-break-debug-guide",
+          "conceptIds": [],
+          "learningFocus": "Debug build failures and resolve cache-related issues",
+          "openQuestion": "When should you force a deployment without build cache?"
+        },
+        {
+          "title": "Runtime Errors and Cold Starts",
+          "slug": "runtime-errors-and-cold-starts",
+          "conceptIds": [],
+          "learningFocus": "Analyze Runtime Error Logs and handle Function Timeouts",
+          "openQuestion": "How do you distinguish between cold start latency and function errors?"
+        },
+        {
+          "title": "Securing Preview URLs and Headers",
+          "slug": "securing-preview-urls-and-headers",
+          "conceptIds": [],
+          "learningFocus": "Secure Preview Deployments and configure CSP headers",
+          "openQuestion": "What is the tradeoff between preview accessibility and security?"
+        }
+      ]
+    },
+    {
+      "title": "Costs, Limits, and Alternatives",
+      "slug": "costs-limits-and-alternatives",
+      "lessons": [
+        {
+          "title": "The Frontend-First Architecture Shift",
+          "slug": "the-frontend-first-architecture-shift",
+          "conceptIds": [],
+          "learningFocus": "Evaluate when Vercel's frontend-first architecture fits your use case",
+          "openQuestion": "What backend-heavy workloads are unsuitable for Vercel's serverless model?"
+        },
+        {
+          "title": "Serverless Costs and Bandwidth Math",
+          "slug": "serverless-costs-and-bandwidth-math",
+          "conceptIds": [],
+          "learningFocus": "Analyze Serverless Cost Models and Bandwidth Limitations",
+          "openQuestion": "How do traffic spikes affect predictability of serverless billing?"
+        },
+        {
+          "title": "Vendor Lock-in and Exit Strategies",
+          "slug": "vendor-lock-in-and-exit-strategies",
+          "conceptIds": [],
+          "learningFocus": "Assess Vendor Lock-in risks and compare with alternatives like Netlify, Render, and Fly.io",
+          "openQuestion": "What migration strategies minimize lock-in to Vercel-specific features?"
+        },
+        {
+          "title": "Fluid Compute and Pricing Models",
+          "slug": "fluid-compute-and-pricing-models",
+          "conceptIds": [],
+          "learningFocus": "Understand Fluid Compute Pricing and Non-Commercial Restrictions",
+          "openQuestion": "When does Fluid Compute become cost-effective compared to standard serverless?"
+        }
+      ]
+    }
+  ]
+}

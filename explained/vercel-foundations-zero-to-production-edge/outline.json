@@ -1,0 +1,134 @@
+{
+  "The Lay of the Vercel Land": [
+    {
+      "topic": "What Makes Vercel Tick?",
+      "location": "/the-lay-of-the-vercel-land/what-makes-vercel-tick.md"
+    },
+    {
+      "topic": "The Global Edge Network Unpacked",
+      "location": "/the-lay-of-the-vercel-land/the-global-edge-network-unpacked.md"
+    },
+    {
+      "topic": "Next.js and the Jamstack Era",
+      "location": "/the-lay-of-the-vercel-land/next-js-and-the-jamstack-era.md"
+    },
+    {
+      "topic": "Every Branch Gets a URL",
+      "location": "/the-lay-of-the-vercel-land/every-branch-gets-a-url.md"
+    }
+  ],
+  "Thinking in Vercel Primitives": [
+    {
+      "topic": "Speaking the Build Output API",
+      "location": "/thinking-in-vercel-primitives/speaking-the-build-output-api.md"
+    },
+    {
+      "topic": "Immutable Artifacts, Mutable Traffic",
+      "location": "/thinking-in-vercel-primitives/immutable-artifacts-mutable-traffic.md"
+    },
+    {
+      "topic": "Life Inside the Edge Runtime",
+      "location": "/thinking-in-vercel-primitives/life-inside-the-edge-runtime.md"
+    },
+    {
+      "topic": "Core Building Blocks Explained",
+      "location": "/thinking-in-vercel-primitives/core-building-blocks-explained.md"
+    }
+  ],
+  "Projects, Domains, and Secrets": [
+    {
+      "topic": "Isolated Projects and Team Spaces",
+      "location": "/projects-domains-and-secrets/isolated-projects-and-team-spaces.md"
+    },
+    {
+      "topic": "Anatomy of a Deployment",
+      "location": "/projects-domains-and-secrets/anatomy-of-a-deployment.md"
+    },
+    {
+      "topic": "Custom Domains and Generated URLs",
+      "location": "/projects-domains-and-secrets/custom-domains-and-generated-urls.md"
+    },
+    {
+      "topic": "Secrets, Env Vars, and Scope",
+      "location": "/projects-domains-and-secrets/secrets-env-vars-and-scope.md"
+    }
+  ],
+  "Patterns for Edge Composition": [
+    {
+      "topic": "Composing React Server Components",
+      "location": "/patterns-for-edge-composition/composing-react-server-components.md"
+    },
+    {
+      "topic": "Chaining Logic with Edge Middleware",
+      "location": "/patterns-for-edge-composition/chaining-logic-with-edge-middleware.md"
+    },
+    {
+      "topic": "ISR: Stale While Revalidating",
+      "location": "/patterns-for-edge-composition/isr-stale-while-revalidating.md"
+    },
+    {
+      "topic": "AI Patterns with Vercel SDK",
+      "location": "/patterns-for-edge-composition/ai-patterns-with-vercel-sdk.md"
+    }
+  ],
+  "Git-Native Development Workflows": [
+    {
+      "topic": "Branches as Staging Environments",
+      "location": "/git-native-development-workflows/branches-as-staging-environments.md"
+    },
+    {
+      "topic": "Pull Requests Get Live Previews",
+      "location": "/git-native-development-workflows/pull-requests-get-live-previews.md"
+    },
+    {
+      "topic": "Local Development with Vercel CLI",
+      "location": "/git-native-development-workflows/local-development-with-vercel-cli.md"
+    },
+    {
+      "topic": "CI/CD Pipelines and Integrations",
+      "location": "/git-native-development-workflows/ci-cd-pipelines-and-integrations.md"
+    }
+  ],
+  "Navigating Vercel's Sharp Edges": [
+    {
+      "topic": "NEXT_PUBLIC_ and Leaky Secrets",
+      "location": "/navigating-vercel-s-sharp-edges/next-public-and-leaky-secrets.md"
+    },
+    {
+      "topic": "When Builds Break: Debug Guide",
+      "location": "/navigating-vercel-s-sharp-edges/when-builds-break-debug-guide.md"
+    },
+    {
+      "topic": "Runtime Errors and Cold Starts",
+      "location": "/navigating-vercel-s-sharp-edges/runtime-errors-and-cold-starts.md"
+    },
+    {
+      "topic": "Securing Preview URLs and Headers",
+      "location": "/navigating-vercel-s-sharp-edges/securing-preview-urls-and-headers.md"
+    }
+  ],
+  "Costs, Limits, and Alternatives": [
+    {
+      "topic": "The Frontend-First Architecture Shift",
+      "location": "/costs-limits-and-alternatives/the-frontend-first-architecture-shift.md"
+    },
+    {
+      "topic": "Serverless Costs and Bandwidth Math",
+      "location": "/costs-limits-and-alternatives/serverless-costs-and-bandwidth-math.md"
+    },
+    {
+      "topic": "Vendor Lock-in and Exit Strategies",
+      "location": "/costs-limits-and-alternatives/vendor-lock-in-and-exit-strategies.md"
+    },
+    {
+      "topic": "Fluid Compute and Pricing Models",
+      "location": "/costs-limits-and-alternatives/fluid-compute-and-pricing-models.md"
+    }
+  ],
+  "And that's a wrap": [
+    {
+      "topic": "Summary",
+      "location": "/summary/summary.md"
+    }
+  ]
+}

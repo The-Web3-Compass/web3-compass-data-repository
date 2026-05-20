@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "runtime-errors-and-cold-starts",
+  "lessonTitle": "Runtime Errors and Cold Starts",
+  "moduleTitle": "Navigating Vercel's Sharp Edges",
+  "opening": "Yesterday, the pipeline caught your NEXT_PUBLIC_ slip before it became a headline. You trust **deployment immutability** now. You treated Git like a save button and pushed, chasing that preview URL refresh. This time, the green checkmark appeared. The preview URL loaded. That frozen build snapshot deployed to the edge. But then you triggered the API route, the one that generates invoices or processes images, and instead of JSON, the browser showed an endless spinner before displaying a \"504 Gate",
+  "keyPoints": [
+    "How **runtime errors** differ from build failures in both timing and symptoms, and why green build checkmarks don't guarantee functioning applications",
+    "Why **cold starts** introduce latency that local development hides through persistent state and warm processes",
+    "The three-phase mechanism of serverless function initialization and where **initialization bloat** eats up timeout budgets before user code runs",
+    "How to distinguish between timeout root causes (slow dependencies vs. slow logic) by reading runtime log signatures and duration patterns",
+    "The relationship between **deployment immutability** and runtime behavior, why frozen builds can still fail dynamically under real user load"
+  ]
+}

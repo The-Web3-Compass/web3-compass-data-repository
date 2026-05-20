@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "immutable-artifacts-mutable-traffic",
+  "lessonTitle": "Immutable Artifacts, Mutable Traffic",
+  "moduleTitle": "Thinking in Vercel Primitives",
+  "opening": "You remember that Tokyo teammate from last time, the one who clicked the link that didn't exist thirty seconds ago? Here's the part of that sorcery we didn't unpack. Thirty days later, that same link still works exactly the same way. It didn't rot when you pushed to production. Your latest bugs never reached it. Instead, it sits there, frozen in amber, a perfect snapshot of that moment in time. That's because the **Build Output API** doesn't translate your code into infrastructure. It crystalliz",
+  "keyPoints": [
+    "How **immutable artifacts** separate the act of building from the act of releasing",
+    "Why the **promotion model** turns rollbacks from rebuilds into routing table updates",
+    "How **deterministic builds** from the Build Output API enable every deployment to be a potential production candidate",
+    "Why Preview Deployments aren't simulations—they're real deployments wearing temporary URLs",
+    "How immutable storage creates a time machine for your application state, enabling instant recovery from bad releases"
+  ]
+}

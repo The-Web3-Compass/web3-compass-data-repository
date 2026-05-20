@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "fluid-compute-and-pricing-models",
+  "lessonTitle": "Fluid Compute and Pricing Models",
+  "moduleTitle": "Costs, Limits, and Alternatives",
+  "opening": "You just watched that invoice load pixel by pixel, dread mounting with each row of digits. Now it’s fully rendered, and the horror isn’t the size of the number. It’s the algebra. Instead of \"Server: $50/month,\" you’re staring at **847 million GB-seconds**, **2.4 million invocations**, and a cryptic line item called **Base Resource Allocation** that suggests you’ve been paying for silence. That algebra is the signature of **Fluid Compute**, the serverless model where your code doesn’t run on a se",
+  "keyPoints": [
+    "How **GB-seconds** function as the atomic unit of serverless billing, multiplying memory allocation by execution duration",
+    "Why **non-commercial restrictions** create a \"hobbyist trap\" where success triggers immediate architectural instability",
+    "The trade-off between **consumption-based** costs (zero at rest, unbounded at scale) and **provisioned** costs (fixed, predictable, wasteful at low utilization)",
+    "How **cold starts** and **resource allocation** create hidden costs that don’t appear in the simple \"pay per request\" marketing",
+    "Why **fair use policies** represent a softer but equally binding form of vendor lock-in than proprietary APIs"
+  ]
+}

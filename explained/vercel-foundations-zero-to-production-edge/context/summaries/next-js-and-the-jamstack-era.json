@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "next-js-and-the-jamstack-era",
+  "lessonTitle": "Next.js and the Jamstack Era",
+  "moduleTitle": "The Lay of the Vercel Land",
+  "opening": "You watched that Preview Deployment URL materialize instantly after your Git push. But when your Tokyo teammate clicked it, they saw more than your code. They saw an architectural shift that happened while the industry wasn't looking. That speed wasn't an accident of server placement. It was the result of a **Jamstack** architecture, a **Next.js** framework decision, and a **Vercel** deployment strategy working together. > **The Vercel-Next.js Ecosystem** is the symbiotic relationship between a ",
+  "keyPoints": [
+    "How **Jamstack** decouples the frontend from backend infrastructure, moving computation from request-time to build-time",
+    "Why **Next.js** serves as the bridge between static-site performance and dynamic-application requirements",
+    "How **Vercel** functions as more than hosting—it's an edge-native runtime optimized for the framework's output",
+    "The distinction between framework portability and platform-specific optimizations",
+    "Why immutable deployments pair naturally with edge caching to eliminate stale-content bugs"
+  ]
+}

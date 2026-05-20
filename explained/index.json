@@ -26,5 +26,20 @@
     ],
     "status": "active",
     "category": "ai-tools"
+  },
+  {
+    "id": "EX-VCL-ZPE",
+    "name": "Vercel Foundations: Zero to Production Edge",
+    "location": "vercel-foundations-zero-to-production-edge",
+    "description": "A comprehensive guide to mastering Vercel — from its global edge network and build primitives to Git-native workflows, edge composition patterns, debugging sharp edges, and understanding costs, limits, and vendor lock-in strategies.",
+    "thumbnail": "",
+    "hashtags": [
+      "#Vercel",
+      "#EdgeComputing",
+      "#NextJS",
+      "#DevOps"
+    ],
+    "status": "active",
+    "category": "devtools"
   }
 ]

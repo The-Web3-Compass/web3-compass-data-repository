@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "isr-stale-while-revalidating",
+  "lessonTitle": "ISR: Stale While Revalidating",
+  "moduleTitle": "Patterns for Edge Composition",
+  "opening": "You remember that moment. Your Tokyo teammate refreshes their browser and sees your app materialize like it had been teleported there? That magic worked because Edge Middleware acted as the gatekeeper, executing its logic before the request ever touched your cache or origin. But here's what happens next. After the middleware waves the request through, it slams into a brick wall of engineering tradeoffs. Do you serve a frozen snapshot from last Tuesday? Or do you spin up a server to cook a fresh ",
+  "keyPoints": [
+    "How Stale-While-Revalidate decouples the user experience from build times, serving content instantly even during regeneration",
+    "Why \"serving expired content\" is a deliberate availability strategy, not a caching failure",
+    "The precise sequence of cache miss, stale hit, background revalidation, and silent swap that keeps CDNs resilient",
+    "How ISR differs from SSR in terms of user-perceived latency and server load",
+    "Why regeneration failures default to serving stale content rather than throwing errors"
+  ]
+}

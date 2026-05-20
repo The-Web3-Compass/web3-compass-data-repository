@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "serverless-costs-and-bandwidth-math",
+  "lessonTitle": "Serverless Costs and Bandwidth Math",
+  "moduleTitle": "Costs, Limits, and Alternatives",
+  "opening": "It's Thursday night. The marketing team got excited and pushed the launch post early, and your pricing page is already trending on Tech Twitter. That six-figure visitor wave isn't arriving Friday morning. It's crashing against your endpoints right now. You should be celebrating. Instead you're staring at the cloud provider's cost calculator with the same expression you use when checking your bank account after a weekend in Vegas. The dashboard shows invocations climbing exponentially. Somewhere ",
+  "keyPoints": [
+    "How request fees, duration billing, and egress charges combine to create the \"triple tax\" of serverless architectures",
+    "Why memory allocation acts as a hidden multiplier that turns viral traffic into financial liability",
+    "How data transfer between functions compounds egress fees, turning distributed architectures into billing nightmares",
+    "The break-even threshold where frontend-first surrender becomes a financial necessity rather than a technical choice",
+    "Why duration rounding and bandwidth blindspots silently inflate costs during high-frequency execution"
+  ]
+}

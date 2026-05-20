@@ -1,0 +1,12 @@
+{
+  "lessonSlug": "what-makes-vercel-tick",
+  "lessonTitle": "What Makes Vercel Tick?",
+  "moduleTitle": "The Lay of the Vercel Land",
+  "opening": "It's 4:55 PM on a Friday. You've just fixed a critical bug. Your local server shows the fix working perfectly. But between you and relief lies a gauntlet. You SSH into the server, pull the latest changes, and run the build script. You hope Node.js versions match. Then you restart the process, clear the CDN cache manually, and pray you don't see the white screen of death when you check production. This is the deployment anxiety that defined web development for decades. The invisible wall between ",
+  "keyPoints": [
+    "How **Frontend Cloud** platforms differ from traditional hosting and generic cloud computing",
+    "Why **Git-based deployment** creates immutable infrastructure and eliminates \"works on my machine\" drift",
+    "How **Preview Deployments** transform code review from a technical chore into a collaborative product conversation",
+    "The architectural constraints that enable Vercel's speed (ephemeral compute, edge distribution) versus traditional long-running servers"
+  ]
+}

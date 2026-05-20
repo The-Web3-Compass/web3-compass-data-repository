@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "speaking-the-build-output-api",
+  "lessonTitle": "Speaking the Build Output API",
+  "moduleTitle": "Thinking in Vercel Primitives",
+  "opening": "You remember that moment, watching your Tokyo teammate click the link that didn't exist thirty seconds ago. The Preview Deployment materialized instantly. But it wasn't just your code living at some random address. That was the sorcery. But how does a platform actually *understand* what your framework built? Your Next.js app, your colleague's Astro site, and that legacy Gatsby monolith don't speak the same language. One outputs serverless functions. Another spits out edge middleware. A third gen",
+  "keyPoints": [
+    "How the Build Output API acts as a universal translator between frameworks and infrastructure",
+    "Why declarative manifests enable immutable, reproducible deployments across any framework",
+    "How this abstraction separates the \"what\" (your application topology) from the \"how\" (the platform's routing implementation)",
+    "Why deterministic build outputs are the foundation of instant Preview Deployments",
+    "How framework innovation decouples from platform updates through standardized compilation contracts"
+  ]
+}

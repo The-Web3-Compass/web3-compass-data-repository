@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "branches-as-staging-environments",
+  "lessonTitle": "Branches as Staging Environments",
+  "moduleTitle": "Git-Native Development Workflows",
+  "opening": "Traditional staging looks like a warehouse. You have one big room—`staging.yourapp.com`—where everyone piles their unfinished work. The login page is half-redesigned, the checkout flow is broken because Sarah's still working on it, and the database is full of test entries named \"asdf123.\" It's a mess because it's **shared**. Your feature can't be truly seen until it's mixed with everyone else's half-baked experiments. Merge day becomes a terrifying game of Jenga. Git-native workflows treat branc",
+  "keyPoints": [
+    "How **preview environments** turn Git branches from code storage into live infrastructure",
+    "Why **ephemeral infrastructure** eliminates the \"shared staging\" bottleneck while controlling costs",
+    "How **unique subdomain routing** isolates work-in-progress from production traffic",
+    "Why **data isolation** matters as much as code isolation for parallel environments",
+    "How **automatic provisioning** changes the deployment pipeline from a scheduled bus to an on-demand taxi"
+  ]
+}

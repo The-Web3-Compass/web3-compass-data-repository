@@ -1,0 +1,13 @@
+{
+  "lessonSlug": "chaining-logic-with-edge-middleware",
+  "lessonTitle": "Chaining Logic with Edge Middleware",
+  "moduleTitle": "Patterns for Edge Composition",
+  "opening": "You remember that moment, your Tokyo teammate refreshing their browser and seeing your app materialize like it had been teleported there? That magic worked because Preview Domains let server components execute in their privileged environment. They safely handle secrets before shipping sanitized results across the serialization boundary. But here's the twist: **before** that Tokyo request reached your React Server Components, before the edge cache checked for a fresh copy, something else already ",
+  "keyPoints": [
+    "How Edge Middleware serves as a geographically distributed gatekeeper, executing before cache or origin access",
+    "Why chaining logic with early returns prevents wasted compute and keeps latency low",
+    "How middleware personalization preserves cache efficiency by modifying requests rather than generating unique cached variants",
+    "The critical distinction between routing decisions (middleware) and business logic (API routes/server components)",
+    "Why matcher specificity and redirect loop prevention are production necessities"
+  ]
+}
